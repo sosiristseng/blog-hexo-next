@@ -1,45 +1,52 @@
 ---
-title: "Endeavour OS postinstall"
-date: 2020-10-23T15:25:08+08:00
-tags: ["postinstall", "endeavour os", "linux"]
+title: "Manjaro postinstall"
+subtitle: ""
+date: 2021-03-15T11:12:51+08:00
+author: ""
+authorLink: ""
+description: ""
+
+tags: ["postinstall", "manjaro", "linux"]
 categories: ["Linux"]
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+
+featuredImage: ""
+featuredImagePreview: ""
+
+toc:
+  enable: true
+math:
+  enable: false
+lightgallery: false
 ---
 
-Things to do after installing [Endeavour OS](https://endeavouros.com/latest-release/).
+Things to do after installing [Manjaro](https://manjaro.org/download/).
 
 <!--more-->
 
+Or you can try [the monthly release installation medium](https://github.com/manjaro/release-review).
+
 ## Find fastest repository server
 
-Click `select mirror` in the welcome APP and save the mirror list.
-
-## Update kernel
-
-Install `akm` kernel manager
-
-```bash
-sudo pacman -S akm
-```
+Set mirror in `pamac` settings.
 
 ## Install pikaur
 
-Instatuctions from [its Github repo](https://github.com/actionless/pikaur).
+Using `pamac` if you enable AUR builds.
 
-```bash
-sudo pacman -S --needed base-devel git
-git clone https://aur.archlinux.org/pikaur.git
-cd pikaur
-makepkg -fsri
-```
+## Update kernel and / or drivers
 
-## Postinstall script
+Use manjaro settings.
+
+## Install packages
 
 Save the content below as `pkgs.txt`
 
 ```txt
 # Development
 pikaur
-pamac-aur
 pigz
 lzop
 zstd
@@ -74,8 +81,6 @@ anydesk
 htop
 bpytop
 zsh
-timeshift
-cronie
 docker
 appimagelauncher
 parallel
@@ -143,24 +148,13 @@ export ELECTRON_TRASH=gio
 EOF
 
 # First phase system setup with services
-sudo pikaur -S --noconfirm --needed docker timeshift cronie
-sudo systemctl enable --now cronie.service
+sudo pikaur -S --noconfirm --needed docker
 sudo systemctl enable --now fstrim.timer
 sudo systemctl enable --now docker.service
-sudo systemctl disable org.cups.cupsd.service || echo "CUPS not installed!"
-sudo systemctl enable --now org.cups.cupsd.socket || echo "CUPS not installed!"
 
 # Install the rest
 # Check pkgs.txt before running the line below
 sed 's/#.*$//' pkgs.txt | xargs sudo pikaur -S --noconfirm --needed
-```
-
-## If using NVIDIA GPU
-
-Install Nvidia DKMS driver for all kernels and CUDA runtime:
-
-```bash
-sudo pacman -S nvidia-dkms cuda cudnn
 ```
 
 ## Theme settings
@@ -193,15 +187,3 @@ Use `pikaur -S <pkgname>`
 - Onedrive client: `onedrive-abraunegg`
 - FreeFileSync: `freefilesync-bin`
 - Bottom: `bottom-bin`
-
-### VirtualBox
-
-From [VirtualBox@eos](https://endeavouros.com/docs/applications/how-to-install-virtualbox/)
-
-Install the packages and add your username to the `vbox` group.
-
-```bash
-sudo pikaur -S virtualbox virtualbox-guest-iso net-tools virtualbox-ext-oracle
-
-sudo gpasswd -a username vboxusers
-```
