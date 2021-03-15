@@ -6,8 +6,7 @@ categories: ["Linux"]
 
 ---
 
-Install custom fonts if not available from the repo.
-
+Install custom fonts and make the system sees it.
 <!--more-->
 
 After you download the [fonts]( {{< ref "posts/bookmark.md#fonts" >}} ):
