@@ -97,34 +97,34 @@ sudo apt update && sudo apt install -y apt-transport-https ca-certificates curl 
 # sudo dpkg --add-architecture i386
 
 # Vivaldi
-wget -qO /etc/apt/trusted.gpg.d/vivaldi.asc https://repo.vivaldi.com/archive/linux_signing_key.pub
+wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo tee /etc/apt/trusted.gpg.d/vivaldi.asc > /dev/null
 echo "deb https://repo.vivaldi.com/archive/deb/ stable main" | sudo tee /etc/apt/sources.list.d/vivaldi.list
 
 # Brave
-wget -qO /etc/apt/trusted.gpg.d/brave-browser-release.asc https://brave-browser-apt-release.s3.brave.com/brave-core.asc
+wget -qO- https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo tee /etc/apt/trusted.gpg.d/brave-browser-release.asc > /dev/null
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 
 # Anydesk
-wget -qO /etc/apt/trusted.gpg.d/anydesk.asc https://keys.anydesk.com/repos/DEB-GPG-KEY
+wget -qO- https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo tee /etc/apt/trusted.gpg.d/anydesk.asc > /dev/null
 echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list
 
 # docker (Only supports LTS version)
-wget -qO /etc/apt/trusted.gpg.d/docker.asc https://download.docker.com/linux/ubuntu/gpg
+wget -qO- https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/trusted.gpg.d/docker.asc > /dev/null
 echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
 
 # Zotero
 wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
 
 # Typora
-sudo wget -qO /etc/apt/trusted.gpg.d/typora.asc https://typora.io/linux/public-key.asc
+wget -qO- https://typora.io/linux/public-key.asc | sudo tee /etc/apt/trusted.gpg.d/typora.asc > /dev/null
 echo 'deb https://typora.io/linux ./' | sudo tee /etc/apt/sources.list.d/typora.list
 
 # Xanmod linux kernel
-sudo wget -qO /etc/apt/trusted.gpg.d/xanmod.asc https://dl.xanmod.org/gpg.key
+wget -qO- https://dl.xanmod.org/gpg.key | sudo tee /etc/apt/trusted.gpg.d/xanmod.asc > /dev/null
 echo 'deb http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-kernel.list
 
 # VS code
-sudo wget -qP /etc/apt/trusted.gpg.d/ https://packages.microsoft.com/keys/microsoft.asc
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc 
 echo 'deb [arch=amd64] https://packages.microsoft.com/repos/code stable main' | sudo tee /etc/apt/sources.list.d/vscode.list
 
 sudo add-apt-repository -y ppa:appimagelauncher-team/stable  # AppImageLauncher
@@ -133,11 +133,10 @@ sudo add-apt-repository -y ppa:alessandro-strada/ppa         # Google drive clie
 sudo add-apt-repository -y ppa:papirus/papirus               # Papirus icon theme
 sudo add-apt-repository -y ppa:yann1ck/onedrive              # OneDrive client
 sudo add-apt-repository -y ppa:kisak/kisak-mesa              # Mesa driver
-sudo add-apt-repository -y ppa:libreoffice/ppa
+sudo add-apt-repository -y ppa:libreoffice/ppa               # Libreoffice
+sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable # Qbittorrent
 
-sudo apt update && sudo apt full-upgrade -y
-
-sed 's/#.*$//' pkgs.txt | xargs sudo apt install -y
+sudo apt update && sudo apt full-upgrade -y && sed 's/#.*$//' pkgs.txt | xargs sudo apt install -y
 
 [[ -x "$(command -v pip3)" ]] && pip3 install -U --user glances bpytop jill youtube-dl
 ```

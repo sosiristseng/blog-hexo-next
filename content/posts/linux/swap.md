@@ -16,7 +16,7 @@ echo 'vm.swappiness = 10' | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p            # you should see 'vm.swappiness = 10'
 ```
 
-## Swap file instead of swap partition
+## Use Swap file
 
 More flexibility in disk space and partition. [@PoP planet](https://pop-planet.info/wiki/index.php?title=Swapfile)
 
