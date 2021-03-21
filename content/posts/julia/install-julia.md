@@ -11,6 +11,7 @@ categories: ["Linux", "Packages", "Julia"]
 
 ## Install Julia
 
+Windows: download and run the installer in [the official website](https://julialang.org/downloads/).
 MacOS/Linux: install Julia using [jill](https://github.com/abelsiqueira/jill) bash script:
 
 ```bash
@@ -48,6 +49,12 @@ In `~/.profile`, add the following line
 
 ```bash
 export JULIA_NUM_THREADS=$(nproc)
+```
+
+Or in `~/.bashrc`, add the following line
+
+```bash
+alias julia="julia --threads auto"
 ```
 
 ### Custom Miniconda location
