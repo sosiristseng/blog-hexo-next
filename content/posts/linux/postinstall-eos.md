@@ -115,23 +115,19 @@ qogir-gtk-theme-git
 qogir-kde-theme-git
 ```
 
-Run this script:
+Paste the contents to `~/.xprofile`
 
 ```bash
-# Setup ibus
-cat << "EOF" >> ~/.xprofile
 # ~/.xprofile
 export GTK_IM_MODULE=ibus
 export QT_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 ibus-daemon -drx
-EOF
+```
 
+Paste the contents to `~/.profile`
 
-# Setup environment variables in profile
-cat << "EOF" >> ~/.profile
-# ~/.profile
-
+```bash
 [[ -d "${HOME}/.local/bin" ]] && PATH="${HOME}/.local/bin:${PATH}"
 [[ -d "${HOME}/.cargo/bin" ]] && PATH="${HOME}/.cargo/bin:${PATH}"
 [[ -d "${HOME}/.go/bin" ]] && PATH="${HOME}/.go/bin:${PATH}"
@@ -139,9 +135,13 @@ cat << "EOF" >> ~/.profile
 export BROWSER=$(command -v xdg-open)
 export EDITOR=$(command -v nano)
 export JULIA_NUM_THREADS=$(nproc)
+export JULIA_PROJECT=@.
 export ELECTRON_TRASH=gio
-EOF
+```
 
+Run this script:
+
+```bash
 # First phase system setup with services
 sudo pikaur -S --noconfirm --needed docker timeshift cronie
 sudo systemctl enable --now cronie.service
