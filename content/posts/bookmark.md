@@ -322,7 +322,7 @@ Also checkout [😎 Julia.jl](https://github.com/svaksha/Julia.jl), a curated li
 - [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
 - [QuantEcon](https://lectures.quantecon.org/jl/) and the [code notebooks](https://github.com/QuantEcon/quantecon-notebooks-julia).
 - [Julia concise tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial/)
-- [Intro to Julia by by Chris Rackauckas](https://ucidatascienceinitiative.github.io/IntroToJulia/)
+- [Intro to Julia by Chris Rackauckas](https://ucidatascienceinitiative.github.io/IntroToJulia/)
 
 If you are already familiar with other programming languages:
 - [Learn Julia the hard way](https://scls.gitbooks.io/ljthw/content/) (unfortunately discontinued)
