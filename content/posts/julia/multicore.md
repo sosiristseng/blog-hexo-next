@@ -13,6 +13,7 @@ When you don't want other core sitting idle.
 
 - [The official documentations](https://docs.julialang.org/en/v1/manual/parallel-computing/index.html#Multi-Core-or-Distributed-Processing-1)
 - [Aurelio's tutorial](https://techytok.com/multiprocessing-in-julia-module/).
+- [A quick introduction to data parallelism in Julia](https://juliafolds.github.io/data-parallelism/tutorials/quick-introduction/)
 
 ### Youtube videos
 
