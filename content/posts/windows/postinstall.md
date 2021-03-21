@@ -12,7 +12,7 @@ Things to do after Windows installation via [Chocolatey 🍫](https://chocolatey
 
 ## Debloat scripts
 
-[@Chris Titus](https://christitus.com/windows-10-scripts/)
+[Debloat scripts @ Chris Titus](https://christitus.com/windows-10-scripts/)
 
 ```powershell
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ8R4')"
