@@ -1,5 +1,5 @@
 ---
-title: "Utilizing multiple CPU cores in Julia"
+title: "Utilizing multiple CPUs in Julia"
 date: 2020-10-21T16:10:02+08:00
 tags: ["multithreading", "multiprocessing", "task parallelism", "julia"]
 categories: ["Julia"]
@@ -11,171 +11,82 @@ When you don't want other core sitting idle.
 
 ## Source
 
-- [The official documentations](https://docs.julialang.org/en/v1/manual/parallel-computing/index.html#Multi-Core-or-Distributed-Processing-1)
-- [Aurelio's tutorial](https://techytok.com/multiprocessing-in-julia-module/).
 - [A quick introduction to data parallelism in Julia](https://juliafolds.github.io/data-parallelism/tutorials/quick-introduction/)
+- [Aurelio's tutorial](https://techytok.com/multiprocessing-in-julia-module/).
 
-### Youtube videos
+A Youtube video about parallelism
 
 {{< youtube dczkYlOM2sg >}}
 
-Before going multi-core, examine the serail problem first!
+> Before going multi-core, improve the serial performance first!
 
-## Task-based asynchronous programming
+## High level packages
 
-[Julia Documentation](https://docs.julialang.org/en/v1/manual/asynchronous-programming/#man-asynchronous)
+Recommended for regular users.
 
-```julia
-# Create a task from a macro + a block of expressions as an example
+- [Folds.jl](https://github.com/JuliaFolds/Folds.jl) with a unified interfae for a variety of executers (multithreading, multiprocessing, CUDA)
+- [FLoops.jl](https://github.com/JuliaFolds/FLoops.jl) with `@floop` and `@reduce` macros.
+- [ThreadsX.jl](https://github.com/tkf/ThreadsX.jl) for parallelized Base functions.
 
-t = @task begin
-    sleep(5)
-    print("Hello")
-end
+## Low level constructs
 
-# The same as the above, Create a task from a function
-t = Task(()->sleep(5);print("Hello"))
+### Task-based asynchronous programming
 
-# Queue the task. This function will return immediately.
-schedule(t)
+- [async @ Julia Manual](https://docs.julialang.org/en/v1/manual/asynchronous-programming/#man-asynchronous)
+- [Channels: producer-consumer model](https://docs.julialang.org/en/v1/manual/asynchronous-programming/#Communicating-with-Channels)
 
-# Block execution until the task is completed
-wait(t)
+Multithreading within in a CPU core, a.k.a "Green threading".
+
+### Multi-threading
+
+- [Caveats in multithreading](https://docs.julialang.org/en/v1/manual/multi-threading/#Caveats)
+- Threads share memory causing data racing if data access is not properly handled. 
+- Suitable for SMP (Symmetric multiprocessing)
+
+To increase the threads avaiable to Julia, start Julia with `-t / --threads` argument. e.g.
+
+```bash
+julia -t auto
 ```
 
-`@async x` is equivalent to `schedule(@task x)`.
+Or through an environment variable, `JULIA_NUM_THREADS=n`. For example in `~/.profile`:
 
-See also: [Channels: producer-consumer model](https://docs.julialang.org/en/v1/manual/asynchronous-programming/#Communicating-with-Channels)
+```bash
+export JULIA_NUM_THREADS=4  # or $(nproc), the # of cpu threads available
+```
 
-A `Channel` is a waitable first-in first-out (FIFO) queue supporting concurrent read/write operations.
-
-- `c = Channel(n)` Set the queue length (objects could be hold by the channel) to `n`.
-  - `c = Channel{Int}(32)`: Accepts up to 32 `Int` values.
-- Writer `put(c, val)` put `val` in the queue `c`. It will be blocked if the queue is full. (until space is available)
-- Reader `take!(c)` returns the first val in the queue and removes it.  It will be blocked if the queue is empty. (until the writer put in a value)
-- Reader `fetch(c)` returns the first val but does not remove it from the queue. It will be blocked if the queue is empty. (until the writer put in a value)
-
-## Multi-threading
-
-- Threads share memory so beware data racing
-- Better for a single multi-core CPU (node)
-
-Check how many thread are available:
+You could check how many thread are available in the Julia session
 
 ```julia
 Threads.nthreads()
 ```
 
-### Increase threads avaialble per Julia process
+Enable multithreading by 
 
-Set the environment variable `JULIA_NUM_THREADS=n` before running `julia`.
+- `Threads.@threads for loop`
+- `Threads.@spawn expr`
 
-Temporary: start julia with `-t / --threads` (v1.5+). Replace `n` for number of threads.
+### Multiprocessing
 
-```bash
-julia -t n
-```
+[Multiprocessing @ Julia manual](https://docs.julialang.org/en/v1/manual/distributed-computing/#Multi-processing-and-Distributed-Computing)
 
-#### Linux/MacOS permanent setting
-
-`~/.profile`
-
-```bash
-export JULIA_NUM_THREADS=n  # or $(nproc), the # of cpu threads available
-```
-
-#### Windows permanent setting
-
-```powershell
-setx JULIA_NUM_THREADS n
-```
-
-### `@threads` macro for `for` loops
-
-```julia
-
-a = zeros(10)
-
-Threads.@threads for i = 1:10
-    a[i] = Threads.threadid()
-end
-```
-
-### Beware racing conditions
-- [Atomic operation](https://docs.julialang.org/en/v1/manual/multi-threading/#Atomic-Operations)
-- [Caveats in multithreading](https://docs.julialang.org/en/v1/manual/multi-threading/#Caveats)
-
-
-## Multiprocessing
-
-[Julia Documentation](https://docs.julialang.org/en/v1/manual/distributed-computing/#Multi-processing-and-Distributed-Computing)
-
-- For single or distribured machines (nodes)
+- Suited for clusters
 - Independent memory pool by default, except for shared memories.
   - Unlike Python, where multiprocessing is done by forking and worker processes inherit data from the main process.
   - As a result, `@everywhere` is needed for code running in parallel to copy the data to the worker processes.
 
-### Start Julia with multiple processes
-
-Simple example to start julia with multiple processes
+A simple example to start julia with multiple processes:
 
 ```bash
 # start julia with 1 main process + 5 worker processes with -p
 julia -p 5
 ```
 
-A more sophisticated example:
+To load files for all processes without `@everywhere`, use `-L file`
+
 ```bash
 # Julia with 1 main process + 7 worker processes with -p
 # Load mod1.jl and mod2.jl for all processes with -L
 # And execute run.jl
 julia -p 7 -L mod1.jl -L mod2.jl run.jl
 ```
-
-One could also add processes later on
-
-```julia
-using Distributed
-addprocs(2)  # Add two worker processes
-
-nprocs()   # 3 (1 main + 2 workers)
-nworkers() # 2
-```
-
-### Usage
-
-`@everywhere` prefix is required to make it visiable for all worker processes.
-
-`@distributed` supports for loop with reduction.
-
-```julia
-# Count occurrence of head in 200000000 coin flips
-nheads = @distributed (+) for i = 1:200000000
-    Int(rand(Bool))
-end
-```
-
-You should save the results to a `SharedArray` if not running reduction.
-
-```julia
-using SharedArrays
-const N = 10^6
-a = SharedArray{Int64}(N)
-@distributed for i = 1:N
-    a[i] = i^2
-end
-```
-
-Or checkout `pmap(f, seq)`, the distributed counterpart of `map(f, seq)`.
-
-```julia
-using Distributed
-const N = 10^6
-pmap(x->x^2, 1:N)
-```
-
-Again, the first argument (function) must be made available to all worker processes by either loading at start (e.g. the option `-L mod1.jl`) or putting `@everywhere` in front of the function.
-
-## Related Packages
-
-[FLoops.jl@GitHub](https://github.com/JuliaFolds/FLoops.jl) with `@floop` and `@reduce` macros.
