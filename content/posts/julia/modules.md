@@ -38,20 +38,6 @@ Assuming we have the file structure for the submodules
           - Mod2.jl
 ```
 
-## Appending `LOAD_PATH` (⚠️ outdated)
-
-```julia
-push!(LOAD_PATH, ".")
-
-using Mod1
-using Mod2
-```
-
-- The old way before Pkg3 and Julia 1.0, which is not recommended by now.
-- *No* need for `Project.toml` nor `Manifest.toml` in the `pwd`.
-- Local files are tracked instead of package versions.
-- VS Code language server could not identify symbols from the custom modules.
-
 ## Submodules: include code
 
 You could include the little packages as submodules like this
@@ -106,3 +92,17 @@ And then you can: `]add https://github.com/username/Mod1.jl.git`
 [PkgTemplates.jl](https://github.com/invenia/PkgTemplates.jl) is recommended to generate package with unit tests and CI/CD settings.
 
 Nonetheless, it's just one step away from proper [registeration](https://github.com/JuliaRegistries/Registrator.jl) to the general Julia registry to used by more people.
+
+## Appending `LOAD_PATH` (⚠️ outdated)
+
+```julia
+push!(LOAD_PATH, ".")
+
+using Mod1
+using Mod2
+```
+
+- The old way before Pkg3 and Julia 1.0, which is not recommended by now.
+- *No* need for `Project.toml` nor `Manifest.toml` in the `pwd`.
+- Local files are tracked instead of package versions.
+- VS Code language server could not identify symbols from the custom modules.
