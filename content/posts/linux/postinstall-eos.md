@@ -36,7 +36,7 @@ makepkg -fsri
 
 Save the content below as `pkgs.txt`
 
-```txt
+```md
 # Development
 pikaur
 pamac-aur

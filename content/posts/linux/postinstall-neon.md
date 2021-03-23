@@ -30,7 +30,7 @@ Things to do after installing KDE neon 20.04.
 
 Save this list in `pkgs.txt`
 
-```txt
+```md
 # Package list for KDE Neon
 
 # Developement

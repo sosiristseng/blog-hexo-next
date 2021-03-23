@@ -19,7 +19,7 @@ Install the Traditional Chinese locale in `Language Support` and then set locale
 
 Save this list in `pkgs.txt`
 
-```txt
+```md
 # Package list for Ubuntu 20.04
 
 # Developement
