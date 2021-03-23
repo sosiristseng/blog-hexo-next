@@ -1,13 +1,13 @@
 ---
-title: "Comparisons of static site generators"
+title: "Static site generators"
 subtitle: ""
 date: 2021-01-31T16:27:09+08:00
 author: ""
 authorLink: ""
 description: ""
 
-tags: ["hugo", "hexo", "jupyterbook", "nikola", "jekyll", "docsify"]
-categories: ["DevOps"]
+tags: ["static site generator", "hugo", "hexo", "jupyterbook", "nikola", "jekyll", "docsify"]
+categories: ["WebDev", "Bookmark",]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
