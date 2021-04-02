@@ -3,7 +3,7 @@ title: Hugo blog setup and deployment
 subtitle: ""
 description: "Hugo blog setup, content management, and deployment"
 tags: ["github", "gitlab", "hugo"]
-categories: ["DevOps"]
+categories: ["WebDev"]
 date: 2020-11-30T21:43:55+08:00
 
 hiddenFromHomePage: false
@@ -91,11 +91,14 @@ Click [import project](https://gitlab.com/projects/new#import_project) and selec
 The CI/CD part is coded on `.gitlab-ci.yml`. For example:
 
 ```yaml
-image: klakegg/hugo:ext-alpine-ci
+image: registry.gitlab.com/pages/hugo:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   HUGO_BASE_URL: 'https://sosiristseng.gitlab.io/'
+
+before_script:
+- apk add --update --no-cache git
 
 test:
   script:
@@ -105,8 +108,8 @@ test:
 
 pages:
   script:
-  - apk add --update brotli
   - hugo --gc --minify -b ${HUGO_BASE_URL}
+  - apk add --update --no-cache brotli
   - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|svg\|xml\)$' -exec gzip   -f -k {} \; || echo 'Gzip failed. Skipping...'
   - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|svg\|xml\)$' -exec brotli -f -k {} \; || echo 'Brotli failed. Skipping...'
   artifacts:
