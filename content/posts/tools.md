@@ -30,23 +30,27 @@ Also see [awesome list](https://awesome.re/) for all kinds of stuff.
 <!--more-->
 
 ## General Free stuff
-- [Free for dev](https://free-for.dev/) to find free web / development services
-- [免費資源網路社群 (Traditional Chinese)](https://free.com.tw/)
+
 - [☁️ MikuTools](https://tools.miku.ac/) a collection of small useful online tools
-- [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/): Convert plots from papers to datasets if raw data is not available.
+- [免費資源網路社群 (Traditional Chinese)](https://free.com.tw/)
 - [Compiler explorer](https://godbolt.org/): generates assembly for a C/C++ code snippet.
+- [Free for dev](https://free-for.dev/) to find free web / development services
+- [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/): Convert plots from papers to datasets if raw data is not available.
 
 ## Online math tools
+
 - [☁️ Desmos graphing calculator](https://www.desmos.com/calculator)
-- [☁️ Geogebra](https://www.geogebra.org/?lang=en)
 - [☁️ endmemo](http://www.endmemo.com/index.php)
+- [☁️ Geogebra](https://www.geogebra.org/?lang=en)
 
 ## Documents | slides | diagrams
-- [☁️ PDF24](https://tools.pdf24.org/en/): 24 free PDF tools
+
 - [☁️ draw.io](https://www.draw.io/): Flow chart and diagram maker
+- [☁️ PDF24](https://tools.pdf24.org/en/): 24 free PDF tools
 - [My Graph Paper](https://www.mygraphpaper.com/)
-- [Word templates](https://www.vertex42.com/WordTemplates/): Microsoft Word templates
 - [SlidesGo](https://slidesgo.com/): Free Google Slides and PowerPoint templates
+- [Word templates](https://www.vertex42.com/WordTemplates/): Microsoft Word templates
 
 ## Games
+
 - [Steam workshop downloader](https://steamworkshopdownloader.io/) and another similar project: [Steam workshop download](http://steamworkshop.download/)
