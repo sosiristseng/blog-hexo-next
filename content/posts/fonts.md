@@ -33,3 +33,4 @@ Sites for free fonts.
 - [Gensen font](https://github.com/ButTaiwan/gensen-font): Rounded corner CJK fonts.
 - [Public Sans](https://github.com/uswds/public-sans): A strong, neutral, principles-driven, open source typeface for text or display.
 - [Font squirrel](https://www.fontsquirrel.com/): hand-picked free fonts
+- [Fontshare](https://www.fontshare.com/) from [Indian Type Foundry](https://www.indiantypefoundry.com/).
