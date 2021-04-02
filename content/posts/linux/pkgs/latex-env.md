@@ -1,7 +1,7 @@
 ---
-title: "Latex environment in Linux"
+title: "Latex environments"
 date: 2020-10-27T14:55:25+08:00
-tags: ["latex", "texlive", "tectonic"]
+tags: ["latex", "texlive", "tectonic", "miktex"]
 categories: ["Linux", "Packages"]
 math:
   enable: true
@@ -13,7 +13,7 @@ Setup $\LaTeX$ environment in Linux.
 
 ## TexLive
 
-[TexLive](https://tug.org/texlive/), the de-facto standard Latex environment.
+[TexLive](https://tug.org/texlive/), the de-facto standard LaTeX environment.
 
 Install LaTex via the script below
 
@@ -24,6 +24,10 @@ Install LaTex via the script below
 # Arch, enOS, Garuda, Manjaro
 [[ -x $(command -v pacman) ]] && sudo pacman -S texlive-most
 ```
+
+## MikTex
+
+[MikTex](https://miktex.org/) is the minimalistic LaTeX distribution[^2] with an package management console.
 
 ## Tectonic
 
@@ -68,3 +72,4 @@ GitHub actions for automatically compile LaTeX documents on push
 - Tectonic's [Compile Latex](https://github.com/marketplace/actions/compile-latex)
 
 [^1]: Tectonic [installation guide](https://tectonic-typesetting.github.io/en-US/install.html)
+[^2]: [Just enough TeX](https://miktex.org/kb/just-enough-tex)

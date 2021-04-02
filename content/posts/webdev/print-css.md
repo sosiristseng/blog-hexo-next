@@ -29,3 +29,4 @@ Generate PDF documents from XML/HTML using the "CSS Paged Media"
 
 - [Print CSS](https://print-css.rocks/) :: materials about publication HTML.
 - [Weasy Print](https://courtbouillon.org/weasyprint) :: turns simple HTML pages into gorgeous PDF publications.
+- [Alternative to LaTeX for high quality reports](https://speakerdeck.com/rlesur/alternative-to-latex-for-high-quality-reports-with-rmarkdown)

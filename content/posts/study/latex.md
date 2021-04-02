@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: []
+tags: ["latex"]
 categories: [Bookmark, Study]
 
 hiddenFromHomePage: false
@@ -38,10 +38,10 @@ lightgallery: false
 
 ## Online Tools
 
-- [☁️ iTex2Img](http://www.sciweavers.org/free-online-latex-equation-editor) LaTeX formulae to images
-- [☁️ Detexify](http://detexify.kirelabs.org/classify.html) for recognition of handwriting to Latex symbols
-- [☁️ Tables Generator](https://www.tablesgenerator.com/) for LATEX and MD Tables
-- [☁️ LaTeX live](https://www.latexlive.com/) convert LaTeX equations to SVG using MathJax
+- [☁️ iTex2Img](http://www.sciweavers.org/free-online-latex-equation-editor) LaTeX formulae to images.
+- [☁️ Detexify](http://detexify.kirelabs.org/classify.html) for recognition of handwriting to Latex symbols.
+- [☁️ Tables Generator](https://www.tablesgenerator.com/) for LATEX and MD Tables.
+- [☁️ LaTeX live](https://www.latexlive.com/) convert LaTeX equations to SVG using MathJax.
 
 ## CI/CD for LaTeX
 
