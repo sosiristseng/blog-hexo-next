@@ -1,12 +1,12 @@
 ---
-title: "Print Css"
+title: "Publication quality HTML"
 subtitle: ""
 date: 2021-04-02T20:58:46+08:00
 author: ""
 authorLink: ""
 description: ""
 
-tags: []
+tags: ["print-css"]
 categories: ["WebDev"]
 
 hiddenFromHomePage: false
@@ -23,6 +23,9 @@ lightgallery: false
 comment: false
 ---
 
-The summary.
+Generate PDF documents from XML/HTML using the "CSS Paged Media"
 
 <!--more-->
+
+- [Print CSS](https://print-css.rocks/) :: materials about publication HTML.
+- [Weasy Print](https://courtbouillon.org/weasyprint) :: turns simple HTML pages into gorgeous PDF publications.
