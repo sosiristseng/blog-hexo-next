@@ -6,8 +6,8 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: []
-categories: [Bookmark]
+tags: ["fonts"]
+categories: ["Bookmark", "WebDev"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

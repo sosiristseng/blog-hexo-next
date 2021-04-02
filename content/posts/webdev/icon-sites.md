@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: []
+tags: ["icon"]
 categories: ["Bookmark", "WebDev"]
 
 hiddenFromHomePage: false
