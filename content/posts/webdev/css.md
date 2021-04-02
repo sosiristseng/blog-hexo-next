@@ -7,7 +7,7 @@ authorLink: ""
 description: ""
 
 tags: []
-categories: ["Bookmarks", "WebDev"]
+categories: ["Bookmark", "WebDev"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
