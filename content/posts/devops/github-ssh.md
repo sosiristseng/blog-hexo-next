@@ -73,4 +73,4 @@ In the GitHub website, click your `profile` photo -> `Settings` -> `SSH and GPG 
 ssh -vT git@github.com
 ```
 
-Accept fingerprint if prompted.
+Accept its fingerprint if prompted.
