@@ -9,7 +9,7 @@ categories: ["Linux"]
 Install custom fonts and make the system sees it.
 <!--more-->
 
-After you download the [fonts]( {{< ref "posts/fonts.md" >}} ):
+After you download the [fonts]( {{< ref "posts/webdev/fonts.md" >}} ):
 
 ## Per user
 
