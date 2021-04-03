@@ -35,4 +35,4 @@ Available in some Linux distribution (e.g. Manjaro, Garuda Linux)
 
 ## Gnome disks
 
-Select the USE disk, click on the 3-dot menu, select `Restore disk image`, and then select the ISO file.
+Select the USE disk, click on hamburger menu, select `Restore disk image`, and then select the ISO file.
