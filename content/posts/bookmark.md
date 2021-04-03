@@ -341,6 +341,8 @@ See also [Awesome Python](https://github.com/vinta/awesome-python), a curated li
 
 Also checkout [😎 Julia.jl](https://github.com/svaksha/Julia.jl), a curated list of Julia stuff.
 
+And my double-checked list, [Julia Resources](https://sosiristseng.github.io/JuliaResources)
+
 - Ask questions @ [Julia Discourse Forum](https://discourse.julialang.org/)
 - [Julia Official Manual](https://docs.julialang.org/en/v1/index.html)
 
