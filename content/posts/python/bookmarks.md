@@ -21,6 +21,7 @@ toc:
 math:
   enable: false
 lightgallery: false
+comment: true
 ---
 
 See also [Awesome Python](https://github.com/vinta/awesome-python), a curated list of awesome Python frameworks, libraries, software and resources.
@@ -41,8 +42,6 @@ See also [Awesome Python](https://github.com/vinta/awesome-python), a curated li
 - [GitHub code space](https://github.com/features/codespaces): Online VS Code-like development platform.
 - [Binder](https://mybinder.org/): Turn a Git repo into a collection of interactive notebooks.
 
-
-
 ## Package managers
 
 - [Anaconda Python](https://www.anaconda.com/products/individual) a full set of scientific Python packages with the `conda` package manager.
@@ -51,8 +50,6 @@ See also [Awesome Python](https://github.com/vinta/awesome-python), a curated li
 - [Poetry](https://python-poetry.org/), Python packaging and dependency management.
 
 ## General Tutorials
-
-I'm not duplicating their work.
 
 - [Learn Python in Y minutes](https://learnxinyminutes.com/docs/python3/)
 - [Python cheatsheet](https://github.com/gto76/python-cheatsheet)
