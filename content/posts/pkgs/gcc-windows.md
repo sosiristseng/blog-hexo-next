@@ -7,7 +7,7 @@ authorLink: ""
 description: ""
 
 tags: ["gcc"]
-categories: ["Windows"]
+categories: ["Windows", "Packages"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

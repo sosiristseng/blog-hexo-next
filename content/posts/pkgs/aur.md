@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["AUR", "linux", "pacman"]
+tags: ["AUR", "pacman"]
 categories: ["Linux", "Packages"]
 
 hiddenFromHomePage: false
@@ -23,7 +23,7 @@ lightgallery: false
 comment: false
 ---
 
-The [Arch User Repository (AUR)](https://aur.archlinux.org) hosts `PKGBUILD`s (instructions to download and build a package) contributed by the community. Similar to Ubuntu PPAs, but on steriod.
+The [Arch User Repository (AUR)](https://aur.archlinux.org) hosts `PKGBUILD`s (instructions to download and build a package) contributed by the community.
 
 <!--more-->
 
