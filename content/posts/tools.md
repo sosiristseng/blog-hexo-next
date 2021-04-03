@@ -22,7 +22,6 @@ math:
 lightgallery: false
 comment: false
 
-weight: 100
 ---
 
 Also see [awesome list](https://awesome.re/) for all kinds of stuff.
