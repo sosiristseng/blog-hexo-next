@@ -1,9 +1,9 @@
 ---
 title: "Apt package manager"
 date: 2020-11-16T17:18:03+08:00
-tags: ["linux"]
+tags: ["linux", "apt"]
 categories: ["Linux"]
-comment: false
+comment: true
 ---
 
 Things about the `apt` package manager used by Ubuntu and friends (e.g. PopOS).
@@ -14,13 +14,12 @@ Things about the `apt` package manager used by Ubuntu and friends (e.g. PopOS).
 
 ## apt vs apt-get
 
-From
-- [apt@itsfoss](https://itsfoss.com/apt-vs-apt-get-difference/)
-- [apt commands@isfoss](https://itsfoss.com/apt-command-guide/)
+`apt` command is more suited towards interactive use, including commonly-used commands from `apt-get` and `apt-cache`. And it comes with a nice progress bar.
 
-`apt` command is more tailored towards interactive use and includes commonly-used commands from `apt-get` and `apt-cache`. And it comes with a nice progress bar.
+`apt-get` is geared towards scripting use due to its stable interface.
 
-`apt-get` is geared towards scripting use due to its stable interface
+- [itsfoss | apt](https://itsfoss.com/apt-vs-apt-get-difference/)
+- [isfoss | apt commands](https://itsfoss.com/apt-command-guide/)
 
 ## apt-fast for faster downloads
 
@@ -55,7 +54,7 @@ sudo apt install synaptic apt-xapian-index
 
 ## Deprecation of `apt-key` command
 
-> Use of apt-key is deprecated @ [Debian manpage](https://manpages.debian.org/testing/apt/apt-key.8.en.html)
+> Use of apt-key is deprecated. [Debian manpage](https://manpages.debian.org/testing/apt/apt-key.8.en.html)
 
 One may receive a `apt-key add is deprecated` message from Ubuntu 20.10 and newer when adding keys from 3rd party repos.
 
@@ -63,7 +62,7 @@ It is recommended to put keys directly into `/etc/apt/trusted.gpg.d/`.
 - `.asc` for text public keys
 - `.gpg` for binary public keys
 
-For example, instead of
+For example, instead of this
 
 ```bash
 wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add -
