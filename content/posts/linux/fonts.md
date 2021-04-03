@@ -6,10 +6,8 @@ categories: ["Linux"]
 
 ---
 
-Install custom fonts and make the system sees it.
+Install custom fonts and make the system sees it using `fc-cache`
 <!--more-->
-
-After you download the [fonts]( {{< ref "posts/webdev/fonts.md" >}} ):
 
 ## Per user
 
