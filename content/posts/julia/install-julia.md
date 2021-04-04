@@ -59,13 +59,13 @@ alias julia="julia --threads auto"
 
 ### Custom Miniconda location
 
-In `~/.julia/config/startup.jl`, add the following line
+Add the following line to `~/.julia/config/startup.jl`,
 
 ```julia
 ENV["CONDA_JL_HOME"] = "/path/to/conda/install"
 ```
 
-or in `~/.profile`, add the following line
+or add the following line to `~/.profile`:
 
 ```bash
 export CONDA_JL_HOME=/path/to/conda/install
@@ -73,7 +73,7 @@ export CONDA_JL_HOME=/path/to/conda/install
 
 ### Autoload Revise.jl
 
-In `~/.julia/config/startup.jl`, add the following lines
+Add the following lines to `~/.julia/config/startup.jl`:
 
 ```julia
 try
@@ -84,7 +84,7 @@ end
 
 ```
 
-In `~.julia/config/startup_ijulia.jl`, add the following lines
+Add the following lines to `~.julia/config/startup_ijulia.jl`:
 
 ```julia
 try
