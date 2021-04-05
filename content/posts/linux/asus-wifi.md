@@ -83,6 +83,7 @@ You may try serveral things to increase your success rate:
 - Boot into BIOS and disable any wired NIC, or reses to default settings.
 - Use another working kernel. (I ended up this this solution)
 
+<!-- markdown-link-check-disable-next-line -->
 [^1]: Info depot: <http://en.techinfodepot.shoutwiki.com/wiki/ASUS_USB-N10_Nano_rev_B1>
 [^2]: Install DKMS driver in Manjaro <https://archived.forum.manjaro.org/t/wifi-adapter-still-not-work-rtl8188eus/124449/2>
 [^3]: Install RealTek Wifi driver in Manjaro  <https://archived.forum.manjaro.org/t/realtek-wifi-driver-installation-aur/85429>
