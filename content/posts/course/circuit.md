@@ -71,13 +71,13 @@ Rule of thumb: supply = load. Beware **directionality** of both current and volt
 
 ### Nodal analysis
 
-* Use **[KCL]([https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff's_current_law_(KCL)](https://en.wikipedia.org/wiki/Kirchhoff's_circuit_laws#Kirchhoff's_current_law_(KCL))** (current in = current out)
+* Use Kirchhoff's current laws (current in = current out)
 * Grounding (set V = 0) on one of the node.
 * Super-node (Voltage source): direct voltage difference between nodes, reducing the need to find currents
 
 ### Loop (mesh) analysis
 
-* Use **[KVL]([https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff's_voltage_law_(KVL)](https://en.wikipedia.org/wiki/Kirchhoff's_circuit_laws#Kirchhoff's_voltage_law_(KVL))** (voltage supplied  = voltage consumed)
+* Use Kirchhoff's voltage laws (voltage supplied  = voltage consumed)
 * Note that currents add up in common sides of the loops.
 * Super-mesh (Current source): direct current inference in the loop.
 
@@ -315,7 +315,6 @@ $S = P_{app} cos(\theta_v - \theta_i) + jP_{app} * sin(\theta_v - \theta_i)$
   * Leakage of magnetic flux
   * Winding resistance: copper loss
   * Core loss: eddy current, *hysteresis*
-    ![](/img/circuit/BHCurve.gif)
   * efficiency: $\eta = \frac{P_{out}}{P_{in}}$
 
 ## Frequency response
@@ -380,11 +379,7 @@ $H(s) = K_0 \frac{(s-z_1)(s-z_2)...}{(s-p_1)(s-p_2)...}$
 
 ### Filters
 * Low-pass <-> high pass by an RC circuit
-  * Low pass: https://www.electronics-tutorials.ws/filter/filter_2.html
-  * High pass: https://www.electronics-tutorials.ws/filter/filter_3.html
 * Band-pass <-> band reject (notch filter) by an RLC circuit or a combination of a low-pass and a high-pass filter
-  * Band pass: https://www.electronics-tutorials.ws/filter/filter_4.html
-  * Band-rejection (Notch) filter: https://en.wikipedia.org/wiki/Band-stop_filter
 
 ## OP-Amp
 
