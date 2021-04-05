@@ -7,7 +7,7 @@ authorLink: ""
 description: ""
 
 tags: ["static site generator", "hugo", "hexo", "jupyterbook", "nikola", "jekyll", "docsify"]
-categories: ["WebDev", "Bookmark",]
+categories: ["WebDev"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
