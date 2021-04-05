@@ -12,7 +12,6 @@ When the code grows to a certain size and you want to separte the common parts.
 ## Reference
 - [Pkg.jl docs](https://julialang.github.io/Pkg.jl/v1/)
 - [Comparison between v0.6 and v0.7 (SO)](https://stackoverflow.com/questions/36398629/change-package-directory-in-julia/36400065#36400065)
-- [Notes of Steven, my colleague](https://www.notion.so/Writing-Module-and-Docstring-in-Julia-0b5b5a8807d1414490269daddba960a0#81bc91f8583e4af39c83f0f55435b433)
 - [Lutz Hendricks' notes (pdf)](https://lhendricks.org/julia_notes.pdf)
 
 Assuming we have the file structure for the submodules
