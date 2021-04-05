@@ -57,12 +57,12 @@ wget -qO - https://azlux.fr/repo.gpg.key | sudo apt-key add -
 sudo apt update && sudo apt install bpytop
 ```
 
-### Install via AUR
+### Install via `pacman`
 
-Arch and derivatives (enOS, Garuda, Manjaro) can install `bpytop` [via AUR](https://aur.archlinux.org/packages/bpytop/).
+Arch and derivatives (enOS, Garuda, Manjaro):
 
 ```bash
-paru -S bpytop
+sudo pacman -S bpytop
 ```
 
 ### Install via pip
