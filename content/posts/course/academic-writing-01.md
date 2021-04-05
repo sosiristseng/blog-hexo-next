@@ -102,9 +102,6 @@ Sourced from most prolific writers.
 
 ### Establish a supply chain
 
-![Wikipedia: instruction pipelining](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pipeline%2C_4_stage.svg/375px-Pipeline%2C_4_stage.svg.png)
-
-
 - More than one steps for one paper
 - More than one papers at a time (preferably 6-7 if you want publish once a year)
 - Target your customer, choose the journal carfully and customize your papers to the journal's preference

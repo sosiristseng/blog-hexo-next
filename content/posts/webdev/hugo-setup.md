@@ -129,4 +129,3 @@ The major pro GitLab pages is that there are more [custom domains](https://docs.
 
 - [Scivision](https://www.scivision.dev/gitlab-pages-vs-github-pages/)
 - [A recent reddit post](https://www.reddit.com/r/github/comments/jqf3eu/question_gitlab_pages_vs_github_pages/)
-- [Alex Haras](https://alexharas.com/posts/github-to-gitlab/)
