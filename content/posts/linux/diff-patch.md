@@ -20,7 +20,7 @@ Record (`diff`) and apply (`patch`) changes to the source code.
 
 For example, I want to apply some changes to the default [`MAKEPKG`](https://wiki.archlinux.org/index.php/Makepkg) in `/etc/makepkg.conf` for my AUR builds in my future machines.
 
-I copied `/etc/makepkg.conf` (the system) over to `~/.makepkg.conf` (the local version) and made some [modifications](/posts/linux/pkgs/pacman-yay/#contents:compilation-options-for-aur-packages).
+I copied `/etc/makepkg.conf` (the system) over to `~/.makepkg.conf` (the local version) and made some modification.
 
 The the difference of these two files was made into a patch file.
 
