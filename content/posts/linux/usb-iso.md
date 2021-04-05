@@ -19,7 +19,7 @@ And you can also copy other files (e.g. documents / scripts) into the USB disk. 
 
 ## Rufus
 
-[Rufus download](https://rufus.ie/en_IE.html). Runs on Windows systems and works on Linux / Windows ISOs.
+[Rufus download](https://rufus.ie/). Runs on Windows systems and works on Linux / Windows ISOs.
 
 ## Etcher
 
