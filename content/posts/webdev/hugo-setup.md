@@ -86,6 +86,7 @@ The major pro of GitHub pages is that the acccess is [pretty fast](https://www.j
 
 ## Hosting on GitLab pages
 
+<!-- markdown-link-check-disable-next-line -->
 Click [import project](https://gitlab.com/projects/new#import_project) and select `Repo by URL`, paste the git url from [my template](https://github.com/sosiristseng/template-hugo-codeit).
 
 The CI/CD part is coded on `.gitlab-ci.yml`. For example:

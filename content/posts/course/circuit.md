@@ -415,17 +415,9 @@ Principle of superposition. One voltage source at a time.
 
 #### With energy-storing devices
 
-[Differentiator](https://www.electronics-tutorials.ws/opamp/opamp_7.html)
-
-![](https://www.electronics-tutorials.ws/wp-content/uploads/2013/08/opamp35.gif)
-
-[Integrator](https://www.electronics-tutorials.ws/opamp/opamp_6.html)
-
-![](https://www.electronics-tutorials.ws/wp-content/uploads/2013/08/opamp26.gif)
-
-Antoniou Inductance Simulation Circuit
-
-![](https://qph.fs.quoracdn.net/main-qimg-1804fffc9d39bca8a113709a7b532947)
+- Differentiator
+- Integrator
+- Antoniou Inductance Simulation Circuit
 
 $L =  C_4 R_1 R_3 R_5 / R_2$
 
@@ -507,7 +499,6 @@ Only half wave rectification was covered.
 
 ### Limiters (cutters)
 
-See: <https://www.electronics-tutorials.ws/diode/diode-clipping-circuits.html>
 
 ### Filters
 

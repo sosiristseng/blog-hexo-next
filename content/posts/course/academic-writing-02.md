@@ -60,6 +60,7 @@ Nowadays desk rejects (i.e., without reviews) are more frquent by the reviewer. 
 
 Remember you cannot double submission.
 
+<!-- markdown-link-check-disable -->
 - Keyword and [JCR](https://jcr.clarivate.com/) related metrics for cadidate journals.
 - The journal where the author of your cited reference mostly published
 - [Scopus](https://www.scopus.com/): serach engine for origins of the authors. Does the journal accept Taiwanese / young scholars?
@@ -70,6 +71,8 @@ Remember you cannot double submission.
 - Two helpful metrics: *total citation (TC)* and *cited half-life (CHL)*.
 - High IF hard vs. low IF easy journals
 - Finally, find several (~5) journals that might accept your papers.
+
+<!-- markdown-link-check-enable -->
 
 ### Those do not help you
 
