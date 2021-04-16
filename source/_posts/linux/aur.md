@@ -1,7 +1,7 @@
 ---
 title: "Pacman and the Arch User Repository (AUR)"
 date: 2021-01-28T16:33:45+08:00
-tags: ["AUR", "pacman", "yay", "paru", "pikaur", "linux"]
+tags: ["AUR", "pacman", "linux"]
 categories: ["Linux"]
 comments: true
 ---

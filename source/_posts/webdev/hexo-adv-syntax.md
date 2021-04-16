@@ -1,7 +1,7 @@
 ---
 title: Extended Markdown syntax
 date: 2020-06-29 17:47:33
-tags: ["markdown", "tag plugin", "hexo"]
+tags: ["markdown", "hexo"]
 categories: ["WebDev"]
 ---
 
