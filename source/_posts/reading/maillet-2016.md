@@ -42,7 +42,6 @@ Maillet 2016: Modeling Doxorubicin-Induced Cardiotoxicity in Human Pluripotent S
 * KEGG pathway analysis & GO analysis
 * structural gene-based cardiomyopathy (**remodeling**) pathways as being commonly upregulated among the three conditions (Fig. 6d). Conversely, the Wnt signaling pathway was found to be down-regulated in all conditions
 ### TOP2B is essential for doxorubicin-induced cell death in hPSC-derived cardiomyocytes
-![](https://media.nature.com/lw926/nature-assets/srep/2016/160504/srep25333/images_hires/srep25333-f7.jpg)
 * TOP2B KO by CRISPR-Cas9: more resistant to doxorubicin-induced double-strand DNA breaks (DSBs) and cell deaths
 ## Discussion
 * DOX treatment: significant production of ROS, mitochondrial dysfunction and increased [Ca2+]i in hPSC-derived CMs
