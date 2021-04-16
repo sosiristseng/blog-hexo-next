@@ -1,29 +1,12 @@
 ---
 title: "🔖 Web design and development"
-subtitle: ""
 date: 2021-04-05T22:59:24+08:00
-author: ""
-authorLink: ""
-description: ""
-
-tags: []
-categories: ["WebDev", "Bookmark"]
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
+tags: ["bookmark"]
+categories: ["WebDev"]
 comments: true
 ---
 
-- [Free for dev](https://free-for.dev/) :: a list of free web / development services.
+Also see [Free for dev](https://free-for.dev/) :: a list of free web / development services.
 
 <!--more-->
 
@@ -53,7 +36,6 @@ Also see [Awesome fonts](https://github.com/brabadu/awesome-fonts).
 - [Public Sans](https://github.com/uswds/public-sans): A strong, neutral, principles-driven, open source typeface for text or display.
 - [Font squirrel](https://www.fontsquirrel.com/): hand-picked free fonts
 - [Fontshare](https://www.fontshare.com/) from [Indian Type Foundry](https://www.indiantypefoundry.com/).
-
 
 ## Icons
 
@@ -116,7 +98,7 @@ Also see [Awesome fonts](https://github.com/brabadu/awesome-fonts).
 
 ## HTML Publications
 
-Generate PDF documents from XML/HTML using the "CSS Paged Media"
+Generate PDF documents from XML/HTML using the "CSS Paged Media".
 
 - [Print CSS](https://print-css.rocks/) :: materials about publication HTML.
 - [Weasy Print](https://courtbouillon.org/weasyprint) :: turns simple HTML pages into gorgeous PDF publications.

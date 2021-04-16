@@ -6,16 +6,16 @@ categories: ["Research"]
 comments: true
 ---
 
+Also see [awesome-public-datasets](https://github.com/caesar0301/awesome-public-datasets) :: A collection of large-scale public datasets on the Internet.
+
 <!--more-->
 
-+ [awesome-public-datasets](https://github.com/caesar0301/awesome-public-datasets) :: A collection of large-scale public datasets on the Internet.
-+ [common-workflow-language](https://github.com/common-workflow-language/common-workflow-language) :: Repository for CWL Specfications.
++ [common-workflow-language](https://github.com/common-workflow-language/common-workflow-language) :: A specification for describing analysis workflows and tools in a way that makes them portable and scalable
 + [datasets](https://github.com/ali-ce/datasets) :: Original data or Aggregated / cleaned / restructured existing datasets. Released under Creative Commons Attribution-ShareAlike 4.0 International License.
 + [Wikidata](https://www.wikidata.org/) :: A free linked database that acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wikisource, and others, that can be read and edited by both humans and machines.
 + [World Bank Open Data](http://data.worldbank.org) :: Free and open access to data about development in countries around the globe.
 + [Registry of Research Data Repositories](http://www.re3data.org/) :: provides researchers, funding organisations, libraries and publishers with over 1,000 listed research data repositories from all over the world making it the largest and most comprehensive online catalog of research data repositories on the web.
-+ [Scientific Databases](http://en.wikipedia.org/wiki/Category:Scientific_databases) list on WP.
-
++ [Scientific Databases](http://en.wikipedia.org/wiki/Category:Scientific_databases) list on Wikipedia.
 
 ## Biology
 
