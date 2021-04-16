@@ -6,7 +6,8 @@
     "build": "hexo g",
     "clean": "hexo cl",
     "deploy": "hexo cl && hexo g -d",
-    "server": "hexo cl && hexo s -o --debug"
+    "server": "hexo cl && hexo s -o --debug",
+    "check": "find . -name \\*.md -exec markdown-link-check {} \\;"
   },
   "hexo": {
     "version": "5.4.0"
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "hexo-browsersync": "^0.3.0",
-    "hexo-server": "^2.0.0"
+    "hexo-server": "^2.0.0",
+    "markdown-link-check": "^3.8.7"
   }
 }
