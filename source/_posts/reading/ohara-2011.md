@@ -1,14 +1,13 @@
 ---
-title: "Ohara 2011 | Simulation of the undiseased human cardiac ventricular action potential: model formulation and experimental validation"
+title: "📝 Ohara 2011"
 date: 2020-10-23T00:30:54+08:00
-tags: ["ODE"]
-categories: ["Cardiomyocyte"]
-author: "OHara et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102752/"
-description: "Simulation of the undiseased human cardiac ventricular action potential: model formulation and experimental validation"
+tags: ["ODE", "Cardiomyocyte"]
+categories: ["Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/1270876).[^OHara2011]
+Ohara 2011: Simulation of the undiseased human cardiac ventricular action potential: model formulation and experimental validation[^OHara2011]
+
+[Sciwheel](https://sciwheel.com/work/#/items/1270876).
 
 <!--more-->
 

@@ -1,14 +1,13 @@
 ---
-title: "Mullins 2013 | A Mathematical Model of the Mouse Ventricular Myocyte Contraction"
+title: "📝 Mullins 2013"
 date: 2020-10-23T00:26:01+08:00
-tags: ["ODE"]
-categories: ["Cardiomyocyte"]
-author: "Mullins et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3650013/"
-description: "A Mathematical Model of the Mouse Ventricular Myocyte Contraction"
+tags: ["ODE", "cardiomyocyte"]
+categories: ["Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6000123)[^Mullins2013]
+Mullins 2013: A Mathematical Model of the Mouse Ventricular Myocyte Contraction[^Mullins2013]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6000123)
 
 <!--more-->
 
@@ -19,8 +18,7 @@ description: "A Mathematical Model of the Mouse Ventricular Myocyte Contraction"
 * Instability of Ca2+ dynamics (alternans) can lead to the action potential alternans [5] and alternans in mechanical contraction
 * Force generation involves conformational changes in thick (myosin) and thin (actin, tropomyosin, and troponin) filaments. most mathematical models use a significantly simplified description of this process.
 
-###### Schematic diagram of the mouse model cell and Markov model for force generation.
-![](https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0063141.g001)
+![](https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0063141.g001 "Schematic diagram of the mouse model cell and Markov model for force generation")
 
 * New model by Land et al. (2012) adjusted the cellular contraction model of Rice et al. (2010)
     * body temperature (310°K, or +37°C)

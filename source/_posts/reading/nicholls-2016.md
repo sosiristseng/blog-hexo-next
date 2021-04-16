@@ -1,17 +1,13 @@
 ---
-title: "Nicholls 2016 | The Pancreatic β-Cell: A Bioenergetic Perspective"
+title: "📝 Nicholls 2016"
 date: 2020-10-30T15:00:04+08:00
-tags: ["bioenergetics", "beta-cell", "review article"]
-categories: ["Mitochondria"]
-math:
-  enable: true
-
-author: "Nicholls DG"
-authorLink: "https://journals.physiology.org/doi/full/10.1152/physrev.00009.2016"
-description: "The Pancreatic β-Cell: A Bioenergetic Perspective"
+tags: ["beta-cell", "mitochondria"]
+categories: ["Reading", "Review"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/2340630/)[^Nicholls2016]
+Nicholls 2016: The Pancreatic β-Cell: A Bioenergetic Perspective[^Nicholls2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/2340630/)
 
 <!--more-->
 

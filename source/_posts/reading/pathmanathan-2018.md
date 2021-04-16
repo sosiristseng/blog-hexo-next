@@ -1,14 +1,13 @@
 ---
-title: "Pathmanathan 2018 | Validation and Trustworthiness of Multiscale Models of Cardiac Electrophysiology"
+title: "📝 Pathmanathan 2018"
 date: 2020-10-23T00:32:53+08:00
-tags: ["electrophysiology"]
-categories: ["Cardiomyocyte"]
-author: "Pathmanathan et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5818422/"
-description: "Validation and Trustworthiness of Multiscale Models of Cardiac Electrophysiology"
+tags: ["electrophysiology", "cardiomyocyte"]
+categories: ["Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5042147)[^Pathmanathan2018]
+Pathmanathan 2018: Validation and Trustworthiness of Multiscale Models of Cardiac Electrophysiology[^Pathmanathan2018]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5042147)
 
 <!--more-->
 

@@ -1,14 +1,13 @@
 ---
-title: "Pereira 2016 | Computational Models of Reactive Oxygen Species as Metabolic Byproducts and Signal-Transduction Modulators"
+title: "📝 Pereira 2016"
 date: 2020-10-23T00:33:34+08:00
-tags: ["ROS", "review article"]
-categories: ["Mitochondria"]
-author: "Pereira et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5126069/"
-description: "Computational Models of Reactive Oxygen Species as Metabolic Byproducts and Signal-Transduction Modulators"
+tags: ["ROS", "review article", "mitochondria"]
+categories: ["Reading", "Review"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5591729)[^Pereira2016]
+Pereira 2016 : Computational Models of Reactive Oxygen Species as Metabolic Byproducts and Signal-Transduction Modulators[^Pereira2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5591729)
 
 <!--more-->
 

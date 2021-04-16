@@ -1,14 +1,13 @@
 ---
-title: "Lopezperez 2015 | Three-dimensional cardiac computational modelling: methods, features and applications"
+title: "📝 Lopezperez 2015"
 date: 2020-10-23T00:20:30+08:00
-tags: ["review article"]
-categories: ["Cardiomyocyte"]
-author: "Lopezperez et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/"
-description: "Three-dimensional cardiac computational modelling: methods, features and applications"
+tags: ["cardiomyocyte"]
+categories: ["Reading", "Review"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/3609994)[^Lopez-Perez2015]
+Lopezperez 2015: Three-dimensional cardiac computational modelling: methods, features and applications[^Lopez-Perez2015]
+
+[Sciwheel](https://sciwheel.com/work/#/items/3609994)
 
 <!--more-->
 

@@ -1,14 +1,13 @@
 ---
-title: "Nobile 2016 | Graphics processing units in bioinformatics, computational biology and systems biology"
+title: "📝 Nobile 2016"
 date: 2020-10-23T00:28:01+08:00
 tags: ["GPU"]
-categories: ["Math"]
-author: "Nobile et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5862309/"
-description: "Graphics processing units in bioinformatics, computational biology and systems biology"
+categories: ["Reading", "Review"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5237369)[^Nobile2016]
+Nobile 2016: Graphics processing units in bioinformatics, computational biology and systems biology[^Nobile2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5237369)
 
 <!--more-->
 

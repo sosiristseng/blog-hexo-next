@@ -1,14 +1,13 @@
 ---
-title: "Mirams 2018 | Uncertainty and variability in computational and mathematical models of cardiac physiology"
+title: "📝 Mirams 2018"
 date: 2020-10-23T00:25:24+08:00
-tags: []
-categories: [ "Cardiomyocyte"]
-author: "Mirams et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5134370/"
-description: "Uncertainty and variability in computational and mathematical models of cardiac physiology"
+tags: ["cardiomyocyte"]
+categories: [ "Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/2510130)[^Mirams2018]
+Mirams 2018: Uncertainty and variability in computational and mathematical models of cardiac physiology[^Mirams2018]
+
+[Sciwheel](https://sciwheel.com/work/#/items/2510130)
 
 <!--more-->
 
