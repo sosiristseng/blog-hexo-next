@@ -22,7 +22,7 @@ What would be rendered
 
 ### Centered Quote
 
-[Centered Quote@Hexo](https://theme-next.js.org/docs/tag-plugins/#Centered-Quote)
+[Next docs | Centered Quote](https://theme-next.js.org/docs/tag-plugins/#Centered-Quote)
 
 ```markdown
 {% centerquote %}Something{% endcenterquote %}
@@ -34,7 +34,7 @@ What would be rendered
 
 ### Pull Quote
 
-[Pull Quote@Hexo](https://hexo.io/docs/tag-plugins.html#Pull-Quote)
+[Hexo docs | Pull Quote](https://hexo.io/docs/tag-plugins.html#Pull-Quote)
 
 Similar to the regular markdown `>` quote.
 
@@ -50,7 +50,7 @@ content
 
 ### Block Quote
 
-[Block Quote @ Hexo](https://hexo.io/docs/tag-plugins.html#Block-Quote)
+[Hexo docs | Block Quote](https://hexo.io/docs/tag-plugins.html#Block-Quote)
 
 With author and book title.
 
@@ -68,7 +68,7 @@ Do not just seek happiness for yourself. Seek happiness for all. Through kindnes
 
 ### Hexo tag plugin
 
-[Code Block @ Hexo](https://hexo.io/docs/tag-plugins.html#Code-Block)
+[Hexo docs | Code Block](https://hexo.io/docs/tag-plugins.html#Code-Block)
 
 ```markdown
 {% codeblock [title] [lang:language] [url] [link text] [additional options] %}
@@ -88,7 +88,7 @@ _.compact([0, 1, false, 2, '', 3]);
 
 ### Github gist
 
-[Gist @ Hexo](https://hexo.io/docs/tag-plugins.html#Gist)
+[Hexo docs | Gist](https://hexo.io/docs/tag-plugins.html#Gist)
 
 ```markdown
 {% gist stefanopalmieri/cdd42d4bd9c806c644de7e7ca86e59b0 %}
@@ -98,7 +98,7 @@ _.compact([0, 1, false, 2, '', 3]);
 
 ### Include code
 
-[Include Code @ Hexo](https://hexo.io/docs/tag-plugins.html#Include-Code)
+[Hexo docs | Include Code](https://hexo.io/docs/tag-plugins.html#Include-Code)
 
 The directory containing code is defined at `code_dir` option in `_config.yml`, default to `code_dir: downloads/code`, corresponding to `${SITE}/source/downloads/code`
 
@@ -116,7 +116,7 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 
 ## Link to other post
 
-[Include Posts @ Hexo](https://hexo.io/docs/tag-plugins#Include-Posts)
+[Hexo docs | Include Posts](https://hexo.io/docs/tag-plugins#Include-Posts)
 
 ```markdown
 
@@ -130,7 +130,7 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 
 ## Image
 
-[Image@Hexo](https://hexo.io/docs/tag-plugins.html#)
+[Hexo docs | Image](https://hexo.io/docs/tag-plugins.html#)
 
 ```markdown
 
@@ -145,7 +145,7 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 
 ### Direct URL
 
-[Hexo Next docs | video ](https://theme-next.js.org/docs/tag-plugins/index.html#Video)
+[Hexo Next docs | video](https://theme-next.js.org/docs/tag-plugins/index.html#Video)
 
 ```markdown
 {% video https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Physicsworks.ogv/Physicsworks.ogv.240p.vp9.webm %}
@@ -155,7 +155,7 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 
 ### YouTube videos
 
-[YouTube @ Hexo](https://hexo.io/docs/tag-plugins.html#YouTube)
+[Hexo docs | YouTube](https://hexo.io/docs/tag-plugins.html#YouTube)
 
 ```markdown
 {% youtube JtUAAXe_0VI %}
@@ -165,7 +165,7 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 
 ### Vimeo
 
-[Vimeo @ Hexo](https://hexo.io/docs/tag-plugins.html#Vimeo)
+[Hexo docs | Vimeo](https://hexo.io/docs/tag-plugins.html#Vimeo)
 
 ```markdown
 {% vimeo 253989945 %}
@@ -175,7 +175,7 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 
 ## PDF files
 
-[pdf @ Next](https://theme-next.js.org/docs/tag-plugins/pdf.html)
+[Hexo Next docs | PDF](https://theme-next.js.org/docs/tag-plugins/pdf.html)
 
 You'll need to enable `pdf` support in next theme's config
 
@@ -185,18 +185,22 @@ pdf:
   height: 500px  # Default height
 ```
 
+And include your pdf file by `pdf` tag plugin
+
 ```markdown
 {% pdf url [height] %}
 ```
 
 {% note warning %}
 1. Only browsers supporting PDF embedding are supported.
-2. PDF file loading may be block by the [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) policy.
+2. PDF file loading may be blocked by the [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) policy.
 {% endnote %}
 
 ## Note
 
-[note @ Next](https://theme-next.js.org/docs/tag-plugins/note.html). Similar to [admonitions @ Hugo LoveIt](https://hugoloveit.com/theme-documentation-extended-shortcodes/#4-admonition).
+[Hexo Next docs | note](https://theme-next.js.org/docs/tag-plugins/note.html).
+
+Notification text boxes similar to [markdown-it container](https://github.com/markdown-it/markdown-it-container).
 
 ```yml _config.next.yml
 # Note tag (bs-callout)

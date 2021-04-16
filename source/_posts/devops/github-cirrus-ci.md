@@ -1,7 +1,7 @@
 ---
 title: "Github Action and Cirrus CI co-op"
 date: 2021-04-03T14:33:10+08:00
-tags: ["cirrus ci", "github"]
+tags: ["cirrus ci", "github actions"]
 categories: ["DevOps"]
 comments: false
 ---

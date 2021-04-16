@@ -1,8 +1,8 @@
 ---
 title: "System monitors"
 date: 2021-01-28T17:50:42+08:00
-tags: ["linux"]
-categories: ["Packages"]
+tags: ["linux", "package", "system"]
+categories: ["Linux"]
 comments: false
 ---
 

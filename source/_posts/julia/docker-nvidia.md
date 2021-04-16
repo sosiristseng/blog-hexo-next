@@ -1,8 +1,8 @@
 ---
-title: "Docker container with CUDA"
+title: "Setup Docker container with nvidia GPUs and CUDA runtime"
 date: 2020-10-30T17:18:27+08:00
 tags: ["docker", "cuda", "GPU", "linux"]
-categories: ["Packages"]
+categories: ["Linux"]
 comments: false
 ---
 

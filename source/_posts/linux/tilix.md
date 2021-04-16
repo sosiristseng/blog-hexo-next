@@ -1,8 +1,8 @@
 ---
 title: "Tilix"
 date: 2021-01-28T17:49:09+08:00
-tags: ["command line", "tilix", "linux"]
-categories: ["Packages"]
+tags: ["command line", "linux"]
+categories: ["Linux"]
 comments: false
 ---
 

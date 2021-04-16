@@ -2,7 +2,7 @@
 title: "GCC on Windows"
 date: 2021-04-02T14:48:52+08:00
 tags: ["gcc", "windows"]
-categories: ["Packages"]
+categories: ["Windows"]
 comments: true
 ---
 

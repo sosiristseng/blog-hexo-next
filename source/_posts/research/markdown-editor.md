@@ -1,8 +1,8 @@
 ---
 title: "Markdown editors"
 date: 2020-10-22T16:04:38+08:00
-tags: ["markdown", "linux"]
-categories: ["Packages"]
+tags: ["markdown", "linux", "windows"]
+categories: ["Research"]
 comments: true
 ---
 

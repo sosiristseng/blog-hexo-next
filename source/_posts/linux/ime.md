@@ -1,8 +1,8 @@
 ---
 title: "Fcitx and Ibus"
 date: 2021-01-12T18:08:26+08:00
-tags: ["input method", "ibus", "fcitx", "linux"]
-categories: ["Packages"]
+tags: ["linux", "package"]
+categories: ["Linux"]
 comments: true
 ---
 

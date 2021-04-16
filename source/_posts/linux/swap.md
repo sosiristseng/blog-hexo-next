@@ -1,7 +1,7 @@
 ---
 title: "Swap Space Setup"
 date: 2020-10-21T17:16:28+08:00
-tags: ["swap", "linux"]
+tags: ["swap", "linux", "system"]
 categories: ["Linux"]
 comments: true
 ---

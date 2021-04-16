@@ -1,26 +1,26 @@
 ---
-title: "Node version manager (NVM) and Node package manager (NPM)"
+title: "NodeJS setup"
 date: 2020-10-21T17:21:16+08:00
 tags: ["nodejs", "linux", "windows"]
-categories: ["Packages"]
+categories: ["WebDev"]
 ---
 
-Esay NodeJS setup in Unix-like systems (Linux / MacOS).
+Node.js is an open-source, cross-platform, JavaScript runtime for writing servers and command-line tools. Also see [awesome NodeJS](https://github.com/sindresorhus/awesome-nodejs) for curated packages and resources.
 
 <!--more-->
 
-## Note for windows users
+## Windows
 
 Just download and install [NodeJS](https://nodejs.org/zh-tw/download/) directly or through [Chocolatey package manager](https://nodejs.org/en/download/package-manager/).
 
-## Why use NVM ?
+## Why use Node Version Manager (NVM) in Linux / MacOS ?
 
 Benefits of using [Node Version manager (NVM)](https://github.com/nvm-sh/nvm):
 
 - Avoid conflicts between system `npm` and what your project needs.
 - _Permission with global installtion_: `nvm` allows [regular user previledge](https://medium.com/@ExplosionPills/dont-use-sudo-with-npm-still-66e609f5f92) to install npm packages (`npm i hexo-cli -g`) 'globally'.
 
-## Installation
+## Install NVM
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
@@ -34,7 +34,7 @@ Check your installation afterwards:
 nvm --version
 ```
 
-## Usage
+## Install and Use Node package manager (NPM)
 
 Install NodeJS LTS version along with `npm`.
 

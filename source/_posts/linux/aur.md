@@ -2,8 +2,8 @@
 title: "Pacman and the Arch User Repository (AUR)"
 date: 2021-01-28T16:33:45+08:00
 tags: ["AUR", "pacman", "yay", "paru", "pikaur", "linux"]
-categories: ["Packages"]
-comments: false
+categories: ["Linux"]
+comments: true
 ---
 
 The [Arch User Repository (AUR)](https://aur.archlinux.org) hosts `PKGBUILD`s (instructions to download and build a package) contributed by the community.

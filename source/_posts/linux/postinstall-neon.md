@@ -1,7 +1,7 @@
 ---
 title: "KDE Neon Postinstall"
 date: 2021-03-13T20:52:06+08:00
-tags: ["kde neon", "postinstall", "linux"]
+tags: ["kde neon", "postinstall", "linux", "system", "package"]
 categories: ["Linux"]
 comments: true
 ---

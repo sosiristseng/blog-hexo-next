@@ -2,8 +2,8 @@
 title: "Snap apps"
 date: 2021-04-02T17:27:40+08:00
 tags: ["snap", "linux"]
-categories: ["Packages"]
-comments: false
+categories: ["Linux"]
+comments: true
 ---
 
 Useful [snap applications](https://snapcraft.io/store).

@@ -2,7 +2,7 @@
 title: "Zotero"
 date: 2020-10-21T17:39:48+08:00
 tags: ["zotero", "research", "windows", "linux"]
-categories: ["Packages"]
+categories: ["Research"]
 comments: true
 ---
 

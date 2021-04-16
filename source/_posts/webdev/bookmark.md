@@ -1,5 +1,5 @@
 ---
-title: "🔖 Web design and development"
+title: "🔖 Web design and development bookmarks"
 date: 2021-04-05T22:59:24+08:00
 tags: ["bookmark"]
 categories: ["WebDev"]

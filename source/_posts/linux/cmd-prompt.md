@@ -2,7 +2,7 @@
 title: "Command prompt"
 date: 2021-01-28T17:21:07+08:00
 tags: ["linux", "command line"]
-categories: ["Packages"]
+categories: ["Linux"]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Manjaro postinstall"
 date: 2021-03-15T11:12:51+08:00
-tags: ["postinstall", "manjaro", "linux"]
+tags: ["postinstall", "manjaro", "linux", "system", "package"]
 categories: ["Linux"]
 comments: true
 ---

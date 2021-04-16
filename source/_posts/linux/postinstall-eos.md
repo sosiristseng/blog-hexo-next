@@ -1,7 +1,7 @@
 ---
 title: "Endeavour OS postinstall"
 date: 2020-10-23T15:25:08+08:00
-tags: ["postinstall", "endeavour os", "linux"]
+tags: ["postinstall", "endeavour os", "linux", "system", "package"]
 categories: ["Linux"]
 ---
 

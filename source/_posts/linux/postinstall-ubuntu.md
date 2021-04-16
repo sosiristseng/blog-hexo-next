@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Postinstall"
 date: 2020-10-21T17:26:59+08:00
-tags: ["ubuntu", "postinstall", "linux"]
+tags: ["ubuntu", "postinstall", "linux", "system", "package"]
 categories: ["Linux"]
 comments: true
 ---
