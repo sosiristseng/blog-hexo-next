@@ -1,5 +1,5 @@
 ---
-title: "📝 Roberts 2012 | Computational approaches to understand cardiac electrophysiology and arrhythmias"
+title: "📝 Roberts 2012"
 date: 2020-10-23T00:36:48+08:00
 tags: ["PDE", "ODE", "cardiomyocyte", "electrophysiology"]
 categories: ["Reading", "Review"]

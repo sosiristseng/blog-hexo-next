@@ -1,17 +1,13 @@
 ---
-title: "Wilson 2014 | Mitochondrial cytochrome c oxidase: mechanism of action and role in regulating oxidative phosphorylation"
+title: "📝 Wilson 2014"
 date: 2020-10-23T00:57:26+08:00
-tags: ["cytochrome c oxidase"]
-categories: ["Mitochondria"]
-math:
-  enable: true
-
-author: "Wilson et al."
-authorLink: "https://journals.physiology.org/doi/full/10.1152/japplphysiol.00737.2014"
-description: "Mitochondrial cytochrome c oxidase: mechanism of action and role in regulating oxidative phosphorylation"
+tags: ["complex 4", "mitochondria"]
+categories: ["Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6806138)[^Wilson2014]
+Wilson 2014: Mitochondrial cytochrome c oxidase: mechanism of action and role in regulating oxidative phosphorylation[^Wilson2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6806138)
 
 <!--more-->
 

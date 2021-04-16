@@ -1,25 +1,12 @@
 ---
-title: "Zamponi 2018 | Mitochondrial network complexity emerges from fission/fusion dynamics"
-subtitle: ""
+title: "📝 Zamponi 2018"
 date: 2021-04-08T17:18:43+08:00
-author: "Zamponi et al"
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5762699/"
-description: ""
-
-tags: []
-categories: ["Mitochondrial dynamics"]
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-lightgallery: true
+tags: ["mitochondrial dynamics", "mitochondria"]
+categories: ["Reading"]
 comment: false
 ---
+
+Zamponi 2018 | Mitochondrial network complexity emerges from fission/fusion dynamics
 
 Mitochondrial networks exhibit a variety of complex behaviors, including coordinated cell-wide oscillations of energy states as well as a phase transition (depolarization) in response to oxidative stress.
 

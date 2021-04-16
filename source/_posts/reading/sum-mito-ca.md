@@ -1,10 +1,8 @@
 ---
-title: "Summary | Mathematical models of the MCU and NCLX"
+title: "📝 Summary | Mathematical models of the MCU and NCLX"
 date: 2020-10-23T00:49:23+08:00
-tags: ["calcium"]
-categories: ["Summary"]
-math:
-  enable: true
+tags: ["NCX", "mitochondria"]
+categories: ["Reading", "Summary"]
 ---
 
 Mathematical models of the MCU and NCLX: a summary

@@ -1,14 +1,13 @@
 ---
-title: "Trayanova 2012 | Computational cardiology: how computer simulations could be used to develop new therapies and advance existing ones"
+title: "📝 Trayanova 2012"
 date: 2020-10-23T00:53:57+08:00
-tags: ["ODE", "review article"]
-categories: ["Cardiomyocyte"]
-author: "Trayanova et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482619/"
-description: "Computational cardiology: how computer simulations could be used to develop new therapies and advance existing ones"
+tags: [ODE, cardiomyocyte]
+categories: [Reading, Review]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6317353)[^Trayanova2012]
+Trayanova 2012: Computational cardiology: how computer simulations could be used to develop new therapies and advance existing ones[^Trayanova2012]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6317353)
 
 <!--more-->
 

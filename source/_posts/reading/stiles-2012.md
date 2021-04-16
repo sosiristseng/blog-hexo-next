@@ -1,14 +1,15 @@
 ---
-title: "Stiles 2012 | Mitochondrial dynamics and morphology in beta-cells"
+title: "📝 Stiles 2012"
 date: 2020-10-30T10:54:09+08:00
-tags: ["mitochondrial dynamics", "beta-cell", "review article"]
-categories: ["Mitochondria"]
-author: "Stiles et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5967392"
-description: "Mitochondrial dynamics and morphology in beta-cells"
+tags: ["mitochondrial dynamics", "beta-cell", "mitochondria"]
+categories: ["Reading", "Review"]
 ---
 
+Stiles 2012: Mitochondrial dynamics and morphology in beta-cells[^1]
+
 [Sciwheel](https://sciwheel.com/work/#/items/6050486)
+
+[^1]: Stiles L, Shirihai OS. Mitochondrial dynamics and morphology in beta-cells. Best Pract Res Clin Endocrinol Metab. 2012 Dec;26(6):725–38. [PMC5967392](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5967392/)
 
 <!--more-->
 

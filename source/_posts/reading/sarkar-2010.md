@@ -1,14 +1,13 @@
 ---
-title: "Sarkar 2010 | Regression analysis for constraining free parameters in electrophysiological models of cardiac cells"
+title: "📝 Sarkar 2010 | Regression analysis for constraining free parameters in electrophysiological models of cardiac cells"
 date: 2020-10-23T00:39:53+08:00
-tags: ["ODE", "electrophysiology"]
-categories: ["Math"]
-author: "Sarkar et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2932676/"
-description: "Regression analysis for constraining free parameters in electrophysiological models of cardiac cells"
+tags: ["ODE", "electrophysiology", "cardiomyocyte"]
+categories: ["Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/1271653)[^Sarkar2010]
+Sarkar 2010: Regression analysis for constraining free parameters in electrophysiological models of cardiac cells[^Sarkar2010]
+
+[Sciwheel](https://sciwheel.com/work/#/items/1271653)
 
 <!--more-->
 

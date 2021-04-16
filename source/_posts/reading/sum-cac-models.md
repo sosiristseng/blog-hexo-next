@@ -1,8 +1,8 @@
 ---
-title: "Summary | Mathemetical modeling of the citric acid cycle (CAC)"
+title: "📝 Summary | Mathemetical modeling of the citric acid cycle (CAC)"
 date: 2020-10-23T00:47:32+08:00
 tags: ["calcium", "citric acid cycle"]
-categories: ["Summary"]
+categories: ["Reading",  "Summary"]
 ---
 
 Mathemetical modeling of the citric acid cycle (CAC)

@@ -1,14 +1,13 @@
 ---
-title: "Stark 2014 | The mitochondrial isoform of phosphoenolpyruvate carboxykinase (PEPCK-M) and glucose homeostasis: has it been overlooked?"
+title: "📝 Stark 2014"
 date: 2020-10-23T00:45:39+08:00
-tags: ["bioenergetics"]
-categories: ["Mitochondria"]
-author: "Stark et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3943549"
-description: "The mitochondrial isoform of phosphoenolpyruvate carboxykinase (PEPCK-M) and glucose homeostasis: has it been overlooked"
+tags: ["bioenergetics", "mitochondria",]
+categories: ["Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5702594/)[^Stark2014]
+Stark 2014: The mitochondrial isoform of phosphoenolpyruvate carboxykinase (PEPCK-M) and glucose homeostasis: has it been overlooked?[^Stark2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5702594/)
 
 <!--more-->
 

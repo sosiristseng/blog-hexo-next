@@ -1,7 +1,7 @@
 ---
 title: "📝 Lancaster 2016"
 date: 2020-10-23T00:17:08+08:00
-tags: ["Cardiomyocyte"]
+tags: ["cardiomyocyte"]
 categories: [ "Reading"]
 ---
 

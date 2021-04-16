@@ -35,7 +35,7 @@ Ellinwood 2017: In Silico Assessment of Efficacy and Safety of IKur Inhibitors i
 * At 3-Hz pacing, GKur impacts AP and ERP prolongation more in cAF vs. nSR despite the fact that GKur is smaller in cAF conditions.
 * This points to IKur inhibition as a promising approach to counteract the abbreviated APD and ERP in cAF
 
-### Effect of Conformational State Specificity and Binding/Unbinding Kinetics on Human Atrial Cardiomyocyte APD at Normal and Fast Pacing Rates in cAF Conditions
+### Effect of Conformational State Specificity and Binding/Unbinding Kinetics on Human Atrial cardiomyocyte APD at Normal and Fast Pacing Rates in cAF Conditions
 ![](https://www.frontiersin.org/files/Articles/301424/fphar-08-00799-HTML/image_m/fphar-08-00799-g002.jpg)
 * both types of inhibitors display a biphasic relationship between APD and drug-binding kinetics at 1- and 3-Hz pacing
 * Significant APD prolongation is only seen for intermediate drug-binding kinetics (0.3–30 s−1 for the open state blocker and 1–30 s−1 for the open and inactivated state blocker)
@@ -44,7 +44,7 @@ Ellinwood 2017: In Silico Assessment of Efficacy and Safety of IKur Inhibitors i
 ![](https://www.frontiersin.org/files/Articles/301424/fphar-08-00799-HTML/image_m/fphar-08-00799-g003.jpg)
 * Results in drug-free conditions and for an O & I blocker (modeled as in Figure 2F, black) with kon = koff (Kd = 1 μM) in Figure 3 again demonstrate a biphasic relationship between drug-binding kinetics and average APD90
 
-### Effect of Conformational State Specificity and Binding/Unbinding Kinetics on Human Atrial Cardiomyocyte ERP at Normal and Fast Pacing Rates in cAF Conditions
+### Effect of Conformational State Specificity and Binding/Unbinding Kinetics on Human Atrial cardiomyocyte ERP at Normal and Fast Pacing Rates in cAF Conditions
 ![](https://www.frontiersin.org/files/Articles/301424/fphar-08-00799-HTML/image_m/fphar-08-00799-g004.jpg)
 * The desired effect of IKur inhibitors is prolongation of atrial ERP (effective refractory peroid)
 *  Simulations reveal a similar biphasic relationship between ERP and drug-binding kinetics

@@ -1,14 +1,13 @@
 ---
-title: "Vinogradov 2016 | Oxidation of NADH and ROS production by respiratory complex I"
+title: "📝 Vinogradov 2016"
 date: 2020-10-23T00:54:35+08:00
-tags: ["ROS", "complex I"]
-categories: ["Mitochondria"]
-author: "Vinogradov et al."
-authorLink: "https://www.sciencedirect.com/science/article/pii/S0005272815002273"
-description: "Oxidation of NADH and ROS production by respiratory complex I"
+tags: ["ROS", "complex 1", "Mitochondria"]
+categories: ["Reading"]
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6174732)[^Vinogradov2016]
+Vinogradov 2016: Oxidation of NADH and ROS production by respiratory complex I[^Vinogradov2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6174732)
 
 <!--more-->
 

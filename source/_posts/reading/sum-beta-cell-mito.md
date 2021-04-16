@@ -1,8 +1,8 @@
 ---
-title: "Mitochondrial dynamics, cellular energetics, and insulin secretion in summary"
+title: "📝 Mitochondrial dynamics, cellular energetics, and insulin secretion in summary"
 date: 2020-10-23T00:46:38+08:00
 tags: ["mitochondrial dynamics", "bioenergetics"]
-categories: [ "Summary"]
+categories: ["Reading",  "Summary"]
 ---
 
 Mitochondrial dynamics, cellular energetics, and insulin secretion.

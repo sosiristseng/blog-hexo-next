@@ -1,10 +1,8 @@
 ---
-title: "Mathematical modeling of mitochondrial respiratory chain, a summary"
+title: "📝 Mathematical modeling of mitochondrial respiratory chain, a summary"
 date: 2020-10-23T00:48:40+08:00
-tags: []
-categories: ["Summary"]
-math:
-  enable: true
+tags: ["mitochondria"]
+categories: ["Reading", "Summary"]
 ---
 
 Mathematical modeling of mitochondrial respiratory chain.

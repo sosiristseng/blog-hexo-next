@@ -1,8 +1,8 @@
 ---
-title: "Mitochondrial Energetics: a summary"
+title: "📝 Mitochondrial Energetics: a summary"
 date: 2020-10-23T00:51:11+08:00
-tags: ["bioenergetics"]
-categories: [ "Summary"]
+tags: ["bioenergetics", "mitochondria"]
+categories: ["Reading", "Summary"]
 ---
 
 Mitochondrial Energetics: a summary
