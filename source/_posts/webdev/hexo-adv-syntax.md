@@ -145,7 +145,7 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 
 ### Direct URL
 
-[video @ Next](https://theme-next.js.org/docs/tag-plugins/video.html)
+[Hexo Next docs | video ](https://theme-next.js.org/docs/tag-plugins/index.html#Video)
 
 ```markdown
 {% video https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Physicsworks.ogv/Physicsworks.ogv.240p.vp9.webm %}

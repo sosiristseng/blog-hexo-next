@@ -22,7 +22,7 @@ This template includes these features:
 
 - [Hexo](https://hexo.io/) static site generator.
 - Fast and elegant [Next theme](https://theme-next.js.org/).
-- [markdown-it renderer](https://github.com/wzpan/hexo-renderer-markdown-it) and KaTeX math.
+- [markdown-it renderer](https://github.com/hexojs/hexo-renderer-markdown-it) and KaTeX math.
 - GitHub actions and GitLab CI included.
 
 
