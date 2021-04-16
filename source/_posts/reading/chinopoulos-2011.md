@@ -54,4 +54,4 @@ However, MgATP2− can be expressed as [ATP4−]free × [Mg2+]/K M(ATP) and the 
 ## Conclusion
 In respiration‐impaired mitochondria with intact inner mitochondrial membranes, if the reverse operation of F0–F1 ATP synthase is sustained by ATP provided by matrix **substrate‐level phosphorylation**, ΔΨm will be maintained at a value not more negative than E rev_ATPase, while if only cytosolic ATP reserves are being used, the maximum ΔΨm value attainable **cannot be more negative than that of E_rev_ANT**, imposing **very slow reversal ATP–ADP exchange rates** on the translocase.
 
-[^Chinopoulos2011]: Chinopoulos C. Mitochondrial consumption of cytosolic ATP: not so fast. FEBS Lett. 2011;585(9):1255-1259. doi:10.1016/j.febslet.2011.04.004. [FEBS](https://febs.onlinelibrary.wiley.com/doi/full/10.1016/j.febslet.2011.04.004).
+[^Chinopoulos2011]: Chinopoulos C. Mitochondrial consumption of cytosolic ATP: not so fast. FEBS Lett. 2011;585(9):1255-1259. doi:10.1016/j.febslet.2011.04.004.

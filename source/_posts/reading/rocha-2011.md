@@ -72,4 +72,4 @@ $$
 ## Discussion
 The performance of the parabolic solver is strongly dependent on the storage format for sparse matrix associated to linear system: ELLPACK (more regular) < CSR
 
-[^Rocha2011]: Rocha BM, Campos FO, Amorim RM, et al. Accelerating cardiac excitation spread simulations using graphics processing units. Concurrency Computat.: Pract. Exper. 2011;23(7):708-720. doi:10.1002/cpe.1683. [DOI](http://doi.wiley.com/10.1002/cpe.1683).
+[^Rocha2011]: Rocha BM, Campos FO, Amorim RM, et al. Accelerating cardiac excitation spread simulations using graphics processing units. Concurrency Computat.: Pract. Exper. 2011;23(7):708-720. doi:10.1002/cpe.1683.

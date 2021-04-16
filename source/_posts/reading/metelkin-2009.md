@@ -132,4 +132,4 @@ $$
 |$k_{leak}$               | $0.438$                    | $nmol/ (min·mg)$ | The empirical coefficients of membrane leakage description |
 |$\beta_{leak}$           | $1.05$                     |                  | The empirical coefficients of membrane leakage description |
 
-[^Metelkin2009]: Metelkin E, Demin O, Kovács Z, Chinopoulos C. Modeling of ATP-ADP steady-state exchange rate mediated by the adenine nucleotide translocase in isolated mitochondria. FEBS J. 2009;276(23):6942-6955. doi:10.1111/j.1742-4658.2009.07394.x. https://febs.onlinelibrary.wiley.com/doi/full/10.1111/j.1742-4658.2009.07394.x
+[^Metelkin2009]: Metelkin E, Demin O, Kovács Z, Chinopoulos C. Modeling of ATP-ADP steady-state exchange rate mediated by the adenine nucleotide translocase in isolated mitochondria. FEBS J. 2009;276(23):6942-6955. doi:10.1111/j.1742-4658.2009.07394.x.
