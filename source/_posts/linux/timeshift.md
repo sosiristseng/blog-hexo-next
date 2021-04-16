@@ -24,7 +24,7 @@ Install [timeshift@AUR](https://aur.archlinux.org/packages/timeshift/).
 paru -S timeshift cronie
 ```
 
-Then [enable](https://endeavouros.com/docs/applications/backup/timeshift/) `cronie` service for periodic snapshots in `rsync` mode.
+Then enable `cronie` service for periodic snapshots in `rsync` mode.
 
 ```bash
 systemctl enable --now cronie.service
