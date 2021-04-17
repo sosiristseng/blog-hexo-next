@@ -7,7 +7,7 @@
     "clean": "hexo cl",
     "deploy": "hexo cl && hexo g -d",
     "server": "hexo cl && hexo s -o --debug",
-    "check": "find . -name \\*.md -exec markdown-link-check {} \\;"
+    "test:link": "find . -name \\*.md -exec markdown-link-check {} \\;"
   },
   "hexo": {
     "version": "5.4.0"
