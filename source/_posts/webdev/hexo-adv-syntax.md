@@ -109,10 +109,10 @@ The directory containing code is defined at `code_dir` option in `_config.yml`, 
 {% endnote %}
 
 ```markdown
-{% include_code lang:bash bootstrap-conda.sh %}
+{% include_code lang:bash ibus-profile.sh %}
 ```
 
-{% include_code lang:bash bootstrap-conda.sh %}
+{% include_code lang:bash ibus-profile.sh %}
 
 ## Link to other post
 

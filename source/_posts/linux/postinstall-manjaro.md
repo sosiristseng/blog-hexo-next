@@ -28,119 +28,19 @@ Use manjaro settings.
 
 Save the content below as `pkgs.txt`
 
-```md
-# Development
-pikaur
-pigz
-lzop
-zstd
-base-devel
-python-pip
-cmake
-git
-git-lfs
-gitkraken
-visual-studio-code-bin
-
-# Text editing
-texlive-core
-tectonic-bin
-pandoc
-pandoc-citeproc
-pandoc-crossref
-typora
-libreoffice-fresh
-zotero
-
-# Network
-vivaldi
-vivaldi-ffmpeg-codecs
-brave-bin
-cifs-utils
-gufw
-telegram-desktop
-anydesk
-
-# System
-htop
-bpytop
-zsh
-docker
-appimagelauncher
-parallel
-trash-cli
-
-# Input methods
-ibus
-ibus-chewing
-
-# Fonts
-ttf-roboto
-ttf-fira-sans
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
-wqy-microhei
-wqy-zenhei
-ttf-opensans
-nerd-fonts-hack
-
-# Multimedia
-smplayer
-smplayer-skins
-smplayer-themes
-ffmpeg
-youtube-dl
-
-# Themes for KDE
-plasma-browser-integration
-kvantum-qt5
-kvantum-theme-materia
-papirus-icon-theme
-materia-gtk-theme
-materia-kde
-qogir-icon-theme-git
-qogir-gtk-theme-git
-qogir-kde-theme-git
-```
+{% include_code pkgs.txt manjaro-pkgs.txt %}
 
 Paste the contents to `~/.xprofile`
 
-```bash
-# ~/.xprofile
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-ibus-daemon -drx
-```
+{% include_code .xprofile lang:bash ibus-profile.sh %}
 
 Paste the contents to `~/.profile`
 
-```bash
-[[ -d "${HOME}/.local/bin" ]] && PATH="${HOME}/.local/bin:${PATH}"
-[[ -d "${HOME}/.cargo/bin" ]] && PATH="${HOME}/.cargo/bin:${PATH}"
-[[ -d "${HOME}/.go/bin" ]] && PATH="${HOME}/.go/bin:${PATH}"
-
-export BROWSER=$(command -v xdg-open)
-export EDITOR=$(command -v nano)
-export JULIA_NUM_THREADS=$(nproc)
-export JULIA_PROJECT=@.
-export ELECTRON_TRASH=gio
-```
+{% include_code .profile lang:bash eos-profile.sh %}
 
 Run the following script:
 
-```bash
-
-# First phase system setup with services
-sudo pikaur -S --noconfirm --needed docker
-sudo systemctl enable --now fstrim.timer
-sudo systemctl enable --now docker.service
-
-# Install the rest
-# Check pkgs.txt before running the line below
-sed 's/#.*$//' pkgs.txt | xargs sudo pikaur -S --noconfirm --needed
-```
+{% include_code postinstall.sh lang:bash manjaro-postinstall.sh %}
 
 ## Theme settings
 

@@ -1,0 +1,57 @@
+
+# Developement
+cmake
+build-essential
+git
+git-lfs
+python3-pip
+docker-ce
+docker-ce-cli
+containerd.io
+code
+
+# Network
+cifs-utils
+vivaldi-stable
+brave-browser
+
+# System
+parallel
+pv
+zsh
+progress
+htop
+synaptic
+apt-xapian-index
+neofetch
+appimagelauncher
+linux-xanmod
+kubuntu-driver-manager
+kio-extras
+gnome-keyring
+
+# Locale
+ibus
+ibus-chewing
+
+# Media
+ffmpeg
+smplayer
+
+# Themes
+papirus-icon-theme
+qt5-style-kvantum-themes
+qt5-style-kvantum
+
+# Fonts
+fonts-noto
+fonts-roboto
+fonts-wqy-microhei
+fonts-wqy-zenhei
+fonts-open-sans
+
+# Editors
+typora
+zotero
+libreoffice
+kate
