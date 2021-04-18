@@ -163,6 +163,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/sosiristseng || fab fa-github
+  Discussion: https://github.com/sosiristseng/sosiristseng.github.io/discussions || fa fa-comment
   GitLab: https://gitlab.com/sosiristseng || fab fa-gitlab
   E-Mail: https://sosiristseng(at)gmail(dot)com || fa fa-envelope
   # Weibo: https://weibo.com/# || fab fa-weibo
@@ -187,7 +188,7 @@ links_settings:
   layout: block
 
 links:
-  #Link1: http://yoursite.com
+  # Discuss: https://github.com/sosiristseng/sosiristseng.github.io/discussions
   #Link2: http://yoursite.com
 
 # Table of Contents in the Sidebar
@@ -384,7 +385,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: true
-  permalink: https://github.com/sosiristseng
+  permalink: https://github.com/sosiristseng/sosiristseng.github.io
   title: Follow me on GitHub
 
 
