@@ -6,11 +6,9 @@ categories: ["DevOps"]
 comments: false
 ---
 
-Run Github actions after successful Cirrus CI runs.
+Run Github actions after successful Cirrus CI runs with [`check_suite`](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#check_suite) trigger.
 
 <!--more-->
-
-Using [`check_suite`](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#check_suite) trigger.
 
 ```yml
 on:
