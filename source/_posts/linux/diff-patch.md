@@ -1,9 +1,8 @@
 ---
 title: "diff and patch"
 date: 2020-10-23T16:11:16+08:00
-tags: ["diff", "patch", "linux"]
+tags: ["devops", "package", "linux"]
 categories: ["Linux"]
-comments: true
 ---
 
 Record (`diff`) and apply (`patch`) changes to the source code.

@@ -1,7 +1,7 @@
 ---
 title: "Static site generators"
 date: 2021-01-31T16:27:09+08:00
-tags: ["static site generator", "hugo", "hexo", "jupyterbook", "nikola", "jekyll", "docsify"]
+tags: ["static site generator", "hugo", "hexo", "jupyter", "docsify", "webdev"]
 categories: ["WebDev"]
 comments: false
 ---

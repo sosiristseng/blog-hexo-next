@@ -1,7 +1,7 @@
 ---
 title: Setup a free personal blog using Hexo
 date: 2020-07-06 15:26:17
-tags: ["hexo", "github", "gitlab", "nodejs"]
+tags: ["hexo", "github", "gitlab", "nodejs", "webdev"]
 categories: ["WebDev"]
 ---
 

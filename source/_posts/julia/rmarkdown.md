@@ -1,7 +1,7 @@
 ---
 title: "Julia in R markdown"
 date: 2021-04-03T13:18:16+08:00
-tags: ["r markdown", "julia"]
+tags: ["rmarkdown", "julia"]
 categories: ["Julia"]
 comments: false
 ---

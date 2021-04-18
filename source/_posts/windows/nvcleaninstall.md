@@ -2,7 +2,7 @@
 title: NV clean install
 comments: false
 date: 2021-04-17 16:07:51
-tags: [GPU]
+tags: [GPU, "windows"]
 categories: [Windows]
 ---
 

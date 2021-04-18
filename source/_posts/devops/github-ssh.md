@@ -1,7 +1,7 @@
 ---
 title: "Connect to Github via SSH"
 date: 2021-03-08T15:41:34+08:00
-tags: ["git", "github", "ssh"]
+tags: ["git", "github", "ssh", "devops"]
 categories: ["DevOps"]
 comments: false
 ---

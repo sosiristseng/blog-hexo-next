@@ -1,6 +1,6 @@
 ---
 title: Hugo blog setup and deployment
-tags: ["github", "gitlab", "hugo"]
+tags: ["github", "gitlab", "hugo", "webdev"]
 categories: ["WebDev"]
 date: 2020-11-30T21:43:55+08:00
 comments: false

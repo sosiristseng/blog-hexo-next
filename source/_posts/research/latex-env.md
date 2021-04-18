@@ -1,7 +1,7 @@
 ---
 title: "Latex environments"
 date: 2020-10-27T14:55:25+08:00
-tags: ["latex", "texlive", "tectonic", "miktex", "linux", "windows"]
+tags: ["latex", "linux", "windows", "tool"]
 categories: ["Research"]
 comments: true
 ---

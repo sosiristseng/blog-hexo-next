@@ -1,7 +1,7 @@
 ---
 title: LaTeX Math rendering in Hexo blog
 date: 2020-07-06 10:31:26
-tags: ["mathjax", "katex", "hexo"]
+tags: ["latex", "hexo", "webdev"]
 categories: ["WebDev"]
 ---
 

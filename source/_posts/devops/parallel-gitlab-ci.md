@@ -1,7 +1,7 @@
 ---
 title: "Parallel Matrix build of Gitlab CI/CD"
 date: 2021-04-03T14:30:54+08:00
-tags: ["gitlab"]
+tags: ["gitlab", "devops", "parallelism"]
 categories: ["DevOps"]
 comments: false
 ---

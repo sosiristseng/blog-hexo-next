@@ -2,7 +2,6 @@
 title: Julia design patterns
 tags: ["julia", "design pattern"]
 categories: ["Julia"]
-comments: true
 date: 2020-12-20 17:46:45
 ---
 

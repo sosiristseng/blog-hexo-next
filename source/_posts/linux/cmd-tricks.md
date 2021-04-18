@@ -12,9 +12,7 @@ Some command line tricks for Linux.
 
 ## Passing arguments to a command from a text file
 
-Using:
-- `sed`
-- `xargs`
+Using `sed` and `xargs`
 
 For example, to install two lists of packages in Ubuntu:
 

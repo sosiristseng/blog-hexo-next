@@ -1,7 +1,7 @@
 ---
 title: "Asus USB Wifi"
 date: 2021-01-31T23:05:53+08:00
-tags: ["linux", "wifi", "driver", "manjaro"]
+tags: ["linux", "driver", "manjaro"]
 categories: ["Linux"]
 comments: false
 ---

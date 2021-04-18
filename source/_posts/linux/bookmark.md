@@ -1,7 +1,7 @@
 ---
 title: "🔖 Linux Bookmarks"
 date: 2021-04-06T00:45:31+08:00
-tags: ["bookmark"]
+tags: ["bookmark", "linux"]
 categories: ["Linux"]
 comments: false
 ---

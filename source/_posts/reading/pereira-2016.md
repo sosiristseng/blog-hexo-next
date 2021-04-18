@@ -1,7 +1,7 @@
 ---
 title: "📝 Pereira 2016"
 date: 2020-10-23T00:33:34+08:00
-tags: ["ROS", "review article", "mitochondria"]
+tags: ["ROS", "mitochondria", "complex 1", "complex 3"]
 categories: ["Reading", "Review"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Snap apps"
 date: 2021-04-02T17:27:40+08:00
-tags: ["snap", "linux"]
+tags: ["package", "linux"]
 categories: ["Linux"]
 comments: true
 ---

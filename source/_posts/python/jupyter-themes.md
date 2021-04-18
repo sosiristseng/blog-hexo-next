@@ -1,7 +1,7 @@
 ---
 title: "Jupyter Themes"
 date: 2021-04-03T13:07:38+08:00
-tags: ["jupyter"]
+tags: ["jupyter", "python"]
 categories: ["Python"]
 comments: true
 ---

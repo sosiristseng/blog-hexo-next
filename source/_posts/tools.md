@@ -1,7 +1,7 @@
 ---
 title: "🔖 Misc Free Tools"
 date: 2021-04-05T23:01:18+08:00
-tags: ["bookmark"]
+tags: ["bookmark", "tool"]
 categories: []
 comments: true
 ---

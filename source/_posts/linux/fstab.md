@@ -1,7 +1,7 @@
 ---
 title: "Mounting drives at boot in Linux"
 date: 2020-10-21T16:24:57+08:00
-tags: ["mount", "linux"]
+tags: ["linux"]
 categories: ["Linux"]
 comments: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: "NodeJS setup"
 date: 2020-10-21T17:21:16+08:00
-tags: ["nodejs", "linux", "windows"]
+tags: ["nodejs", "linux", "windows", "webdev"]
 categories: ["WebDev"]
 ---
 

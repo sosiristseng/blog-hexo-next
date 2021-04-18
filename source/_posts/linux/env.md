@@ -1,6 +1,6 @@
 ---
 title: Environment variables
-tags: ["linux", "windows", "environment variable"]
+tags: ["linux", "windows", "system"]
 categories: ["Linux"]
 comments: false
 date: 2020-12-18 16:33:50

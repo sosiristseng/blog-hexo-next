@@ -1,7 +1,7 @@
 ---
 title: "📝 Cortassa 2012"
 date: 2020-10-22T18:29:19+08:00
-tags: ["mitohchondria", "ODE"]
+tags: ["mitochondria", "ODE"]
 categories: [ "Reading"]
 ---
 

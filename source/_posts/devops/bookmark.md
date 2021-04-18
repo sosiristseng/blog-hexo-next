@@ -1,9 +1,8 @@
 ---
 title: "🔖 Git and DevOps"
 date: 2021-04-06T00:48:33+08:00
-tags: ["bookmark", "github actions"]
+tags: ["bookmark", "github actions", "git", "devops"]
 categories: ["DevOps"]
-comments: false
 ---
 
 

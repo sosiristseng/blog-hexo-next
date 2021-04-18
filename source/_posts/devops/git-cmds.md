@@ -1,7 +1,7 @@
 ---
 title: "Git commands"
 date: 2020-11-16T11:31:38+08:00
-tags: ["git"]
+tags: ["git", "devops"]
 categories: ["DevOps"]
 comments: true
 ---

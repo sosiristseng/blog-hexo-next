@@ -1,7 +1,7 @@
 ---
 title: "Web browsers installation and tips"
 date: 2020-10-22T14:42:21+08:00
-tags: ["linux"]
+tags: ["linux", "package", "webdev"]
 categories: ["Linux"]
 comments: true
 ---

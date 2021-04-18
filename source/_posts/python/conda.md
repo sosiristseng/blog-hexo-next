@@ -1,7 +1,7 @@
 ---
 title: "Conda installation"
 date: 2020-10-22T16:24:43+08:00
-tags: ["conda", "python", "linux", "windows", "github actions"]
+tags: ["conda", "python", "linux", "windows", "github actions", "devops"]
 categories: ["Python"]
 comments: true
 ---

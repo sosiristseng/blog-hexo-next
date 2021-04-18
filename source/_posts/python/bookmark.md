@@ -1,7 +1,7 @@
 ---
 title: "🔖 Python Bookmarks"
 date: 2021-04-06T00:40:56+08:00
-tags: ["bookmark"]
+tags: ["bookmark", "python"]
 categories: ["Python"]
 comments: true
 ---

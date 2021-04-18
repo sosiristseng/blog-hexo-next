@@ -1,7 +1,7 @@
 ---
 title: "VS Code"
 date: 2020-10-22T15:57:43+08:00
-tags: ["developement", "vscode", "linux"]
+tags: ["developement", "linux", "package"]
 categories: ["Linux"]
 comments: true
 ---

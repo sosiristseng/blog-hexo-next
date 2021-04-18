@@ -1,7 +1,7 @@
 ---
 title: "🔖 Research Tools"
 date: 2021-04-06T00:40:06+08:00
-tags: [bookmark]
+tags: [bookmark, tool]
 categories: [Research]
 comments: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "📝 Vinogradov 2016"
 date: 2020-10-23T00:54:35+08:00
-tags: ["ROS", "complex 1", "Mitochondria"]
+tags: ["ROS", "complex 1", "mitochondria"]
 categories: ["Reading"]
 ---
 

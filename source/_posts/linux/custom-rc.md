@@ -1,7 +1,7 @@
 ---
 title: "Organizing custom rc files"
 date: 2020-10-21T17:23:15+08:00
-tags: ["linux", "command line"]
+tags: ["linux", "command line", "system"]
 categories: ["Linux"]
 comments: true
 ---

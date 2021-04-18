@@ -1,7 +1,7 @@
 ---
 title: "Find and download the latest release version from GitHub"
 date: 2021-04-02T17:16:26+08:00
-tags: ["github", "pandoc"]
+tags: ["github", "pandoc", "devops"]
 categories: ["DevOps"]
 comment: true
 ---

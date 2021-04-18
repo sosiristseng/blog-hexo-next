@@ -1,9 +1,8 @@
 ---
 title: Burn installation ISO into usb disks
-tags: ["iso", "linux", "package"]
+tags: ["linux", "package"]
 categories: ["Linux"]
 date: 2020-12-12 00:47:04
-comments: true
 ---
 
 Tools to make Linux installation media from ISO files. They may or may not work on Windows ISOs.
