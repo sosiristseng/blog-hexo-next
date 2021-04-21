@@ -6,11 +6,10 @@ categories: ["DevOps"]
 comments: true
 ---
 
-Gitlab CI/CD x Github repositories.
+Choose `Create a new project running CI/CD` from an external repo in GitLab's `New project` UI.
 
 <!--more-->
 
-<!-- markdown-link-check-disable-next-line -->
-[Create a new project running CI/CD](https://gitlab.com/projects/new#cicd_for_external_repo) from an external repo.
+![image](https://user-images.githubusercontent.com/40054455/115492957-6992fe80-a295-11eb-900b-56f718ec9431.png)
 
-And then Gitlab will mirror and run CI/CD piepelines for the Github repo.
+And then Gitlab will mirror the Github repo and run CI/CD piepelines upon commits.
