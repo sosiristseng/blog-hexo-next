@@ -2,7 +2,7 @@
 title: Export to TIFF in PyPlot.jl (matplotlib)
 comments: false
 date: 2021-04-21 11:50:27
-tags: [pyplot, julia, python, visualization]
+tags: [pyplot, julia, python, visualization, tiff]
 categories: Julia
 ---
 
