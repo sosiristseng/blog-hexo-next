@@ -53,7 +53,7 @@ You can also install [hexo-filter-mathjax](https://github.com/next-theme/hexo-fi
 
 ### Katex
 
-⚠️ Chemical expressions are not supported in this setup.
+⚠️ Chemical extension (`mhchem`) is not supported.
 
 1. Install the `markdown-it` renderer and KaTeX plugin.
 ```bash
@@ -80,11 +80,9 @@ math:
 
 Set `mathjax: true` (yesp, not `katex`) in the frontmatter to load the math library.
 
-### MathJax (Server-side rendering alternative)
+### MathJax (server-side)
 
 Install [markdown-it-latex2img](https://github.com/MakerGYT/markdown-it-latex2img) to convert math expressions to SVG images online with MathJax at <https://math.now.sh/>.
-
-⚠️ However, it does not play well with dark mode. The text will still be black and invisible. And it may mess with fancybox image gallery.
 
 ```bash
 npm i hexo-renderer-markdown-it markdown-it-latex2img
@@ -104,7 +102,7 @@ markdown:
 
 For examples, see [MathJax quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) and [KaTeX performance test](https://www.intmath.com/cg5/katex-mathjax-comparison.php).
 
-## Inline math examples
+### Inline math examples
 
 Enclosed by `$`...`$`
 
@@ -114,33 +112,33 @@ Enclosed by `$`...`$`
 - Binomial distribution: $P_{n}(k)=C_{n}^{k} p^{k} q^{n-k} \quad k=0,1,2 \ldots \ldots, n$
 - Greek letters: $\Gamma\ \Delta\ \Theta\ \Lambda\ \Xi\ \Pi\ \Sigma\ \Upsilon\ \Phi\ \Psi\ \Omega$
 
-## Block math examples
+### Block math examples
 
 Enclosed by `$$`...`$$`
 
-### Repeating fractions
+#### Repeating fractions
 
 $$
 \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} \equiv 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
 $$
 
-### Summation notation
+#### Summation notation
 
 $$
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
-### Probability density of normal distribution
+#### Probability density of normal distribution
 
 $$
 f(x) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
 $$
 
-### The ratio of two consecutive numbers in Fibonacci Sequence
+#### The ratio of two consecutive numbers in Fibonacci Sequence
 
 $$\lim_{n\to \infty}\frac{A_{n-1}}{A_n}=\frac{\sqrt{5}-1}{2}.$$
 
-### Factorisation
+#### Factorisation
 
 $$
 \begin{aligned}(x−1)(x−3)&=x^2−4x+3 \cr
@@ -149,7 +147,7 @@ $$
 \end{aligned}
 $$
 
-### Dirichlet function
+#### Dirichlet function
 
 $$
 D(x)=
@@ -159,13 +157,13 @@ D(x)=
 \end{cases}
 $$
 
-### Gauss's law
+#### Gauss's law
 
 $$
 \iiint_{\Omega}\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right) d v=\iint_{\Sigma} P d y d z+Q d z d x+R d x d y
 $$
 
-### Vandermonde matrix
+#### Vandermonde matrix
 
 $$D_{n-1}=\left|\begin{array}{cccc}
 1 & 1 & \dots & 1 \cr
@@ -174,7 +172,7 @@ x_{2} & x_{3} & \dots & x_{n} \cr
 x_{2}^{n-2} & x_{3}^{n-2} & \dots & x_{n}^{n-2}
 \end{array}\right|=\prod_{2 \leq j<i \leq n}\left(x_{i}-x_{j}\right)$$
 
-### System of linear equations
+#### System of linear equations
 
 $$
 \left\lbrace
@@ -187,7 +185,7 @@ a_{m 1} x_{1}+a_{m 2} x_{2}+\cdots+a_{m n} x_{n} &=b_{m}
 \right\rbrace
 $$
 
-### Lorenz Equations
+#### Lorenz Equations
 
 $$
 \begin{aligned}
@@ -197,7 +195,7 @@ $$
 \end{aligned}
 $$
 
-### Cross Product
+#### Cross Product
 
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
@@ -207,7 +205,7 @@ $$
 \end{vmatrix}
 $$
 
-### Maxwell's Equations
+#### Maxwell's Equations
 
 $$
 \begin{aligned}
