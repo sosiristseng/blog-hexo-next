@@ -24,19 +24,6 @@ Generate CSS styles for your websites. From [hashnode](https://denic.hashnode.de
 - [Neumorphism](https://neumorphism.io/)
 - [Smooth shadows](https://shadows.brumm.af/)
 
-## Fonts
-
-Also see [Awesome fonts](https://github.com/brabadu/awesome-fonts).
-
-- [Nerd fonts](https://www.nerdfonts.com/): patched fonts with glyphs.
-- [Cascadia code](https://github.com/microsoft/cascadia-code): a fun, new monospaced font developed for Windows Terminal (and friends).
-- [Google fonts](https://fonts.google.com/)
-- [IBM plex](https://github.com/IBM/plex)
-- [Gensen font](https://github.com/ButTaiwan/gensen-font): Rounded corner CJK fonts.
-- [Public Sans](https://github.com/uswds/public-sans): A strong, neutral, principles-driven, open source typeface for text or display.
-- [Font squirrel](https://www.fontsquirrel.com/): hand-picked free fonts
-- [Fontshare](https://www.fontshare.com/) from [Indian Type Foundry](https://www.indiantypefoundry.com/).
-
 ## Icons
 
 - [Vector Icons](https://iconscout.com/unicons)
