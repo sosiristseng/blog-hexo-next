@@ -7,49 +7,30 @@ categories: ["WebDev"]
 
 Node.js is an open-source, cross-platform, JavaScript runtime for writing servers and command-line tools. Also see [awesome NodeJS](https://github.com/sindresorhus/awesome-nodejs) for curated packages and resources.
 
-<!--more-->
 
-## Windows
 
-Just download and install [NodeJS](https://nodejs.org/zh-tw/download/) directly or through [Chocolatey package manager](https://nodejs.org/en/download/package-manager/).
+{% tabs os %}
+<!-- tab Windows -->
 
-## Why use Node Version Manager (NVM) in Linux / MacOS ?
+Download and install [NodeJS](https://nodejs.org/zh-tw/download/) directly or through [Chocolatey package manager](https://nodejs.org/en/download/package-manager/).
 
-Benefits of using [Node Version manager (NVM)](https://github.com/nvm-sh/nvm):
+```powershell
+choco install nodejs
+```
 
-- Avoid conflicts between system `npm` and what your project needs.
-- _Permission with global installtion_: `nvm` allows [regular user previledge](https://medium.com/@ExplosionPills/dont-use-sudo-with-npm-still-66e609f5f92) to install npm packages (`npm i hexo-cli -g`) 'globally'.
+<!-- endtab -->
 
-## Install NVM
+<!-- tab Linux or MacOS -->
 
-```bash
+Using [Node Version manager (NVM)](https://github.com/nvm-sh/nvm) to install `npm` is recommended to avoid conflits with system-wide `npm` and [avoid using](https://medium.com/@ExplosionPills/dont-use-sudo-with-npm-still-66e609f5f92) `sudo npm install -g pkg`. ✒️ For zsh users, you could install the [zsh-nvm module](https://github.com/lukechilds/zsh-nvm).
+
+```bash Install NVM
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
+
+nvm install nodejs
 ```
 
-✒️ For zsh users, you could install the [zsh-nvm module](https://github.com/lukechilds/zsh-nvm).
+<!-- endtab -->
+{% endtabs %}
 
-Check your installation afterwards:
-
-```bash
-nvm --version
-```
-
-## Install and Use Node package manager (NPM)
-
-Install NodeJS LTS version along with `npm`.
-
-```bash
-nvm install --lts
-```
-
-A local version of NodeJS will be available.
-
-```bash
-node -v
-```
-
-And then you can install packages globally without `sudo` command. For example,
-
-```bash
-npm install -g hexo-cli docsify-cli
-```
+<!--more-->
