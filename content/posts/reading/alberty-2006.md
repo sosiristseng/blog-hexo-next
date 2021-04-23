@@ -6,9 +6,11 @@ categories: [ "Math"]
 math:
   enable: true
 author: "Alberty RA."
-authorLink: "https://www.sciencedirect.com/science/article/pii/S0301462206001839?via%3Dihub"
-description: "Relations between biochemical thermodynamics and biochemical kinetics"
+authorLink:
+description:
 ---
+
+Relations between biochemical thermodynamics and biochemical kinetics
 
 [Sciwheel](https://sciwheel.com/work/#/items/5673496).[^Alberty2006]
 

@@ -12,7 +12,7 @@ categories: [Julia, Bookmark]
 
 ## See also
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

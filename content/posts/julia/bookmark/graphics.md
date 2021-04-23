@@ -18,7 +18,7 @@ categories: [Julia, Bookmark]
 - [Julia Images](https://github.com/JuliaImages)
 - 🏚️ [Julia Open CV](https://github.com/JuliaOpenCV)
 
-<!-- more -->
+<!--more-->
 
 
 ## Computer Vision (CV)

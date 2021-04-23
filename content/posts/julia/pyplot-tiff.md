@@ -33,7 +33,7 @@ fig.savefig("fig.tif", dpi=300, format="tiff", pil_kwargs=Dict("compression" => 
 fig.savefig("fig1.tif", dpi=300, format="tiff", pil_kwargs={"compression" : "tiff_lzw"})
 ```
 
-<!-- more -->
+<!--more-->
 
 - Set dpi = 300
 - LZW compression

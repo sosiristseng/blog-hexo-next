@@ -16,7 +16,7 @@ categories: [Julia, Bookmark]
 + [algo-book-julia](https://github.com/Alexander-N/algo-book-julia) :: Snippets from Problem Solving with Algorithms and Data Structures in Julia.
 + [study](https://github.com/codematician/study) :: A study of interesting algorithms in Python.
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

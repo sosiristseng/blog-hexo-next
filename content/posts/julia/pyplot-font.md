@@ -25,7 +25,7 @@ comment: false
 
 By changing [mplstyle and rcparams](https://matplotlib.org/stable/tutorials/introductory/customizing.html) for matplotlib.
 
-<!-- more -->
+<!--more-->
 
 ## Sauce
 

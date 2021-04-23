@@ -13,7 +13,7 @@ categories: [Julia, Bookmark]
 + [Quantitative economic modelling](https://quantecon.org) lecture series in Julia language, designed and written by Thomas J. Sargent and John Stachurski.
 + [Julia Quant](https://github.com/JuliaQuant) organization
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

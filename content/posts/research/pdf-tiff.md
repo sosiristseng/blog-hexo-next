@@ -25,7 +25,7 @@ comment: false
 
 Using `ghostscript` and `imagemagick` to convert `pdf` files to `tiff` images.
 
-<!-- more -->
+<!--more-->
 
 ## Install GhostScript and ImageMagick
 

@@ -26,7 +26,7 @@ comment: false
 
 Also see [Awesome fonts](https://github.com/brabadu/awesome-fonts).
 
-<!-- more -->
+<!--more-->
 
 ## Where to find fonts
 
