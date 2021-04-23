@@ -1,14 +1,16 @@
 ---
-title: "Bazil 2014 | Determining the origins of superoxide and hydrogen peroxide in the mammalian NADH:ubiquinone oxidoreductase"
+title: "📒 Bazil 2014"
 date: 2020-10-22T17:42:35+08:00
-tags: ["ODE"]
-categories: [ "Mitochondria"]
+tags: ["ODE", "ROS", "enzyme kinetics", "complex 1", "mitochondria"]
+categories: ["Reading"]
 author: "Bazil et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4258523/"
-description: "Determining the origins of superoxide and hydrogen peroxide in the mammalian NADH:ubiquinone oxidoreductase"
+math:
+  enable: true
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5916864)[^Bazil2014]
+> Determining the origins of superoxide and hydrogen peroxide in the mammalian NADH:ubiquinone oxidoreductase[^Bazil2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5916864)
 
 <!--more-->
 

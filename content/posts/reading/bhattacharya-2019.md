@@ -1,12 +1,12 @@
 ---
-title: "Bhattacharya 2019 | Computational modeling of the photon transport, tissue heating, and cytochrome C oxidase absorption during transcranial near-infrared stimulation"
+title: "📒 Bhattacharya 2019"
 date: 2020-10-22T18:22:33+08:00
-tags: ["cytochrome c oxidase"]
-categories: [ "Mitochondria"]
+tags: ["complex 4", "mitochondria"]
+categories: ["Reading"]
 author: "Bhattacharya et al."
-authorLink: "https://www.biorxiv.org/content/10.1101/708362v1"
-description: "Computational modeling of the photon transport, tissue heating, and cytochrome C oxidase absorption during transcranial near-infrared stimulation"
 ---
+
+> Computational modeling of the photon transport, tissue heating, and cytochrome C oxidase absorption during transcranial near-infrared stimulation[^Bhattacharya2019]
 
 <!--more-->
 

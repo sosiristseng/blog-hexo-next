@@ -1,14 +1,14 @@
 ---
-title: "Schlattner 2006 | Mitochondrial creatine kinase in human health and disease"
+title: "📒 Schlattner 2006"
 date: 2020-10-23T00:41:20+08:00
-tags: ["creatine kinase"]
-categories: ["Mitochondria"]
+tags: ["creatine kinase", "mitochondria"]
+categories: ["Reading"]
 author: "Schlattner et al."
-authorLink: "https://www.sciencedirect.com/science/article/pii/S092544390500133X"
-description: "Mitochondrial creatine kinase in human health and disease"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/2540216)[^Schlattner2006]
+> Mitochondrial creatine kinase in human health and disease[^Schlattner2006]
+
+[Sciwheel](https://sciwheel.com/work/#/items/2540216)
 
 <!--more-->
 

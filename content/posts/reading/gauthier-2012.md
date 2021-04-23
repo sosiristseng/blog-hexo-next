@@ -1,14 +1,14 @@
 ---
-title: "Gauthier 2012 | Toward an integrative computational model of the Guinea pig cardiac myocyte"
+title: "📒 Gauthier 2012"
 date: 2020-10-23T00:00:27+08:00
-tags: ["ODE"]
-categories: ["Cardiomyocyte"]
+tags: ["ODE", "cardiomyocyte", "mitochondria"]
+categories: ["Reading"]
 author: "Gauthier et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389778/"
-description: "Toward an integrative computational model of the Guinea pig cardiac myocyte"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/2896538)[^Gauthier2012]
+> Toward an integrative computational model of the Guinea pig cardiac myocyte [^Gauthier2012]
+
+[Sciwheel](https://sciwheel.com/work/#/items/2896538)
 
 <!--more-->
 

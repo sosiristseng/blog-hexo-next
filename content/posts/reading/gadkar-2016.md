@@ -1,14 +1,14 @@
 ---
-title: "Gadkar 2016 | Quantitative systems pharmacology: a promising approach for translational pharmacology"
+title: "📒 Gadkar 2016"
 date: 2020-10-22T23:59:02+08:00
-tags: []
-categories: ["Quantitative systems pharmacology"]
+tags: ["quantitative systems pharmacology"]
+categories: ["Reading", "Review Article"]
 author: "Gadkar et al."
-authorLink: "https://www.sciencedirect.com/science/article/pii/S1740674916300336?via%3Dihub"
-description: "Quantitative systems pharmacology: a promising approach for translational pharmacology"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/4692057).[^Gadkar2016]
+> Quantitative systems pharmacology: a promising approach for translational pharmacology[^Gadkar2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/4692057).
 
 <!--more-->
 

@@ -1,14 +1,14 @@
 ---
-title: "Greenstein 2014 | Modeling CaMKII-mediated regulation of L-type Ca(2+) channels and ryanodine receptors in the heart"
+title: "📒 Greenstein 2014"
 date: 2020-10-23T00:02:56+08:00
-tags: ["CaMKII"]
-categories: [ "Cardiomyocyte"]
+tags: ["CaMKII", "cardiomyocyte"]
+categories: [ "Reading"]
 author: "Greenstein et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3982069"
-description: "Modeling CaMKII-mediated regulation of L-type Ca(2+) channels and ryanodine receptors in the heart"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/2897035).[^Greenstein2014]
+> Modeling CaMKII-mediated regulation of L-type Ca(2+) channels and ryanodine receptors in the heart[^Greenstein2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/2897035).
 
 <!--more-->
 

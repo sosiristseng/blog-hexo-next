@@ -1,14 +1,14 @@
 ---
-title: "Heiske 2017 | Comprehensive mathematical model of oxidative phosphorylation valid for physiological and pathological conditions"
+title: "📒 Heiske 2017"
 date: 2020-10-23T00:05:44+08:00
-tags: ["ODE"]
-categories: ["Mitochondria"]
+tags: ["ODE", "mitochondria"]
+categories: ["Reading"]
 author: "Heiske et al."
-authorLink: "https://febs.onlinelibrary.wiley.com/doi/full/10.1111/febs.14151"
-description: "Comprehensive mathematical model of oxidative phosphorylation valid for physiological and pathological conditions"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5897992)[^Heiske2017]
+> Comprehensive mathematical model of oxidative phosphorylation valid for physiological and pathological conditions[^Heiske2017]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5897992)
 
 
 <!--more-->

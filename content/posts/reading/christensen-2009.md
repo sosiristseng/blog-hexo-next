@@ -1,17 +1,16 @@
 ---
-title: "Christensen 2009 | Oxidized calmodulin kinase II regulates conduction following myocardial infarction: a computational analysis"
+title: "📒 Christensen 2009"
 date: 2020-10-22T18:27:44+08:00
-tags: ["CaMKII"]
-categories: ["Cardiomyocyte"]
+tags: ["CaMKII", "cardiomyocyte", "ROS", "enzyme kinetics"]
+categories: ["Reading"]
 math:
   enable: true
-
 author: "Christensen et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2778128/"
-description: "Oxidized calmodulin kinase II regulates conduction following myocardial infarction: a computational analysis"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/1275580).[^Christensen2009]
+> Oxidized calmodulin kinase II regulates conduction following myocardial infarction: a computational analysis[^Christensen2009]
+
+[Sciwheel](https://sciwheel.com/work/#/items/1275580).
 
 <!--more-->
 

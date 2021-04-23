@@ -1,12 +1,14 @@
 ---
-title: "Benard 2007 | Mitochondrial bioenergetics and structural network organization"
+title: "📒 Benard 2007"
 date: 2020-10-29T16:25:30+08:00
-tags: ["mitochondrial dynamics"]
-categories: ["Mitochondria"]
+tags: ["mitochondrial dynamics", "mitochondria", "ATP"]
+categories: ["Reading"]
 author: "Benard et al."
-authorLink: "https://jcs.biologists.org/content/120/5/838"
-description: "Mitochondrial bioenergetics and structural network organization"
 ---
+
+Mitochondrial bioenergetics and structural network organization[^1]
+
+[^1]: Benard G, Bellance N, James D, Parrone P, Fernandez H, Letellier T, et al. Mitochondrial bioenergetics and structural network organization. J Cell Sci. 2007 Mar 1;120(Pt 5):838–48.
 
 [Sciwheel](https://sciwheel.com/work/#/items/1545618)
 

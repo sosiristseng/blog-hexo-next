@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["jupyter"]
+tags: ["jupyter", "python"]
 categories: ["Python"]
 
 hiddenFromHomePage: false

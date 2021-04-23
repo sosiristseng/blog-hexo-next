@@ -1,16 +1,14 @@
 ---
-title: "Chinopoulos 2011 | Mitochondrial consumption of cytosolic ATP: Not so fast"
+title: "📒 Chinopoulos 2011"
 date: 2020-10-22T18:26:51+08:00
-tags: ["ANT", "ATP synthase"]
-categories: [ "Mitochondria"]
+tags: ["adenine nucleotide translocase", "ATP synthase", "ATP"]
+categories: ["Reading", "Review Article"]
 author: "Chinopoulos C."
-authorLink: 'https://febs.onlinelibrary.wiley.com/doi/full/10.1016/j.febslet.2011.04.004'
-description: "Mitochondrial consumption of cytosolic ATP: Not so fast"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6151263).
+> Mitochondrial consumption of cytosolic ATP: Not so fast[^Chinopoulos2011]
 
-[Article](https://febs.onlinelibrary.wiley.com/doi/full/10.1016/j.febslet.2011.04.004)[^Chinopoulos2011]
+[Sciwheel](https://sciwheel.com/work/#/items/6151263).
 
 <!--more-->
 

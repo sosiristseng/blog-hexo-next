@@ -1,18 +1,16 @@
 ---
-title: "Alberty 2006 | Relations between biochemical thermodynamics and biochemical kinetics"
+title: "📒 Alberty 2006"
 date: 2020-10-22T17:13:03+08:00
-tags: ["thermodynamics", "equlibrium constant"]
-categories: [ "Math"]
+tags: ["enzyme kinetics"]
+categories: ["Reading"]
 math:
   enable: true
 author: "Alberty RA."
-authorLink:
-description:
 ---
 
-Relations between biochemical thermodynamics and biochemical kinetics
+> Relations between biochemical thermodynamics and biochemical kinetics[^Alberty2006]
 
-[Sciwheel](https://sciwheel.com/work/#/items/5673496).[^Alberty2006]
+[Sciwheel](https://sciwheel.com/work/#/items/5673496).
 
 <!--more-->
 

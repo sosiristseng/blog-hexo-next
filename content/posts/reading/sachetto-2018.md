@@ -1,17 +1,16 @@
 ---
-title: "Sachetto 2018 | Performance evaluation of GPU parallelization, space-time adaptive algorithms, and their combination for simulating cardiac electrophysiology"
+title: "📒 Sachetto 2018"
 date: 2020-10-23T00:39:21+08:00
-tags: ["GPU", "electrophysiology"]
-categories: ["Cardiomyocyte"]
+tags: ["GPU", "electrophysiology", "cardiomyocyte"]
+categories: ["Reading", "Review Article"]
 math:
   enable: true
-
 author: "Sachetto et al."
-authorLink: "https://onlinelibrary.wiley.com/doi/full/10.1002/cnm.2913"
-description: "Performance evaluation of GPU parallelization, space-time adaptive algorithms, and their combination for simulating cardiac electrophysiology"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/4898772)[^Sachetto2018]
+> Performance evaluation of GPU parallelization, space-time adaptive algorithms, and their combination for simulating cardiac electrophysiology[^Sachetto2018]
+
+[Sciwheel](https://sciwheel.com/work/#/items/4898772)
 
 <!--more-->
 

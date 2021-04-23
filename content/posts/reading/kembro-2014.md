@@ -1,14 +1,14 @@
 ---
-title: "Kembro 2014 | Complex oscillatory redox dynamics with signaling potential at the edge between normal and pathological mitochondrial function"
+title: "📒 Kembro 2014"
 date: 2020-10-23T00:12:23+08:00
-tags: ["ODE"]
-categories: ["Mitochondria"]
+tags: ["ODE", "mitochondria"]
+categories: ["Reading"]
 author: "Kembro et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4085651/"
-description: "Complex oscillatory redox dynamics with signaling potential at the edge between normal and pathological mitochondrial function"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5616230).[^Kembro2014]
+> Complex oscillatory redox dynamics with signaling potential at the edge between normal and pathological mitochondrial function[^Kembro2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5616230).
 
 <!--more-->
 

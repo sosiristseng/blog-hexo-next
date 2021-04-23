@@ -1,17 +1,17 @@
 ---
-title: "Plank 2008 | From mitochondrial ion channels to arrhythmias in the heart: computational techniques to bridge the spatio-temporal scales"
+title: "📒 Plank 2008"
 date: 2020-10-23T00:34:09+08:00
-tags: ["PDE"]
-categories: ["Mitochondria", ]
+tags: ["PDE", "mitochondria", "cardiomyocyte"]
+categories: ["Reading", "Review Article"]
 math:
   enable: true
 
 author: "Plank et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5818422/"
-description: "From mitochondrial ion channels to arrhythmias in the heart: computational techniques to bridge the spatio-temporal scales"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5042147)[^Plank2008]
+> From mitochondrial ion channels to arrhythmias in the heart: computational techniques to bridge the spatio-temporal scales[^Plank2008]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5042147)
 
 <!--more-->
 

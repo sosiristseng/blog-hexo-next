@@ -1,14 +1,14 @@
 ---
-title: "Zorov 2014 | Mitochondrial Reactive Oxygen Species (ROS) and ROS-Induced ROS Release"
+title: "📒 Zorov 2014"
 date: 2020-10-23T01:05:49+08:00
-tags: ["ROS"]
-categories: ["Mitochondria", "Review"]
+tags: ["ROS", "mitochondria"]
+categories: ["Reading", "Review Article"]
 author: "Zorov et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4101632/"
-description: "Mitochondrial Reactive Oxygen Species (ROS) and ROS-Induced ROS Release"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/1276288)[^Zorov2014]
+> Mitochondrial Reactive Oxygen Species (ROS) and ROS-Induced ROS Release[^Zorov2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/1276288)
 
 <!--more-->
 

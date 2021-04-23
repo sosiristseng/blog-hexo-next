@@ -1,14 +1,14 @@
 ---
-title: "Guillaud 2014 | Superoxide production by cytochrome bc1 complex: a mathematical model"
+title: "📒 Guillaud 2014"
 date: 2020-10-23T00:03:37+08:00
-tags: ["ODE", "bc1 complex"]
-categories: [ "Mitochondria"]
+tags: ["ODE", "complex 3", "ROS", "mitochondria"]
+categories: [ "Reading"]
 author: "Guillaud et al."
-authorLink: "https://www.sciencedirect.com/science/article/pii/S0005272814005076?via%3Dihub"
-description: "Superoxide production by cytochrome bc1 complex: a mathematical model"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5916845)[^Guillaud2014]
+> Superoxide production by cytochrome bc1 complex: a mathematical model[^Guillaud2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5916845)
 
 <!--more-->
 

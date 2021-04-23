@@ -1,12 +1,14 @@
 ---
-title: "Ellinwood 2017 | In Silico Assessment of Efficacy and Safety of IKur Inhibitors in Chronic Atrial Fibrillation: Role of Kinetics and State-Dependence of Drug Binding"
+title: "📒 Ellinwood 2017"
 date: 2020-10-22T23:52:20+08:00
-tags: ["ODE"]
-categories: [ "Cardiomyocyte"]
+tags: ["ODE", "cardiomyocyte", "electrophysiology"]
+categories: ["Reading"]
 author: "Ellinwood et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5681918/"
-description: "In Silico Assessment of Efficacy and Safety of IKur Inhibitors in Chronic Atrial Fibrillation: Role of Kinetics and State-Dependence of Drug Binding"
 ---
+
+> In Silico Assessment of Efficacy and Safety of IKur Inhibitors in Chronic Atrial Fibrillation: Role of Kinetics and State-Dependence of Drug Binding[^1]
+
+[^1]: Ellinwood N, Dobrev D, Morotti S, Grandi E. In Silico Assessment of Efficacy and Safety of IKur Inhibitors in Chronic Atrial Fibrillation: Role of Kinetics and State-Dependence of Drug Binding. Front Pharmacol. 2017 Nov 7;8:799. [PMC5681918](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5681918)
 
 [Sciwheel](https://sciwheel.com/work/#/items/6117352)
 

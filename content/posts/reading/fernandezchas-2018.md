@@ -1,14 +1,14 @@
 ---
-title: "Fernandezchas 2018 | Mechanism of doxorubicin cardiotoxicity evaluated by integrating multiple molecular effects into a biophysical model"
+title: "📒  Fernandezchas 2018"
 date: 2020-10-22T23:57:39+08:00
-tags: ["ODE", "doxorubicin"]
-categories: [ "Cardiomyocyte"]
+tags: ["ODE", "doxorubicin", "cardiomyocyte"]
+categories: ["Reading"]
 author: "Fernandezchas"
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5811623/"
-description: "Mechanism of doxorubicin cardiotoxicity evaluated by integrating multiple molecular effects into a biophysical model"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5413213)[^Fernandez-Chas2018]
+> Mechanism of doxorubicin cardiotoxicity evaluated by integrating multiple molecular effects into a biophysical model[^Fernandez-Chas2018]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5413213)
 
 <!--more-->
 

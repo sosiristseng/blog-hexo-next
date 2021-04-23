@@ -1,14 +1,14 @@
 ---
-title: "Mustroph 2014 | CaMKII regulation of cardiac K channels"
+title: "📒 Mustroph 2014"
 date: 2020-10-23T00:26:39+08:00
-tags: ["CaMKII", "review article"]
-categories: ["Cardiomyocyte"]
+tags: ["CaMKII", "cardiomyocyte"]
+categories: ["Review Article", "Reading"]
 author: "Mustroph et al."
-authorLink: "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3930912"
-description: "CaMKII regulation of cardiac K channels"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6281061)[^Mustroph2014]
+> CaMKII regulation of cardiac K channels[^Mustroph2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6281061)
 
 <!--more-->
 

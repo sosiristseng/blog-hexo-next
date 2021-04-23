@@ -1,14 +1,14 @@
 ---
-title: "Octavia 2012 | Doxorubicin-induced cardiomyopathy: From molecular mechanisms to therapeutic strategies"
+title: "📒 Octavia 2012"
 date: 2020-10-23T00:28:42+08:00
-tags: ["doxorubicin"]
-categories: ["Cardiomyocyte"]
+tags: ["doxorubicin", "cardiomyocyte"]
+categories: ["Reading", "Review Article"]
 author: "Octavia et al."
-authorLink: "https://www.jmmc-online.com/article/S0022-2828(12)00115-0/fulltext"
-description: "Doxorubicin-induced cardiomyopathy: From molecular mechanisms to therapeutic strategies"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/3314818).[^Octavia2012]
+> Doxorubicin-induced cardiomyopathy: From molecular mechanisms to therapeutic strategies[^Octavia2012]
+
+[Sciwheel](https://sciwheel.com/work/#/items/3314818).
 
 <!--more-->
 

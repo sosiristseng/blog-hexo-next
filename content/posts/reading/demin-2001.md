@@ -1,14 +1,14 @@
 ---
-title: "Demin 2001 | Kinetic Modeling of Energy Metabolism and Superoxide Generation in Hepatocyte Mitochondria"
+title: "📒 Demin 2001"
 date: 2020-10-22T23:50:50+08:00
-tags: ["ODE"]
-categories: [ "Mitochondria"]
+tags: ["ODE", "complex 3", "complex 4", "enzyme kinetics", "ROS", "mitochondria"]
+categories: ["Reading"]
 author: "Demin et al."
-authorLink: "http://www.ncbi.nlm.nih.gov/pubmed/11771135"
-description: "Kinetic Modeling of Energy Metabolism and Superoxide Generation in Hepatocyte Mitochondria"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6845471).[^Demin2001]
+> Kinetic Modeling of Energy Metabolism and Superoxide Generation in Hepatocyte Mitochondria[^Demin2001]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6845471).
 
 <!--more-->
 
@@ -23,7 +23,7 @@ description: "Kinetic Modeling of Energy Metabolism and Superoxide Generation in
 ![eqn2-1](https://user-images.githubusercontent.com/40054455/86616823-fdd2f400-bfe8-11ea-806a-69ab15b95ca7.png)
 ![eqn2-2](https://user-images.githubusercontent.com/40054455/86616829-ff042100-bfe8-11ea-9704-f8cb815aa568.png)
 
-![圖片](https://user-images.githubusercontent.com/40054455/94360727-47ac1180-00e2-11eb-85e2-e0e5ab207599.png)
+![](https://user-images.githubusercontent.com/40054455/94360727-47ac1180-00e2-11eb-85e2-e0e5ab207599.png)
 ![](https://user-images.githubusercontent.com/40054455/94360738-5bf00e80-00e2-11eb-90ee-b0ff01e3d4d2.png)
 
 * Any stage including the transfer of an electrical charge through a membrane produces the membrane potential (∆Ψ)

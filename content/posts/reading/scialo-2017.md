@@ -1,14 +1,14 @@
 ---
-title: "Scialo 2017 | Role of mitochondrial reverse electron transport in ROS signaling: potential roles in health and disease"
+title: "📒 Scialo 2017"
 date: 2020-10-23T00:43:02+08:00
-tags: ["ROS", "complex I"]
-categories: ["Mitochondria"]
+tags: ["ROS", "complex 1", "mitochondria"]
+categories: ["Reading"]
 author: "Scialo et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5486155/"
-description: "Role of mitochondrial reverse electron transport in ROS signaling: potential roles in health and disease"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/3932960)[^Scialo2017]
+> Role of mitochondrial reverse electron transport in ROS signaling: potential roles in health and disease[^Scialo2017]
+
+[Sciwheel](https://sciwheel.com/work/#/items/3932960)
 
 <!--more-->
 

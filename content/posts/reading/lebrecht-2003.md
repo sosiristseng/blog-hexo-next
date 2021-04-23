@@ -1,14 +1,14 @@
 ---
-title: "Lebrecht 2003 | Time-dependent and tissue-specific accumulation of mtDNA and respiratory chain defects in chronic doxorubicin cardiomyopathy"
+title: "📒 Lebrecht 2003"
 date: 2020-10-23T00:17:49+08:00
-tags: ["doxorubicin"]
-categories: ["Cardiomyocyte"]
+tags: ["doxorubicin", "cardiomyocyte", "mitochondria"]
+categories: ["Reading"]
 author: "Lebrecht et al."
-authorLink: "https://www.ahajournals.org/doi/10.1161/01.CIR.0000093196.59829.DF"
-description: "Time-dependent and tissue-specific accumulation of mtDNA and respiratory chain defects in chronic doxorubicin cardiomyopathy"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6056483)[^Lebrecht2003]
+> Time-dependent and tissue-specific accumulation of mtDNA and respiratory chain defects in chronic doxorubicin cardiomyopathy[^Lebrecht2003]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6056483)
 
 <!--more-->
 

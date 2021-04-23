@@ -1,14 +1,14 @@
 ---
-title: "Heijman 2016 | Computational models of atrial cellular electrophysiology and calcium handling, and their role in atrial fibrillation"
+title: "📒 Heijman 2016"
 date: 2020-10-23T00:05:07+08:00
-tags: ["ODE"]
-categories: ["Cardiomyocyte"]
+tags: ["ODE", "cardiomyocyte", "electrophysiology"]
+categories: ["Reading"]
 author: "Heijman et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341705/"
-description: "Computational models of atrial cellular electrophysiology and calcium handling, and their role in atrial fibrillation"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/4522998).[^Heijman2016]
+> Computational models of atrial cellular electrophysiology and calcium handling, and their role in atrial fibrillation[^Heijman2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/4522998).
 
 <!--more-->
 

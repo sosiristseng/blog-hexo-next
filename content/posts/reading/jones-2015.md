@@ -1,14 +1,14 @@
 ---
-title: "Jones 2015 | Quantification of the effects of electrical remodeling due to hypertrophic cardiomyopathy on human ventricular electromechanical activity and energetics"
+title: "📒 Jones 2015"
 date: 2020-10-23T00:10:47+08:00
-tags: ["ODE"]
-categories: ["Mitochondria"]
+tags: ["ODE", "mitochondria"]
+categories: ["Reading"]
 author: "Jones et al."
-authorLink: "https://ieeexplore.ieee.org/document/7408685/"
-description: "Quantification of the effects of electrical remodeling due to hypertrophic cardiomyopathy on human ventricular electromechanical activity and energetics"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5949408)[^Jones2015]
+> Quantification of the effects of electrical remodeling due to hypertrophic cardiomyopathy on human ventricular electromechanical activity and energetics[^Jones2015]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5949408)
 
 <!--more-->
 

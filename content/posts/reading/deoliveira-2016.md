@@ -1,14 +1,14 @@
 ---
-title: "Deoliveira 2016 | A biophysical systems approach to identifying the pathways of acute and chronic doxorubicin mitochondrial cardiotoxicity"
+title: "📒 Deoliveira 2016"
 date: 2020-10-22T23:51:33+08:00
-tags: ["ODE"]
-categories: [ "Mitochondria"]
+tags: ["ODE", "mitochondria", "cardiomyocyte", "doxorubicin", "ROS"]
+categories: ["Reading"]
 author: "Deoliveira et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117565/"
-description: "A biophysical systems approach to identifying the pathways of acute and chronic doxorubicin mitochondrial cardiotoxicity"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/3315532)[^DeOliveira2016]
+> A biophysical systems approach to identifying the pathways of acute and chronic doxorubicin mitochondrial cardiotoxicity[^DeOliveira2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/3315532)
 
 <!--more-->
 

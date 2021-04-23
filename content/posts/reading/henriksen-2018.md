@@ -1,14 +1,14 @@
 ---
-title: "Henriksen 2018 | Anthracycline cardiotoxicity: an update on mechanisms, monitoring and prevention"
+title: "📒 Henriksen 2018"
 date: 2020-10-23T00:06:36+08:00
-tags: ["doxorubicin"]
-categories: ["Cardiomyocyte"]
+tags: ["doxorubicin", "cardiomyocyte"]
+categories: ["Reading", "Review Article"]
 author: "Henriksen PA"
-authorLink: "https://heart.bmj.com/content/104/12/971"
-description: "Anthracycline cardiotoxicity: an update on mechanisms, monitoring and prevention"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6049576)[^Henriksen2018]
+> Anthracycline cardiotoxicity: an update on mechanisms, monitoring and prevention[^Henriksen2018]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6049576)
 
 <!--more-->
 

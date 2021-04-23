@@ -1,14 +1,14 @@
 ---
-title: "Jafri 2014 | Modeling Mitochondrial Function and Its Role in Disease"
+title: "📒 Jafri 2014"
 date: 2020-10-23T00:09:22+08:00
-tags: ["ODE"]
-categories: ["Mitochondria"]
+tags: ["ODE", "mitochondria"]
+categories: ["Reading"]
 author: "Jafri et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4219577/"
-description: "Modeling Mitochondrial Function and Its Role in Disease"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/4481383)[^Jafri2014]
+> Modeling Mitochondrial Function and Its Role in Disease[^Jafri2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/4481383)
 
 <!--more-->
 

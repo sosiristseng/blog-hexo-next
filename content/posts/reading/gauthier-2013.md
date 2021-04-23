@@ -1,12 +1,12 @@
 ---
-title: "Gauthier 2013 | An integrated mitochondrial ROS production and scavenging model: implications for heart failure"
+title: "📒 Gauthier 2013"
 date: 2020-10-23T00:01:05+08:00
-tags: ["ODE"]
-categories: ["Mitochondria"]
+tags: ["ODE", "mitochondria", "ROS"]
+categories: ["Reading"]
 author: "Gauthier et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3882515/"
-description: "An integrated mitochondrial ROS production and scavenging model: implications for heart failure"
 ---
+
+> An integrated mitochondrial ROS production and scavenging model: implications for heart failure
 
 From the series of articles:
 
