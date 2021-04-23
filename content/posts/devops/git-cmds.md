@@ -189,6 +189,10 @@ The [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) is a faster a
    git push
    ```
 
+#### Git filter repo
+
+[Git filter-repo](https://github.com/newren/git-filter-repo) is a versatile tool for rewriting history written in a single-file python script.
+
 ### Purge Git database entirely
 
 Erase all history in the Git repo to start over with all the current files. This also clears big file records in the Git database.

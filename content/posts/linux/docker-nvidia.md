@@ -1,7 +1,7 @@
 ---
 title: "Docker container with CUDA"
 date: 2020-10-30T17:18:27+08:00
-tags: ["docker", "cuda", "tensorman", "GPU"]
+tags: ["docker", "cuda", "GPU"]
 categories: ["Linux", "Packages"]
 ---
 

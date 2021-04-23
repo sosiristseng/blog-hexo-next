@@ -4,7 +4,7 @@ date: 2020-10-22T18:26:51+08:00
 tags: ["ANT", "ATP synthase"]
 categories: [ "Mitochondria"]
 author: "Chinopoulos C."
-authorLink: "https://febs.onlinelibrary.wiley.com/doi/full/10.1016/j.febslet.2011.04.004"
+authorLink: 'https://febs.onlinelibrary.wiley.com/doi/full/10.1016/j.febslet.2011.04.004'
 description: "Mitochondrial consumption of cytosolic ATP: Not so fast"
 ---
 

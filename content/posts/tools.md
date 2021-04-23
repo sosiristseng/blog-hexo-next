@@ -1,5 +1,5 @@
 ---
-title: "🔖 Free Tools"
+title: "🔖 Misc Free Tools"
 subtitle: ""
 date: 2021-04-05T23:01:18+08:00
 author: ""
@@ -50,12 +50,3 @@ comment: true
 - [Steam workshop downloader](https://steamworkshopdownloader.io/)
 - [Steam workshop download](http://steamworkshop.download/)
 - [EU4 console command](https://eu4.paradoxwikis.com/Console_commands)
-
-## Editors
-
-- [VS Code](https://code.visualstudio.com/) :: code editor with a variety of extensions.
-- [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) :: IDE for jupyter notebooks, included in the Anaconda Python distribution.
-- [Spyder](https://www.spyder-ide.org/) :: a powerful Python scientific environment IDE, included in the Anaconda Python distribution.
-- [PyCharm](https://www.jetbrains.com/pycharm/) :: a full-fledged IDE.
-- [Typora](https://typora.io) :: Markdown editor.
-- [MarkText](https://marktext.app) :: Simple and Elegant Markdown Editor

@@ -1,6 +1,6 @@
 ---
-title: Solving Differential Equations in Julia
-tags: ["sciml", "julia", "ODE"]
+title: Tips for solving differential equations in Julia
+tags: ["julia", "ODE"]
 categories: ["Julia"]
 comment: false
 math:
@@ -10,126 +10,125 @@ date: 2020-12-21 14:49:52
 
 Thoughts and tips about solving differential equations in Julia using [DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl).
 
+## Also see
+
+- [Official docs](https://diffeq.sciml.ai/stable/) of DifferentialEquations.jl. Also see the [FAQ sections](https://diffeq.sciml.ai/stable/basics/faq/#faq).
+- [Examples](https://github.com/SciML/SciMLTutorials.jl) of DifferentialEquations.jl.
+
 <!--more-->
 
-## Resources
+## How to solve a system of ODEs
 
-- [Official docs](https://diffeq.sciml.ai/stable/) of DifferentialEquations.jl. The [FAQ sections](https://diffeq.sciml.ai/stable/basics/faq/#faq) are worth reading for intermediate users.
-- [Examples](https://github.com/SciML/SciMLTutorials.jl) of DifferentialEquations.jl (some might be outdated, PRs welcome)
+[DifferentialEquations.jl | overview](https://diffeq.sciml.ai/stable/basics/overview/)
 
-## General form of ODE problems
+### Define the problem
 
-From the [overview](https://diffeq.sciml.ai/stable/basics/overview/) of DifferentialEquations.jl.
+ODE function could be one of the two forms:
+
+- `f(u, p, t)`, the out of place form returning `du`.
+- `f!(du, u, p, t)`, the in-place form where `du` is the output.
+
+where
+
+- `u` is the vector of state variable(s), or called dependent variables. (Actually `u` can also be a scalar value in the case of a single state variable)
+- `p` are the parameters for the function, often constants thoughout the solution.
+- `t` is the independent variable, usually time in chemical / physical systems.
+
+For an example, to model the exponential growth / decay $\frac{du}{dt} = pu$ , write the right hand side (RHS) as the ODE function.
 
 ```julia
-# Or the in-place form of f(du, u, params, t) = ...
-f(u, params, t) = ...
-prob = ODEProblem(f, u0, timeSpan, params)
+f(u, p, t) = p*u
+```
+
+And then you can define the problem
+
+```julia
+prob = ODEProblem(f, u0, tspan, p)
 ```
 
 ### Initial conditions
 
-Three forms:
+The initial conditions `u0` could be one of the three forms: (when in doubt, use the first one)
 
-- scalar
-- vector (Mention LabelledArrays)
-- functional form: `u(p, t0)` when returns `u0`, when initial conditions depend on parameters
+- A vector
+- A scalar (if the RHS function takes a scalar `u`)
+- The functional form: `u(p, t0)` returning the initial conditions depending on parameters.
 
 ### Time span
 
-Three forms:
+The time span `ts` could be one of the three forms: (when in doubt, use the first one)
 
-- tuple: `(tstart, tend)`. The ones you'll see in tutorials.
-- single: `tend`, equivalent to `(0, tend)`
-- functional: `t(p)` which returns `(tstart, tend)`, when the time span depends on parameters
+- A tuple: `(tstart, tend)`.
+- A scalar: `tend`, equivalent to `(0, tend)`.
+- functional: `t(p)` which returns `(tstart, tend)`, when the time span depends on parameters.
+
+> The type of timespan matters: Usually you'll want to set timespan to a real number (e.g `1.0`). If you set it to an integer `1`, the Julia solver will try to solve the problem in integers and fractions and exit with `not enought precision` error.
 
 ### Parameters
 
-Parameters (`params`) in the DE problem in DifferentialEquations.jl are optional and liberal.
+Parameters (`p`) in Julia could be tuples, namedtuples, arrays, functions, etc., as long as they could run the RHS function `f(u, params, t)` you wrote.
 
-They could be tuples, namedtuples, arrays, functions, etc. As long as they are compatible with the `f(u, params, t)` you wrote.
+### More on the problem object and interface
 
-### Remaking a problem
+[Problem interface | DiffEq docs](https://diffeq.sciml.ai/stable/basics/problem/#Problem-Interface)
 
-Problem objects are immutable, but you can [remake](https://diffeq.sciml.ai/stable/basics/problem/#Modification-of-problem-types) a problem based on an existing one.
+Problem objects are **immutable**, but you can [remake](https://diffeq.sciml.ai/stable/basics/problem/#Modification-of-problem-types) a problem based on an existing one.
 
-This is useful in [ensemble simulations](https://diffeq.sciml.ai/stable/tutorials/sde_example/#Ensemble-Simulations).
+```julia
+probNew = remake(prob, p=newParameters)
+```
 
-## Discontiuities and numerical instabilities
+`remake()` is extensively used in [ensemble simulations](https://diffeq.sciml.ai/stable/features/ensemble/#ensemble) to vary the fields (e.g. `u0`, `p`) in the problem object.
 
-Taken from a [post](https://discourse.julialang.org/t/handling-instability-when-solving-ode-problems/9019/5) from the Julia forum.
+## Dealing with Discontiuities and numerical instabilities
 
-For example, there is a conditional statement in your model like `k9*X3/(k10*k11/(k12*(1.-min(1.,k13+k14*X5))) + X3)` (notice the `min()` function). Calculating derivatives across this discontiuity might be challenging for the solver.
+From a [post](https://discourse.julialang.org/t/handling-instability-when-solving-ode-problems/9019/5) in the Julia forum.
+
+For example, there is a conditional statement in your model like `k9*X3/(k10*k11/(k12*(1.-min(1.,k13+k14*X5))) + X3)`. Calculating derivatives across this discontiuity caused by `min()` might cause an error in the solver.
 
 ### Option 1: Turn off autodiff to use finite differencing instead
 
-Set `autodiff=false` in the solver, for example:
+Set `autodiff=false` in the solver
+
 ```julia
 sol = solve(prob,Rosenbrock23(autodiff=false))
 sol = solve(prob,Rodas4(autodiff=false))
 ```
 
-Or use `CVODE_BDF` since it uses finite differencing by default.
+Alternativly use `CVODE_BDF` since it uses finite differencing by default.
 
 However, disable autodiff increases the number of evaluation significantly and makes the solver less efficient.
 
 ### Option 2: Replace the discontinuities with smooth functions
 
-Replacing step functions / `min()` / `max()` with `tanh()` or `exp()` increases problem stiffness but it is fine for stiff (implicit) solvers.
+Replace step functions / `min()` / `max()` with `tanh()` or `exp()` for switch-like behavior. This increases problem stiffness but it is efficient for stiff ODE solvers.
 
 ```julia
 smooth_min(x, y, k=10) = (exp(-k * x) + exp(-k * y)) / (exp(x) + exp(y))
-
-smooth_step(v1, v2, t, k=10) = ((v2 - v1) * tanh( k * (x-t) ) + (v1 + v2) ) / 2
-```
-
-### Option 3: Use callbacks to mark discontiuities
-
-Using callbacks may reset the integrator state and make computation more expensive.
-
-```julia
-condition(u,t,integrator) = k13+k14*u[5] - 1
-affect!(integrator) = nothing
-cb = ContinuousCallback(condition,affect!,save_positions=(false,false))
-
-# And then
-sol = solve(prob,Rosenbrock23(autodiff=false), callback=cb)
-sol = solve(prob,Rodas4(autodiff=false), callback=cb)
+	@@ -96,13 +128,21 @@ sol = solve(prob,Rodas4(autodiff=false), callback=cb)
 sol = solve(prob,CVODE_BDF(), callback=cb)
 ```
 
-If the callback discontiuities is large you may want to [propose a smaller `dt`](https://diffeq.sciml.ai/stable/features/callback_functions/#Modifying-the-Stepping-Within-A-Callback) to ensure numerical stability.
+If the discontiuities is large in the callback you might want to [propose a smaller `dt`](https://diffeq.sciml.ai/stable/features/callback_functions/#Modifying-the-Stepping-Within-A-Callback) to ensure numerical stability.
 
-## Plotting
+```julia
+function affect!(integrator)
+    # Do things
+    set_proposed_dt!(integrator, 0.01)
+end
+```
 
-You can pass more options for the DifferentialEquations.jl solution to the `plot()` function thanks to Plot Recipes
+## Plotting solutions
 
-- `vars` : [Choosing](https://diffeq.sciml.ai/stable/basics/plot/#plot_vars) which state variable(s) to plot by passing `vars` to `plot()` function. Functions dependent on the state variables are also suported.
+You can pass more options for the DifferentialEquations.jl solution to the `plot()` function thanks to Plot recipes.
+
+- `vars` : [Choosing](https://diffeq.sciml.ai/stable/basics/plot/#plot_vars) which variable(s) to plot by passing `vars` to `plot()` function. Functions dependent on the state variables are also suported.
   ```julia
   f(x,y,z) = (sqrt(x^2+y^2+z^2),x)
   plot(sol,vars=(f,1,2,3))
-  ```
-- `tspan`: [Limiting the time span](https://diffeq.sciml.ai/stable/basics/plot/#Timespan) of solution by passing `tspan = (tstart, tend)` to `plot()`.
-
-
-### Working without the Plot recipe
-
-For example, you are using PyPlot.jl (matplotlib) exclusively for the plotting.
-
-```julia
-# Plot all time series, without interpolation (may look ugly)
-plt.plot(sol.t,sol')
-
-# The interpolation must be done manually
-ts = 0.0:0.0001:1.0
-
-# Plot a phase plot
-plt.plot(sol(ts,idxs=i),sol(ts,idxs=j),sol(ts,idxs=k))
-```
+	@@ -127,8 +167,6 @@ plt.plot(sol(ts,idxs=i),sol(ts,idxs=j),sol(ts,idxs=k))
 
 ## Cooperations with other packages
-
-TBD
 
 - [Agents.jl](https://juliadynamics.github.io/Agents.jl/stable/) with [integration with DiffEq](https://juliadynamics.github.io/Agents.jl/stable/examples/diffeq/)
 - [DiffEqFlux](https://diffeqflux.sciml.ai/stable/): Neural Networks + Differential Equations
