@@ -44,7 +44,6 @@ categories: [Julia, Bookmark]
 + 🏚️ [mvc-skeleton.jl](https://github.com/halla/mvc-skeleton.jl)
 + 🏚️ [OpenFiscaWebApi.jl](https://github.com/openfisca/OpenFiscaWebApi.jl) :: A port of OpenFisca-Web-API to Julia. This is the web API for the OpenFisca website.
 + 🏚️ [Pythia.jl](https://github.com/Keno/Pythia.jl) :: Julia wrappers for the Pythia event generator.
-+ 🏚️ [skeleton-webapp.jl](https://bitbucket.org/jocklawrie/skeleton-webapp.jl) :: This repo contains a simple self-contained web application written in Julia that data scientists can adapt to their own needs.
 + 🏚️ [RoR_julia_eg](https://github.com/Ken-B/RoR_julia_eg) :: An example of Ruby on Rails (RoR) web app with Julia link through ZMQ.
 
 ## Middleware
@@ -116,10 +115,6 @@ categories: [Julia, Bookmark]
 
 + [SMTPClient.jl](https://github.com/JuliaWeb/SMTPClient.jl) :: An SMTP client to send emails from Julia.
 + 🏚️ [Mandrill.jl](https://github.com/aviks/Mandrill.jl) :: Mandrill API in Julia.
-
-## Web integrated development environment (Web-IDE)
-
-See [Development | Web IDE](developement.md#web-ide)
 
 ## Static site generators
 
