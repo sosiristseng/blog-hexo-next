@@ -12,7 +12,6 @@ categories: [Julia, Bookmark]
 
 ## See also
 
-- [File IO](datascience.md) section for saving / loading files.
 - [Julia ML](https://github.com/JuliaML)
 - [Julia Data](https://github.com/JuliaData)
 - [Julia Databases](https://github.com/JuliaDatabases) organization.

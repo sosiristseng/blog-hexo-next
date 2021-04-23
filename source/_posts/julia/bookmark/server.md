@@ -8,6 +8,8 @@ categories: [Julia, Bookmark]
 
 > Interface for generic external servers, web framework, ...[^1]
 
+[^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.
+
 ## See also
 
 - [Julia Web](https://github.com/JuliaWeb) organization
@@ -60,6 +62,7 @@ categories: [Julia, Bookmark]
 + [DandelionWebSockets.jl](https://github.com/dandeliondeathray/DandelionWebSockets.jl) :: A Julia package for client side WebSockets.
 + [IPNets.jl](https://github.com/JuliaWeb/IPNets.jl) :: IPv4 / IPv6 network abstractions for Julia.
 + [LogParser.jl](https://github.com/randyzwitch/LogParser.jl) :: A package for parsing server logs. Currently, only server logs having the Apache Combined format are supported (although Apache Common may parse as well).
++ [Rate Limiter.jl](https://github.com/chipkent/RateLimiter.jl) :: Julia package for limiting the rate at which events occur.
 + [TimeZones.jl](https://github.com/JuliaTime/TimeZones.jl) : Olsen Timezone Database Access for the Julia Programming Language.
 + 🏚️ [Dates.jl](https://github.com/quinnj/Dates.jl) :: A Date and DateTime implementation for Julia. Merged into the Base Standard Library
 + 🏚️ [Juliaflow](https://github.com/pchronz/juliaflow) :: A controller for software-defined networking (SDN) that implements the OpenFlow Controller Specification 1.0.0
@@ -67,6 +70,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [Pcap.jl](https://github.com/JuliaIO/Pcap.jl) :: Libpcap implementation for Julia language. (No `Project.toml`)
 + 🏚️ [StatsdClient.jl](https://github.com/forio/StatsdClient.jl) :: A simple Julia implementation of a statsd client.
 + 🏚️ [UUID.jl](https://github.com/forio/UUID.jl) :: A universally unique identifier (UUID) is an identifier standard, are 128 bits long, and require no central registration process. UUID functionality has been merged into Julia 0.4.
+
 
 ## Security
 
@@ -121,6 +125,3 @@ categories: [Julia, Bookmark]
 + [Franklin.jl](https://github.com/tlienart/Franklin.jl) for static site generation with live Julia code evaulation. [Examples](https://github.com/tlienart/Franklin.jl#docs).
 + [PkgPage.jl](https://tlienart.github.io/PkgPage.jl/) for (package) front-pages, powered by `Franklin.jl`.
 + [Franklin.jl](https://github.com/tlienart/Franklin.jl) :: static site generator in Julia. [Templates](https://github.com/tlienart/FranklinTemplates.jl).
-
-
-[^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.
