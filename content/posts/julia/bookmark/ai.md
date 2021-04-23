@@ -15,7 +15,7 @@ categories: [Julia, Bookmark]
 
 - [Julia ML](https://juliaml.github.io) organization.
 
-<!-- more -->
+<!--more-->
 
 ## Machine Learning and Neural Networks
 

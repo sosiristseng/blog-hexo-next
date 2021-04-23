@@ -1,14 +1,14 @@
 ---
-title: "Igamberdiev 2015 | Optimization of ATP synthase function in mitochondria and chloroplasts via the adenylate kinase equilibrium"
+title: "📒 Igamberdiev 2015"
 date: 2020-10-23T00:08:08+08:00
-tags: []
-categories: ["Mitochondria"]
+tags: ["mitochondria", "ATP synthase"]
+categories: ["Reading"]
 author: "Igamberdiev et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4309032/"
-description: "Optimization of ATP synthase function in mitochondria and chloroplasts via the adenylate kinase equilibrium"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6119195).[^Igamberdiev2015]
+> Optimization of ATP synthase function in mitochondria and chloroplasts via the adenylate kinase equilibrium[^Igamberdiev2015]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6119195).
 
 <!--more-->
 

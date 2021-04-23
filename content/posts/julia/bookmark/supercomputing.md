@@ -18,7 +18,7 @@ categories: [Julia, Bookmark]
 - [Julia Folds](https://github.com/JuliaFolds)
 - [Julia Cloud](https://github.com/JuliaCloud)
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

@@ -18,7 +18,7 @@ categories: [Julia, Bookmark]
 - [Julia stats](https://github.com/JuliaStats)
 - [Julia-data-science](https://github.com/tirthajyoti/Julia-data-science) :: Notebooks on DS basics with Julia and why it is suitable for data science.
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

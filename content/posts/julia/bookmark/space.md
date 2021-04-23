@@ -15,7 +15,7 @@ categories: [Julia, Bookmark]
 - [Julia space](https://github.com/JuliaSpace)
 - [Julia Astro](https://github.com/juliaastro)
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

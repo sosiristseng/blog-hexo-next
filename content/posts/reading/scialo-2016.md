@@ -1,12 +1,12 @@
 ---
-title: "Scialo 2016 | Mitochondrial ROS Produced via Reverse Electron Transport Extend Animal Lifespan"
+title: "📒 Scialo 2016"
 date: 2020-10-23T00:42:17+08:00
-tags: ["ROS", "complex I"]
-categories: ["Mitochondria"]
+tags: ["ROS", "complex 1", "mitochondria"]
+categories: ["Reading"]
 author: "Scialo et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4835580/"
-description: "Mitochondrial ROS Produced via Reverse Electron Transport Extend Animal Lifespan"
 ---
+
+> Mitochondrial ROS Produced via Reverse Electron Transport Extend Animal Lifespan
 
 [Sciwheel](https://sciwheel.com/work/#/items/1376463)[^Scialo2016]
 

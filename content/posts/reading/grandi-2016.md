@@ -1,14 +1,14 @@
 ---
-title: "Grandi 2016 | Anti-arrhythmic strategies for atrial fibrillation: The role of computational modeling in discovery, development, and optimization"
+title: "📒 Grandi 2016"
 date: 2020-10-23T00:02:00+08:00
-tags: []
-categories: [ "Cardiomyocyte"]
+tags: ["cardiomyocyte", "electrophysiology"]
+categories: ["Reading"]
 author: "Grandi et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5140742/"
-description: "Anti-arrhythmic strategies for atrial fibrillation: The role of computational modeling in discovery, development, and optimization"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6117351)[^Grandi2016]
+> Anti-arrhythmic strategies for atrial fibrillation: The role of computational modeling in discovery, development, and optimization[^Grandi2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6117351)
 
 <!--more-->
 

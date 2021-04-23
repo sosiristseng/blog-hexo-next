@@ -13,7 +13,7 @@ categories: [Julia, Bookmark]
 - [JuliaAudio](https://github.com/JuliaAudio)
 - [JuliaMusic](https://github.com/JuliaMusic)
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

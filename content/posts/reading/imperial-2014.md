@@ -1,14 +1,14 @@
 ---
-title: "Imperial 2014 | Enzyme kinetic equations of irreversible and reversible reactions in metabolism."
+title: "📒 Imperial 2014"
 date: 2020-10-23T00:08:47+08:00
 tags: ["enzyme kinetics"]
-categories: [ "Math"]
+categories: [ "Reading"]
 author: "Imperial S, Centelles JJ"
-authorLink: "https://www.scirp.org/journal/paperinformation.aspx?paperid=46743"
-description: "Enzyme kinetic equations of irreversible and reversible reactions in metabolism"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6173040)[^Imperial2014]
+> Enzyme kinetic equations of irreversible and reversible reactions in metabolism[^Imperial2014]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6173040)
 
 <!--more-->
 

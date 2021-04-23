@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [tiff, devops, research]
+tags: [tiff, devops]
 categories: [Research]
 
 hiddenFromHomePage: false
@@ -25,7 +25,7 @@ comment: false
 
 Using `ghostscript` and `imagemagick` to convert `pdf` files to `tiff` images.
 
-<!-- more -->
+<!--more-->
 
 ## Install GhostScript and ImageMagick
 

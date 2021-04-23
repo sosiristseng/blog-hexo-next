@@ -21,7 +21,7 @@ categories: [Julia, Bookmark]
 - [Julia sparse](https://github.com/JuliaSparse)
 - [Julia DSP](https://github.com/JuliaDSP).
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

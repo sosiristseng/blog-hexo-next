@@ -19,7 +19,7 @@ categories: [Julia, Bookmark]
 + [Julia Server Status](http://status.julialang.org/) :: Status page for services hosted by JuliaLang.
 + [Julia Packaging](https://github.com/JuliaPackaging) organization.
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

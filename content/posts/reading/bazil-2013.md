@@ -1,14 +1,16 @@
 ---
-title: "Bazil 2013 | Catalytic coupling of oxidative phosphorylation, ATP demand, and reactive oxygen species generation"
+title: "📒 Bazil 2013"
 date: 2020-10-22T17:36:38+08:00
-tags: ["ODE", "ROS"]
-categories: [ "Mitochondria"]
+tags: ["ODE", "ROS", "complex 3", "ATP", "mitochondria", "enzyme kinetics"]
+categories: [ "Reading"]
 author: "Bazil et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3714890/"
-description: "Catalytic coupling of oxidative phosphorylation, ATP demand, and reactive oxygen species generation"
+math:
+  enable: true
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5931055)[^Bazil2013]
+> Catalytic coupling of oxidative phosphorylation, ATP demand, and reactive oxygen species generation[^Bazil2013]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5931055)
 
 <!--more-->
 

@@ -12,7 +12,7 @@ Julia interoperativity with other programming languages.[^1]
 
 - [JuliaInterop](https://github.com/JuliaInterop) organization.
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

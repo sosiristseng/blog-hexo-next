@@ -1,8 +1,8 @@
 ---
-title: "Summary | Mathematical models of the MCU and NCLX"
+title: "📒 Mathematical models of the MCU and NCLX: a summary"
 date: 2020-10-23T00:49:23+08:00
-tags: ["calcium"]
-categories: ["Summary"]
+tags: ["calcium", "MCU", "NCX"]
+categories: ["Reading", "Reading Summary"]
 math:
   enable: true
 ---

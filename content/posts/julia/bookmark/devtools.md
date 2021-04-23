@@ -17,7 +17,7 @@ categories: [Julia, Bookmark]
 - [Julia official documentation](https://docs.julialang.org)
 - [Julia editor suport](https://github.com/JuliaEditorSupport)
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

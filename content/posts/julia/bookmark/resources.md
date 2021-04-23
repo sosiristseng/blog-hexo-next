@@ -11,7 +11,7 @@ categories: [Julia, Bookmark]
 
 [^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.
 
-<!-- more -->
+<!--more-->
 
 ## Julia tutorials
 

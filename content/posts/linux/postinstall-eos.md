@@ -196,6 +196,8 @@ Use `pikaur -S <pkgname>`
 
 ### VirtualBox
 
+From [VirtualBox@eos](https://endeavouros.com/docs/applications/how-to-install-virtualbox/)
+
 Install the packages and add your username to the `vbox` group.
 
 ```bash

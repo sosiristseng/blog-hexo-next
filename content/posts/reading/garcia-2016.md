@@ -1,12 +1,12 @@
 ---
-title: "Garcia 2016 | The ATPase Inhibitory Factor 1 (IF1): A master regulator of energy metabolism and of cell survival"
+title: "📒 Garcia 2016"
 date: 2020-10-22T23:59:40+08:00
-tags: ["ATP synthase"]
-categories: ["Mitochondria"]
+tags: ["ATP synthase", "ATP", "mitochondria"]
+categories: ["Reading", "Review Article"]
 author: "Garcia et al."
-authorLink: "https://www.sciencedirect.com/science/article/pii/S0005272816300238?via%3Dihub"
-description: "The ATPase Inhibitory Factor 1 (IF1): A master regulator of energy metabolism and of cell survival"
 ---
+
+> The ATPase Inhibitory Factor 1 (IF1): A master regulator of energy metabolism and of cell survival
 
 [Sciwheel](https://sciwheel.com/work/#/items/1458244)[^Garcia2016]
 

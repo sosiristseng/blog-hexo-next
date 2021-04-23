@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: []
+tags: ["bookmark", "tool"]
 categories: ["Bookmark"]
 
 hiddenFromHomePage: false
@@ -34,7 +34,6 @@ comment: true
 ## Online math tools
 
 - [☁️ Desmos graphing calculator](https://www.desmos.com/calculator)
-- [☁️ endmemo](http://www.endmemo.com/index.php)
 - [☁️ Geogebra](https://www.geogebra.org/?lang=en)
 
 ## Documents, slides, diagrams

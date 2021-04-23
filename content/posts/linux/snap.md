@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["snap"]
+tags: ["linux"]
 categories: ["Linux", "Packages"]
 
 hiddenFromHomePage: false

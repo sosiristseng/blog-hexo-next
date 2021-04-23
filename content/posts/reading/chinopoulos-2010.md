@@ -1,17 +1,17 @@
 ---
-title: "Chinopoulos 2010 | Forward operation of adenine nucleotide translocase during F0F1-ATPase reversal: critical role of matrix substrate-level phosphorylation"
+title: "📒 Chinopoulos 2010"
 date: 2020-10-22T18:26:01+08:00
-tags: ["ANT", "ATP synthase"]
-categories: [ "Mitochondria"]
+tags: ["adenine nucleotide translocase", "ATP synthase", "ATP"]
+categories: ["Reading"]
 math:
   enable: true
 
 author: "Chinopoulos et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2887268/"
-description: "Forward operation of adenine nucleotide translocase during F0F1-ATPase reversal: critical role of matrix substrate-level phosphorylation"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/1605967).[^Chinopoulos2010]
+> Forward operation of adenine nucleotide translocase during F0F1-ATPase reversal: critical role of matrix substrate-level phosphorylation[^Chinopoulos2010]
+
+[Sciwheel](https://sciwheel.com/work/#/items/1605967).
 
 <!--more-->
 

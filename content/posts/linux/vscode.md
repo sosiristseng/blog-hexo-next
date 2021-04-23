@@ -1,7 +1,7 @@
 ---
 title: "VS Code"
 date: 2020-10-22T15:57:43+08:00
-tags: ["developement"]
+tags: ["linux"]
 categories: ["Linux", "Packages"]
 comment: true
 ---
@@ -10,7 +10,7 @@ VS Code: [Code editing. Redefined](https://code.visualstudio.com/)
 
 <!--more-->
 
-### Install via apt
+## Install via apt
 
 1. [download](https://code.visualstudio.com/) and install the `deb` file
 2. or manually setup its repo,
@@ -22,7 +22,7 @@ echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" 
 sudo apt update && sudo apt install code
 ```
 
-### Install via AUR
+## Install via AUR
 
 ```bash
 paru -S visual-studio-code-bin
@@ -34,7 +34,7 @@ and then set the environment variable in `~/.profile` or `~/.zshenv`:
 export ELECTRON_TRASH=gio
 ```
 
-### Install via snap
+## Install via snap
 
 ```bash
 sudo snap install code --classic

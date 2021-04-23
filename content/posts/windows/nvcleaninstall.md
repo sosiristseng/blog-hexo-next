@@ -25,7 +25,7 @@ comment: false
 
 Install nvidia GPU driver without bloat. Use [nvcleaninstall][] to choose the driver components you need.
 
-<!-- more -->
+<!--more-->
 
 [Youtube link](https://youtu.be/LR1XkjtylCM)
 

@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["input method", "ibus", "fcitx"]
+tags: ["input method"]
 categories: ["Linux", "Packages"]
 
 hiddenFromHomePage: false

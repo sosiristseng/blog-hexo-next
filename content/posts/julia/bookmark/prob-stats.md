@@ -15,7 +15,7 @@ categories: [Julia, Bookmark]
 - [📖 Probability](https://en.wikipedia.org/wiki/Probability_theory) in Wikipedia.
 - [Julia stats](https://github.com/JuliaStats) organization.
 
-<!-- more -->
+<!--more-->
 
 ## Probabilistic programming
 

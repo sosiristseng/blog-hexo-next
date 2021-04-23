@@ -1,15 +1,16 @@
 ---
-title: "Felmlee 2013 | Mechanism-based pharmacodynamic modeling"
+title: "📒 Felmlee 2013"
 date: 2020-10-22T23:52:58+08:00
-tags: []
-categories: ["Quantitative systems pharmacology"]
+tags: ["quantitative systems pharmacology", "enzyme kinetics"]
+categories: ["Reading"]
 math:
   enable: true
-
 author: "Felmlee et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3684160/"
-description: "Mechanism-based pharmacodynamic modeling"
 ---
+
+> Mechanism-based pharmacodynamic modeling[^1]
+
+[^1]: Felmlee MA, Morris ME, Mager DE. Mechanism-based pharmacodynamic modeling. Methods Mol Biol. 2012;929:583–600. [PMC3684160](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3684160)
 
 [Sciwheel](https://sciwheel.com/work/#/items/5848333)
 

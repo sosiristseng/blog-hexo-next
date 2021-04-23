@@ -1,14 +1,14 @@
 ---
-title: "Jastroch 2010 | Mitochondrial proton and electron leaks"
+title: "📒 Jastroch 2010"
 date: 2020-10-23T00:10:08+08:00
-tags: []
-categories: ["Mitochondria"]
+tags: ["ROS", "Mitochondria"]
+categories: ["Reading"]
 author: "Jastroch et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3122475/"
-description: "Mitochondrial proton and electron leaks"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/963740)[^Jastroch2010]
+> Mitochondrial proton and electron leaks[^Jastroch2010]
+
+[Sciwheel](https://sciwheel.com/work/#/items/963740)
 
 <!--more-->
 

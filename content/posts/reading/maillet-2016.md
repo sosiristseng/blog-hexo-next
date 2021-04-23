@@ -1,14 +1,14 @@
 ---
-title: "Maillet 2016 | Modeling Doxorubicin-Induced Cardiotoxicity in Human Pluripotent Stem Cell Derived-Cardiomyocytes"
+title: "📒 Maillet 2016"
 date: 2020-10-23T00:21:14+08:00
-tags: ["doxorubicin"]
-categories: ["Mitochondria"]
+tags: ["doxorubicin", "mitochondria", "cardiomyocyte"]
+categories: ["Reading"]
 author: "Maillet et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4855185/"
-description: "Modeling Doxorubicin-Induced Cardiotoxicity in Human Pluripotent Stem Cell Derived-Cardiomyocytes"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/3609994).[^Maillet2016]
+> Modeling Doxorubicin-Induced Cardiotoxicity in Human Pluripotent Stem Cell Derived-Cardiomyocytes[^Maillet2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/3609994).
 
 <!--more-->
 

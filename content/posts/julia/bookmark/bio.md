@@ -16,7 +16,7 @@ categories: [Julia, Bookmark]
 - [EcoJulia](https://ecojulia.org).
 - [Julia Health](https://juliahealth.org)
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

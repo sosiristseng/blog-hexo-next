@@ -1,17 +1,16 @@
 ---
-title: "Nivala 2010 | Linking flickering to waves and whole-cell oscillations in a mitochondrial network model"
+title: "📒 Nivala 2010"
 date: 2020-10-23T00:27:15+08:00
-tags: ["ODE", "ROS"]
-categories: ["Mitochondria"]
+tags: ["ODE", "ROS", "mitochondria"]
+categories: ["Reading"]
 math:
   enable: true
-
-author: Nivala et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3207179/"
-description: "Linking flickering to waves and whole-cell oscillations in a mitochondrial network model"
+author: "Nivala et al."
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/1240136)[^Nivala2011]
+> Linking flickering to waves and whole-cell oscillations in a mitochondrial network model[^Nivala2011]
+
+[Sciwheel](https://sciwheel.com/work/#/items/1240136)
 
 <!--more-->
 

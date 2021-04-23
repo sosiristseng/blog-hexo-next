@@ -16,7 +16,7 @@ categories: [Julia, Bookmark]
 - [Julia Geo](https://github.com/JuliaGeo)
 - [Julia earth](https://github.com/JuliaEarth)
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

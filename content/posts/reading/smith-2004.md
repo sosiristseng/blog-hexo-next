@@ -1,14 +1,14 @@
 ---
-title: "Smith 2004 | Development of models of active ion transport for whole-cell modelling: cardiac sodium-potassium pump as a case study"
+title: "📒 Smith 2004"
 date: 2020-10-23T00:44:58+08:00
-tags: []
-categories: ["Cardiomyocyte"]
+tags: ["cardiomyocyte", "enzyme kinetics"]
+categories: ["Reading"]
 author: "Smith et al."
-authorLink: "https://www.sciencedirect.com/science/article/pii/S0079610704000215?via%3Dihub"
-description: "Development of models of active ion transport for whole-cell modelling: cardiac sodium-potassium pump as a case study"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6173790)[^Smith2004]
+> Development of models of active ion transport for whole-cell modelling: cardiac sodium-potassium pump as a case study[^Smith2004]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6173790)
 
 <!--more-->
 

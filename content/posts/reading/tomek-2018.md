@@ -1,14 +1,14 @@
 ---
-title: "Tomek 2018 | Modulation of Cardiac Alternans by Altered Sarcoplasmic Reticulum Calcium Release: A Simulation Study"
+title: "📒 Tomek 2018"
 date: 2020-10-23T00:51:45+08:00
-tags: ["ODE"]
-categories: ["Cardiomyocyte"]
+tags: ["ODE", "cardiomyocyte", "calcium"]
+categories: ["Reading"]
 author: "Tomek et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6156530/"
-description: "Modulation of Cardiac Alternans by Altered Sarcoplasmic Reticulum Calcium Release: A Simulation Study"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/5857174)[^Tomek2018]
+> Modulation of Cardiac Alternans by Altered Sarcoplasmic Reticulum Calcium Release: A Simulation Study[^Tomek2018]
+
+[Sciwheel](https://sciwheel.com/work/#/items/5857174)
 
 <!--more-->
 

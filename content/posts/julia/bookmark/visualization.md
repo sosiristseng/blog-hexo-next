@@ -14,7 +14,7 @@ categories: [Julia, Bookmark]
 
 - [Julia Plots](https://github.com/JuliaPlots)
 
-<!-- more -->
+<!--more-->
 
 ## Packages
 

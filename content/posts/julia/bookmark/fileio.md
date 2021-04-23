@@ -17,7 +17,7 @@ categories: [Julia, Bookmark]
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.
 
-<!-- more -->
+<!--more-->
 
 ## General IO
 
@@ -124,7 +124,7 @@ Julia itself can [read / write TOML files](https://docs.julialang.org/en/v1/stdl
 
 [Document Processors](https://en.wikipedia.org/wiki/Document_processor) for Word, Excel, PDF files.
 
-For Document Generators, see [Development tools | documentation](developement.md#documentation).
+For Document Generators, see `Development tools | documentation`.
 
 + [ConfParser.jl](https://github.com/templarlabs/ConfParser.jl) :: Package for parsing configuration files utilizing ini, http, and simple configuration syntaxes.
 + [ExcelReaders.jl](https://github.com/davidanthoff/ExcelReaders.jl) :: A package that provides functionality to read Excel files.

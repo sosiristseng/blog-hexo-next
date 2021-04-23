@@ -1,17 +1,16 @@
 ---
-title: "Chiba 2008 | A simulation study on the activation of cardiac CaMKII delta-isoform and its regulation by phosphatases"
+title: "📒 Chiba 2008"
 date: 2020-10-22T18:23:58+08:00
-tags: ["CaMKII"]
-categories: [ "Cardiomyocyte"]
+tags: ["CaMKII", "cardiomyocyte", "enzyme kinetics"]
+categories: ["Reading"]
 math:
   enable: true
-
 author: "Chiba et al."
-authorLink: "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2517018"
-description: "A simulation study on the activation of cardiac CaMKII delta-isoform and its regulation by phosphatases"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/257440).[^Chiba2008]
+> A simulation study on the activation of cardiac CaMKII delta-isoform and its regulation by phosphatases[^Chiba2008]
+
+[Sciwheel](https://sciwheel.com/work/#/items/257440).
 
 <!--more-->
 

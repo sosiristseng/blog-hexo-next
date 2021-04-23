@@ -1,14 +1,16 @@
 ---
-title: "Bazil 2010 | Modeling mitochondrial bioenergetics with integrated volume dynamics"
+title: "📒 Bazil 2010"
 date: 2020-10-22T17:35:32+08:00
-tags: ["ODE"]
-categories: [ "Mitochondria"]
+tags: ["ODE", "mitochondria", "citric acid cycle"]
+categories: ["Reading"]
 author: "Bazil et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2793388/"
-description: "Modeling mitochondrial bioenergetics with integrated volume dynamics"
+math:
+  enable: true
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/2896723).[^Bazil2010]
+> Modeling mitochondrial bioenergetics with integrated volume dynamics[^Bazil2010]
+
+[Sciwheel](https://sciwheel.com/work/#/items/2896723)
 
 <!--more-->
 

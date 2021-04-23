@@ -16,7 +16,7 @@ categories: [Julia, Bookmark]
 - [Julia embedded](https://github.com/Julia-Embedded)
 - [Julia berry](https://github.com/JuliaBerry)
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.

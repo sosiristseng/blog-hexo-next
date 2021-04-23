@@ -1,14 +1,14 @@
 ---
-title: "Mullins 2013 | A Mathematical Model of the Mouse Ventricular Myocyte Contraction"
+title: "📒 Mullins 2013"
 date: 2020-10-23T00:26:01+08:00
-tags: ["ODE"]
-categories: ["Cardiomyocyte"]
+tags: ["ODE", "cardiomyocyte"]
+categories: ["Reading"]
 author: "Mullins et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3650013/"
-description: "A Mathematical Model of the Mouse Ventricular Myocyte Contraction"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/6000123)[^Mullins2013]
+> A Mathematical Model of the Mouse Ventricular Myocyte Contraction[^Mullins2013]
+
+[Sciwheel](https://sciwheel.com/work/#/items/6000123)
 
 <!--more-->
 

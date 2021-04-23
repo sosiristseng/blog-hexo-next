@@ -1,14 +1,14 @@
 ---
-title: "Zhang 2016 | Multi-scale Modeling of the Cardiovascular System: Disease Development, Progression, and Clinical Intervention"
+title: "📒 Zhang 2016"
 date: 2020-10-23T01:00:24+08:00
-tags: []
-categories: ["Cardiomyocyte"]
+tags: ["cardiomyocyte"]
+categories: ["Reading", "Review Article"]
 author: "Zhang et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983486/"
-description: "Multi-scale Modeling of the Cardiovascular System: Disease Development, Progression, and Clinical Intervention"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/4023939)[^Zhang2016]
+> Multi-scale Modeling of the Cardiovascular System: Disease Development, Progression, and Clinical Intervention[^Zhang2016]
+
+[Sciwheel](https://sciwheel.com/work/#/items/4023939)
 
 <!--more-->
 

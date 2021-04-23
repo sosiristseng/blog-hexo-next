@@ -1,16 +1,18 @@
 ---
-title: "Barros 2012 | Simulations of Complex and Microscopic Models of Cardiac Electrophysiology Powered by Multi-GPU Platforms"
-description: "Simulations of Complex and Microscopic Models of Cardiac Electrophysiology Powered by Multi-GPU Platforms"
+title: "📒 Barros 2012"
+description: ""
 date: 2020-10-22T17:30:10+08:00
-tags: ["GPU", "electrophysiology"]
-categories: [ "Cardiomyocyte"]
+tags: ["GPU", "electrophysiology", "cardiomyocyte"]
+categories: ["Reading"]
 math:
   enable: true
 author: "Barros et al."
 authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3512298/"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/4891049).[^Barros2012]
+> Simulations of Complex and Microscopic Models of Cardiac Electrophysiology Powered by Multi-GPU Platforms[^Barros2012]
+
+[Sciwheel](https://sciwheel.com/work/#/items/4891049).
 
 <!--more-->
 

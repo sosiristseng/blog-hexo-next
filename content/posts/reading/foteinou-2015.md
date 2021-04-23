@@ -1,14 +1,14 @@
 ---
-title: "Foteinou 2015 | Mechanistic investigation of the arrhythmogenic role of oxidized camkii in the heart"
+title: "📒 Foteinou 2015"
 date: 2020-10-22T23:58:20+08:00
-tags: ["ODE", "CaMKII"]
-categories: [ "Cardiomyocyte"]
+tags: ["ODE", "CaMKII", "electrophysiology", "cardiomyocyte"]
+categories: [ "Reading"]
 author: "Foteinou et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547162/"
-description: "Mechanistic investigation of the arrhythmogenic role of oxidized camkii in the heart"
 ---
 
-[Sciwheel](https://sciwheel.com/work/#/items/4933405)[^Foteinou2015]
+> Mechanistic investigation of the arrhythmogenic role of oxidized camkii in the heart[^Foteinou2015]
+
+[Sciwheel](https://sciwheel.com/work/#/items/4933405)
 
 <!--more-->
 

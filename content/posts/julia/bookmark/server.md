@@ -15,7 +15,7 @@ categories: [Julia, Bookmark]
 - [Julia Web](https://github.com/JuliaWeb) organization
 
 
-<!-- more -->
+<!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.
