@@ -1,7 +1,7 @@
 ---
 title: "diff and patch"
 date: 2020-10-23T16:11:16+08:00
-tags: ["diff", "patch", "linux"]
+tags: ["linux"]
 categories: ["Linux"]
 comment: false
 ---

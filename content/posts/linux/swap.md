@@ -1,7 +1,7 @@
 ---
 title: "Setting up swap"
 date: 2020-10-21T17:16:28+08:00
-tags: ["swap", "linux"]
+tags: ["linux", "system"]
 categories: ["Linux"]
 ---
 

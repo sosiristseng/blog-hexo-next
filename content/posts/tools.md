@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["bookmark"]
+tags: ["bookmark", "tool"]
 categories: ["Bookmark"]
 
 hiddenFromHomePage: false

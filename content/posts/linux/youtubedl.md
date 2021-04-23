@@ -1,7 +1,7 @@
 ---
-title: "FFMPEG and youtube-dl tips"
+title: "FFMPEG and youtube-dl"
 date: 2020-10-21T17:29:13+08:00
-tags: ["ffmpeg", "youtube-dl"]
+tags: ["ffmpeg"]
 categories: ["Linux", "Packages"]
 ---
 

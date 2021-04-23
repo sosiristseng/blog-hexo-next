@@ -1,7 +1,7 @@
 ---
 title: "Install Fonts"
 date: 2020-10-22T16:18:15+08:00
-tags: ["fonts", "linux"]
+tags: ["font", "linux"]
 categories: ["Linux"]
 
 ---

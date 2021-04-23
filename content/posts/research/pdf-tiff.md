@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [tiff, devops, research]
+tags: [tiff, devops]
 categories: [Research]
 
 hiddenFromHomePage: false

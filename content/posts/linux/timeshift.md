@@ -1,7 +1,7 @@
 ---
 title: "Timeshift"
 date: 2020-10-22T14:30:09+08:00
-tags: ["backup", "timeshift"]
+tags: ["linux"]
 categories: ["Linux", "Packages"]
 comment: true
 ---

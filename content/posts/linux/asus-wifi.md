@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["linux", "wifi", "driver", "manjaro"]
+tags: ["linux", "driver", "manjaro"]
 categories: ["Linux"]
 
 hiddenFromHomePage: false

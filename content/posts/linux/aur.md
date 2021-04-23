@@ -1,12 +1,12 @@
 ---
 title: "Pacman and the Arch User Repository (AUR)"
-subtitle: "AUR helpers: yay, paru, pikaur"
+subtitle: ""
 date: 2021-01-28T16:33:45+08:00
 author: ""
 authorLink: ""
 description: ""
 
-tags: ["AUR", "pacman"]
+tags: ["linux"]
 categories: ["Linux", "Packages"]
 
 hiddenFromHomePage: false

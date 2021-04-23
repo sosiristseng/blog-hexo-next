@@ -1,7 +1,7 @@
 ---
 title: "Telegram"
 date: 2020-10-27T15:39:44+08:00
-tags: ["telegram"]
+tags: ["linux"]
 categories: ["Linux", "Packages"]
 comment: false
 ---

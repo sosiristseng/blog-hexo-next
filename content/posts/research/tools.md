@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["bookmark"]
+tags: ["bookmark", "zotero", "markdown", "latex", "tool", "pandoc"]
 categories: ["Bookmark", "Research"]
 
 hiddenFromHomePage: false

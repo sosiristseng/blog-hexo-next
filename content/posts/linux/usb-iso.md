@@ -1,6 +1,6 @@
 ---
 title: Burn installation ISO into usb disks
-tags: ["iso", "linux"]
+tags: ["linux"]
 categories: ["Linux"]
 date: 2020-12-12 00:47:04
 ---

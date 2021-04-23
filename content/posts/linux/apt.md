@@ -1,7 +1,7 @@
 ---
 title: "Apt package manager"
 date: 2020-11-16T17:18:03+08:00
-tags: ["linux", "apt"]
+tags: ["linux"]
 categories: ["Linux"]
 comment: true
 ---

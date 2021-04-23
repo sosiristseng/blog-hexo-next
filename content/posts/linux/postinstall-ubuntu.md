@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Postinstall"
 date: 2020-10-21T17:26:59+08:00
-tags: ["ubuntu", "postinstall", "linux"]
+tags: ["postinstall", "linux"]
 categories: ["Linux"]
 ---
 
@@ -124,7 +124,7 @@ wget -qO- https://dl.xanmod.org/gpg.key | sudo tee /etc/apt/trusted.gpg.d/xanmod
 echo 'deb http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-kernel.list
 
 # VS code
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc 
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
 echo 'deb [arch=amd64] https://packages.microsoft.com/repos/code stable main' | sudo tee /etc/apt/sources.list.d/vscode.list
 
 sudo add-apt-repository -y ppa:appimagelauncher-team/stable  # AppImageLauncher

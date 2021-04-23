@@ -1,7 +1,7 @@
 ---
 title: "Utilizing multiple CPUs in Julia"
 date: 2020-10-21T16:10:02+08:00
-tags: ["multithreading", "multiprocessing", "task parallelism", "julia"]
+tags: ["parallelism", "julia"]
 categories: ["Julia"]
 ---
 
@@ -40,7 +40,7 @@ Multithreading within in a CPU core, a.k.a "Green threading".
 ### Multi-threading
 
 - [Caveats in multithreading](https://docs.julialang.org/en/v1/manual/multi-threading/#Caveats)
-- Threads share memory causing data racing if data access is not properly handled. 
+- Threads share memory causing data racing if data access is not properly handled.
 - Suitable for SMP (Symmetric multiprocessing)
 
 To increase the threads avaiable to Julia, start Julia with `-t / --threads` argument. e.g.
@@ -61,7 +61,7 @@ You could check how many thread are available in the Julia session
 Threads.nthreads()
 ```
 
-Enable multithreading by 
+Enable multithreading by
 
 - `Threads.@threads for loop`
 - `Threads.@spawn expr`
