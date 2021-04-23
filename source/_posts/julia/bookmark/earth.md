@@ -33,7 +33,7 @@ See the [Julia climate](https://github.com/JuliaClimate) organization.
 + [Mimi.jl](https://github.com/anthofflab/Mimi.jl) :: Integrated Assessment Modeling Framework for climate change.
 
 ## [ECOLOGY](https://en.wikipedia.org/wiki/Category:Ecology)
-Ecology packages (including subjects such as agronomy, forestry and oceanographic models) are listed under the [Biology](biology.md?id=ecology) page for easier reference.
+Ecology packages (including subjects such as agronomy, forestry and oceanographic models) are listed under the Biology page for easier reference.
 
 ## [CARTOGRAPHY](https://en.wikipedia.org/wiki/Category:Cartography)
 

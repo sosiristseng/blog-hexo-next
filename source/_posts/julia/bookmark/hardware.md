@@ -26,7 +26,7 @@ categories: [Julia, Bookmark]
 + [Instruments.jl](https://github.com/BBN-Q/Instruments.jl) :: A package for controlling laboratory instruments through Julia over TCPIP/GPIB/USB/Serial, wrapped around the NI-VISA library (which needs to be separately installed) similar to PyVISA and has some starts towards making it easier to write custom instrument drivers.
 + [NIDAQ.jl](https://github.com/JaneliaSciComp/NIDAQ.jl) :: This package provides an interface to NIDAQmx - National Instruments' driver for their data acquisition boards.
 + 🏚️ [Alazar.jl](https://github.com/ajkeller34/Alazar.jl) :: [AlazarTech](http://www.alazartech.com/) API wrapper for Julia.
-+ 🏚️ [DIDebug.jl](https://github.com/Keno/DIDebug.jl) :: Debug the destination index in an x86 computer architecture using the standardized [DWARF-ELF](http://www.ibm.com/developerworks/library/os-debugging/) debugging data format.
++ 🏚️ [DIDebug.jl](https://github.com/Keno/DIDebug.jl) :: Debug the destination index in an x86 computer architecture using the standardized DWARF-ELF debugging data format.
 + 🏚️ [FTD2XX.jl](https://github.com/cstook/FTD2XX.jl) :: Wrapper for FTDI [FTD2XX](http://www.ftdichip.com/Drivers/D2XX.htm) library.
 + 🏚️ [MichrochipRTDM.jl](https://github.com/cstook/MicrochipRTDM.jl) :: A bunch of functions usefull for working with MicrochipTM's RTDM interface.
 + 🏚️ [RdRand.jl](https://github.com/SamChill/RdRand.jl) :: Generate random numbers using Intel's RDRAND instruction.
