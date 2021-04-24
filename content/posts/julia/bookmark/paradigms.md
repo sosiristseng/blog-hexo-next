@@ -30,10 +30,13 @@ Packages:
 + [Automa.jl](https://github.com/BioJulia/Automa.jl) :: A julia code generator for regular expressions - this package can do text validation, parsing, and tokenizing based on state machine compiler.
 + [CodeTracking.jl](https://github.com/timholy/CodeTracking.jl) :: An extension of Julia's InteractiveUtils library that provides an interface for obtaining strings and expressions of method definitions, method signatures, etc.. designed to work with Revise.jl (for versions v1.1.0 and higher).
 + [MacroTools.jl](https://github.com/FluxML/MacroTools.jl) :: A library providing helpful tools for writing macros, notably a very simple templating system with some functions
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [CellularAutomata.jl](https://github.com/natj/CellularAutomata.jl) :: Cellular Automata package.
 + 🏚️ [FiniteStateMachine.jl](https://github.com/tinybike/FiniteStateMachine.jl) :: A simple Julia implementation of finite state machines.
 + 🏚️ [InterVal.jl](https://github.com/J-Sarnoff/InterVal.jl) :: Intervals are inter-values, an interval is its values and their intra-values.
 + 🏚️ [LilKanren.jl](https://github.com/lilinjn/LilKanren.jl) :: A collection of Kanren implementations in Julia. _miniKanren_ is an embedded Domain Specific Language for logic programming.
+{{< /admonition >}}
 
 ## Control Flow
 
@@ -48,11 +51,13 @@ Julia manual's [control-flow](https://docs.julialang.org/en/v1/manual/control-fl
 + [IterTools.jl](https://github.com/JuliaCollections/IterTools.jl) :: Common functional iterator patterns.
 + [LinearControl.jl](https://github.com/jemofthewest/LinearControl.jl) :: Julia package for analysis and design of control strategies for linear systems.
 + [ProtoBuf.jl](https://github.com/JuliaIO/ProtoBuf.jl) :: A Julia implementation for protocol buffers, a language-neutral, platform-neutral, extensible way of serializing structured data for use in communications protocols, data storage, and more.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Hooking.jl](https://github.com/Keno/Hooking.jl) :: Function entry hooking for julia and C functions.
 + 🏚️ [Iterators.jl](https://github.com/JuliaLang/Iterators.jl) :: Common functional iterator patterns.
 + 🏚️ [Slicot.jl](https://github.com/jcrist/Slicot.jl) :: Julia wrapper for SLICOT Routines.
 + 🏚️ [StatefulIterators.jl](https://github.com/andrewcooke/StatefulIterators.jl) :: A stream-like wrapper around [iterable objects](https://en.wikipedia.org/wiki/Category:Iteration_in_programming).
-+ ChainMap.jl(404) :: Combine chaining and mapping.
+{{< /admonition >}}
 
 ## Functional Programming
 
@@ -65,9 +70,12 @@ See [📖 Declarative Programming](https://en.wikipedia.org/wiki/Declarative_pro
 + [LispSyntax.jl](https://github.com/swadey/LispSyntax.jl) :: lisp-like language in julia.
 + [Monads.jl](https://github.com/pao/Monads.jl) :: Monadic expressions and sequences for Julia. [hSee the doc](https://monadsjl.readthedocs.org/).
 + [Pipe.jl](https://github.com/oxinabox/Pipe.jl) :: Improved function piping in Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [diy-lisp-julia](https://github.com/qhfgva/diy-lisp-julia) :: A julia version of [diy-lisp](https://github.com/kvalle/diy-lisp).
 + 🏚️ [FunctionalUtils.jl](https://github.com/zachallaun/FunctionalUtils.jl) :: Functional Julia – based on fogus/lemonad.
 + 🏚️ [PatternDispatch.jl](https://github.com/toivoh/PatternDispatch.jl) :: Method dispatch based on pattern matching for Julia.
+{{< /admonition >}}
 
 ## Reactive Programming
 
@@ -85,15 +93,20 @@ See [📖 Declarative Programming](https://en.wikipedia.org/wiki/Declarative_pro
 
 ## Grammatical Evolution
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Evolution.jl](https://github.com/xenon-/Evolution.jl) :: Evolutionary Computation in Julia.
 + 🏚️ [GrammaticalEvolution](https://github.com/abeschneider/GrammaticalEvolution) :: An evolutionary technique that is similar to Genetic Programming (GP). However, unlike GP, it doesn't suffer the same problems with fixing damaged trees. Instead, it uses a grammar that is combined with a genome of integers. The genome is used to select which branch to follow for or-rules.
+{{< /admonition >}}
 
 ## Interpreters
 
 [📖 Interpreters](https://en.wikipedia.org/wiki/Category:Interpreters_(computing))
 
-+ 🏚️ [ASTInterpreter.jl](https://github.com/Keno/ASTInterpreter.jl) :: Gallium's AST interpreter as a separate package to simplify development.
 + [JuliaInterpreter.jl](https://github.com/JuliaDebug/JuliaInterpreter.jl) :: Interpreter for Julia code.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
++ 🏚️ [ASTInterpreter.jl](https://github.com/Keno/ASTInterpreter.jl) :: Gallium's AST interpreter as a separate package to simplify development.
+{{< /admonition >}}
 
 ## Macro and Metaprogramming
 
@@ -102,9 +115,12 @@ See [📖 Declarative Programming](https://en.wikipedia.org/wiki/Declarative_pro
 
 Packages:
 
++ [FromFile.jl](https://github.com/Roger-luo/FromFile.jl) :: providing a macro `@from` importing objects from files without having to `include` repeatedly.
 + [LoopVectorization.jl](https://github.com/JuliaSIMD/LoopVectorization.jl) :: Macro(s) for vectorizing loops.
 + [Reexport.jl](https://github.com/simonster/Reexport.jl) :: Julia macro for re-exporting one module from another.
 + [SyntaxTree.jl](https://github.com/chakravala/SyntaxTree.jl) :: Toolset for modifying Julia AST and characteristic values.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ForceImport.jl](https://github.com/chakravala/ForceImport.jl) :: Macro that force imports conflicting methods in Julia modules
 + 🏚️ [ImportMacros.jl](https://github.com/fredrikekre/ImportMacros.jl) :: Provides three macros: @import and @using which loads a module and binds it to an alias, and @from which loads an object from a module and binds it to an alias.
 + 🏚️ [MetaMerge.jl](https://github.com/davidagold/MetaMerge.jl) :: Merge functions with identical names from distinct modules.
@@ -113,7 +129,7 @@ Packages:
 + 🏚️ [TimeIt.jl](https://github.com/kbarbary/TimeIt.jl) :: Timeit macro for Julia.
 + 🏚️ [Unroll.jl](https://github.com/StephenVavasis/Unroll.jl) :: A julia macro for unrolling conditional `for` loops.
 + 🏚️ [UTime.jl](https://github.com/J-Sarnoff/UTime.jl) :: Universal Time using local system timezone.
-+ MacroUtils.jl(404) :: Collection of Julia macros.
+{{< /admonition >}}
 
 ## Automatic Programming
 
@@ -135,10 +151,13 @@ Packages:
 + [ProfileSVG.jl](https://github.com/kimikage/ProfileSVG.jl) :: Write flame graphs to SVG format and explore them interactively in Jupyter, Pluto, etc.
 + [ProfileView.jl](https://github.com/timholy/ProfileView.jl) :: Visualization of Julia profiling data
 + [StatProfilerHTML.jl](https://github.com/tkluck/StatProfilerHTML.jl) :: Show Julia profiling data in an explorable HTML page.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ASTInterpreter2.jl](https://github.com/Keno/ASTInterpreter2.jl) :: Re-write of ASTInterpreter for `julia 0.6+`.
 + 🏚️ [dataflow.jl](https://github.com/JeffBezanson/dataflow.jl) :: Introduction to dataflow analysis using julia.
 + 🏚️ [ExpressionPatterns.jl](https://github.com/fcard/ExpressionPatterns.jl) :: Match, Destructure and Dispatch on expressions.
 + 🏚️ [PAPI.jl](https://github.com/jakebolewski/PAPI.jl) :: Julia bindings to the Performance Application Programming Interface (PAPI).
+{{< /admonition >}}
 
 ## Polymorphism (in Julia, Multiple Dispatch)
 
@@ -147,7 +166,10 @@ Packages:
 + [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl) :: easy-to-use trait library with formal interface specification support.
 + [SimpleTraits.jl](https://github.com/mauro3/SimpleTraits.jl) :: Simple Traits for Julia.
 + [WhereTraits.jl](https://github.com/schlichtanders/WhereTraits.jl) :: This package exports one powerful macro @traits with which you can extend Julia's where syntax.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [julia-pattern-dispatch](https://github.com/toivoh/julia-pattern-dispatch) :: Support for method dispatch in Julia based on pattern matching.
+{{< /admonition >}}
 
 ### Resources
 
@@ -159,8 +181,11 @@ Packages:
 __Static Program Analysis__
 
 + [Lint.jl](https://github.com/tonyhffong/Lint.jl) :: A lint tool to hunt for imperfections and dodgy structures that could be improved for Julia code.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Quantity.jl](https://github.com/rephorm/Quantity.jl) :: Numbers with units.
 + 🏚️ [StackTraces.jl](https://github.com/invenia/StackTraces.jl) :: Intuitive, useful stack traces for Julia. StackTraces functionality has been merged into the Julia standard library as of v0.5.
+{{< /admonition >}}
 
 ### Turnaround Time
 
@@ -172,4 +197,7 @@ __Static Program Analysis__
 
 + [Official Julia style guide](https://docs.julialang.org/en/v1/manual/style-guide/).
 + [BlueStyle](https://github.com/invenia/BlueStyle) :: A Julia style guide that lives in a blue world.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Style.jl](https://github.com/johnmyleswhite/Style.jl) :: Style guidelines for Julia programming.
+{{< /admonition >}}

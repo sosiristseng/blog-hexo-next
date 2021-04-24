@@ -14,7 +14,6 @@ categories: [Julia, Bookmark]
 
 - [Julia Web](https://github.com/JuliaWeb) organization
 
-
 <!--more-->
 
 - 🏚️ means the package may not support current versions of Julia.
@@ -26,6 +25,8 @@ categories: [Julia, Bookmark]
 + [Joseki.jl](https://github.com/amellnik/Joseki.jl) :: Suggested opening moves for building APIs in Julia.
 + [NewsAPI.jl](https://github.com/joshday/NewsAPI.jl) :: Helper functions for using [newsapi.org](https://newsapi.org)
 + [Twitter.jl](https://github.com/randyzwitch/Twitter.jl) :: Julia package to access the Twitter API.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [DandelionSlack.jl](https://github.com/dandeliondeathray/DandelionSlack.jl) :: Slack API in Julia.
 + 🏚️ [FFIExamples.jl](https://github.com/johnmyleswhite/FFIExamples.jl) :: Many small examples that demonstrate how Julia's [FFI](http://en.wikipedia.org/wiki/Foreign_function_interface) works as of v0.4.
 + 🏚️ [Hydna.jl](https://github.com/jfd/Hydna.jl) :: Hydna Julia Client Library implements support for the Hydna Push API.
@@ -36,6 +37,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [Sunlight.jl](https://github.com/WestleyArgentum/Sunlight.jl) :: A Julia package for interfacing with the [Sunlight Foundation's API's](http://sunlightfoundation.com/api).
 + 🏚️ [Toxcore.jl](https://github.com/SimonDanisch/Toxcore.jl) :: A Julia wrapper for [Tox](http://en.wikipedia.org/wiki/Tox_%28software%29).
 + 🏚️ [Twilert.jl](https://github.com/glesica/Twilert.jl) :: A small SMS alert library for Julia.
+{{< /admonition >}}
 
 
 ## Web frameworks
@@ -43,10 +45,13 @@ categories: [Julia, Bookmark]
 + [Bukdu.jl](https://github.com/wookay/Bukdu.jl/) :: A web development framework for Julia, influenced by [Phoenix framework](http://phoenixframework.org).
 + [Genie.jl](https://github.com/GenieFramework/Genie.jl) :: The highly productive Julia web framework.
 + [Merly.jl](https://github.com/codeneomatrix/Merly.jl) :: A micro framework for web programming in Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [mvc-skeleton.jl](https://github.com/halla/mvc-skeleton.jl)
 + 🏚️ [OpenFiscaWebApi.jl](https://github.com/openfisca/OpenFiscaWebApi.jl) :: A port of OpenFisca-Web-API to Julia. This is the web API for the OpenFisca website.
 + 🏚️ [Pythia.jl](https://github.com/Keno/Pythia.jl) :: Julia wrappers for the Pythia event generator.
 + 🏚️ [RoR_julia_eg](https://github.com/Ken-B/RoR_julia_eg) :: An example of Ruby on Rails (RoR) web app with Julia link through ZMQ.
+{{< /admonition >}}
 
 ## Middleware
 
@@ -54,8 +59,11 @@ categories: [Julia, Bookmark]
 + [Mux.jl](https://github.com/JuliaWeb/Mux.jl) :: Middleware for Julia.
 + [ParallelDataTransfer.jl](https://github.com/ChrisRackauckas/ParallelDataTransfer.jl) :: A bunch of helper functions for transferring data between worker processes.
 + [ZMQ.jl](https://github.com/JuliaLang/ZMQ.jl) :: Julia interface to ZeroMQ. Thread on building a [web app for enterprise risk management](https://groups.google.com/forum/#!topic/julia-users/umHiBwVLQ4g).
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Mongrel2.jl](https://github.com/aviks/Mongrel2.jl) :: Mongrel2 handlers in Julia.
 + 🏚️ [Nanomsg.jl](https://github.com/quinnj/Nanomsg.jl) :: a middleware, nanomsg wrapper for the Julia programming language - [Nanomsg](http://nanomsg.org) is a reboot of the ØMQ socket library, providing several common communication patterns that make the networking layer fast, scalable, and easy to use.
+{{< /admonition >}}
 
 ## Networking
 
@@ -64,12 +72,15 @@ categories: [Julia, Bookmark]
 + [LogParser.jl](https://github.com/randyzwitch/LogParser.jl) :: A package for parsing server logs. Currently, only server logs having the Apache Combined format are supported (although Apache Common may parse as well).
 + [Rate Limiter.jl](https://github.com/chipkent/RateLimiter.jl) :: Julia package for limiting the rate at which events occur.
 + [TimeZones.jl](https://github.com/JuliaTime/TimeZones.jl) : Olsen Timezone Database Access for the Julia Programming Language.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Dates.jl](https://github.com/quinnj/Dates.jl) :: A Date and DateTime implementation for Julia. Merged into the Base Standard Library
 + 🏚️ [Juliaflow](https://github.com/pchronz/juliaflow) :: A controller for software-defined networking (SDN) that implements the OpenFlow Controller Specification 1.0.0
 + 🏚️ [MsgPackRpcServer.jl](https://github.com/remore/MsgPackRpcServer.jl) :: A Julia implementation of MessagePack-RPC Server Library.
 + 🏚️ [Pcap.jl](https://github.com/JuliaIO/Pcap.jl) :: Libpcap implementation for Julia language. (No `Project.toml`)
 + 🏚️ [StatsdClient.jl](https://github.com/forio/StatsdClient.jl) :: A simple Julia implementation of a statsd client.
 + 🏚️ [UUID.jl](https://github.com/forio/UUID.jl) :: A universally unique identifier (UUID) is an identifier standard, are 128 bits long, and require no central registration process. UUID functionality has been merged into Julia 0.4.
+{{< /admonition >}}
 
 
 ## Security
@@ -77,9 +88,12 @@ categories: [Julia, Bookmark]
 + [GnuTLS.jl](https://github.com/JuliaWeb/GnuTLS.jl) :: Transport Level Security for Julia Streams provided by GnuTLS.
 + [MbedTLS](https://github.com/JuliaLang/MbedTLS.jl) :: Wrapper around mbedtls.
 + [OAuth.jl](https://github.com/randyzwitch/OAuth.jl) :: Pure Julia implementation of OAuth v1.0a.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Etcd.jl](https://github.com/forio/Etcd.jl) :: A Julia Etcd client implementation.
 + 🏚️ [SecureSessions.jl](https://github.com/JockLawrie/SecureSessions.jl) :: Secure sessions for web apps written in Julia.
 + 🏚️ [SSH.jl](https://github.com/Keno/SSH.jl) :: An SSH implementation.
+{{< /admonition >}}
 
 ## Web
 
@@ -98,6 +112,8 @@ categories: [Julia, Bookmark]
 + [UAParser.jl](https://github.com/JuliaWeb/UAParser.jl) :: UAParser is a Julia port of ua-parser, which itself is a multi-language port of BrowserScope's user agent string parser.
 + [URITemplate.jl](https://github.com/JuliaWeb/URITemplate.jl) :: This package provides URI Template interpolation by implementing (RFC 6570).
 + [WebSockets.jl](https://github.com/JuliaWeb/WebSockets.jl) :: A WebSockets server library for Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Biryani.jl](https://github.com/eraviart/Biryani.jl) :: A conversion and validation toolbox.
 + 🏚️ [Curl.jl](https://github.com/forio/Curl.jl) :: A Julia HTTP curl library.
 + 🏚️ [Fuji.jl](https://github.com/jackcook/Fuji.jl) :: A lightweight web server written in Julia.
@@ -109,6 +125,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [Morsel.jl](https://github.com/JuliaLang/Morsel.jl) :: A Sintra-like micro framework for declaring routes and handling requests, built over HttpServer.jl and Meddle.jl.
 + 🏚️ [Requests.jl](https://github.com/JuliaWeb/Requests.jl) :: HTTP client written in julia (depends on joyent/http-parser) for HTTP parsing.
 + 🏚️ [URIParser.jl](https://github.com/JuliaWeb/URIParser.jl) :: Pure julia URI parser. (No `Project.toml`)
+{{< /admonition >}}
 
 ## HTML-CSS
 

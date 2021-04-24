@@ -21,11 +21,14 @@ categories: [Julia, Bookmark]
 
 + [FilePaths.jl](https://github.com/Rory-Finnegan/FilePaths.jl) ::  A type based approach to working with filesystem paths in julia.
 + [SO.jl](https://github.com/dlfivefifty/SO.jl) :: Personal macros for Julia by @dlfivefifty.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Events.jl](https://github.com/SimonDanisch/Events.jl) :: Simple Event system.
 + 🏚️ [Graze.jl](https://github.com/iamed2/Graze.jl) :: A feed reader.
 + 🏚️ [Humanize.jl](https://github.com/IainNZ/Humanize.jl) :: Humanize numbers, based on the Python package [humanize](https://github.com/jmoiron/humanize) by @jmoiron. (No `Project.toml`)
 + 🏚️ [Osmosis.jl](https://github.com/SimonDanisch/Osmosis.jl) :: Chat client for Julia.
 + 🏚️ [Utils.jl](https://github.com/SimonDanisch/Utils.jl) :: Some utility functions by @SimonDanisch.
+{{< /admonition >}}
 
 ## File Compression
 
@@ -34,9 +37,12 @@ categories: [Julia, Bookmark]
 + [InfoZIP.jl](https://github.com/samoconnor/InfoZIP.jl) :: ZIP Archive Interface. Wrapper for Info-ZIP (and ZipFile.jl).
 + [Libz.jl](https://github.com/BioJulia/Libz.jl) :: Yet another zlib interface for Julia.
 + [ZipFile.jl](https://github.com/fhs/ZipFile.jl) :: Read/Write ZIP archives in Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [gzip.jl](https://github.com/jvns/gzip.jl) :: GunZip in Julia.
 + 🏚️ [Snappy.jl](https://github.com/bicycle1885/Snappy.jl) :: A Julia wrapper for the snappy library - a compression/decompression library focusing on speed. (No `Project.toml`)
 + 🏚️ [Zlib.jl](https://github.com/dcjones/Zlib.jl) :: Zlib bindings for Julia.
+{{< /admonition >}}
 
 
 ## Microsoft Windows
@@ -44,6 +50,8 @@ categories: [Julia, Bookmark]
 + [WAV.jl](https://github.com/dancasimiro/WAV.jl) :: Julia package for working with WAV files.
 + [XCB.jl](https://github.com/JuliaGL/XCB.jl) :: XCB windowing library wrapper.
 + [ConfParser.jl](https://github.com/JuliaIO/ConfParser.jl) :: Julia package for parsing configuration (`*.ini`) files.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [COMCall.jl](https://github.com/ihnorton/COMCall.jl) :: COM Interface for Julia.
 + 🏚️ [IniFile.jl](https://github.com/JuliaIO/IniFile.jl) :: Reading and writing Windows-style INI files. (No `Project.toml`)
 + 🏚️ [IUP.jl](https://github.com/joa-quim/IUP.jl) :: Julia interface to IUP windowing toolkit.
@@ -52,6 +60,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [Wine.jl](https://github.com/Keno/Wine.jl) :: Sniffing the wineserver protocol for fun and profit.
 + 🏚️ [WinReg.jl](https://github.com/simonbyrne/WinReg.jl) ::  Windows Registry interface for Julia. (No `Project.toml`)
 + 🏚️ [WinUser.jl](https://github.com/JuliaGL/WinUser.jl) :: wrapper for windows native windowing functions.
+{{< /admonition >}}
 
 ## Terminal
 
@@ -67,6 +76,8 @@ categories: [Julia, Bookmark]
 + [TerminalExtensions.jl](https://github.com/Keno/TerminalExtensions.jl) :: A package that makes Julia take advantage of cool terminal emulator features.
 + [TerminalMenus.jl](https://github.com/nick-paul/TerminalMenus.jl) :: Simple interactive menus in the terminal.
 + [VT100.jl](https://github.com/Keno/VT100.jl) :: Terminal Emulation for terminal UI verification.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AnsiColor.jl](https://github.com/Aerlinger/AnsiColor.jl) :: Support for ANSI colored strings in Julia. Supported in REPL/Shell environment for both Unix and Mac.
 + 🏚️ [CLI.jl](https://github.com/Roger-luo/CLI.jl) :: A library for automatically generating command line interfaces from absolutely Julia object, inspired by `python-fire`.
 + 🏚️ [GMT-julia-headers](https://github.com/meggart/GMT-julia-headers)
@@ -79,6 +90,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [TerminalUI.jl](https://github.com/Keno/TerminalUI.jl) :: Terminal User Interface.
 + 🏚️ [TermWin.jl](https://github.com/tonyhffong/TermWin.jl) :: NCurses based GUI helper and data navigators.
 + 🏚️ [toolbox.jl](https://github.com/natj/toolbox.jl) :: Small tools and snippets used by @natj with julia.
+{{< /admonition >}}
 
 ## Benchmarking and profiling
 
@@ -96,6 +108,8 @@ Packages:
 + [ProfileView.jl](https://github.com/timholy/ProfileView.jl) :: Visualization of Julia profiling data
 + [SimplexBenchmarks](https://github.com/mlubin/SimplexBenchmarks) :: Benchmarks comparing individual operations of the Simplex method for linear programming in Julia and other languages. Uses modified version of jlSimplex to generate data from real instances.
 + [StatProfilerHTML.jl](https://github.com/tkluck/StatProfilerHTML.jl) :: Show Julia profiling data in an explorable HTML page.
++
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Benchmark.jl](https://github.com/johnmyleswhite/Benchmark.jl) :: A package for computing simple benchmarks, comparing functions and packages.
 + 🏚️ [BenchmarkLite.jl](https://github.com/lindahua/BenchmarkLite.jl) :: A lightweight Julia package for simple performance benchmark.
 + 🏚️ [Benchmarks.jl](https://github.com/johnmyleswhite/Benchmarks.jl) :: A new benchmarking library for Julia.
@@ -108,12 +122,15 @@ Packages:
 + 🏚️ [Perftests.jl](https://github.com/staticfloat/Perftests.jl) :: Base perftests for Julia.
 + 🏚️ [SortPerf.jl](https://github.com/kmsquire/SortPerf.jl) :: Julia module to test the performance of sorting algorithms.
 + 🏚️ [USERTime.jl](https://github.com/christianpeel/USERTime.jl) :: A Julia package for measuring elapsed user time.
+{{< /admonition >}}
 
 ## Compilers
 
 + [Clang.jl](https://github.com/ihnorton/Clang.jl) :: Julia interface to libclang and C wrapper generator.
 + [llvm-cbe](https://github.com/JuliaComputing/llvm-cbe) :: A resurrected LLVM C Backend, with improvements for Julia.
 + [PackageCompiler.jl](https://github.com/JuliaLang/PackageCompiler.jl) :: Compile your Julia Package.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [CompilerOptions.jl](https://github.com/sjkelly/CompilerOptions.jl) :: A Julia package for reading compiler options.
 + 🏚️ [CompilerTools.jl](https://github.com/IntelLabs/CompilerTools.jl) :: The CompilerTools package, part of the High Performance Scripting project at Intel Labs.
 + 🏚️ [Eglib.jl](https://github.com/ihnorton/Eglib.jl) :: Clang.jl wrapping example, C code from @kindlmann.
@@ -121,8 +138,8 @@ Packages:
 + 🏚️ [julia-icc-travis](https://github.com/sunoru/julia-icc-travis) :: Build Julia using icc on the Travis CI.
 + 🏚️ [LLVM.jl](https://github.com/jakebolewski/LLVM.jl) :: A Julia package for LLVM.
 + 🏚️ [ParallelAccelerator.jl](https://github.com/IntelLabs/ParallelAccelerator.jl) :: The ParallelAccelerator package, part of the High Performance Scripting project at Intel Labs.
+{{< /admonition >}}
 
 ### Preprocessor
 
-+ Precompile.jl(404) :: Precompilation is merged in Julia base, [documentation](https://docs.julialang.org/en/v1/manual/modules/#Module-initialization-and-precompilation)
 + [SnoopCompile.jl](https://github.com/timholy/SnoopCompile.jl) :: Make your packages work faster with more extensive precompilation - Spy on the JIT-compiler and learn which functions & types it's compiling.

@@ -17,12 +17,10 @@ categories: [Julia, Bookmark]
 
 If you are already familiar with other programming languages:
 
-
 - [Julia Cheatsheet](https://juliadocs.github.io/Julia-Cheat-Sheet/)
 - [Learn Julia in Y minutes](https://learnxinyminutes.com/docs/julia/)
 - [Julia-cheatsheet.pdf](http://math.mit.edu/~stevenj/Julia-cheatsheet.pdf) :: StevenJ's Julia cheatsheet.
 - [Julia express](http://bogumilkaminski.pl/files/julia_express.pdf) by Bogumil Kaminski.
-
 
 General tutorials:
 
@@ -37,23 +35,29 @@ General tutorials:
 
 ### Learn Julia by Examples
 
+- [A gallery of interesting Julia notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#julia).
 - [Data Frames by Julia Academy](https://github.com/JuliaAcademy/DataFrames) and [Bogumił Kamiński](https://github.com/bkamins/Julia-DataFrames-Tutorial)
 - [Differential Equations tutorials](https://tutorials.sciml.ai/)
+- [Fall in Love with Julia](https://github.com/schlichtanders/fall-in-love-with-julia):: An introductory 101 series to get to know the power of Julialang.
 - [Grokking Deep Learning with Julia](https://github.com/deepaksuresh/Grokking-Deep-Learning-with-Julia)
+- [Intermediate Julia workshop](https://github.com/dpsanders/intermediate_julia_2019), held at JuliaCon 2019, Baltimore, Maryland, USA
 - [Introduction to Applied Linear Algebra in Julia](https://web.stanford.edu/~boyd/vmls/)
+- [Introduction_to_Julia_tutorials](https://github.com/xorJane/Introduction_to_Julia_tutorials) :: These are the jupyter notebooks used for intro tutorials to teach Julia.
 - [Julia by example](https://juliabyexample.helpmanual.io/)
 - [Julia for data science by Julia Academy](https://github.com/JuliaAcademy/DataScience)
 - [Julia Project example](https://github.com/robbyriverside/ModulePlay)
 - [Julia Tutorials by Julia Academy](https://github.com/JuliaAcademy/JuliaTutorials)
 - [julia-mit](https://github.com/stevengj/julia-mit) :: Tutorials and information on the Julia language for MIT numerical-computation courses.
+- [JuliaAcademyData.jl](https://github.com/JuliaComputing/JuliaAcademyData.jl) :: Supplementary materials for Julia Academy courses.
+- [JuliaBoxTutorials](https://github.com/JuliaComputing/JuliaBoxTutorials) :: Jupyter notebooks used to teach Julia in JuliaBox.
 - [Learn Julia via epidemic modelling](https://github.com/dpsanders/LearnJulia2020)
 - [Machine Learning in Julia](https://github.com/ablaom/MachineLearningInJulia2020)
+- [Machine Learning Workshop 2019](https://github.com/mbauman/MachineLearningWorkshop2019).
+- [Project-Euler-Julia](https://github.com/heetbeet/project-euler-julia) :: Project Euler puzzle notebooks for Julia.
 - [Rosseta Code - Julia](http://rosettacode.org/wiki/Category:Julia)
 - [SIR pandemic modeling with Julia](https://github.com/epirecipes/sir-julia)
-+ [Intermediate Julia workshop](https://github.com/dpsanders/intermediate_julia_2019), held at JuliaCon 2019, Baltimore, Maryland, USA
-+ [JuliaAcademyData.jl](https://github.com/JuliaComputing/JuliaAcademyData.jl) :: Supplementary materials for Julia Academy courses.
-+ [Machine Learning Workshop 2019](https://github.com/mbauman/MachineLearningWorkshop2019).
-+ [Fall in Love with Julia](https://github.com/schlichtanders/fall-in-love-with-julia):: An introductory 101 series to get to know the power of Julialang.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Brainstorm.jl](https://github.com/Samayel/Brainstorm.jl) :: Project Euler and more.
 + 🏚️ [Euler.jl](https://github.com/moon6pence/Euler.jl) :: Project Euler with julia language.
 + 🏚️ [JuliaTutorial.jl](https://github.com/abhi123link/JuliaTutorial.jl) :: The Julia Tutorial series.
@@ -61,6 +65,23 @@ General tutorials:
 + 🏚️ [Rosetta-Julia](https://github.com/quinnj/Rosetta-Julia) :: Rosetta Code tasks implemented in the Julia language.
 + 🏚️ [Spark.jl](https://github.com/d9w/Spark.jl) :: Spark in Julia for MIT 6.824.
 + 🏚️ Charts :: @malmaud 's bug chart (using Julia) of the [number of issues opened and closed each week for Julia as one metric of popularity](https://gist.github.com/malmaud/9025047).
++ 🏚️ [100-julia-exercises](https://github.com/chezou/julia-100-exercises) :: @rougier's 100 numpy exercises as 100-julia-exercises.
++ 🏚️ [ChicagoFed_workshop](https://github.com/QuantEcon/ChicagoFed_workshop) :: Workshop on scientific computing for economists with Python and Julia.
++ 🏚️ [DataGotham.jl](https://github.com/johnmyleswhite/DataGotham.jl) :: IJulia Notebook with material for DataGotham-2013 tutorial on using Julia for data analysis.
++ 🏚️ [Hands_on_julia](https://github.com/dpsanders/hands_on_julia/) :: A 2-day Julia workshop material , as Jupyter notebooks, for scientists by @dpsanders in Paris.
++ 🏚️ [iap2014](https://github.com/JuliaX/iap2014) :: MIT IAP Class 2014: 18.S096 Introduction to Julia Computing.
++ 🏚️ [IJulia PLEAC](https://github.com/catawbasam/IJulia_PLEAC) :: IJulia version of PLEAC - Programming Language Examples Alike Cookbook.
++ 🏚️ [ijulia-notebooks](https://github.com/jiahao/ijulia-notebooks) :: Demo-ready IJulia notebooks and [assorted IJulia notebooks](https://github.com/jiahao/ijulia-notebooks-assorted) in various stages of usefulness for public consumption.
++ 🏚️ [IJuliaNotebooks](https://github.com/JuliaX/IJuliaNotebooks) :: IJulia notebooks highlighting code features of Julia.
++ 🏚️ [Invitation to Julia](https://github.com/dpsanders/invitation_to_julia) :: A scientific computing introductory workshop on Julia at JuliaCon 2015.
++ 🏚️ [Julia Tutorial](https://github.com/JuliaX/JuliaTutorial)
++ 🏚️ [Julia-0.2 Community tour](https://github.com/JuliaX/IJuliaNotebooks)
++ 🏚️ [JuliaTutorials2016](https://github.com/ppalmes/JuliaTutorials2016) :: @ppalmes Julia notebooks.
++ 🏚️ [JuliaWorkshop2015](https://github.com/arinbasu/JuliaWorkshop2015) :: Files for the Julia Workshop ANZStat Conference.
++ 🏚️ [learn-julia](https://github.com/aviks/learn-julia) : Another Julia Tutorial.
++ 🏚️ [Learning Julia Workshop](https://github.com/kescobo/intro_julia) for the Harvard Big Data Club.
++ 🏚️ [SSAI](https://github.com/simonbyrne/SSAI) :: Jupyter notebooks introducing you to scientific programming with Julia.
+{{< /admonition >}}
 
 ## Finding Julia packages
 
@@ -119,13 +140,6 @@ To contribute to the Julia language, read the [how-to contribute](https://github
 + [Julia Vs. R](https://github.com/johnmyleswhite/JuliaVsR)
 + [Importing tabular data into Julia](http://www.r-bloggers.com/tabular-data-io-in-julia/) can be done in (at least) three ways: reading a delimited file into an array, reading a delimited file into a DataFrame and accessing databases using ODBC.
 
-### Media
-
-+ 2015-11-15 :: HN post on [Julia Computing Granted $600k by Moore Foundation](https://news.ycombinator.com/item?id=10565940).
-+ [Why the creators of the Julia programming language just launched a startup](http://venturebeat.com/2015/05/18/why-the-creators-of-the-julia-programming-language-just-launched-a-startup/).
-+ 2014-01-23 :: Evan Miller's [__Why I’m Betting on Julia__](http://www.evanmiller.org/why-im-betting-on-julia.html)
-+ 2013 : [Viral Shah's interview](http://analyticsindiamag.com/interview-viral-shah-co-creator-of-julia/)
-
 ## Videos
 
 + [Julia youtube channel](https://www.youtube.com/user/JuliaLanguage)
@@ -139,39 +153,9 @@ To contribute to the Julia language, read the [how-to contribute](https://github
 + The [ReScience journal](https://github.com/ReScience/ReScience) and [Wiki](https://github.com/ReScience/ReScience/wiki).
 + [Journal of Open source software](https://joss.theoj.org)
 
-## Books
-
-+ [ThinkJulia.jl](https://github.com/BenLauwens/ThinkJulia.jl) :: Port of the book `Think Python` to the Julia programming language by Ben Lauwens with Allen Downey.
-+ [Learn Julia the Hard Way](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way).
-+ The book _[Getting started with Julia Programming](https://www.packtpub.com/application-development/getting-started-julia-programming)_ by @Ivo-Balbaert was published by Packt Publishing, ISBN13: 9781783284795, 214 pages, 28-Feb-2015. The [source code](https://github.com/Ivo-Balbaert/start_julia) used in the book. __NotaBene__: If you are using Julia version-0.4 and above, this book may be outdated due to the fast paced development of the core language bits.
-+ [List of free programming books](https://github.com/vhf/free-programming-books)
-+ [Software Quality Wiki](https://github.com/ligurio/software-quality-wiki)
-
-## Jypyter notebooks in Julia
-
-+ [A gallery of interesting Julia notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#julia).
-+ [Introduction_to_Julia_tutorials](https://github.com/xorJane/Introduction_to_Julia_tutorials) :: These are the jupyter notebooks used for intro tutorials to teach Julia.
-+ [JuliaBoxTutorials](https://github.com/JuliaComputing/JuliaBoxTutorials) :: Jupyter notebooks used to teach Julia in JuliaBox.
-+ [Project-Euler-Julia](https://github.com/heetbeet/project-euler-julia) :: Project Euler puzzle notebooks for Julia.
-+ 🏚️ [100-julia-exercises](https://github.com/chezou/julia-100-exercises) :: @rougier's 100 numpy exercises as 100-julia-exercises.
-+ 🏚️ [ChicagoFed_workshop](https://github.com/QuantEcon/ChicagoFed_workshop) :: Workshop on scientific computing for economists with Python and Julia.
-+ 🏚️ [DataGotham.jl](https://github.com/johnmyleswhite/DataGotham.jl) :: IJulia Notebook with material for DataGotham-2013 tutorial on using Julia for data analysis.
-+ 🏚️ [Hands_on_julia](https://github.com/dpsanders/hands_on_julia/) :: A 2-day Julia workshop material , as Jupyter notebooks, for scientists by @dpsanders in Paris.
-+ 🏚️ [iap2014](https://github.com/JuliaX/iap2014) :: MIT IAP Class 2014: 18.S096 Introduction to Julia Computing.
-+ 🏚️ [IJulia PLEAC](https://github.com/catawbasam/IJulia_PLEAC) :: IJulia version of PLEAC - Programming Language Examples Alike Cookbook.
-+ 🏚️ [ijulia-notebooks](https://github.com/jiahao/ijulia-notebooks) :: Demo-ready IJulia notebooks and [assorted IJulia notebooks](https://github.com/jiahao/ijulia-notebooks-assorted) in various stages of usefulness for public consumption.
-+ 🏚️ [IJuliaNotebooks](https://github.com/JuliaX/IJuliaNotebooks) :: IJulia notebooks highlighting code features of Julia.
-+ 🏚️ [Invitation to Julia](https://github.com/dpsanders/invitation_to_julia) :: A scientific computing introductory workshop on Julia at JuliaCon 2015.
-+ 🏚️ [Julia Tutorial](https://github.com/JuliaX/JuliaTutorial)
-+ 🏚️ [Julia-0.2 Community tour](https://github.com/JuliaX/IJuliaNotebooks)
-+ 🏚️ [JuliaTutorials2016](https://github.com/ppalmes/JuliaTutorials2016) :: @ppalmes Julia notebooks.
-+ 🏚️ [JuliaWorkshop2015](https://github.com/arinbasu/JuliaWorkshop2015) :: Files for the Julia Workshop ANZStat Conference.
-+ 🏚️ [learn-julia](https://github.com/aviks/learn-julia) : Another Julia Tutorial.
-+ 🏚️ [Learning Julia Workshop](https://github.com/kescobo/intro_julia) for the Harvard Big Data Club.
-+ 🏚️ [SSAI](https://github.com/simonbyrne/SSAI) :: Jupyter notebooks introducing you to scientific programming with Julia.
-
 ## Slides
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [JuliaCon Presentations](https://github.com/JuliaCon/presentations).
 + 🏚️ [BAJU-WhatsNew](https://github.com/tkelman/BAJU-WhatsNew) :: Bay Area Julia Users talk from Oct 29th 2015.
 + 🏚️ [SF.jl](https://github.com/johnmyleswhite/SF.jl) :: Slides for the SF Julia meetup.
@@ -184,3 +168,4 @@ To contribute to the Julia language, read the [how-to contribute](https://github
 ### Slides from [JuliaTokyo meetups](https://github.com/JuliaTokyo/julia-wakalang)
 + 🏚️ [JuliaTokyoTutorial](https://github.com/chezou/JuliaTokyoTutorial) and slides from the [4th meetup](http://juliatokyo.connpass.com/event/16570/presentation/).
 + 🏚️ [JuliaTokyo second meetup slides](http://juliatokyo.connpass.com/event/8010/presentation/).
+{{< /admonition >}}

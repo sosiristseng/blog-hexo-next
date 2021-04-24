@@ -26,7 +26,11 @@ categories: [Julia, Bookmark]
 + [SerialPorts.jl](https://github.com/sjkelly/SerialPorts.jl) :: SerialPort IO streams in Julia.
 + [StructIO.jl](https://github.com/Keno/StructIO.jl) :: Experimental new implementation of StrPack.jl-like functionality.
 + [ULID.jl](https://github.com/ararslan/ULID.jl) :: Generate Universally Unique Lexicographically Sortable Identifiers (ULIDs) in Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [MapD.jl](https://github.com/r3tex/MapD.jl) :: A julia library for conveniently inserting data to MapD.
+{{< /admonition >}}
+
 
 ## Saving and loading Julia Objects
 
@@ -39,6 +43,7 @@ Similar to `pickle` in Python.
 
 Julia itself can [read / write TOML files](https://docs.julialang.org/en/v1/stdlib/TOML/).
 
++ [Avro.jl](https://github.com/JuliaData/Avro.jl) :: A pure Julia implementation of the [Apache Avro](http://avro.apache.org/docs/current/index.html) data standard
 + [BDF.jl](https://github.com/sam81/BDF.jl) :: Module to read [Biosemi BDF files](http://www.biosemi.com/faq/file_format.htm) with the Julia programming language.
 + [BEncode.jl](https://github.com/joshuamiller/BEncode.jl) :: A Julia library for BEncode metadata files used for encoding BitTorrent storage and transmission of loosely structured data.
 + [BSON.jl](https://github.com/MikeInnes/BSON.jl) :: A Julia package for working with the Binary JSON serialisation format, that can be used as a general store for Julia data structures.
@@ -54,6 +59,8 @@ Julia itself can [read / write TOML files](https://docs.julialang.org/en/v1/stdl
 + [SASLib.jl](https://github.com/tk3369/SASLib.jl) :: Provide a Julia library for reading SAS7BDAT data sets.
 + [Shapefile.jl](https://github.com/Keno/Shapefile.jl) :: Parsing .shp files in Julia.
 + [YAML.jl](https://github.com/JuliaData/YAML.jl) :: A flexible data serialization format that is designed to be easily read and written by human beings.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AIDA.jl](https://github.com/jstrube/AIDA.jl) :: This package implements simple readers for legacy AIDA files.
 + 🏚️ [BDF.jl](https://github.com/codles/BDF.jl) by @codles :: A fork of BDF.jl that has started to add support for [EDF](http://www.edfplus.info/specs/edf.html) files.
 + 🏚️ [BGZF.jl](https://github.com/kmsquire/BGZF.jl) :: A Julia package to read/write BGZF compressed files.
@@ -75,6 +82,8 @@ Julia itself can [read / write TOML files](https://docs.julialang.org/en/v1/stdl
 + 🏚️ [Spock.jl](https://github.com/jey/Spock.jl) :: An interface to Apache Spark for the Julia language.
 + 🏚️ [StrPack.jl](https://github.com/pao/StrPack.jl) :: For encoding and decoding binary data streams and there is some [documentation](https://strpackjl.readthedocs.org/) at readthedocs.org.
 + 🏚️ [XPT.jl](https://github.com/lendle/XPT.jl) :: The XPT package reads SAS® software transport files and converts SAS software datasets to DataFrames.
+{{< /admonition >}}
+
 
 ## JSON files
 
@@ -82,8 +91,12 @@ Julia itself can [read / write TOML files](https://docs.julialang.org/en/v1/stdl
 + [JSON3.jl](https://github.com/quinnj/JSON3.jl) :: Yet another JSON package for speed and slick struct mapping.
 + [JSONTables.jl](https://github.com/JuliaData/JSONTables.jl) :: `JSON3.jl` + `Tables.jl`.
 + [LazyJSON.jl](https://github.com/JuliaCloud/LazyJSON.jl) :: LazyJSON is an interface for reading JSON data in Julia programs.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Json2.jl](https://github.com/ddolgi/Json2.jl) :: JSON encoder/decoder on Julia.
 + 🏚️ [uJSON.jl](https://github.com/samuelcolvin/uJSON.jl) :: JSON library for Julia using ultraJSON.
+{{< /admonition >}}
+
 
 ## Tabular Data
 
@@ -110,6 +123,8 @@ Julia itself can [read / write TOML files](https://docs.julialang.org/en/v1/stdl
 + [LightXML.jl](https://github.com/JuliaIO/LightXML.jl) :: A light-weight Julia package for XML based on libxml2.
 + [mzXML.jl](https://github.com/timholy/mzXML.jl) :: A Julia package for reading mass spectrometry mzXML files.
 + [XMLDict.jl](https://github.com/JuliaCloud/XMLDict.jl) :: This package implements a simple Associative interface for XML documents.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [EodDataTestXml.jl](https://github.com/adriantorrie/EodDataTestXml.jl) :: Test files for [EodData.jl](https://github.com/adriantorrie/EodData.jl).
 + 🏚️ [MusicXML.jl](https://github.com/kevinsa5/MusicXML.jl) :: A parser for MusicXML files, designed to be used with the MXMLSynth library.
 + 🏚️ [Patchwork.jl](https://github.com/shashi/Patchwork.jl) :: A library for representing the DOM in Julia. It supports element creation, diff computation and browser-side patching for efficient re-rendering.
@@ -120,13 +135,15 @@ Julia itself can [read / write TOML files](https://docs.julialang.org/en/v1/stdl
 + 🏚️ [XmlToDict.jl](https://github.com/elcritch/XmlToDict.jl) ::  Julia module that makes working with XML feel like you are working with JSON (inspired by xmltodict).
 + 🏚️ [XDMF.jl](https://github.com/ahojukka5/Xdmf.jl) :: A standardized method to exchange scientific data between High Performance Computing codes and tools lead to the development of the eXtensible Data Model and Format (XDMF), where the Light data is stored using XML, Heavy data is typically stored using HDF5.
 
+{{< /admonition >}}
+
 ## Document Processors
 
 [Document Processors](https://en.wikipedia.org/wiki/Document_processor) for Word, Excel, PDF files.
 
 For Document Generators, see `Development tools | documentation`.
 
-+ [ConfParser.jl](https://github.com/templarlabs/ConfParser.jl) :: Package for parsing configuration files utilizing ini, http, and simple configuration syntaxes.
++ [ConfParser.jl](https://github.com/templarlabs/ConfParser.jl) :: Package for parsing configuration files utilizing `ini`, `http`, and simple configuration syntaxes.
 + [ExcelReaders.jl](https://github.com/davidanthoff/ExcelReaders.jl) :: A package that provides functionality to read Excel files.
 + [LabelNumerals.jl](https://github.com/sambitdash/LabelNumerals.jl) : Numbers used as labels like page number like alpha, roman numerals or prefixed like A-1,2 etc.
 + [OdsIO.jl](https://github.com/sylvaticus/OdsIO.jl) :: Open Document Format Spreadsheet (ODS) I/O for Julia using the python ezodf module.
@@ -142,7 +159,10 @@ For Document Generators, see `Development tools | documentation`.
 + [LatexPrint.jl](https://github.com/scheinerman/LatexPrint.jl) :: Print Julia objects in a form suitable for LaTeX mathematics mode.
 + [LaTeXStrings.jl](https://github.com/stevengj/LaTeXStrings.jl) :: Convenient input and display of LaTeX equation strings for the Julia language.
 + [VerTeX.jl](https://github.com/chakravala/VerTeX.jl) :: Typeset scattered graph data rewriter based on LaTeX nodes.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [LaTeXTools.jl](https://github.com/jgoldfar/LaTeXTools.jl) :: Tools for automatic manipulation and management of LaTeX Documents.
+{{< /admonition >}}
 
 
 ## Image Formats
@@ -157,4 +177,7 @@ For Document Generators, see `Development tools | documentation`.
 + [OMETIFF.jl](https://github.com/tlnagy/OMETIFF.jl) :: I/O operations for OME-TIFF files in Julia with a focus on correctness.
 + [QuartzImageIO.jl](https://github.com/JuliaIO/QuartzImageIO.jl) :: Thin wrapper around OSX's native image format saving and loading
 + [VideoIO.jl](https://github.com/JuliaIO/VideoIO.jl) ::Reading and writing of video files in Julia via ffmpeg.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [TIFF.jl](https://github.com/rephorm/TIFF.jl) :: is the TIFF image file support for Julia.
+{{< /admonition >}}

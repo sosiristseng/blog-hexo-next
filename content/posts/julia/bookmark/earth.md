@@ -15,6 +15,8 @@ categories: [Julia, Bookmark]
 - [Julia space](https://github.com/JuliaSpace)
 - [Julia Geo](https://github.com/JuliaGeo)
 - [Julia earth](https://github.com/JuliaEarth)
+- [EcoJulia](https://ecojulia.org) organization.
+- [Julia climate](https://github.com/JuliaClimate) organization.
 
 <!--more-->
 
@@ -25,22 +27,45 @@ categories: [Julia, Bookmark]
 
 + [ReferenceFrameRotations.jl](https://github.com/JuliaSpace/ReferenceFrameRotations.jl) :: Functions related to rotations of coordinate frames, angle2dcm, dcm2angle.
 
-## [CLIMATOLOGY](https://en.wikipedia.org/wiki/Category:Climatology)
+## Climatology
 
-See the [Julia climate](https://github.com/JuliaClimate) organization.
+[📖 CLIMATOLOGY](https://en.wikipedia.org/wiki/Category:Climatology)
 
 + [ClimateTools.jl](https://github.com/Balinus/ClimateTools.jl) :: This package is a collection of commonly-used tools in Climate Science.
 + [Mimi.jl](https://github.com/anthofflab/Mimi.jl) :: Integrated Assessment Modeling Framework for climate change.
 
-## [ECOLOGY](https://en.wikipedia.org/wiki/Category:Ecology)
-Ecology packages (including subjects such as agronomy, forestry and oceanographic models) are listed under the Biology page for easier reference.
+## Ecology
 
-## [CARTOGRAPHY](https://en.wikipedia.org/wiki/Category:Cartography)
+[📖 ECOLOGY](https://en.wikipedia.org/wiki/Category:Ecology)
+
++ [Diversity.jl](https://github.com/richardreeve/Diversity.jl) :: Diversity analysis package for Julia, with submodules containing standard ecological and other diversity measures.
++ [EcologicalNetwork.jl](https://github.com/EcoJulia/EcologicalNetworks.jl) :: Measure various aspects of the structure of ecological networks in Julia.
++ [FishABM.jl](https://github.com/jangevaare/FishABM.jl) :: An agent based life cycle model for managed fisheries.
++ [GBIF.jl](https://github.com/EcoJulia/GBIF.jl) :: Functions and types to access GBIF data from Julia.
++ [SpatialEcology.jl](https://github.com/EcoJulia/SpatialEcology.jl) :: Julia framework for spatial ecology - data types and utilities.
+
+### Agronom and Forest Modelling
+
+[📖 Agronomy](https://en.wikipedia.org/wiki/Category:Agronomy) and [📖 Forest Modelling](https://en.wikipedia.org/wiki/Category:Forest_modelling)
+
++ [LAIscript](https://github.com/ETC-UA/LAIscript) :: scripts to automatically run LAI calculations with ODBC link to custom database.
++ [LeafAreaIndex.jl](https://github.com/ETC-UA/LeafAreaIndex.jl) :: Package to calculate Leaf Area Index from Hemisperical Images.
+
+### Aquatic Ecology
+
++ 🏚️ [Iceberg.jl](https://github.com/njwilson23/Iceberg.jl) :: Ice-seawater interface calculations using level set methods.
++ TEOS.jl(404) :: Julia wrapper for TEOS-10 Gibbs Seawater Oceanographic Toolbox.
+
+## Cartography
+
+[📖 CARTOGRAPHY](https://en.wikipedia.org/wiki/Category:Cartography)
 
 + [Proj4.jl](https://github.com/JuliaGeo/Proj4.jl) :: Julia wrapper for PROJ.4 cartographic projections library.
 + 🏚️ [PyProj.jl](https://github.com/kshramt/PyProj.jl) ::  A Julia wrapper of PyProj, that performs cartographic transformations and geodetic computations.
 
-## [GIS](https://en.wikipedia.org/wiki/Geographic_information_system)
+## Geographic information system (GIS)
+
+[📖 GIS](https://en.wikipedia.org/wiki/Geographic_information_system)
 
 + [ArchGDAL.jl](https://github.com/yeesian/ArchGDAL.jl) :: A high level API for GDAL - Geospatial Data Abstraction Library.
 + [GDAL.jl](https://github.com/JuliaGeo/GDAL.jl) :: Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library.
@@ -55,6 +80,8 @@ Ecology packages (including subjects such as agronomy, forestry and oceanographi
 + [OpenStreetMapPlotter.jl](https://github.com/juliusgeo/OpenStreetMapPlotter.jl) :: Plotting focused library for OpenStreetMap data.
 + [OpenStreetMapX.jl](https://github.com/pszufe/OpenStreetMapX.jl) :: OpenStreetMap support for Julia 1.0.
 + [Turf.jl](https://github.com/philoez98/Turf.jl) :: A geospatial engine encoding the collections of simple geographical features using the JS lib Turfjs in the GeoJSON format.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [DtPlot.jl](https://github.com/dejakaymac/DtPlot.jl)
 + 🏚️ [EarthSphere.jl](https://github.com/cuevasclemente/EarthSphere.jl) :: A library for measuring approximate distance and location given latitudes and longitudes.
 + 🏚️ [FlowNetworks.jl](https://github.com/scheidan/FlowNetworks.jl) :: Types and function to represent hydrological flow networks.
@@ -65,19 +92,20 @@ Ecology packages (including subjects such as agronomy, forestry and oceanographi
 + 🏚️ [OpenStreetMapParser.jl](https://github.com/yeesian/OpenStreetMapParser.jl) :: This package provides basic functionality for parsing OpenStreetMap data in Julia.
 + 🏚️ [Tyndall.jl](https://github.com/jsbj/Tyndall.jl) :: Radiative transfer in Julia.
 + 🏚️ [Watershed.jl](https://github.com/seung-lab/Watershed.jl) :: Julia version of watershed.
-+ Gaia.jl(404) :: Unified interface for observational datasets of the Earth's weather and climate.
+{{< /admonition >}}
 
 ## GPS
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [NMEA.jl](https://github.com/templarlabs/NMEA.jl) :: Julia package for parsing GPS NMEA messages.
+{{< /admonition >}}
 
 ## Meteorology
 
 [ 📖 Meteorology](https://en.wikipedia.org/wiki/Meteorology)
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [CAIRS.jl](https://github.com/scheidan/CAIRS.jl) :: Continous Assimilation of Integrating Rain Sensors.
 + 🏚️ [Met_Plots_Models.jl](https://github.com/zhujinxuan/Met_Plots_Models.jl) :: A simple wrapper of matlibplot for a meteorologist.
 + 🏚️ [TTCal.jl](https://github.com/mweastwood/TTCal.jl) :: A bandpass calibration routine developed for the [OVRO](https://en.wikipedia.org/wiki/Owens_Valley_Radio_Observatory) LWA.
-+ CERESViewer.jl(404) :: Visualize observations of the flows of energy in and out of the Earth.
-+ Hotwire.jl(404) :: Hotwire anemometry related functions implemented in Julia.
-+ Scriabin.jl(404) :: Radiative transfer in Julia.
+{{< /admonition >}}

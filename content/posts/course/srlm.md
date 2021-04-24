@@ -3,7 +3,6 @@ title: "Super-resolution microscopy techniques"
 date: 2020-10-21T15:42:03+08:00
 tags: ["microscopy"]
 categories: ["Course Notes"]
-comments: true
 ---
 
 Notes about Super-resolution microscopy techniques.

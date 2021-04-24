@@ -64,6 +64,9 @@ categories: [Julia, Bookmark]
 + [VennEuler.jl](https://github.com/HarlanH/VennEuler.jl) :: Generate area-proportional Venn/Euler diagrams in Julia.
 + [Wavelets.jl](https://github.com/JuliaDSP/Wavelets.jl), by JuliaDSP :: Fast Discrete Wavelet Transforms written in Julia.
 + [Winston.jl](https://github.com/JuliaGraphics/Winston.jl) :: 2D plotting for Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [AnimatedPlots.jl](https://github.com/zyedidia/AnimatedPlots.jl) :: Fast animated (and static) plots for Julia.
 + 🏚️ [BBVis.jl](https://github.com/joehuchette/BBVis.jl) :: Visualizations for branch-and-bound algorithms.
 + 🏚️ [Bokeh.jl](https://github.com/bokeh/Bokeh.jl) :: Bokeh bindings for Julia.
@@ -102,6 +105,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [VTK.jl](https://github.com/timholy/VTK.jl) :: VTK bindings for the Julia language.
 + 🏚️ [Wavelets.jl](https://github.com/tomaskrehlik/Wavelets.jl), by tomaskrehlik :: Implementation of Wavelet methods in Julia.
 + 🏚️ [YT.jl](https://github.com/jzuhone/YT.jl) :: A Julia interface to the Python-based yt analysis toolkit. YT exposes a number of functionalities from yt.
+{{< /admonition >}}
 
 ## Examples and Galleries
 

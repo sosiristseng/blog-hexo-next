@@ -1,12 +1,13 @@
 ---
 title: 🔖 Audio and Video processing in Julia
-comments: false
 date: 2021-04-23 10:39:52
 tags: [julia, bookmark, ffmpeg]
 categories: [Julia, Bookmark]
 ---
 
 > Audio and Video processing libraries[^1]
+
+[^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.
 
 ## See also
 
@@ -15,10 +16,10 @@ categories: [Julia, Bookmark]
 
 <!--more-->
 
+## Packages
+
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.
-
-## Packages
 
 + [FLAC.jl](https://github.com/JuliaIO/FLAC.jl) :: Julia bindings for libFLAC.
 + [LibSndFile.jl](https://github.com/JuliaAudio/LibSndFile.jl) :: A wrapper for [libsndfile](http://www.mega-nerd.com/libsndfile/), and supports a wide variety of file and sample formats.
@@ -34,6 +35,9 @@ categories: [Julia, Bookmark]
 + [RingBuffers.jl](https://github.com/JuliaAudio/RingBuffers.jl) :: A simple non-allocating circular RingBuffer type, with configurable overflow and underflow handling.
 + [SampledSignals.jl](https://github.com/JuliaAudio/SampledSignals.jl) :: Core types for regularly-sampled multichannel signals like Audio, RADAR and Software-Defined Radio.
 + [VideoIO.jl](https://github.com/JuliaIO/VideoIO.jl) :: Reading and writing of video files in Julia via ffmpeg.
+
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AudioIO.jl](https://github.com/ssfrr/AudioIO.jl) :: is a Julia library for interfacing to audio streams, which include playing to and recording from sound cards, reading and writing audio files, sending to network audio streams, etc. Currently only playing to the sound card through PortAudio is supported.
 + 🏚️ [gr-juliaffi](https://github.com/JayKickliter/gr-juliaffi) :: A GNU Radio package that lets you write custom signal processing blocks in Julia.
 + 🏚️ [MP3.jl](https://github.com/JuliaAudio/MP3.jl) :: MP3 codec for Julia using JuliaAudio idioms. LAME and mpg123 working under the hood.
@@ -42,5 +46,4 @@ categories: [Julia, Bookmark]
 + 🏚️ [Sound.jl](https://github.com/JuliaLang/Sound.jl) :: Reading and writing from WAV files.
 + 🏚️ [Tablo.jl](https://github.com/dmbates/Tablo.jl) :: Julia interface to the Tablo over-the-air digital video recorder.
 + 🏚️ [WebPlayer.jl](https://github.com/SimonDanisch/WebPlayer.jl) :: Playing videos with Julia in the web. (No `Project.toml`)
-
-[^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.
+{{< /admonition >}}

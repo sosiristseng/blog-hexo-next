@@ -20,6 +20,8 @@ categories: [Julia, Bookmark]
 
 <!--more-->
 
+- 🏚️ means the package may not support current versions of Julia.
+- 🏗️ means the package may be a WIP.
 
 ## Computer Vision (CV)
 
@@ -40,6 +42,8 @@ categories: [Julia, Bookmark]
 + [VideoIO.jl](https://github.com/JuliaIO/VideoIO.jl) :: Reading and writing of video files in Julia via ffmpeg.
 + [VisualRegressionTests.jl](https://github.com/JuliaPlots/VisualRegressionTests.jl) :: Automated integrated regression tests for graphics libraries.
 + [ConstructiveSolidGeometry.jl](https://github.com/jtramm/ConstructiveSolidGeometry.jl) :: A Constructive Solid Geometry (CSG) and ray tracing package for Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Blending.jl](https://github.com/dejakaymac/Blending.jl).
 + 🏚️ [Ccv.jl](https://github.com/dhotson/Ccv.jl) :: Julia bindings for libccv's SIFT image feature detection.
 + 🏚️ [Click.jl](https://github.com/Matt5sean3/Click.jl) :: Julia package for click maps and advanced interaction with graphics.
@@ -66,7 +70,8 @@ categories: [Julia, Bookmark]
 + 🏚️ [TIFF.jl](https://github.com/rephorm/TIFF.jl) :: is the TIFF image file support for Julia.
 + 🏚️ [VLFeat.jl](https://github.com/IHPostal/VLFeat.jl) :: Julia wrappings for the VLFeat computer vision library.
 + 🏚️ [WavefrontObj.jl](https://github.com/JuliaIO/WavefrontObj.jl) :: Wafefront Obj importer.
-+ seg2seg.jl(404) :: Computes the minimum distance between two segments in a 2D plane.3
+{{< /admonition >}}
+
 
 ### Feature Detection
 
@@ -85,11 +90,19 @@ categories: [Julia, Bookmark]
 + [RegisterQD.jl](https://github.com/HolyLab/RegisterQD.jl) :: It performs image registration using the global optimization routine [QuadDIRECT](https://github.com/timholy/QuadDIRECT.jl). Unlike many other registration packages, this is not "greedy" descent based on an initial guess---it attempts to find the globally-optimal alignment of your images.
 + [SubpixelRegistration.jl](https://github.com/romainFr/SubpixelRegistration.jl) :: Efficient subpixel image registration algorithm implementation that allows you to register arrays of arbitrary dimensions (not just 2d). Functions are written for AbstractArrays and should work for Images.
 + [TestImages.jl](https://github.com/JuliaImages/TestImages.jl) :: Loading standard test images into Julia.
-+ 🏚️ [ImageCL.jl](https://github.com/JuliaImages/ImageCL.jl) :: Image processing with [OpenCL.jl](https://github.com/JuliaGPU/OpenCL.jl).
 
-### [OpenCV](https://docs.opencv.org/) API
+{{< admonition type=warning title="WIP or may not work" open=false >}}
++ 🏚️ [ImageCL.jl](https://github.com/JuliaImages/ImageCL.jl) :: Image processing with 🏚️ [OpenCL.jl](https://github.com/JuliaGPU/OpenCL.jl).
+{{< /admonition >}}
+
+
+### OpenCV API
+
+[OpenCV](https://docs.opencv.org/)
 
 [Introduction to Julia OpenCV Binding](https://docs.opencv.org/master/d8/da4/tutorial_julia.html)
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 
 + 🏚️ [OpenCV.jl](https://github.com/maxruby/OpenCV.jl) :: The OpenCV (C++) interface for Julia.
 + 🏚️ [CVCore.jl](https://github.com/JuliaOpenCV/CVCore.jl) :: OpenCV core functionality.
@@ -98,6 +111,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [CVImgProc.jl](https://github.com/JuliaOpenCV/CVImgProc.jl) :: Image processing
 + 🏚️ [CVVideoIO.jl](https://github.com/JuliaOpenCV/CVVideoIO.jl) :: Media I/O.
 + 🏚️ [OCV.jl](https://github.com/Keno/OCV.jl) :: A wrapper for OpenCV.
+{{< /admonition >}}
 
 ### OpenGL and Vulkan API
 
@@ -105,10 +119,14 @@ categories: [Julia, Bookmark]
 + [ModernGL.jl](https://github.com/JuliaGL/ModernGL.jl) :: OpenGL 3+ bindings for Julia. This is a WIP GSoC-2014 effort to get 3D graphics into Julia.
 + [Videre](https://github.com/Gnimuc/Videre) :: OpenGL/Vulkan examples written in Julia.
 + [Vulkan.jl](https://github.com/JuliaGPU/Vulkan.jl) :: Wrapper of Vulkan, Khronos next generation OpenGL API.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [Draw3D.jl](https://github.com/ssfrr/Draw3D.jl) :: A 3D graphics package with a Julia API, built on OpenGL.
 + 🏚️ [julia-opengl-demos](https://github.com/ssfrr/julia-opengl-demos) :: A holding place for demos and tutorials as @ssfrr learns OpenGL in Julia, using GLFW.jl and OpenGL.jl.
 + 🏚️ [Romeo.jl](https://github.com/SimonDanisch/Romeo.jl) :: 3D visualizations and editing in Julia + OpenGL.
 + 🏚️ [ShaderToy.jl](https://github.com/SimonDanisch/ShaderToy.jl) :: Shade objects in Julia, created with GLVisualize.jl + OpenGL.
+{{< /admonition >}}
 
 [MeshCat.jl]: https://github.com/rdeits/MeshCat.jl
 
@@ -121,18 +139,29 @@ categories: [Julia, Bookmark]
 + [Rsvg.jl](https://github.com/lobingera/Rsvg.jl) :: An adaptation of the [librsvg](https://wiki.gnome.org/LibRsvg) to render SVG to Cairo surfaces.
 + [TikzGraphs.jl](https://github.com/JuliaTeX/TikzGraphs.jl) :: Graph layout package using algorithms built into [PGF/TikZ 3.0+](http://www.ctan.org/pkg/pgf).
 + [TikzPictures.jl](https://github.com/JuliaTeX/TikzPictures.jl) :: Library interface to PGF/TikZ, that allows one to create PGF/TikZ pictures and images can be saved as PDF, SVG, and TEX. If using IJulia, it will output SVG images.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [Smile.jl](https://github.com/sisl/Smile.jl) :: A Julia wrapper for the Smile C++ Structural Modeling, Inference, and Learning Engine for Bayesian & Influence Networks.
+{{< /admonition >}}
 
 ### OCR
 
-* [OCReract.jl](https://github.com/leferrad/OCReract.jl) :: A simple Julia wrapper for Tesseract OCR.
-* 🏚️ [AttentionOCR.jl](https://github.com/GantZA/AttentionOCR.jl) :: Julia and Flux adaptation of the python package [aocr.py](https://github.com/emedvedev/attention-ocr) using [Seq2seq with Attention](https://github.com/merckxiaan/flux-seq2seq).
++ [OCReract.jl](https://github.com/leferrad/OCReract.jl) :: A simple Julia wrapper for Tesseract OCR.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
++ 🏚️ [AttentionOCR.jl](https://github.com/GantZA/AttentionOCR.jl) :: Julia and Flux adaptation of the python package [aocr.py](https://github.com/emedvedev/attention-ocr) using [Seq2seq with Attention](https://github.com/merckxiaan/flux-seq2seq).
+{{< /admonition >}}
 
 ## Geometry
 
 [📖 Geometry](http://en.wikipedia.org/wiki/Geometry)
 
 + [CoordinateTransformations.jl](https://github.com/JuliaGeometry/CoordinateTransformations.jl) :: A fresh approach to coordinate transformations.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [AffineSpaces.jl](https://github.com/anj1/AffineSpaces.jl) :: Uniform representation and computational geometry on affine subspaces (points, lines, planes, etc.) in Rⁿ.
 + 🏚️ [AffineTransforms.jl](https://github.com/timholy/AffineTransforms.jl) :: Computational geometry with affine transformations for conversion among different representations (mostly between rotation matrices and axis-angle).
 + 🏚️ [D4.jl](https://github.com/khwilson/D4.jl) :: An attempted implementation of Enumerating Quartic Dihedral Extensions of Q by Cohen, Diaz y Diaz, and Olivier in Composito Mathematica 2002.
@@ -140,6 +169,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [Geometry2D.jl](https://github.com/mroughan/Geometry2D.jl) :: 2D computational geometry package for Julia programming language.
 + 🏚️ [mbr.jl](https://github.com/intdxdt/mbr.jl) :: axis aligned minimum bounding box.
 algebra library in Julia.
+{{< /admonition >}}
 
 ### Algebraic Geometry
 
@@ -148,10 +178,14 @@ algebra library in Julia.
 + [Grassmann.jl](https://github.com/chakravala/Grassmann.jl) :: ⟨Leibniz-Grassmann-Clifford-Hestenes⟩ differential geometric algebra / multivector simplical complex.
 + [PtFEM.jl](https://github.com/PtFEM/PtFEM.jl) :: Investigate Julia version of __Programming the FEM__ by I M Smith, D V Griffiths.
 + [RayTraceEllipsoid.jl](https://github.com/JuliaGeometry/RayTraceEllipsoid.jl) :: Ray trace ellipsoid-shaped domes i.e. finds intersection points and refract/reflect according to the refractive indices.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [FEM.jl](https://github.com/pjabardo/FEM.jl) :: Simple finite elements in Julia.
 + 🏚️ [ols.jl](https://github.com/forio/ols.jl) :: Julia type for multiple (multivariate) regression using OLS - Performs least squared regression on linear equations of multiple independent variables.
 + 🏚️ [SurfaceMesh.jl](https://github.com/michelk/SurfaceMesh.jl) :: A Finite element surface mesh manipulation library to work with polygon-surface-meshes.
 + 🏚️ [TrussPlotter.jl](https://github.com/sjkelly/TrussPlotter.jl) :: This is a package to plot trusses for finite element results.
+{{< /admonition >}}
 
 ### Computational Geometry
 
@@ -172,9 +206,15 @@ algebra library in Julia.
 + [TriangleIntersect.jl](https://github.com/JuliaGeometry/TriangleIntersect.jl) :: Fast ray-triangle intersections for raytracing.
 + [VoronoiCells.jl](https://github.com/JuliaGeometry/VoronoiCells.jl) :: Manipulate Voronoi cells in 2D.
 + [VoronoiDelaunay.jl](https://github.com/JuliaGeometry/VoronoiDelaunay.jl) :: Fast and robust Voronoi & Delaunay tessellation creation with Julia.
-+ 🏚️ [CHull2d.jl](https://github.com/cc7768/CHull2d.jl) :: Variety of algorithms for taking the convex hull of 2 dimensional sets of points.
 
-### [Solid Geometry](https://en.wikipedia.org/wiki/Solid_geometry)
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
++ 🏚️ [CHull2d.jl](https://github.com/cc7768/CHull2d.jl) :: Variety of algorithms for taking the convex hull of 2 dimensional sets of points.
+{{< /admonition >}}
+
+### Solid Geometry
+
+[Solid Geometry](https://en.wikipedia.org/wiki/Solid_geometry)
 
 + [Descartes.jl](https://github.com/sjkelly/Descartes.jl) :: A research project into the representation of solid geometry.
 
@@ -185,11 +225,15 @@ algebra library in Julia.
 + [CSFML.jl](https://github.com/JuliaMultimedia/CSFML.jl) :: Julia wrapper for CSFML, the official binding of [SFML](https://github.com/SFML/SFML) for C.
 + [JuliaKara.jl](https://github.com/sebastianpech/JuliaKara.jl) : A julia port of the learning environment [Kara](http://www.swisseduc.ch/informatik/karatojava/).
 + [SimpleDirectMediaLayer.jl](https://github.com/JuliaMultimedia/SimpleDirectMediaLayer.jl) :: Bindings for the Simple DirectMedia Layer ([SDL](https://www.libsdl.org/)) library.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [ArcadeLearningEnvironment.jl](https://github.com/nowozin/ArcadeLearningEnvironment.jl) :: ArcadeLearningEnvironment Julia interface.
 + 🏚️ [eve.jl](https://github.com/barcharcraz/eve.jl) :: Julia library for interacting with Eve Online.
 + 🏚️ [Quake2.jl](https://github.com/jayschwa/Quake2.jl) :: Experimental Quake 2 map graphics engine written with Julia and modern OpenGL.
 + 🏚️ [SFML.jl](https://github.com/zyedidia/SFML.jl) :: A binding of the Game and Multimedia Library SFML.
 + 🏚️ [SpaceShooter.jl](https://github.com/zyedidia/SpaceShooter.jl) :: This is a small space shooter game made in Julia with SFML.jl.
+{{< /admonition >}}
 
 ## Misc
 

@@ -38,11 +38,14 @@ General Concurrency Packages:
 + [Actors.jl](https://github.com/JuliaActors/Actors.jl) :: An Actor Model implementation in Julia.
 + [FLoops.jl](https://github.com/JuliaFolds/FLoops.jl):: provides a macro `@floop`. It can be used to generate a fast generic iteration over complex collections.
 + [Folds.jl](https://github.com/JuliaFolds/Folds.jl) :: A unified interface for sequential, threaded, and distributed fold.
-+ [TiledIteration.jl](https://github.com/JuliaArrays/TiledIteration.jl) :: Julia package to facilitate writing mulithreaded, multidimensional, cache-efficient code.
-+ 🏚️ [Blocks.jl](https://github.com/JuliaParallel/Blocks.jl) :: A framework to represent chunks of entities and parallel methods on them.
 + [Heptapus.jl](https://github.com/lcw/Heptapus.jl) :: The roofline function is a translation of the roofline code from https://github.com/paranumal/libparanumal/. Accelerated finite element flow solvers
 + [Hwloc.jl](https://github.com/JuliaParallel/Hwloc.jl) :: The Portable Hardware Locality (hwloc) package wraps the hwloc library to provide a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading.
++ [TiledIteration.jl](https://github.com/JuliaArrays/TiledIteration.jl) :: Julia package to facilitate writing mulithreaded, multidimensional, cache-efficient code.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
++ 🏚️ [Blocks.jl](https://github.com/JuliaParallel/Blocks.jl) :: A framework to represent chunks of entities and parallel methods on them.
 + 🏚️ [ScaLAPACK.jl](https://github.com/JuliaParallel/ScaLAPACK.jl) :: Scalable Linear Algebra PACKage.
+{{< /admonition >}}
 
 ### APIs and bindings
 
@@ -50,9 +53,12 @@ General Concurrency Packages:
 + [Elly.jl](https://github.com/JuliaParallel/Elly.jl) :: Hadoop HDFS and Yarn client.
 + [MPI.jl](https://github.com/JuliaParallel/MPI.jl) :: MPI wrappers for Julia
 + [Slurm.jl](https://github.com/JuliaParallel/Slurm.jl) :: Experimental Julia interface to `slurm.schedmd.com`.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ArrayFire.jl](https://github.com/hshindo/ArrayFire.jl) by @hshindo :: Julia bindings for ArrayFire.
 + 🏚️ [HDFS.jl](https://github.com/JuliaParallel/HDFS.jl) :: An interface wrapper over the Hadoop HDFS library that wraps the HDFS C library libhdfs and provides APIs similar to Julia Filesystem APIs which can be used for direct access to HDFS files.
 + 🏚️ [OCCA.jl](https://github.com/ReidAtcheson/OCCA.jl) :: Julia interface into [OCCA2](https://github.com/tcew/OCCA2) by @tcew, an extensible multi-threading programming API written in C++.
+{{< /admonition >}}
 
 #### Cloud Computing
 
@@ -61,8 +67,10 @@ General Concurrency Packages:
 + [AWSS3.jl](https://github.com/samoconnor/AWSS3.jl) :: AWS S3 Simple Storage Service interface for Julia.
 + [GCloud.jl](https://github.com/spencerlyon2/GCloud.jl) :: Tools for working with Google Compute engine via the cloud CLI.
 + [GoogleCloud.jl](https://github.com/JuliaCloud/GoogleCloud.jl) :: Google Cloud APIs for Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [CloudArray.jl](https://github.com/gsd-ufal/CloudArray.jl) :: Easy big data programming in the cloud.
-+ OCAWS.jl(404) :: An AWS library.
+{{< /admonition >}}
 
 ### Multiprocessing and Distributed Computing
 
@@ -84,6 +92,8 @@ Packages:
 + [Persist.jl](https://github.com/eschnett/Persist.jl) :: The package Persist allows running jobs independent of the Julia shell.
 + [Schedulers.jl](https://github.com/ChevronETC/Schedulers.jl) :: It provides elastic and fault tolerant parallel map and parallel map reduce methods. The primary feature that distinguishes Schedulers parallel map method from Julia's `Distributed.pmap` is elasticity where the cluster is permitted to dynamically grow/shrink.
 + [SimJulia.jl](https://github.com/BenLauwens/SimJulia.jl) ::A discrete event process oriented simulation framework written in Julia inspired by the Python library [SimPy](https://simpy.readthedocs.io/).
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ChainedVectors.jl](https://github.com/tanmaykm/ChainedVectors.jl) :: Few utility types over Julia Vector type.
 + 🏚️ [ClusterDicts.jl](https://github.com/amitmurthy/ClusterDicts.jl) :: Global and Distributed dictionaries for Julia.
 + 🏚️ [Collectl.jl](https://github.com/ranjanan/Collectl.jl) :: Plotting information from Collectl in julia.
@@ -98,6 +108,7 @@ Packages:
 + 🏚️ [ParallelGLM.jl](https://github.com/dmbates/ParallelGLM.jl) :: Parallel fitting of GLMs using SharedArrays.
 + 🏚️ [PTools.jl](https://github.com/amitmurthy/PTools.jl) :: A collection of utilities for parallel computing in Julia.
 + 🏚️ [SGEArrays.jl](https://github.com/davidavdav/SGEArrays.jl) :: SGEArray implements a simple iterator in Julia to efficiently handle Sun Grid Engine task arrays.
+{{< /admonition >}}
 
 ### SIMD Computing
 
@@ -110,16 +121,22 @@ Packages:
 
 + [MPIArrays.jl](https://github.com/barche/MPIArrays.jl) :: Distributed arrays based on MPI onesided communication.
 + [SIMD.jl](https://github.com/eschnett/SIMD.jl) :: Explicit SIMD vector operations for Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [SIMDPirates.jl](https://github.com/chriselrod/SIMDPirates.jl) :: A library for SIMD intrinsics. The code was stolen from SIMD.jl, whose authors and maintainers deserve credit for most of the good work here. Aside from pirating code, SIMDPirates also provides an @pirate macro that lets you imagine you're commiting type piracy
 + 🏚️ [SIMDVectors.jl](https://github.com/KristofferC/SIMDVectors.jl) :: An experimental package that uses the PR #15244 to create a stack allocated fixed size vector which supports SIMD operations and very similar in spirit to the SIMD.jl package.
 + 🏚️ [Yeppp.jl](https://github.com/JuliaLang/Yeppp.jl) :: A low level, high performance library for vectorized operations, elementwise operation on arrays.
+{{< /admonition >}}
 
 ### Multi-Threading
 
 + [KissThreading.jl](https://github.com/bkamins/KissThreading.jl) :: Simple patterns supporting working with threads in Julia.
 + [ThreadsX.jl](https://github.com/tkf/ThreadsX.jl) :: Parallelized Base functions.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [RawMutex.jl](https://github.com/vchuravy/RawMutex.jl) :: A __MUT__ual __EX__clusion program object in Julia that allows multiple program threads to share the same resource, such as file access, but not simultaneously.
 + 🏚️ [MT-Workloads](https://github.com/ranjanan/MT-Workloads) :: Multi-threaded workloads in Julia.
+{{< /admonition >}}
 
 ### GPU computing
 
@@ -130,6 +147,8 @@ Packages:
 + [CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) :: This package wraps key functions in CUDA Driver API.
 + [FoldsCUDA.jl](https://github.com/JuliaFolds/FoldsCUDA.jl):: provides Transducers.jl-compatible fold (reduce) implemented using CUDA.jl. This brings the transducers and reducing function combinators implemented in Transducers.jl to GPU. Furthermore, using FLoops.jl, you can write parallel for loops that run on GPU.
 + [OpenCL.jl](https://github.com/JuliaGPU/OpenCL.jl) :: OpenCL 1.2 Julia bindings - a cross platform parallel computation API for programming parallel devices, with implementations from AMD, Nvidia, Intel, and others, similar in scope to PyOpenCL.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [CLBLAS.jl](https://github.com/JuliaGPU/CLBLAS.jl) :: CLBLAS integration for Julia.
 + 🏚️ [CUBLAS.jl](https://github.com/JuliaGPU/CUBLAS.jl) :: Julia interface to CUBLAS.
 + 🏚️ [CUDAnative.jl](https://github.com/JuliaGPU/CUDAnative.jl) :: Support for compiling and executing native Julia kernels on CUDA hardware.
@@ -143,13 +162,17 @@ Packages:
 + 🏚️ [Titan.jl](https://github.com/malmaud/Titan.jl) :: Write GPU kernels using pure Julia.
 + 🏚️ [UberSignals.jl](https://github.com/SimonDanisch/UberSignals.jl) :: Concept for a fast event signal system, using JIT and GPU acceleration, loosely inspired by Reactive.jl.
 + 🏚️ [Transpiler.jl](https://github.com/SimonDanisch/Transpiler.jl) :: Transpiling from Julia's typed AST to CUDA / OpenCL code.
+{{< /admonition >}}
 
 #### Resources
 
 + Blog post on [Compiling Julia for NVIDIA GPUs](http://blog.maleadt.net/2015/01/15/julia-cuda/)
 + Sample notebooks for: [GPU Julia](http://nbviewer.ipython.org/7436359), and [GPU Transpose](http://nbviewer.ipython.org/7436439).
 + Blog post on [High-Performance GPU Computing](https://devblogs.nvidia.com/parallelforall/gpu-computing-julia-programming-language/#more-8555) in the Julia Programming Language.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [GPU-benchmarking](https://github.com/ranjanan/GPU-benchmarking) :: GPU benchmarking on Julia.
+{{< /admonition >}}
 
 ## Publications
 + [Parallel Prefix Polymorphism Permits Parallelization, Presentation & Proof](http://jiahao.github.io/parallel-prefix/) :: A short [paper](https://github.com/jiahao/parallel-prefix) about parallel prefix.

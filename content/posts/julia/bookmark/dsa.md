@@ -24,29 +24,38 @@ categories: [Julia, Bookmark]
 ## General Algorithms and DataStrcutures
 
 + [CRC.jl](https://github.com/andrewcooke/CRC.jl) :: a Julia module for calculating Cyclic Redundancy Checksums (CRCs).
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ARules.jl](https://github.com/toddleo/ARules.jl) :: Julia package for Association Rule Learning algorithms.
 + 🏚️ [CRC32.jl](https://github.com/fhs/CRC32.jl) :: 32-bit cyclic redundancy check (CRC-32) checksum implementation.
 + 🏚️ [HClust.jl](https://github.com/davidavdav/HClust.jl) :: Hierarchical Clustering for Julia, similar to R's hclust(), has now been merged into [Clustering.jl](https://github.com/JuliaStats/Clustering.jl)
 + 🏚️ [LabelPropagation.jl](https://github.com/afternone/LabelPropagation.jl) :: A fast, nearly linear time algorithm for detecting communtiy structure in networks.
 + 🏚️ [RecSys.jl](https://github.com/abhijithch/RecSys.jl) :: An implementation of the ALS-WR algorithm.
+{{< /admonition >}}
 
 ## Pattern Matching
 
 + [BlossomV.jl](https://github.com/mlewe/BlossomV.jl) :: An interface for the Blossom V perfect matching algorithm.
 + [Loess.jl](https://github.com/dcjones/Loess.jl) :: is a loess implementation based on the fast kd-tree based approximation algorithm, a space-partitioning data structure for organizing points in a k-dimensional space.
 + [Match.jl](https://github.com/kmsquire/Match.jl) :: Advanced Pattern Matching for Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AhoCorasick.jl](https://github.com/gilesc/AhoCorasick.jl) :: Julia implementation of the Aho-Corasick algorithm for fast string searching.
 + 🏚️ [JellyFish.jl](https://github.com/samuelcolvin/JellyFish.jl) :: Port of the jellyfish string comparison library.
 + 🏚️ [NearestNeighbors.jl](https://github.com/johnmyleswhite/NearestNeighbors.jl) :: Data structures for nearest neighbor search.
 + 🏚️ [PatternDispatch.jl](https://github.com/toivoh/PatternDispatch.jl) :: Method dispatch based on pattern matching for Julia.
 + 🏚️ [ReverseRegexes.jl](https://github.com/carlobaldassi/ReverseRegexes.jl) :: Adds functionality to reverse-search strings with regexes
+{{< /admonition >}}
 
 ## Sorting
 
 + [NaturalSort.jl](https://github.com/simonster/NaturalSort.jl) :: Natural sort order.
 + [SortingAlgorithms.jl](https://github.com/JuliaCollections/SortingAlgorithms.jl) :: extra sorting algorithms extending Julia's sorting API.
 + [SortingLab.jl](https://github.com/xiaodaigh/SortingLab.jl) :: Experimental implementations of sorting algorithms.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [SearchSortAlgos.jl](https://github.com/Dawny33/SearchSortAlgos.jl) :: An API for common search and sort algorithms.
+{{< /admonition >}}
 
 ## NP-complete Problems
 
@@ -59,8 +68,11 @@ categories: [Julia, Bookmark]
 [📖 SAT](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) is a kind of NP-complete (NPC) problems.
 
 + [PicoSAT.jl](https://github.com/jakebolewski/PicoSAT.jl) :: Provides Julia bindings to the popular SAT solver [picosat](http://fmv.jku.at/picosat/) by Armin Biere. It is based off the Python pycosat and Go pigosat bindings written by Ilan Schnell and Willam Schwartz.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [dReal.jl](https://github.com/zenna/dReal.jl) :: Nonlinear SMT solving using dReal.
 + 🏚️ [Z3.jl](https://github.com/zenna/Z3.jl) :: This is a Julia interface to Z3 - a high performance theorem prover developed at Microsoft Research. Z3 can solve satisfiability modulo theory (SMT) problems.
+{{< /admonition >}}
 
 ## Data strctures and data types
 
@@ -75,6 +87,8 @@ categories: [Julia, Bookmark]
 + [MUtils.jl](https://github.com/JuliaParallel/MessageUtils.jl) :: `channels()`, `tspaces(`)`, `kvspaces()` and more.
 + [ResultTypes.jl](https://github.com/iamed2/ResultTypes.jl) ::  A Result type for Julia—it's like Nullables for Exceptions.
 + [TypeSortedCollections.jl](https://github.com/tkoolen/TypeSortedCollections.jl) :: It provides the TypeSortedCollection type, which can be used to store type-heterogeneous data in a way that allows operations on the data to be performed in a type-stable manner.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ASCIIByte.jl](https://github.com/Elin-/ASCIIByte.jl) :: Julia package to deal with Characters of 8 bits.
 + 🏚️ [Codecs.jl](https://github.com/BioJulia/Codecs.jl) :: Common data encoding algorithms.
 + 🏚️ [DanaTypes.jl](https://github.com/DANA-Laboratory/DanaTypes.jl) :: Types for continuous variables or parameters.
@@ -89,6 +103,8 @@ categories: [Julia, Bookmark]
 + 🏚️ [Sexpr.jl](https://github.com/vshesh/Sexpr.jl) :: A program to port clojure-like [s-expression](https://en.wikipedia.org/wiki/S-expression) syntax to and from Julia.
 + 🏚️ [TexExtensions.jl](https://github.com/Keno/TexExtensions.jl) :: Tex Pretty printing of Julia Base types.
 + 🏚️ [RingBuffer.jl](https://github.com/kmsquire/RingBuffer.jl) :: Julia ring buffer implementation for buffered IO.
+{{< /admonition >}}
+
 
 ## Text / string data type
 
@@ -101,6 +117,8 @@ categories: [Julia, Bookmark]
 + [StringLiterals.jl](https://github.com/JuliaString/StringLiterals.jl) :: Implement improved string literals with Swift-style syntax for interpolation, hex, & unicode characters, plus C & Python style formatting and Unicode, HTML, LaTeX, and Emoji entities.
 + [VersionParsing.jl](https://github.com/JuliaInterop/VersionParsing.jl) :: flexible VersionNumber parsing in Julia.
 + [WeakRefStrings.jl](https://github.com/JuliaData/WeakRefStrings.jl) :: a minimal String type for Julia that allows for efficient string representation and transfer.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AutoFormat.jl](https://github.com/yulijia/AutoFormat.jl)
 + 🏚️ [MonkeyString.jl](https://github.com/malmaud/MonkeyString.jl) :: Fast string implementation inspired by SpiderMonkey.
 + 🏚️ [MutableStrings.jl](https://github.com/tanmaykm/MutableStrings.jl) :: Mutable string types for Julia.
@@ -110,6 +128,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [TypeCheck.jl](https://github.com/astrieanna/TypeCheck.jl) :: a type checker for Julia.
 + 🏚️ [Typeclass.jl](https://github.com/jasonmorton/Typeclass.jl) :: Prototype typeclasses for Julia.
 + 🏚️ [TypeGraph.jl](https://github.com/johnmyleswhite/TypeGraph.jl) :: Visualize the Julia type system.
+{{< /admonition >}}
 
 ## Graph data types
 
@@ -118,6 +137,8 @@ categories: [Julia, Bookmark]
 + [LightGraphs.jl](https://github.com/JuliaGraphs/LightGraphs.jl) :: An optimized simple graphs package designed for fast analysis using standard functions that seeks to mimic the functionality of established packages like NetworkX, but with better performance.
 + [Seep.jl](https://github.com/mit-ll/Seep.jl) :: It builds and evaluates computational flow graphs in julia. A computational flow graph (CFG) is a directed acyclic graph where nodes represent values and edges represent data dependencies.
 + [SimpleGraphs.jl](https://github.com/scheinerman/SimpleGraphs.jl) :: A module for working with simple graphs (no loops, no multiple edges, no directed edges).
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [BGraph.jl](https://github.com/adolgert/BGraph.jl) :: An adjacency list that uses typed properties for vertices, edges, and graphs.
 + 🏚️ [CompressedStacks.jl](https://github.com/Azzaare/CompressedStacks.jl)
 + 🏚️ [DeepReshapes.jl](https://github.com/lmshk/DeepReshapes.jl) :: Reshape arbitrarily nested structures of Tuples and Arrays in Julia.
@@ -131,6 +152,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [SpatialGraphs.jl](https://github.com/sawcordwell/SpatialGraphs.jl)
 + 🏚️ [SumTrees.jl](https://github.com/iamed2/SumTrees.jl) :: Binary tree where the nodes contain the sum of the left and right children.
 + 🏚️ [Trie.jl](https://github.com/JuliaLang/Trie.jl) :: Implementation of the trie data structure.
+{{< /admonition >}}
 
 ## Numeric data types
 
@@ -152,6 +174,8 @@ categories: [Julia, Bookmark]
 + [Quaternions.jl](https://github.com/peakbook/Quaternions.jl) :: by @peakbook. Quaternion for Julia Language.
 + [Ratios.jl](https://github.com/timholy/Ratios.jl) :: Faster Rational-like types for Julia.
 + [Unitful.jl](https://github.com/PainterQubits/Unitful.jl) :: A Julia package for physical units.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ArbDecimals.jl](https://github.com/JuliaArbTypes/ArbDecimals.jl) :: reliable and performant extended precision floating point math.
 + 🏚️ [ArbFloats.jl](https://github.com/JuliaArbTypes/ArbFloats.jl) ::  Arb available as an extended precision floating point context.
 + 🏚️ [BigRationals.jl](https://github.com/andrioni/BigRationals.jl) :: A BigRational package for Julia using GMP.
@@ -167,6 +191,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [IntsWithInfinty.jl](https://github.com/Jeffrey-Sarnoff/IntsWithInfinty.jl) :: Ints augmented with Infinity.
 + 🏚️ [Scalar.jl](https://github.com/sabjohnso/Scalar.jl) :: Scalar Types.
 + 🏚️ [Units.jl](https://github.com/timholy/Units.jl) :: Infrastructure for handling physical units for the Julia programming language. Use `Unitful.jl` instead.
+{{< /admonition >}}
 
 ### Array types
 
@@ -204,6 +229,8 @@ categories: [Julia, Bookmark]
 + [UniqueVectors.jl](https://github.com/garrison/UniqueVectors.jl) :: Vectors of unique elements, with quick reverse lookups.
 + [Vec.jl](https://github.com/sisl/Vec.jl) :: Provides 2D and 3D vector types for vector operations in Julia.
 + [WoodburyMatrices.jl](https://github.com/timholy/WoodburyMatrices.jl) :: Library support for the [Woodbury matrix identity](http://en.wikipedia.org/wiki/Woodbury_matrix_identity).
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [FlexibleArrays.jl](https://github.com/eschnett/FlexibleArrays.jl) :: Multi-dimensional arrays with arbitrary upper and lower bounds that can be fixed or flexible.
 + 🏚️ [ImmutableArrays.jl](https://github.com/twadleigh/ImmutableArrays.jl) :: Statically-sized immutable vectors and matrices.
 + 🏚️ [JudyDicts.jl](https://github.com/tanmaykm/JudyDicts.jl) :: Judy arrays are fast associative arrays with low memory usage.
@@ -216,6 +243,8 @@ categories: [Julia, Bookmark]
 + 🏚️ [SparseVectors.jl](https://github.com/JuliaSparse/SparseVectors.jl) :: A Julia package to support sparse vectors.
 + 🏚️ [StructsOfArrays.jl](https://github.com/JuliaArrays/StructsOfArrays.jl) :: Structures of Arrays that behave like Arrays of Structures.
 + 🏚️ [TimeArrays.jl](https://github.com/milktrader/TimeArrays.jl) :: A temporary repo exploring the union of SeriesPair arrays into multicolumn arrays with similar behavior.
+{{< /admonition >}}
+
 
 ## Composite Data Types
 
@@ -232,6 +261,8 @@ Also see `[Base.@kwdef](https://discourse.julialang.org/t/what-does-kwdef-do/519
 + [SymDict.jl](https://github.com/JuliaCloud/SymDict.jl) :: Dictionaries with Symbol keys. (No `Project.toml`)
 + [TypedDelegation.jl](https://github.com/JuliaArbTypes/TypedDelegation.jl) ::  Use a Type's fields as operands for the type's operations and easily apply functions onto fields' values.
 + [Unpack.jl](https://github.com/mauro3/UnPack.jl) :: `@unpack` some or all of the fields of a type, and `@pack`, in the case of mutable datatypes.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AutoTypeParameters.jl](https://github.com/andrewcooke/AutoTypeParameters.jl) :: A Julia library to reversibly encode any value so that it can be used as a type parameter.
 + 🏚️ [DictWrappers.jl](https://github.com/iamed2/DictWrappers.jl) :: Wrap any Julia composite type in an Associative interface.
 + 🏚️ [EMLTranslator.jl](https://github.com/DANA-Laboratory/EMLTranslator.jl) :: Adds Inheritance to julia composite type.
@@ -245,6 +276,8 @@ Also see `[Base.@kwdef](https://discourse.julialang.org/t/what-does-kwdef-do/519
 + 🏚️ [TypeTree.jl](https://github.com/johnmyleswhite/TypeTree.jl) :: source code and the interactive D3 visualization of a Julia type tree.
 + OrderedCollections.jl(404) :: OrderedDict and OrderedSet for Julia.
 + 🏚️ [QuickStructs.jl](https://github.com/tbreloff/QuickStructs.jl) :: Several data structures with goals of O(1) for important operations.
+{{< /admonition >}}
+
 
 ## Resources
 

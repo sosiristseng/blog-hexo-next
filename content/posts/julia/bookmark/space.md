@@ -24,8 +24,10 @@ categories: [Julia, Bookmark]
 
 ## Aeronautics
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ices-desktop](https://github.com/abieler/ices-desktop).
 + 🏚️ [Spice.jl](https://github.com/abieler/Spice.jl) :: NASA's SPICE observation geometry system.
+{{< /admonition >}}
 
 ## Astronomy
 
@@ -42,6 +44,9 @@ categories: [Julia, Bookmark]
 + [SatelliteToolbox.jl](https://github.com/JuliaSpace/SatelliteToolbox.jl) :: A toolbox for satellite analysis written in julia language.
 + [SkyCoords.jl](https://github.com/JuliaAstro/SkyCoords.jl) :: Astronomical coordinate systems in Julia.
 + [WCS.jl](https://github.com/JuliaAstro/WCS.jl) :: Astronomical [World Coordinate System](http://www.atnf.csiro.au/people/mcalabre/WCS/) library for Julia.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [AperturePhotometry.jl](https://github.com/kbarbary/AperturePhotometry.jl) :: Astronomical photometry library for Julia.
 + 🏚️ [CasaCore.jl](https://github.com/mweastwood/CasaCore.jl) :: A Julia wrapper of CasaCore. (No `Project.toml`)
 + 🏚️ [Celeste.jl](https://github.com/jeff-regier/Celeste.jl) :: Scalable inference for a generative model of astronomical images. (No `Project.toml`)
@@ -50,10 +55,13 @@ categories: [Julia, Bookmark]
 + 🏚️ [SDSS.jl](https://github.com/kbarbary/SDSS.jl) :: Collection of code snippets for querying and reading Sloan Digital Sky Survey data.
 + 🏚️ [SGP4.jl](https://github.com/crbinz/SGP4.jl) :: Julia wrapper for the SGP4 satellite propagation model. (No `Project.toml`)
 + 🏚️ [WCSLIB.jl](https://github.com/JuliaAstro/WCSLIB.jl) :: wcslib wrapper for Julia.
+{{< /admonition >}}
 
 ### Resources
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [ioa-julia-tutorials](https://github.com/swt30/ioa-julia-tutorials) :: An introductory Julia tutorial for the Institute of Astronomy, University of Cambridge
+{{< /admonition >}}
 
 ## Space
 

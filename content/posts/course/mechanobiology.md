@@ -1,9 +1,8 @@
 ---
 title: "Intro to mechanobiology"
 date: 2020-10-21T15:36:30+08:00
-tags: ["mechanobiology"]
+tags: []
 categories: ["Course Notes"]
-comments: true
 ---
 
 Note about Intro to mechanobiology.

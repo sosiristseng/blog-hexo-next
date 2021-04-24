@@ -1,12 +1,11 @@
 ---
 title: 🔖 Artificial intelligence in Julia
-comments: false
 date: 2021-04-23 10:26:53
 tags: ["julia", "bookmark", "machine learning"]
 categories: [Julia, Bookmark]
 ---
 
-> Algorithms, DataMining, Data Structures, HMM, ML, NLP, ...[^1]
+> DataMining, Data Structures, HMM, ML, NLP, ...[^1]
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.
@@ -19,7 +18,7 @@ categories: [Julia, Bookmark]
 
 ## Machine Learning and Neural Networks
 
-General machine learning frameworks and Neural Networks
+> General machine learning frameworks and Neural Networks
 
 + [BayesianNonparametrics.jl](https://github.com/OFAI/BayesianNonparametrics.jl) :: Bayesian nonparametrics in Julia.
 + [Boltzmann.jl](https://github.com/dfdx/Boltzmann.jl) :: Restricted Boltzmann Machines and Deep Belief Networks in Julia
@@ -29,7 +28,7 @@ General machine learning frameworks and Neural Networks
 + [Flux.jl](https://github.com/FluxML/Flux.jl) :: A library for machine learning implemented in Julia. [Flux model-zoo](https://github.com/FluxML/model-zoo).
 + [FunctionalDataUtils.jl](https://github.com/rened/FunctionalDataUtils.jl) :: Utility functions for the FunctionalData package, mainly from the area of computer vision / machine learning.
 + [Glmnet.jl](https://github.com/simonster/Glmnet.jl) :: Julia wrapper for fitting Lasso/ElasticNet GLM models using a R package glmnet.
-+ [innerlee | LIBLINEAR.jl](https://github.com/innerlee/LIBLINEAR.jl) :: Liblinear binding to Julia.
++ [LIBLINEAR.jl](https://github.com/innerlee/LIBLINEAR.jl) :: Liblinear binding to Julia.
 + [JuliaTorch](https://github.com/boathit/JuliaTorch) :: Using PyTorch in Julia Language via PyCall.
 + [KernelFunctions.jl](https://github.com/JuliaGaussianProcesses/KernelFunctions.jl) :: Julia package for kernel functions for machine learning.
 + [Knet.jl](https://github.com/denizyuret/Knet.jl) :: Koç University deep learning framework - A machine learning module implemented in Julia. [KnetNLP](https://github.com/egeersu/KnetNLP). [KnetOnnx.jl](https://github.com/egeersu/KnetOnnx.jl)
@@ -54,6 +53,9 @@ General machine learning frameworks and Neural Networks
 + [TheDataMustFlow.jl](https://github.com/ExpandingMan/TheDataMustFlow.jl) :: Julia tools for feeding tabular data into machine learning.
 + [TSVD.jl](https://github.com/andreasnoack/TSVD.jl) :: Truncated singular value decomposition with partial reorthogonalization.
 + [ValueHistories.jl](https://github.com/JuliaML/ValueHistories.jl) :: Utilities to efficiently track learning curves or other optimization information.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏗️ [SpectralClustering.jl](https://github.com/lucianolorenti/SpectralClustering.jl) :: Spectral clustering algorithms written in Julia.
 + 🏗️ [XLATools.jl](https://github.com/MikeInnes/XLATools.jl) :: Provides access to XLA and the XRT runtime (in Tensorflow), including the ability to build and compile XLA computations using the IRTools format.
 + 🏚️ [ANN.jl](https://github.com/EricChiang/ANN.jl) :: Julia artificial neural networks
@@ -115,6 +117,8 @@ General machine learning frameworks and Neural Networks
 + 🏚️ [TensorFlow.jl](https://github.com/malmaud/TensorFlow.jl) :: A Julia wrapper for TensorFlow, the open source machine learning framework from Google.
 + 🏚️ [tuzzeg | liblinear.jl](https://github.com/tuzzeg/liblinear.jl) :: Liblinear binding to Julia.
 
+{{< /admonition >}}
+
 ### Resources
 
 + [CIML](https://github.com/hal3/ciml) :: A Course in Machine Learning. This repository contains the source code for the CIML book (see http://ciml.info/) as well as any course materials that seem useful (slides, documents, labs, etc.).
@@ -125,10 +129,7 @@ General machine learning frameworks and Neural Networks
 + [Machine Learning Algorithm Cheat Sheet](http://www.lauradhamilton.com/machine-learning-algorithm-cheat-sheet) by Laura D Hamilton.
 + [machine-learning-cheat-sheet](https://github.com/soulmachine/machine-learning-cheat-sheet) :: Classical equations and diagrams in machine learning by @soulmachine.
 + [mlpnnets.jl](https://github.com/tautologico/learning/blob/master/nnets/mlp/julia/mlpnnets.jl) :: Feed-forward MLP neural network implementation.
-+ 🏚️ [DistLearn.jl](https://github.com/pluskid/DistLearn.jl) :: An example of distributed learning in Julia. Note: this is not a full featured distributed machine learning library, therefore we are not going to register this in the Julia package system.
-+ 🏚️ [ML4H.jl](https://github.com/johnmyleswhite/ML4H.jl) :: Machine Learning for Hackers in Julia.
 + A [Machine Learning](http://work.caltech.edu/telecourse.html#lectures) course by Prof. Yaser Abu-Mostafa with videos on Youtube.
-+ Blog post on '[Chess position evaluation with convolutional neural networks](http://int8.io/chess-position-evaluation-with-convolutional-neural-networks-in-julia/)' in Julia using Mocha.jl.
 
 ## Natural language processing (NLP)
 
@@ -150,6 +151,11 @@ General machine learning frameworks and Neural Networks
 + [TopicModels.jl](https://github.com/slycoder/TopicModels.jl) :: Topic models are Bayesian, hierarchical mixture models of discrete data.
 + [Word2Vec.jl](https://github.com/JuliaText/Word2Vec.jl) :: Julia interface to word2vec.
 + [WordNet.jl](https://github.com/JuliaText/WordNet.jl) :: A Julia package for Princeton's WordNet®.
+
+[TextAnalysis.jl]: https://github.com/JuliaText/TextAnalysis.jl
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
+
 + 🏚️ [allen](https://github.com/ninjin/allen) :: A syntacto-semantic natural language parser.
 + 🏚️ [DPL.jl](https://github.com/quxiaofeng/DPL.jl) :: Projective Dictionary Pair Learning - code for the paper S. Gu, L. Zhang, W. Zuo, and X. Feng, “Projective Dictionary Pair Learning for Pattern Classification,” In NIPS 20144. <https://sites.google.com/site/shuhanggu/home>
 + 🏚️ [GoodTuring.jl](https://github.com/JoFrhwld/GoodTuring.jl) :: A Julia implementation of Simple Good Turing smoothing, largely adapted from @maxbane.
@@ -166,7 +172,8 @@ General machine learning frameworks and Neural Networks
 + 🏚️ [Text.jl](https://github.com/mit-nlp/Text.jl) :: Numerous tools for text processing.
 + 🏚️ [Treekenize.jl](https://github.com/o-jasper/Treekenize.jl) :: Parser with beginners and enders and infix.
 
-[TextAnalysis.jl]: https://github.com/JuliaText/TextAnalysis.jl
+{{< /admonition >}}
+
 
 ### English NLP
 
@@ -178,24 +185,23 @@ General machine learning frameworks and Neural Networks
 [📖 Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
 
 + [ReinforcementLearning.jl](https://github.com/JuliaReinforcementLearning/ReinforcementLearning.jl) :: A Reinforcement Learning package.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [DeepQLearning.jl](https://github.com/Andy-P/DeepQLearning.jl) :: An implementation of DeepMind's Deep Q Learning algorithm described in _Playing Atari with Deep Reinforcement Learning_.
 + 🏚️ [ReinforcementLearning.jl](https://github.com/benhamner/ReinforcementLearning.jl) by @benhamner :: A Reinforcement Learning package.
+{{< /admonition >}}
+
 
 ## Speech recognition
 
 + [MFCC.jl](https://github.com/JuliaDSP/MFCC.jl) :: Standard Mel Frequency Cepstral Coefficients feature extraction for speech analysis.
 + [WORLD.jl](https://github.com/r9y9/WORLD.jl) :: A Julia wrapper for WORLD - a high-quality speech analysis, modification and synthesis system.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [MelGeneralizedCepstrums.jl](https://github.com/r9y9/MelGeneralizedCepstrums.jl) :: It provides a `mel generalized cepstrum` analysis for spectrum envelope estimation, which includes linear predicition, mel-cepstrum, generalized cepstrum and mel-generalized cepstrum analysis for Julia.
 + 🏚️ [SpeechBase.jl](https://github.com/r9y9/SpeechBase.jl).
 + 🏚️ [SPTK.jl](https://github.com/r9y9/SPTK.jl) :: A Julia wrapper for the Speech Signal Processing Toolkit (SPTK), based on the modified version of SPTK.
 + 🏚️ [SynthesisFilters.jl](https://github.com/r9y9/SynthesisFilters.jl) :: Speech Synthesis Filters.
-
-## Supervised learning
-
-[📖 Supervised learning](https://en.wikipedia.org/wiki/Supervised_learning)
-
-+ 🏚️ [GURLS.jl](https://github.com/joehuchette/GURLS.jl) :: A pure Julia port of the GURLS supervised learning library.
-+ 🏚️ [SupervisedLearning.jl](https://github.com/Evizero/SupervisedLearning.jl) :: Front-end interface for supervised machine learning.
-
+{{< /admonition >}}
 
 [^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.

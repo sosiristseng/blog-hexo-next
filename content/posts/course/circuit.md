@@ -3,7 +3,6 @@ title: "Applied electricity"
 date: 2020-10-21T15:34:49+08:00
 tags: []
 categories: ["Course Notes"]
-comments: true
 ---
 
 Notes about Applied electricity

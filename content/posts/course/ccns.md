@@ -1,9 +1,8 @@
 ---
 title: "Computational Cognitive Neuroscience"
 date: 2020-10-21T15:26:45+08:00
-tags: ["spiking neural network"]
+tags: []
 categories: ["Course Notes"]
-comments: true
 ---
 
 Notes about Computational Cognitive Neuroscience

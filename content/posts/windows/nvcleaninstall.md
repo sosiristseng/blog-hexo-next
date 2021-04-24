@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [GPU]
+tags: [GPU, driver]
 categories: [Windows]
 
 hiddenFromHomePage: false

@@ -48,6 +48,8 @@ As well as genomics.
 + [PlmDCA](https://github.com/pagnani/PlmDCA) :: Pseudo Likelihood Maximization for protein in Julia.
 + [SpeedDate.jl](https://github.com/Ward9250/SpeedDate.jl) :: A utility for rapidly estimating coalescence times between sequences.
 + [XSim.jl](https://github.com/reworkhow/XSim.jl) :: A fast and user-friendly tool to simulate sequence data and complicated pedigree structures.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [BioArgParse.jl](https://github.com/Ward9250/BioArgParse.jl) :: Extension to 'ArgParse.jl', enabling parsing of command line parameters to types in 'Bio.jl'.
 + 🏚️ [BioFeatures.jl](https://github.com/nw11/BioFeatures.jl).
 + 🏚️ [BismarkSummary.jl](https://github.com/nw11/BismarkSummary.jl) :: Basic summary of multiple Bismark runs.
@@ -76,7 +78,9 @@ As well as genomics.
 + 🏚️ [VariantCall.jl](https://github.com/mgvel/VariantCall.jl).
 + 🏚️ [YARS.jl](https://github.com/kzahedi/YARS.jl) :: YARS communication for RNA/proteins.
 
-### The [BioJulia](https://github.com/BioJulia) organization
+{{< /admonition >}}
+
+### BioJulia packages
 
 + [BioAlignments.jl](https://github.com/BioJulia/BioAlignments.jl) ::  Sequence alignment tools in BioJulia
 + [BioSequences.jl](https://github.com/BioJulia/BioSequences.jl) :: Biological sequences for the julia language.
@@ -105,9 +109,12 @@ Evolution trees from biosequences.
 + [JWAS.jl](https://github.com/reworkhow/JWAS.jl) :: An open-source software tool written in Julia for Bayesian multiple regression methods applied to genome-wide association studies and genomic prediction.
 + [MendelBase.jl](https://github.com/OpenMendel/MendelBase.jl) :: contains the base functions of OpenMendel.
 + [SnpArrays.jl](https://github.com/OpenMendel/SnpArrays.jl) :: provides utilities for handling compressed storage of biallelic SNP (Single-Nucleotide Polymorphism) data.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AlignmentStatistics.jl](https://github.com/DanielHoffmann32/AlignmentStatistics.jl) :: A package for statistical analyses of sequence alignments.
 + 🏚️ [StatGenData.jl](https://github.com/dmbates/StatGenData.jl) :: Statistical analysis of genomic data.
 + 🏚️ [VarianceComponentTest.jl](https://github.com/Tao-Hu/VarianceComponentTest.jl) :: A Julia package for performing exact variance component tests in genome-wide association study (GWAS).
+{{< /admonition >}}
 
 ### Resources
 
@@ -128,38 +135,20 @@ Evolution trees from biosequences.
 
 ## BioStatistics
 
-+ 🏚️ [pedigree.jl](https://github.com/Rpedigree/pedigree.jl) :: Pedigree extractors and representation as a Julia type with two integer members, sire and dam. A parent not in the pedigree is coded as 0.
 + [ROC.jl](https://github.com/diegozea/ROC.jl) :: Receiver Operating Characteristic (ROC) Curve for Julia Language.
++ 🏚️ [pedigree.jl](https://github.com/Rpedigree/pedigree.jl) :: Pedigree extractors and representation as a Julia type with two integer members, sire and dam. A parent not in the pedigree is coded as 0.
 
-## Ecology
-
-Also see [EcoJulia](https://ecojulia.org) organization.
-
-+ [Diversity.jl](https://github.com/richardreeve/Diversity.jl) :: Diversity analysis package for Julia, with submodules containing standard ecological and other diversity measures.
-+ [EcologicalNetwork.jl](https://github.com/EcoJulia/EcologicalNetworks.jl) :: Measure various aspects of the structure of ecological networks in Julia.
-+ [FishABM.jl](https://github.com/jangevaare/FishABM.jl) :: An agent based life cycle model for managed fisheries.
-+ [GBIF.jl](https://github.com/EcoJulia/GBIF.jl) :: Functions and types to access GBIF data from Julia.
-+ [SpatialEcology.jl](https://github.com/EcoJulia/SpatialEcology.jl) :: Julia framework for spatial ecology - data types and utilities.
-
-### [Agronomy](https://en.wikipedia.org/wiki/Category:Agronomy) and [Forest Modelling](https://en.wikipedia.org/wiki/Category:Forest_modelling)
-
-+ [LAIscript](https://github.com/ETC-UA/LAIscript) :: scripts to automatically run LAI calculations with ODBC link to custom database.
-+ [LeafAreaIndex.jl](https://github.com/ETC-UA/LeafAreaIndex.jl) :: Package to calculate Leaf Area Index from Hemisperical Images.
-
-### Aquatic Ecology
-
-+ 🏚️ [Iceberg.jl](https://github.com/njwilson23/Iceberg.jl) :: Ice-seawater interface calculations using level set methods.
-+ TEOS.jl(404) :: Julia wrapper for TEOS-10 Gibbs Seawater Oceanographic Toolbox.
 
 ## Molecular Biology
 
 + 🏚️ [EvoDuplexes.jl](https://github.com/timbitz/EvoDuplexes.jl) :: A Julia package to fold all local and long-range RNA duplexes.
 + [CellFishing.jl ](https://github.com/bicycle1885/CellFishing.jl) :: (cell finder via hashing) is a tool to find similar cells of query cells based on their transcriptome expression profiles, a.k.a. single-cell sequencing.
 
-## [Microscopy](https://en.wikipedia.org/wiki/Microscopy)
+## Microscopy
+
+[📖 Microscopy](https://en.wikipedia.org/wiki/Microscopy)
 
 + [MicroscopyLabels.jl](https://github.com/tlnagy/MicroscopyLabels.jl) :: Embed annotations in your microscopy images.
-
 
 ## Neuroscience
 
@@ -171,11 +160,17 @@ Also see [EcoJulia](https://ecojulia.org) organization.
 + [NeuroAnalysis.jl](https://github.com/babaq/NeuroAnalysis.jl) :: Julia package for neural signal analysis.
 + [NeuronBuilder](https://github.com/Dhruva2/NeuronBuilder) :: Builds conductance based neural networks iteratively, from ion channels and synapses.
 + [OpenEphysLoader.jl](https://github.com/galenlynch/OpenEphysLoader.jl) :: A set of tools to load data written by the Open Ephys GUI.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [NEAT.jl](https://github.com/Andy-P/NEAT.jl) :: Julia implemention of NEAT (NeuroEvolution of Augmenting Topologies) algorithm.
 + 🏚️ [SkullSegment.jl](https://github.com/simonster/SkullSegment.jl) :: Macaque brain and skull extraction tools.
 + 🏚️ [SpikeSorter.jl](https://github.com/grero/SpikeSorter.jl) :: Spike sorting tool for experimental neuroscientists.
+{{< /admonition >}}
 
-## [Pharmacology](https://en.wikipedia.org/wiki/Pharmacology)
+
+## Pharmacology
+
+[📖 Pharmacology](https://en.wikipedia.org/wiki/Pharmacology)
 
 Also see [Pumas AI](https://github.com/PumasAI), Pharmaceutical Modeling and Simulation in Julia.
 
@@ -184,7 +179,7 @@ Also see [Pumas AI](https://github.com/PumasAI), Pharmaceutical Modeling and Sim
 
 ## Resources and Teaching
 
-!> Some resources and teaching aids listed here are not Julia language specific but you may be able to find something common and useful that can be reused and shared with attribution if it is CC-licensed.
+> Some resources and teaching aids listed here are not Julia language specific but you may be able to find something common and useful that can be reused and shared with attribution if it is CC-licensed.
 
 + A google document listing [Python for biologists resources](https://docs.google.com/spreadsheets/d/1BjKsN0B1hqd4dJW5slZ5KPuToCjSMRyA7Bl8MwWrbS4/edit#gid=0) by Lenny Teytelman (@lteytelman on twitter).
 + [Software Carpentry](https://software-carpentry.org/lessons.html) teaching material.

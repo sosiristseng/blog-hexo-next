@@ -3,7 +3,6 @@ title: Acedemic writing workshop | Week 3
 tags: ["writing"]
 categories: ["Course Notes"]
 date: 2020-12-12 16:22:35
-comments: true
 ---
 
 Acedemic writing workshop lectured by Steven Wallace.

@@ -36,12 +36,13 @@ categories: [Julia, Bookmark]
 
 > Package/Infrastructure management tools and Documentation
 
+Websites:
 + [cache.julialang.org](https://github.com/staticfloat/cache.julialang.org) :: Super-simple bottle-caching infrastructure for the site.
 + [JuliaHub](https://juliahub.com/ui/Home)
 + [Julia Package list](https://juliapackages.com/)
 + [General registry](https://github.com/JuliaRegistries/General) :: The official registry of general Julia packages.
 
-
+Packages:
 + [Compat.jl](https://github.com/JuliaLang/Compat.jl) :: A package for cross-version compatibility between old Julia and the new - takes care of syntax breakage and provides compatibility constructs that will work in both versions without warnings.
 + [Kip.jl](https://github.com/jkroso/Kip.jl) :: An Python-like, alternative module system for Julia.
 + [Pkg.jl](https://github.com/JuliaLang/Pkg.jl) :: Version 3 of package manager for Julia. [Documentation](https://pkgdocs.julialang.org/v1/).
@@ -51,6 +52,9 @@ categories: [Julia, Bookmark]
 + [Registrator.jl](https://github.com/JuliaComputing/Registrator.jl) :: Julia [package](https://pkg.julialang.org/) registration bot.
 + [Requires.jl](https://github.com/MikeInnes/Requires.jl) :: Lazy code loading for Julia.
 + [VersionParsing.jl](https://github.com/stevengj/VersionParsing.jl) :: flexible VersionNumber parsing in Julia.
+
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏗️ [PkgDev.jl](https://github.com/JuliaLang/PkgDev.jl) :: Julia Package Development Kit.
 + 🏚️ [attobot](https://github.com/attobot/attobot) :: Julia package release bot. Use `Registrator.jl` now.
 + 🏚️ [DeclarativePackages.jl](https://github.com/rened/DeclarativePackages.jl) :: (jdp for short), allows the project to declaratively specify which Julia packages are being used, with exact version or commit details.
@@ -66,6 +70,7 @@ categories: [Julia, Bookmark]
 + 🏚️ [PackageEvaluator.jl](https://github.com/IainNZ/PackageEvaluator.jl) :: The Julia package evaluator.
 + 🏚️ [PkgUtils.jl](https://github.com/johnmyleswhite/PkgUtils.jl) @johnmyleswhite :: Tools for analyzing Julia packages.
 + 🏚️ [PrivateModules.jl](https://github.com/JuliaPackageMirrors/PrivateModules.jl) :: Julia package mirror.
+{{< /admonition >}}
 
 ### Prebuilt Binaries
 
@@ -78,25 +83,36 @@ See [Julia Packaging](https://github.com/JuliaPackaging) team. The binary reposi
 
 ### Build Julia Executables
 
-+ 🏚️ [BuildExecutable.jl](https://github.com/dhoegh/BuildExecutable.jl) :: Build standalone executables from a Julia script.
 + [PackageCompiler.jl](https://github.com/JuliaLang/PackageCompiler.jl) :: Compile your Julia enviironment into a system image or a standalone binary.
 + [SnappyBuilder](https://github.com/davidanthoff/SnappyBuilder) :: BinaryBuilder for `libsnappy` to build [julia snap](https://snapcraft.io/julia).
++ 🏚️ [BuildExecutable.jl](https://github.com/dhoegh/BuildExecutable.jl) :: Build standalone executables from a Julia script.
 
 ### Julia developement helpers
 
+Bridging pre-1.0 Julia code to 1.0+.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [FemtoCleaner.jl](https://github.com/JuliaComputing/FemtoCleaner.jl) :: The [FemtoCleaner](https://github.com/apps/femtocleaner) app cleans your julia projects by upgrading deprecated syntax, removing version compatibility workarounds and anything else that has a unique upgrade path. This app exist to smooth the transition from Julia version 0.6 to 0.7(1.0+).
 + 🏚️ [HackThatBase.jl](https://github.com/ihnorton/HackThatBase.jl) :: A helper tool to reload and test modifications to base without recompiling the full system image.
 + 🏚️ [PkgSearch.jl](https://github.com/essenciary/PkgSearch.jl) :: A Julia REPL utility for package discovery.
 + 🏚️ [PkgVerifierPrototype](https://github.com/LachlanGunn/PkgVerifierPrototype) :: Julia package verifier prototype.
+{{< /admonition >}}
+
 
 ## Test-driven develpment
 
-See also : [Unittest in Julia](https://docs.julialang.org/en/v1/stdlib/Test/) and [Black Box Testing](http://en.wikipedia.org/wiki/Black-box_testing)
+See also
+- [Unittest in Julia](https://docs.julialang.org/en/v1/stdlib/Test/)
+- [Black Box Testing](http://en.wikipedia.org/wiki/Black-box_testing)
+
+Packages
 
 + [Coverage.jl](https://github.com/JuliaCI/Coverage.jl) :: Tracking code testing coverage and memory usage and optionally upload them to online services like Coveralls or Codecov. Its base library is [CoverageBase.jl](https://github.com/JuliaCI/CoverageBase.jl).
 + [Jive.jl](https://github.com/wookay/Jive.jl) :: run your test in parallel. Also supports watch folder function.
 + [Mocking.jl](https://github.com/invenia/Mocking.jl) : Allows temporary overwriting of Julia methods for testing purposes.
 + [Watcher.jl](https://github.com/rened/Watcher.jl):: Auto-run unit tests every time a file gets saved
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [BaseTestDeprecated.jl](https://github.com/IainNZ/BaseTestDeprecated.jl) :: Provides the `Base.Test` functionality removed in `Julia v0.5`.
 + 🏚️ [Debug.jl](https://github.com/toivoh/Debug.jl) :: Prototype interactive debugger for Julia.
 + 🏚️ [FactCheck.jl](https://github.com/zachallaun/FactCheck.jl) :: Midje-like testing framework written for Julia.
@@ -110,16 +126,20 @@ See also : [Unittest in Julia](https://docs.julialang.org/en/v1/stdlib/Test/) an
 + 🏚️ [Saute.jl](https://github.com/milktrader/Saute.jl) :: is another testing framework for Julia.
 + 🏚️ [testfast.jl](https://github.com/Veraticus/testfast.jl) :: Automatically finds test files and runs them.
 + 🏚️ [Fuzz.jl](https://github.com/danluu/Fuzz.jl) :: A naive fuzzer that can generate bugs.
+{{< /admonition >}}
+
 
 ### Logging
 
-Julia documentation for [Logging](https://docs.julialang.org/en/v1/stdlib/Logging/)
+Use Julia's [logging](https://docs.julialang.org/en/v1/stdlib/Logging/) facilities instead.
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Log4jl.jl](https://github.com/wildart/Log4jl.jl) :: A comprehensive and flexible logging framework for Julia programs.
 + 🏚️ [Logging.jl](https://github.com/kmsquire/Logging.jl) :: The Logging module.
 + 🏚️ [LogMover.jl](https://github.com/nkottary/LogMover.jl)
 + 🏚️ [Lumberjack.jl](https://github.com/forio/Lumberjack.jl) :: A logging library by Westley Hennigh.
 + 🏚️ [Stage.jl](https://github.com/saltpork/Stage.jl) :: has stage macros, checkpoints and loggers for Julia.
+{{< /admonition >}}
 
 ### Regression Testing
 
@@ -130,6 +150,7 @@ Julia documentation for [Logging](https://docs.julialang.org/en/v1/stdlib/Loggin
 ## Continuous integration (CI) providers
 
 ### Travis
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 
 Sadly, [Travis does not love opensource anymore](https://www.theregister.com/2020/11/02/travis_ci_pricng/).
 
@@ -137,6 +158,8 @@ Sadly, [Travis does not love opensource anymore](https://www.theregister.com/202
 + 🏚️ [TestDocs.jl](https://github.com/simonbyrne/TestDocs.jl) :: A test package to try to automatically build docs on travis.
 + 🏚️ [TravisTest.jl](https://github.com/JuliaCI/TravisTest.jl) :: Repository for testing Julia support at the Travis Continuous Integration (CI) service.
 + 🏚️ [julia-helper](https://github.com/jiahao/julia-helper) :: Git hook scripts to help Julia developers with optional Travis CI support.
+{{< /admonition >}}
+
 
 ### Gitlab-CI
 
@@ -152,33 +175,47 @@ Sadly, [Travis does not love opensource anymore](https://www.theregister.com/202
 - [julia-processcoverage](https://github.com/julia-actions/julia-processcoverage)
 - [CompatHelper workflow](https://github.com/JuliaRegistries/CompatHelper.jl/blob/master/.github/workflows/CompatHelper.yml)
 
-## Containers-[Virtualization](http://en.wikipedia.org/wiki/Category:Virtualization_software)
+## Containers-Virtualization
+
+[Virtualization](http://en.wikipedia.org/wiki/Category:Virtualization_software)
 
 + [Julia docker image](https://hub.docker.com/_/julia) and the packaging [`DOCKERFILE`](https://github.com/docker-library/julia).
 + [Kuber.jl](https://github.com/JuliaComputing/Kuber.jl) :: A Julia Kubernetes Client.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [julia-vagrant](https://github.com/staticfloat/julia-vagrant) :: Packer/Vagrant script recipes for making virtual machines (VM's) - create Vagrant boxes and Openstack images for performing builds and tests of Julia.
 + 🏚️ [RudeOil.jl](https://github.com/UCL/RudeOil.jl) :: A package to easily interact with docker and docker-machine.
+{{< /admonition >}}
 
 ## Sandbox
 
 + [Playground.jl](https://github.com/Rory-Finnegan/Playground.jl) :: A Julia-lang environment builder (like python's virtualenv) package to create Julia sandboxes, similar to python virtual environments.
 + 🏚️ [JDock](https://github.com/amitmurthy/JDock) :: An IJulia sandboxed by Docker containers.
 
-## [Shell scripting](https://en.wikipedia.org/wiki/Shell_script)
+## Julia for shell scripting
+
+[Shell scripting](https://en.wikipedia.org/wiki/Shell_script)
 
 [Administrative scripting with Julia](https://github.com/ninjaaron/administrative-scripting-with-julia) :: A guide for writing shell scripts in Julia.
 
 + [Homebrew.jl](https://github.com/JuliaLang/Homebrew.jl/) :: OSX Binary dependency provider for Julia.
 + [LibALPM.jl](https://github.com/yuyichao/LibALPM.jl) :: Wrapper for libalpm, the ArchLinux package manager.
 + [WinRPM.jl](https://github.com/JuliaLang/WinRPM.jl) :: RPM-md processing library to crosscompile code for Windows.
+
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [APT.jl](https://github.com/bbshortcut/APT.jl) :: A module to manipulate Debian Advanced Package Tool (APT). It comes with `pnlt`, an executable that allows to manage package name lists.
 + 🏚️ [DebbyPacker.jl](https://github.com/UCL/DebbyPacker.jl) :: Set of scripts to easily create debian packages.
 + 🏚️ [Nix.jl](https://github.com/JuliaPackaging/Nix.jl) :: Nix package manager for Julia.
-+ RPMmd.jl(404) :: A front-end installer for RPM-md packages and a fork of WinRPM.jl.
+{{< /admonition >}}
+
 
 ### Build automation
 
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [Jake.jl](https://github.com/nolta/Jake.jl) :: Rake for Julia.
 + 🏚️ [jlbuild](https://github.com/jlbuild) :: A bot that controls the julia buildbots to build releases and perform some additional continous integration on secondary platforms. Ping (`@jlbuild`) in a comment, PR, issue, etc... and this GitHub comment-based interface to testing buildbots will build the relevant Julia version on all platforms, post download links and even execute small chunks of code across those platforms.
 + 🏚️ [Juke.jl](https://github.com/kshramt/Juke.jl) :: `make` in Julia.
 + 🏚️ [julia-ansible-scripts](https://github.com/staticfloat/julia-ansible-scripts) :: Various julia ansible scripts for provisioning servers, buildbots etc...
+
+{{< /admonition >}}

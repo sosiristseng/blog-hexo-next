@@ -1,12 +1,13 @@
 ---
 title: 🔖 Actuarial Science in Julia
-comments: false
 date: 2021-04-23 10:21:25
 tags: [julia, bookmark]
 categories: [Julia, Bookmark]
 ---
 
 [📖 Actuarial science](https://en.wikipedia.org/wiki/Actuarial_science) = money science.[^1]
+
+[^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.
 
 ## See also
 
@@ -30,6 +31,8 @@ categories: [Julia, Bookmark]
 + [MarketTechnicals.jl](https://github.com/JuliaQuant/MarketTechnicals.jl) :: Technical analysis of financial time series in Julia by @JuliaQuant.
 + [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl) ::Julia implementation of [QuantEcon](https://quantecon.org/quantecon-jl/) routines.
 + [SchumakerSpline.jl](https://github.com/s-baumann/SchumakerSpline.jl) :: An equivalent Julia package to R's [schumaker](https://cran.r-project.org/web/packages/schumaker/index.html) to create a shape preserving spline that quickly and smoothly converges to a fixed point in economic dynamics problems including value function iteration.
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [copula.jl](https://github.com/floswald/copula.jl) :: Julia Copula package implements the gaussian AR1 copula.
 + 🏚️ [Dynare.jl](https://github.com/DynareTeam/Dynare.jl) :: This package aims at bringing to Julia some of the algorithms incorporated in Dynare, a platform for solving dynamic economic models.
 + 🏚️ [Econometrics.jl](https://github.com/JuliaFinMetriX/Econometrics.jl) :: The Econometrics.jl package contains functionalities for (financial) econometric research.
@@ -38,6 +41,8 @@ categories: [Julia, Bookmark]
 + 🏚️ [GrowthModels](https://github.com/NYUEcon/GrowthModels) :: This is a repository that contains solutions to many growth models that are of the same class.
 + 🏚️ [Loss.jl](https://github.com/johnmyleswhite/Loss.jl) :: General functions for estimating loss functions inspired by Kaggle's release of code for many common metrics.
 + 🏚️ [RuinProbability.jl](https://github.com/Hank-Qian/RuinProbability.jl) :: For calculating the ruin probability with real data under different claims models.
+{{< /admonition >}}
+
 
 ## Finance
 
@@ -45,6 +50,8 @@ categories: [Julia, Bookmark]
 + [Currencies.jl](https://github.com/JuliaFinance/Currencies.jl) ::  Simple checked fixed-point currencies for Julia.
 + [InterestRates.jl](https://github.com/felipenoris/InterestRates.jl) :: Tools for Term Structure of Interest Rates calculation, aimed at the valuation of financial contracts, specially Fixed Income instruments, indexing and Term Structures.
 + [MarketData.jl](https://github.com/JuliaQuant/MarketData.jl) :: Time series market data
+
+{{< admonition type=warning title="WIP or may not work" open=false >}}
 + 🏚️ [AssetMgmt.jl](https://github.com/cgroll/AssetMgmt.jl) :: Asset Management.
 + 🏚️ [BigFinance.jl](https://github.com/jiahao/BigFinance.jl) :: Analysis of high frequency quantitative data. [flashcrash-ui](https://github.com/shashi/flashcrash-ui) is the UI for `BigFinance.jl`.
 + 🏚️ [Bloomberg.jl](https://github.com/milktrader/Bloomberg.jl) :: Providing access to Bloomberg financial data in Julia.
@@ -71,5 +78,4 @@ categories: [Julia, Bookmark]
 + 🏚️ [WorldBankDataTd.jl](https://github.com/JuliaFinMetriX/WorldBankDataTd.jl) :: Accessing World Bank Data.
 + 🏚️ [YStockData.jl](https://github.com/Algocircle/YStockData.jl) :: Fetch Data from Yahoo Finance.
 + 🏚️ [ZVSimulator.jl](https://github.com/scidom/ZVSimulator.jl) :: The ZVSimulator package provides a framework for assessing the zero variance (ZV) principle for Monte Carlo or random sampling via simulation.
-
-[^1]: [Julia.jl](https://github.com/svaksha/Julia.jl) is under COPYRIGHT © 2012-Now SVAKSHA, dual-licensed for the data (ODbL-v1.0+) and the software (AGPLv3+), respectively.
+{{< /admonition >}}
