@@ -24,36 +24,36 @@ author: "Lopezperez et al."
 * computer-aided design (CAD) tools
 ### Medical image-based models
 * CT / MRI images => patient-specific models
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig1_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig1_HTML.jpg)
 * Cardiac atlases
 * highly-detailed bi-ventricular models built from very high resolution ex-vivo MRI datasets (~25 μm per slice) from small mammalian hearts
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig2_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig2_HTML.jpg)
 
 ## Elements of a 3D cardiac computational model
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig3_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig3_HTML.jpg)
 ### Geometry
 * completeness and the anatomical realism and accuracy required by a particular 3D cardiac model will strongly depend on its final application
 * structurally simplified models (without endocardial details or vessels) are well suited for a large range of 3D cardiac modelling applications aimed at EP simulation
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig4_HTML.gif "3D cardiac geometry generation stage")
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig4_HTML.jpg "3D cardiac geometry generation stage")
 * Medical image-based models can include patient-specific details obtained from clinical imaging data and/or population-based properties collected from ex-vivo datasets
 * Ex-vivo cardiac images can provide much higher spatial resolution than in-vivo datasets
 * In-vivo images can provide both anatomical and temporal patient-specific information, thus enabling the characterisation of cardiac motion
 ### Meshing
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig5_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig5_HTML.jpg)
 * finite-element method (FEM) enabled the resolution of complex biophysical problems
 * tetrahedral, hexahedral, cubic Hermite elements
 * Spatial (ds) and temporal discretisation (dt) constraints are imposed when biophysical models are used, which are in the order of ds = 0.1-0.5 mm and dt = 0.05-0.005 ms
 * For the case of phenomenological models, such as Eikonal ones, spatial and temporal discretisation is less demanding (order of ds = 0.5 mm, dt = 1 ms), resulting in faster computation times.
 ### Myocardial structure: fibre orientation
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig6_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig6_HTML.jpg)
 * rule-based algorithms
 * measurements (histology, imaging)
 * Diffusion tensor-MRI (DT-MRI), also called diffusion tensor imaging (DTI):  diffusion of water molecules within the biological tissues
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig7_HTML.gif)
+![](hhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig7_HTML.jpg)
 ### Cardiac conduction system
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig8_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig8_HTML.jpg)
 ### Electrophysiology
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig9_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig9_HTML.jpg)
 * cellular-level equations and the tissue-level equations
 * Hodgkin and Huxley (HH) formalism vs Markov-type models (more mechanistic detailed)
 * EP models are now highly specific and include human atrial, ventricular and Purkinje cells in normal or diseased conditions
@@ -74,12 +74,11 @@ author: "Lopezperez et al."
 * Chronic or healed ischaemic injuries resulting from myocardial infarctions (infarct **scars**)
 * diffuse myocardial fibrosis
 ### Example of a 3D cardiac computational model
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig10_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig10_HTML.jpg)
 ## Personalisation of 3D cardiac computational models
-![](tbl1.png)
 ## Applications of 3D cardiac computational models
 ### Cardiac image segmentation
-![](https://media.springernature.com/lw785/springer-static/image/art%3A10.1186%2Fs12938-015-0033-5/MediaObjects/12938_2015_33_Fig11_HTML.gif)
+![](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4424572/bin/12938_2015_33_Fig11_HTML.jpg)
 * model-based segmentation: in-vivo cardiac image segmentation and analysis
 * The Cardiac Atlas Project: a wide database of cardiac images available online
 ### Simulation of acute ischaemia

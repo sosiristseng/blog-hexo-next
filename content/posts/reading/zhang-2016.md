@@ -107,7 +107,6 @@ author: "Zhang et al."
 * another one is integrating multiple physical and biological processes
 * increased computational demand with additional components
 * Goal: multi-scale model for patient-specific uses
-* NIH link for modeling tools and databases: https://www.imagwiki.nibib.nih.gov/modeling-tools-databases
 
 ![tbl4](https://user-images.githubusercontent.com/40054455/86726959-960ac080-c05d-11ea-9f71-4c9efcbd29f8.png)
 

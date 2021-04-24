@@ -7,7 +7,6 @@ categories: ["Reading"]
 math:
   enable: true
 author: "Barros et al."
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3512298/"
 ---
 
 > Simulations of Complex and Microscopic Models of Cardiac Electrophysiology Powered by Multi-GPU Platforms[^Barros2012]

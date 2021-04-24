@@ -4,8 +4,6 @@ date: 2020-10-22T18:29:19+08:00
 tags: ["mitochondria", "citric acid cycle"]
 categories: [ "Reading", "Review Article"]
 author: "Cortassa S, Aon MA"
-authorLink: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3350335/"
-description: "Computational modeling of mitochondrial function"
 ---
 
 > Computational modeling of mitochondrial function[^Cortassa2012]
