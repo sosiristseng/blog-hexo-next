@@ -30,7 +30,7 @@ General tutorials:
 - [From zero to Julia](https://techytok.com/from-zero-to-julia/)
 - [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
 - [QuantEcon](https://lectures.quantecon.org/jl/) and the [code notebooks](https://github.com/QuantEcon/quantecon-notebooks-julia).
-- [Julia concise tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial/)
+- [Julia concise tutorial](https://github.com/sylvaticus/juliatutorial)
 - [Intro to Julia by Chris Rackauckas](https://ucidatascienceinitiative.github.io/IntroToJulia/)
 - [Introducing Julia wikibook](https://en.wikibooks.org/wiki/Introducing_Julia)
 - [Julia Official Manual](https://docs.julialang.org/en/v1/index.html)
