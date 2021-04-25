@@ -1,5 +1,5 @@
 ---
-title: Space science in Julia
+title: 🔖 Space science in Julia
 comments: false
 date: 2021-04-23 15:28:42
 tags: [julia, bookmark]
@@ -19,8 +19,6 @@ categories: [Julia, Bookmark]
 
 - 🏚️ means the package may not support current versions of Julia.
 - 🏗️ means the package may be a WIP.
-
-
 
 ## Aeronautics
 

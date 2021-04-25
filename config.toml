@@ -85,7 +85,7 @@ ignoreErrors = ["error-remote-getjson"]
       # site description
       description = "Tech blog of Wen-Wei Tseng"
       # site keywords
-      keywords = ["Theme", "Hugo"]
+      keywords = ["Julia", "Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -270,7 +270,7 @@ ignoreErrors = ["error-remote-getjson"]
   # Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
-    paginate = 20
+    paginate = 25
     # date format (month and day)
     dateFormat = "01-02"
     # amount of RSS pages
