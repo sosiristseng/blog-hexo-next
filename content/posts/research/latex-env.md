@@ -2,7 +2,7 @@
 title: "Latex environments"
 date: 2020-10-27T14:55:25+08:00
 tags: ["latex", "linux"]
-categories: ["Linux", "Packages"]
+categories: ["Linux", "Applications"]
 math:
   enable: true
 ---
