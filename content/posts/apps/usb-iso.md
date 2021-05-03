@@ -1,7 +1,7 @@
 ---
-title: Burn installation ISO into usb disks
-tags: ["linux"]
-categories: ["Linux"]
+title: ISO buring tools
+tags: ["linux", "windows"]
+categories: ["Linux", "Windows", "Applications"]
 date: 2020-12-12 00:47:04
 ---
 
@@ -19,7 +19,7 @@ And you can also copy other files (e.g. documents / scripts) into the USB disk. 
 
 ## Rufus
 
-[Rufus download](https://rufus.ie/). Runs on Windows systems and works on Linux / Windows ISOs.
+[Download Rufus](https://rufus.ie/) for Windows systems and it works on Linux / Windows ISOs.
 
 ## Etcher
 
