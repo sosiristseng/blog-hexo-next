@@ -104,7 +104,7 @@ ignoreErrors = ["error-remote-getjson"]
       [languages.en.params.search]
         enable = true
         # type of search engine ("lunr", "algolia")
-        type = "lunr"
+        type = "algolia"
         # max index length of the chunked content
         contentLength = 4000
         # placeholder of the search bar
@@ -117,6 +117,10 @@ ignoreErrors = ["error-remote-getjson"]
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "losloslos"
+          appID = "MFXX0N7AVC"
+          searchKey = "6c722b68c0870b94dd1370d28e984b2f"
       # Home page config
       [languages.en.params.home]
         # amount of RSS pages
