@@ -6,7 +6,7 @@ relativeURLs = false
 defaultContentLanguage = "en"
 
 # theme
-theme = "CodeIT"
+theme = "DoIt"
 
 # website title
 title = "Los los los"
@@ -48,7 +48,7 @@ ignoreErrors = ["error-remote-getjson"]
         url = "posts/"
         # title will be shown when you hover on this menu link.
         title = "Posts"
-        weight = -100
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "tags"
         pre = ""
@@ -221,7 +221,7 @@ ignoreErrors = ["error-remote-getjson"]
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/sosiristseng/sosiristseng.github.io"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
-  fingerprint = "sha256"
+  fingerprint = ""
   # date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
@@ -236,6 +236,8 @@ ignoreErrors = ["error-remote-getjson"]
     desktopMode = "fixed"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
+    # theme change mode ("switch", "select")
+    themeChangeMode = "switch"
     # Header title config
     [params.header.title]
       # URL of the LOGO
@@ -305,6 +307,8 @@ ignoreErrors = ["error-remote-getjson"]
     linkToMarkdown = true
     # whether to show the full text content in RSS
     rssFullText = false
+    # Page style ("normal", "wide")
+    pageStyle = "wide"
     # Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
@@ -380,7 +384,7 @@ ignoreErrors = ["error-remote-getjson"]
       Mix = false
     # Comment config
     [params.page.comment]
-      enable = true
+      enable = false
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
@@ -396,6 +400,24 @@ ignoreErrors = ["error-remote-getjson"]
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
+      # Waline comment config (https://waline.js.org)
+      [params.page.comment.waline]
+        enable = false
+        serverURL = ""
+        placeholder = "Just Go Go."
+        wordLimit = 0
+        avatar = "mp"
+        meta = ["nick", "mail", "link"]
+        pageSize = 10
+        lang = "en"
+        visitor = true
+        highlight = true
+        avatarCDN = ""
+        avatarForce = false
+        emojiCDN = "https://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/"
+        emojiMaps = "微博表情包"
+        requiredFields = []
+        anonymous = false
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
         enable = false
@@ -418,7 +440,7 @@ ignoreErrors = ["error-remote-getjson"]
         enable = false
       # Utterances comment config (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = true
+        enable = false
         # owner/repo
         repo = "sosiristseng/sosiristseng.github.io"
         issueTerm = "pathname"
@@ -482,7 +504,7 @@ ignoreErrors = ["error-remote-getjson"]
 
   # Cookie consent config
   [params.cookieconsent]
-    enable = false
+    enable = true
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
