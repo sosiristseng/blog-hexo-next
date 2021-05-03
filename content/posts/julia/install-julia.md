@@ -2,7 +2,7 @@
 title: "Install Julia"
 date: 2020-10-22T16:25:54+08:00
 tags: ["julia", "linux"]
-categories: ["Linux", "Packages", "Julia"]
+categories: ["Linux", "Julia"]
 ---
 
 [Julia](https://julialang.org/), a general-purpose programming language focused on ease of syntax, composibility, and high performance.

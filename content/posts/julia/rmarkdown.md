@@ -7,7 +7,7 @@ authorLink: ""
 description: ""
 
 tags: ["r markdown"]
-categories: ["Julia", "Study"]
+categories: ["Julia", "Research"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -20,7 +20,6 @@ toc:
 math:
   enable: false
 lightgallery: false
-comment: false
 ---
 
 Running Julia code chunks in R markdown.
