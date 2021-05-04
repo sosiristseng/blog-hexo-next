@@ -132,62 +132,64 @@ Generate CSS styles for your websites. From [hashnode](https://denic.hashnode.de
 
 ### Icons
 
-- [Vector Icons](https://iconscout.com/unicons)
-- [Icons8](https://icons8.com/)
-- [Handcrafted icons](https://www.zwicon.com/)
 - [Fork awesome](https://forkaweso.me/Fork-Awesome/)
+- [Freebie supply](https://freebiesupply.com/)
+- [Friconix](https://friconix.com/) icon with extensive parameters. Also see its [CSS color table](https://lucidar.me/en/web-dev/css-color-list/)
+- [Handcrafted icons](https://www.zwicon.com/)
+- [Icofont](https://icofont.com/)
+- [Icon duck](https://iconduck.com) :: 116,704 free open source icons & illustrations
+- [Iconify](https://iconify.design/)
+- [IconPark](https://iconpark.bytedance.com/official) by ByteDance
+- [Icons8](https://icons8.com/)
+- [Material Design Icons](https://materialdesignicons.com/)
+- [Octicons](https://primer.style/octicons/) by GitHub
 - [PNG repo](https://www.pngrepo.com/) and the sister project [SVG repo](https://www.svgrepo.com/)
 - [Simple icons](https://simpleicons.org/)
-- [Iconify](https://iconify.design/)
-- [Material Design Icons](https://materialdesignicons.com/)
-- [Icofont](https://icofont.com/)
-- [Freebie supply](https://freebiesupply.com/)
-- [Vivid.js](https://webkul.github.io/vivid/)
-- [Octicons](https://primer.style/octicons/) by GitHub
-- [IconPark](https://iconpark.bytedance.com/official) by ByteDance
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
-- [Friconix](https://friconix.com/) icon with extensive parameters. Also see its [CSS color table](https://lucidar.me/en/web-dev/css-color-list/)
+- [Vector Icons](https://iconscout.com/unicons)
+- [Vivid.js](https://webkul.github.io/vivid/)
 
 ### Illustrations
 
-- [absurd illustrations](https://absurd.design/): Free surreal illustrations.
+- [Absurd illustrations](https://absurd.design/): Free surreal illustrations.
 - [DrawKit](https://www.drawkit.io/): Beautiful, free illustrations. Updated weekly.
 - [Freebie supply](https://freebiesupply.com/): The freshest design resources for Adobe XD, Figma, Sketch, Photoshop and Adobe Illustrator.
 - [Gratisography](https://gratisography.com/): High Resolution Free Stock Pictures.
-- [humaaans](https://www.humaaans.com/): SVG human figures with customization options
+- [Humaaans](https://www.humaaans.com/): SVG human figures with customization options
 - [IRA designs](https://iradesign.io/): Build your own amazing illustrations
 - [Manypixels](https://www.manypixels.co/gallery/)
-- [mixkit](https://mixkit.co/) : Beautiful Art & Illustration
+- [Mixkit](https://mixkit.co/) : Beautiful Art & Illustration
 - [Ouch](https://icons8.com/illustrations) from [icons8](https://icons8.com/)
+- [The stocks](http://thestocks.im) :: Collections of icons, illustrations, photos
 - [Undraw](https://undraw.co/) : Open-source illustrations
 
 ### Photos
 
-- [Unsplash](https://unsplash.com/)
-- [Free Stock Photos](https://picjumbo.com/)
+- [Big Foto](https://bigfoto.com/)
+- [CC search](https://search.creativecommons.org/): Search for content to reuse
 - [DreamsTime](https://www.dreamstime.com/)
+- [Foodiesfeed](http://foodiesfeed.com/): Food pictures
 - [Free digital photos](http://www.freedigitalphotos.net/)
 - [Free images](http://www.freeimages.com/)
+- [Free media goo](https://www.freemediagoo.com/): includes texture photos (e.g. rust, concrete)
 - [Free Range Stock](https://freerangestock.com/)
+- [Free Stock Photos](https://picjumbo.com/)
+- [Freebie supply](https://freebiesupply.com/)
+- [Gratisography](https://gratisography.com/)
 - [IM free](http://imcreator.com/free): A curated collection of free web design resources. Includes some icons.
+- [LibreShot](https://libreshot.com/)
+- [Life of pix](https://www.lifeofpix.com/)
+- [Little visuals](https://littlevisuals.co/)
 - [Morgue file](https://morguefile.com/)
+- [New old stock](https://nos.twnsnd.co/): old photos
+- [Pexels](https://www.pexels.com/)
+- [Pic jumbo](https://picjumbo.com/)
+- [Pickup image](https://pickupimage.com/)
 - [Pixabay](https://pixabay.com/)
 - [Public Domain Pictures](https://www.publicdomainpictures.net/en/)
 - [Stock Vault](https://www.stockvault.net/)
-- [Big Foto](https://bigfoto.com/)
-- [Gratisography](https://gratisography.com/)
-- [Free media goo](https://www.freemediagoo.com/): includes texture photos (e.g. rust, concrete)
-- [Little visuals](https://littlevisuals.co/)
-- [New old stock](https://nos.twnsnd.co/): old photos
-- [Pic jumbo](https://picjumbo.com/)
-- [Pickup image](https://pickupimage.com/)
+- [Unsplash](https://unsplash.com/)
 - [Wikipedia commons](https://commons.wikimedia.org/wiki/Main_Page) and [Can we image](https://canweimage.com/) search engine.
-- [Life of pix](https://www.lifeofpix.com/)
-- [Foodiesfeed](http://foodiesfeed.com/): Food pictures
-- [Pexels](https://www.pexels.com/)
-- [LibreShot](https://libreshot.com/)
-- [CC search](https://search.creativecommons.org/): Search for content to reuse
-- [Freebie supply](https://freebiesupply.com/)
 
 ### HTML Publications
 
