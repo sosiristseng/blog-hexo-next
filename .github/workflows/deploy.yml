@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout master
+    - name: checkout
       uses: actions/checkout@v2
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -22,7 +22,7 @@ jobs:
     - name: Build pages
       run: |
         hugo --minify
-    - name: Deploy to GitHuub pages
+    - name: Deploy to GitHub pages
       uses: peaceiris/actions-gh-pages@v3.8.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
