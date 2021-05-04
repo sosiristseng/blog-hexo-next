@@ -16,3 +16,7 @@ updates:
       interval: "daily"
     labels:
     - "dependencies"
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'daily'

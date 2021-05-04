@@ -32,9 +32,16 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '16'
-    - name: Install atomic-algolia
+    - name: Cache Dependencies
+      uses: actions/cache@v2.1.5
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Install Node dependencies
       run: |
-        sudo npm i -g atomic-algolia
+        npm ci
     - name: Update Algolia index
       env:
         ALGOLIA_APP_ID: MFXX0N7AVC
@@ -42,4 +49,4 @@ jobs:
         ALGOLIA_INDEX_NAME: 'losloslos'
         ALGOLIA_INDEX_FILE: './public/index.json'
       run: |
-        atomic-algolia
+        npm run algolia
