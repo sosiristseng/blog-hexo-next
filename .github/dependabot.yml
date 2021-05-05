@@ -7,7 +7,6 @@ updates:
       interval: "daily"
     labels:
     - "automerge"
-
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
