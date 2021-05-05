@@ -1,6 +1,10 @@
-name: Check Markdown links on modified files
+name: Check links on all MD files
 
-on: [push, pull_request]
+on:
+  schedule:
+  # Run every Monday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
+  - cron: "0 9 * * 1"
+  workflow_dispatch:
 
 jobs:
   markdown-link-check:
@@ -12,5 +16,3 @@ jobs:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'no'
         config-file: '.github/workflows/mlc_config.json'
-        base-branch: main
-        check-modified-files-only: 'yes'
