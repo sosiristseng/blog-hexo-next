@@ -7,8 +7,6 @@ updates:
       interval: "daily"
     labels:
     - "automerge"
-    commit-message:
-      prefix: ci
 
   - package-ecosystem: "gitsubmodule"
     directory: "/"
