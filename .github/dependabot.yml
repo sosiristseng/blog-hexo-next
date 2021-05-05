@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "daily"
     labels:
-    - "GH Actions"
+    - "automerge"
     commit-message:
       prefix: ci
 
@@ -15,8 +15,10 @@ updates:
     schedule:
       interval: "daily"
     labels:
-    - "dependencies"
+    - "automerge"
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'daily'
+    labels:
+    - "automerge"

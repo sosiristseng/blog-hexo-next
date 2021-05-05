@@ -10,7 +10,7 @@ before_script:
 
 test:
   script:
-  - echo "Test complete."
+  - echo "Build completed."
   except:
   - main
 
