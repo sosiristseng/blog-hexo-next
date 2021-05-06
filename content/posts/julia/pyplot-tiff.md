@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: [pyplot, julia, python, visualization, tiff]
+tags: [pyplotjl, julia, python, visualization, tiff]
 categories: [Julia]
 
 hiddenFromHomePage: false
