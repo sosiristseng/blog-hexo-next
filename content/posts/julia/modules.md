@@ -10,6 +10,7 @@ When the code grows to a certain size and you want to separte the common parts.
 <!--more-->
 
 ## Reference
+
 - [Pkg.jl docs](https://julialang.github.io/Pkg.jl/v1/)
 - [Comparison between v0.6 and v0.7 (SO)](https://stackoverflow.com/questions/36398629/change-package-directory-in-julia/36400065#36400065)
 
@@ -49,6 +50,7 @@ using .Mod2
 ```
 
 - Best when the submodules are used exclusively for this project.
+- Usually you want to `include()` all dependent files in the top-most file, [just like a table of contents](https://discourse.julialang.org/t/ann-patmodules-jl-a-better-module-system-for-julia/52226/40).
 - `include` and `using` lines are needed to be executed again when the code in Modx changes.
 - Use [relative module path](https://stackoverflow.com/questions/54410557/submodule-intra-dependencies-in-julia) when `Mod2` also requires `Mod1`.
 - There might be recursive `include()` calls and `replace module` warnings.
