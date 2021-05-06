@@ -23,11 +23,7 @@ lightgallery: false
 comment: false
 ---
 
-Test and build in parallel with matrix build in Gitlab CI/CD.
-
-<!--more-->
-
-An example `.gitlab-ci.yml`
+Test and build in parallel with matrix build in Gitlab CI/CD. An example `.gitlab-ci.yml`
 
 ```yml
 test:
@@ -38,3 +34,5 @@ test:
     matrix:
       - IMAGE: ['python:3.6-alpine', 'python:3.7-alpine']
 ```
+
+<!--more-->

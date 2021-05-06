@@ -23,7 +23,7 @@ lightgallery: false
 comment: false
 ---
 
-Gitlab CI/CD x Github repositories.
+Running Gitlab CI/CD on Github repositories.
 
 <!--more-->
 
