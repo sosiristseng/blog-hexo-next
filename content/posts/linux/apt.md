@@ -38,7 +38,7 @@ sudo apt update && sudo apt install apt-fast -y
 
 ### Usage of apt-fast
 
-`apt-fast` is a drop-in replacement of `apt-get`. e.g. `sudo apt-fast update`, `sudo apt-fast dist-upgrade`
+`apt-fast` is a drop-in replacement of `apt-get`. e.g. you can use `sudo apt-fast update`, `sudo apt-fast dist-upgrade`
 
 Should your download stall for any number of reasons, you'll need to do an `apt-fast clean`.
 

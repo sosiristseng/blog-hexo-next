@@ -28,6 +28,8 @@ Also see [Arch Wiki | env. variables](https://wiki.archlinux.org/index.php/envir
 - `~/.zprofile` for login zsh shells.
 - `~/.zshrc` for every zsh instance.
 
+
+
 ⚠️ zsh [does not read](https://superuser.com/questions/187639/zsh-not-hitting-profile) `~/.profile` by default due to syntax difference. You can do this instead in `~/.zprofile`
 
 ```bash
