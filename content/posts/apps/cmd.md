@@ -54,25 +54,27 @@ wget -nv -O - https://raw.githubusercontent.com/zimfw/install/master/install.zsh
 
 ### Powerlevel10k prompt
 
-From [powerlevel10k@GitHub](https://github.com/romkatv/powerlevel10k#zim), replace `zmodule steeef` with
+1. In `~/.zimrc`, replace `zmodule asciiship` with [^p10kzim]
 
 ```bash
 zmodule romkatv/powerlevel10k
 ```
 
-in `~/.zimrc` and then run `zimfw install` in zsh.
+[^p10kzim]: https://github.com/romkatv/powerlevel10k#zim
 
-Restart zsh to go through Powerlevel10k's interactive setup.
-
-Install [powerline fonts](https://github.com/romkatv/powerlevel10k#manual) for proper font rendering.
+2. Run `zimfw install` in zsh.
+3. Install [powerline fonts](https://github.com/romkatv/powerlevel10k#manual) for proper font rendering.
+4. Restart zsh to go through Powerlevel10k's interactive setup.
 
 ### Node version manager (nvm)
 
-Add this line in `~/.zimrc` for [zsh-nvm module](https://github.com/lukechilds/zsh-nvm) and then run `zimfw install` in zsh.
+Add this line in `~/.zimrc` [^zshnvm] and then run `zimfw install` in zsh.
 
 ```bash
 zmodule lukechilds/zsh-nvm
 ```
+
+[^zshnvm]: https://github.com/lukechilds/zsh-nvm
 
 To save loading time of zsh (about 70x), you can enable lazy loading by adding the following line to `~/.zshrc`, before loading zmodules:
 
@@ -84,17 +86,21 @@ export NVM_LAZY_LOAD=true
 
 [🚀 Starship](https://starship.rs/) is an enhancement for command prompt in a multitude of shells, powered by Rust. Available for bash, zsh, fish, powershell, etc.
 
+### Installation
+
 You could install the standalone binary:
 
 ```bash
 sudo -v && curl -fsSL https://starship.rs/install.sh | bash
 ```
 
-Or via AUR. For Arch and derivatives (enOS, Garuda, Manjaro):
+Or via AUR.
 
 ```bash
-paru -S starship-bin # or just "starship" if you don't mind compiling the Rust code
+paru -S starship-bin   # or just "starship" if you want to compile the Rust code
 ```
+
+Install [nerd fonts](https://www.nerdfonts.com/font-downloads) as well to show special characters correctly.
 
 ### Usage
 
@@ -117,41 +123,6 @@ Windows Powershell: `~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
 ```powershell
 Invoke-Expression (&starship init powershell)
 ```
-
-Install [nerd fonts](https://www.nerdfonts.com/font-downloads) to show special characters correctly.
-
-## Tilix
-
-[Tilix](https://gnunn1.github.io/tilix-web/) is an advanced GTK3 tiling terminal emulator.
-
-The following script installs `tilix` and `python-nautilus` for `Open tilix here` context menu in the Nautilus file manager.
-
-For Ubuntu:
-
-```bash
-sudo apt install tilix
-
-[[ -x $(command -v nautilus) ]] && sudo apt install python-nautilus
-```
-
-For Arch and derivatives
-
-```bash
-sudo pacman -S tilix
-[[ -x $(command -v nautilus) ]] && sudo pacman -S python-nautilus
-```
-
-### Set tilix as the default GUI terminal emulator
-
-For Ubuntu or PopOS:
-
-```bash
-sudo update-alternatives --config x-terminal-emulator
-```
-
-For Arch and derivatives (enOS, Garuda, Manjaro).
-
-Select in `Prefered applications`.
 
 ## progress: See the progress of ongoing commands
 
