@@ -2,7 +2,7 @@
 title: "Install Node package manager (NPM)"
 date: 2020-10-21T17:21:16+08:00
 tags: ["nodejs", "linux"]
-categories: ["Linux", "Applications"]
+categories: ["Linux", "Applications", "WebDev"]
 ---
 
 Esay NodeJS setup in Unix-like systems (Linux / MacOS).
