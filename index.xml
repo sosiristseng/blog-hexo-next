@@ -1,0 +1,37 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Los los los</title><link>https://sosiristseng.github.io/</link><description>Tech blog of Wen-Wei Tseng</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sosiristseng@gmail.com (Wen-Wei Tseng)</managingEditor><webMaster>sosiristseng@gmail.com (Wen-Wei Tseng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 May 2021 12:18:10 +0800</lastBuildDate><atom:link href="https://sosiristseng.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>🔖 Bookmarks</title><link>https://sosiristseng.github.io/posts/bookmark/</link><pubDate>Sun, 25 Apr 2021 16:31:41 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/bookmark/</guid><description>&lt;p>Browser bookmarks in Markdown.&lt;/p></description></item><item><title>Tilix shel emulator</title><link>https://sosiristseng.github.io/posts/apps/tilix/</link><pubDate>Tue, 11 May 2021 12:18:10 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/tilix/</guid><description>&lt;p>&lt;a href="https://gnunn1.github.io/tilix-web/" target="_blank" rel="noopener noreffer">Tilix&lt;/a> is an advanced GTK3 tiling terminal emulator.&lt;/p></description></item><item><title>Sharing the Legend Box in Twin Axes in matplotlib</title><link>https://sosiristseng.github.io/posts/julia/pyplot-share-legend-box-in-twin-axes/</link><pubDate>Thu, 06 May 2021 23:46:03 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/julia/pyplot-share-legend-box-in-twin-axes/</guid><description><![CDATA[<ul>
+<li>Capture line plot objects from both axes.</li>
+<li>Call <code>legend()</code> for both(all) line plot objects.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-julia" data-lang="julia"><span class="n">x1</span> <span class="o">=</span> <span class="mi">1</span><span class="o">:</span><span class="mi">10</span>
+
+<span class="k">import</span> <span class="n">PyPlot</span> <span class="n">as</span> <span class="n">plt</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+
+<span class="n">l1</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x1</span><span class="p">)</span>
+
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
+<span class="n">l2</span><span class="o">=</span> <span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">exp</span><span class="o">.</span><span class="p">(</span><span class="n">x1</span><span class="p">))</span>
+
+<span class="n">ax1</span><span class="o">.</span><span class="n">legend</span><span class="p">([</span><span class="n">first</span><span class="p">(</span><span class="n">l1</span><span class="p">),</span> <span class="n">first</span><span class="p">(</span><span class="n">l2</span><span class="p">)],</span> <span class="p">[</span><span class="s">&#34;x&#34;</span><span class="p">,</span> <span class="s">&#34;exp(x)&#34;</span><span class="p">])</span>
+</code></pre></td></tr></table>
+</div>
+</div>]]></description></item><item><title>Collect GitHub Issues to a Markdown file</title><link>https://sosiristseng.github.io/posts/devops/gh-issue-to-md/</link><pubDate>Thu, 06 May 2021 23:33:15 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/devops/gh-issue-to-md/</guid><description>&lt;p>&lt;a href="https://github.com/mattduck/gh2md" target="_blank" rel="noopener noreffer">gh2md&lt;/a>: Export Github repository issues and pull requests to a single, readable markdown file.&lt;/p></description></item><item><title>Kubuntu 21.04 Postinstall</title><link>https://sosiristseng.github.io/posts/linux/postinstall-kubuntu/</link><pubDate>Mon, 03 May 2021 23:43:29 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/linux/postinstall-kubuntu/</guid><description>&lt;p>Thing to do after installing Kubuntu 21.04.&lt;/p></description></item><item><title>Input methods</title><link>https://sosiristseng.github.io/posts/apps/ime/</link><pubDate>Mon, 03 May 2021 16:26:59 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/ime/</guid><description>&lt;p>Typing Chinese in Linux.&lt;/p></description></item><item><title>Office suite</title><link>https://sosiristseng.github.io/posts/apps/office/</link><pubDate>Mon, 03 May 2021 16:26:04 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/office/</guid><description>&lt;p>Alternatives to MS office.&lt;/p></description></item><item><title>Themes</title><link>https://sosiristseng.github.io/posts/apps/themes/</link><pubDate>Mon, 03 May 2021 16:24:37 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/themes/</guid><description>&lt;p>Theming in Linux.&lt;/p></description></item><item><title>Markdown editors</title><link>https://sosiristseng.github.io/posts/apps/markdown/</link><pubDate>Mon, 03 May 2021 16:15:27 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/markdown/</guid><description>&lt;p>The email-style writing for the web by John Gruber and Aaron Swartz. Also see &lt;a href="https://github.com/mundimark/awesome-markdown#markdown" target="_blank" rel="noopener noreffer">awesome Markdown&lt;/a>.&lt;/p></description></item><item><title>Development tools</title><link>https://sosiristseng.github.io/posts/apps/dev/</link><pubDate>Mon, 03 May 2021 15:32:36 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/dev/</guid><description>&lt;blockquote>
+&lt;p>Compilers, Editors, IDEs, Runtimes, etc.&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
