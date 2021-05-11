@@ -6,7 +6,7 @@ author: ""
 authorLink: ""
 description: ""
 
-tags: ["postinstall", "manjaro", "linux"]
+tags: ["postinstall", "linux"]
 categories: ["Linux"]
 
 hiddenFromHomePage: false
@@ -34,7 +34,7 @@ Set mirror in `pamac` settings.
 
 ## Install pikaur
 
-Using `pamac` if you enable AUR builds.
+Enable AUR in `pamac` and install `pikaur`.
 
 ## Update kernel and / or drivers
 
@@ -120,30 +120,6 @@ qogir-gtk-theme-git
 qogir-kde-theme-git
 ```
 
-Paste the contents to `~/.xprofile`
-
-```bash
-# ~/.xprofile
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-ibus-daemon -drx
-```
-
-Paste the contents to `~/.profile`
-
-```bash
-[[ -d "${HOME}/.local/bin" ]] && PATH="${HOME}/.local/bin:${PATH}"
-[[ -d "${HOME}/.cargo/bin" ]] && PATH="${HOME}/.cargo/bin:${PATH}"
-[[ -d "${HOME}/.go/bin" ]] && PATH="${HOME}/.go/bin:${PATH}"
-
-export BROWSER=$(command -v xdg-open)
-export EDITOR=$(command -v nano)
-export JULIA_NUM_THREADS=$(nproc)
-export JULIA_PROJECT=@.
-export ELECTRON_TRASH=gio
-```
-
 Run the following script:
 
 ```bash
@@ -156,6 +132,35 @@ sudo systemctl enable --now docker.service
 # Install the rest
 # Check pkgs.txt before running the line below
 sed 's/#.*$//' pkgs.txt | xargs sudo pikaur -S --noconfirm --needed
+```
+
+## Ibus config
+
+Paste the contents to `~/.xprofile`
+
+
+```bash
+# ~/.xprofile
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+ibus-daemon -drx
+```
+
+## Environment variables
+
+Paste the contents to `~/.profile`
+
+```bash
+[[ -d "${HOME}/.local/bin" ]] && PATH="${HOME}/.local/bin:${PATH}"
+[[ -d "${HOME}/.cargo/bin" ]] && PATH="${HOME}/.cargo/bin:${PATH}"
+[[ -d "${HOME}/.go/bin" ]] && PATH="${HOME}/.go/bin:${PATH}"
+
+export BROWSER=$(command -v xdg-open)
+export EDITOR=$(command -v nano)
+export JULIA_NUM_THREADS=$(nproc)
+export JULIA_PROJECT=@.
+export ELECTRON_TRASH=kioclient5
 ```
 
 ## Theme settings

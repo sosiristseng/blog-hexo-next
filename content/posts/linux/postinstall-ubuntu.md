@@ -13,6 +13,14 @@ Things to do after installing Ubuntu 20.04.
 
 Default locale in Ubuntu for traditional Chinese (Taiwan) is `lzh_TW` rather than `zh_TW`.
 
+Setup the locale by editing the file `sudo nano /etc/locale.gen`, comment the `lzh_TW` line and uncomment the `zh_TW` line.
+
+And then run
+
+```bash
+sudo locale-gen
+```
+
 Install the Traditional Chinese locale in `Language Support` and then set locale to `Taiwan` to solve this problem.
 
 ## Post install script
@@ -61,7 +69,8 @@ ibus-chewing
 
 # Media
 ffmpeg
-smplayer
+celluloid
+vlc
 
 # Themes
 papirus-icon-theme
@@ -71,7 +80,6 @@ qt5ct
 
 # Fonts
 fonts-noto
-fonts-roboto
 fonts-wqy-microhei
 fonts-wqy-zenhei
 fonts-open-sans
@@ -80,19 +88,23 @@ fonts-open-sans
 typora
 zotero
 libreoffice
-texlive
 ```
 
-Run this script
+Run the following scripts
+
+### Setup NCHC mirror
 
 ```bash
-# Setup NCHC mirror
 sudo -v
 sudo sed -i 's/us.archive.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
 sudo sed -i 's/archive.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
 sudo sed -i 's/security.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
 sudo apt update && sudo apt install -y apt-transport-https ca-certificates curl git gnupg-agent software-properties-common python3-pip
+```
 
+### Add 3rd party repos
+
+```bash
 # Run this line if you need Wine and games
 # sudo dpkg --add-architecture i386
 
@@ -127,6 +139,7 @@ echo 'deb [signed-by=/usr/share/keyrings/xanmod-keyring.gpg] http://deb.xanmod.o
 curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/packages.microsoft.gpg
 
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+
 sudo add-apt-repository -y ppa:appimagelauncher-team/stable  # AppImageLauncher
 sudo add-apt-repository -y ppa:git-core/ppa                  # Git stable releases
 sudo add-apt-repository -y ppa:alessandro-strada/ppa         # Google drive client
@@ -134,14 +147,18 @@ sudo add-apt-repository -y ppa:papirus/papirus               # Papirus icon them
 sudo add-apt-repository -y ppa:yann1ck/onedrive              # OneDrive client
 sudo add-apt-repository -y ppa:kisak/kisak-mesa              # Mesa driver
 sudo add-apt-repository -y ppa:libreoffice/ppa               # Libreoffice
-sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable # Qbittorrent
+sudo add-apt-repository -y ppa:xuzhen666/gnome-mpv           # Cellulid
+```
 
+### Install packages
+
+```bash
 sudo apt update && sudo apt full-upgrade -y && sed 's/#.*$//' pkgs.txt | xargs sudo apt install -y
 
 [[ -x "$(command -v pip3)" ]] && pip3 install -U --user glances bpytop jill youtube-dl
 ```
 
-## Nvidia GPU
+## Nvidia GPU drive and CUDA runtime
 
 Nvidia CUDA 11 runtime and compatible GPU driver[^cuda]
 
