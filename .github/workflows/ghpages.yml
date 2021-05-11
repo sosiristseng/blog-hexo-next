@@ -1,10 +1,6 @@
-name: Build pages
+name: GitHub Pages
 
-on:
-  push:
-    branches-ignore:
-      - main
-  pull_request:
+on: [push, pull_request]
 
 jobs:
   build:
@@ -21,4 +17,10 @@ jobs:
         hugo-version: 'latest'
         extended: true
     - name: Build
-      run: hugo -v -D --templateMetrics
+      run: hugo --minify
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3.8.0
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public

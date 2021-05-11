@@ -1,4 +1,4 @@
-name: Deploy
+name: Update Algolia index
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  algolia:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
@@ -20,14 +20,7 @@ jobs:
         hugo-version: 'latest'
         extended: true
     - name: Build pages
-      run: |
-        hugo --minify
-    - name: Deploy to GitHub pages
-      uses: peaceiris/actions-gh-pages@v3.8.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        force_orphan: true
+      run: hugo --minify
     - name: Setup NodeJS
       uses: actions/setup-node@v2
       with:
@@ -40,13 +33,11 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
     - name: Install Node dependencies
-      run: |
-        npm ci
+      run: npm ci
     - name: Update Algolia index
       env:
         ALGOLIA_APP_ID: MFXX0N7AVC
         ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         ALGOLIA_INDEX_NAME: 'losloslos'
         ALGOLIA_INDEX_FILE: './public/index.json'
-      run: |
-        npm run algolia
+      run: npm run algolia
