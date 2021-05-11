@@ -1,5 +1,5 @@
 ---
-title: "Tilix"
+title: "Tilix shel emulator"
 subtitle: ""
 date: 2021-05-11T12:18:10+08:00
 draft: false

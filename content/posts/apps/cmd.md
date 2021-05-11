@@ -44,7 +44,7 @@ bash ~/.bash_it/install.sh
 
 ## zsh improved framework (zimfw)
 
-[`zim`](https://github.com/zimfw/zimfw) is a blazing fast zsh plugin framework, about 30x faster loading speed than the most popular [oh-my-zsh][].
+Zsh improved framework, aka [`zimfw`](https://github.com/zimfw/zimfw), is a blazing fast zsh plugin framework, about 30x faster loading speed than [oh-my-zsh][].
 
 Install `zsh` first and run the script
 
@@ -82,7 +82,7 @@ To save loading time of zsh (about 70x), you can enable lazy loading by adding t
 export NVM_LAZY_LOAD=true
 ```
 
-## Starship
+## Starship: cross-shell command prompt
 
 [🚀 Starship](https://starship.rs/) is an enhancement for command prompt in a multitude of shells, powered by Rust. Available for bash, zsh, fish, powershell, etc.
 
@@ -132,9 +132,7 @@ After installation, just [launch](https://github.com/Xfennec/progress#what-can-i
 
 ## pv: See the progress of pipes
 
-[`pv`](https://linux.die.net/man/1/pv) shows transfer speed and /or progress through a Unix pipe.
-
-The usage of `pv` is similar to that of `cat`. For example,
+[`pv`](https://linux.die.net/man/1/pv) shows transfer speed and /or progress through a Unix pipe. `pv` works like `cat`. For example,
 
 ```bash
 cat file > other_file # no output with cat
@@ -148,3 +146,90 @@ pv file | gzip > file.gz
 # Sandwich form, showing speed without progress
 cat file | pv | gzip > file.gz
 ```
+
+## TLDR: command cheatsheets
+
+[TLDR](https://github.com/tldr-pages/tldr) are collaborative cheatsheets for console commands, complement to `man` pages.
+
+Also see : [the pdf version](https://tldr.sh/assets/tldr-book.pdf) of TLDR.
+
+### Installation
+
+Using `npm`
+
+```bash
+npm install -g tldr
+```
+
+Using `pacman`
+
+```bash
+pacman -S tldr
+```
+
+Using `apt`
+
+```bash
+sudp apt install tldr-py
+```
+
+Using `pip`
+
+```bash
+pip install tldr.py
+```
+
+### Usage
+
+For instance, to see the example of the `tar` command, type:
+
+```bash
+tldr tar
+```
+
+## exa: a modern replacement for ls
+
+> [exa](https://the.exa.website) is an improved file lister with more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.
+
+### Install
+
+- `apt` (Ubuntu >= 20.10)
+
+```bash
+sudo apt install exa
+```
+
+- `pacman`
+
+```bash
+sudo pacman -S exa
+```
+
+- `homebrew`
+
+```bash
+brew install exa
+```
+
+## bat: a drop in replacement of cat
+
+> [bat](https://github.com/sharkdp/bat): A cat(1) clone with syntax highlighting and Git integration.
+
+- Syntax highlighting
+- Automatic paging
+- Same behavior as `cat` when concatenating files
+
+### Install
+
+- [Release page](https://github.com/sharkdp/bat/releases)
+- `apt`
+  ```bash
+  sudo apt install bat
+  ```
+- `pacman`
+  ```bash
+  pacman -S bat
+  ```
+
+## fd: a repalcement of find
+
