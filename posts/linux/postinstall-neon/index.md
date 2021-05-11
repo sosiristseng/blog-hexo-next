@@ -27,6 +27,7 @@ code
 cifs-utils
 vivaldi-stable
 brave-browser
+qbittorrent
 
 # System
 parallel
@@ -34,7 +35,7 @@ pv
 zsh
 progress
 htop
-synaptic
+muon
 apt-xapian-index
 neofetch
 appimagelauncher
@@ -58,7 +59,6 @@ qt5-style-kvantum
 
 # Fonts
 fonts-noto
-fonts-roboto
 fonts-wqy-microhei
 fonts-wqy-zenhei
 fonts-open-sans
@@ -70,7 +70,9 @@ libreoffice
 kate
 ```
 
-Run this script
+Run the following scripts
+
+### Change package server to NCHC (Taiwan server)
 
 ```bash
 # Setup NCHC mirror
@@ -78,6 +80,12 @@ sudo -v
 sudo sed -i 's/us.archive.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
 sudo sed -i 's/archive.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
 sudo sed -i 's/security.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list
+sudo apt update && sudo apt install -y apt-transport-https ca-certificates curl git gnupg-agent software-properties-common python3-pip
+```
+
+### Setup 3rd party repos
+
+```bash
 sudo apt update && sudo apt install -y apt-transport-https ca-certificates curl git gnupg-agent software-properties-common python3-pip
 
 # Run this line if you need Wine and games
@@ -123,7 +131,11 @@ sudo add-apt-repository -y ppa:yann1ck/onedrive              # OneDrive client
 sudo add-apt-repository -y ppa:kisak/kisak-mesa              # Mesa driver
 sudo add-apt-repository -y ppa:libreoffice/ppa               # Libreoffice
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable # Qbittorrent
+```
 
+### Install packages
+
+```bash
 sudo apt update && sudo apt full-upgrade -y && sed 's/#.*$//' pkgs.txt | xargs sudo apt install -y
 
 [[ -x "$(command -v pip3)" ]] && pip3 install -U --user glances bpytop jill youtube-dl

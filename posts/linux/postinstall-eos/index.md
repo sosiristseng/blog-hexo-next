@@ -17,6 +17,8 @@ Install `akm` kernel manager
 sudo pacman -S akm
 ```
 
+And run `akm` in the terminal.
+
 ## Install pikaur
 
 Instatuctions from [its Github repo](https://github.com/actionless/pikaur).
@@ -111,30 +113,6 @@ qogir-gtk-theme-git
 qogir-kde-theme-git
 ```
 
-Paste the contents to `~/.xprofile`
-
-```bash
-# ~/.xprofile
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-ibus-daemon -drx
-```
-
-Paste the contents to `~/.profile`
-
-```bash
-[[ -d "${HOME}/.local/bin" ]] && PATH="${HOME}/.local/bin:${PATH}"
-[[ -d "${HOME}/.cargo/bin" ]] && PATH="${HOME}/.cargo/bin:${PATH}"
-[[ -d "${HOME}/.go/bin" ]] && PATH="${HOME}/.go/bin:${PATH}"
-
-export BROWSER=$(command -v xdg-open)
-export EDITOR=$(command -v nano)
-export JULIA_NUM_THREADS=$(nproc)
-export JULIA_PROJECT=@.
-export ELECTRON_TRASH=gio
-```
-
 Run this script:
 
 ```bash
@@ -151,7 +129,34 @@ sudo systemctl enable --now org.cups.cupsd.socket || echo "CUPS not installed!"
 sed 's/#.*$//' pkgs.txt | xargs sudo pikaur -S --noconfirm --needed
 ```
 
-## If using NVIDIA GPU
+## Ibus config
+Paste the contents to `~/.xprofile`
+
+```bash
+# ~/.xprofile
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+ibus-daemon -drx
+```
+
+## Environment variables
+
+Paste the contents to `~/.profile`
+
+```bash
+[[ -d "${HOME}/.local/bin" ]] && PATH="${HOME}/.local/bin:${PATH}"
+[[ -d "${HOME}/.cargo/bin" ]] && PATH="${HOME}/.cargo/bin:${PATH}"
+[[ -d "${HOME}/.go/bin" ]] && PATH="${HOME}/.go/bin:${PATH}"
+
+export BROWSER=$(command -v xdg-open)
+export EDITOR=$(command -v nano)
+export JULIA_NUM_THREADS=$(nproc)
+export JULIA_PROJECT=@.
+export ELECTRON_TRASH=kioclient5
+```
+
+## NVIDIA GPU drivers and CUDA runtime
 
 Install Nvidia DKMS driver for all kernels and CUDA runtime:
 
@@ -191,7 +196,6 @@ Use `pikaur -S <pkgname>`
 - Bottom: `bottom-bin`
 
 ### VirtualBox
-
 
 Install the packages and add your username to the `vbox` group.
 

@@ -5,13 +5,7 @@ Thing to do after installing Kubuntu 21.04.
 
 <!--more-->
 
-## Upgrade fully
-
-```bash
-sudo apt update && sudo apt full-upgrade -y
-```
-
-## Add more software source
+## Add 3rd party sources and fully upgrade
 
 ```bash
 sudo apt install -y apt-transport-https ca-certificates curl git gnupg-agent software-properties-common python3-pip
@@ -51,24 +45,12 @@ curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmo
 
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
 
-# Latest Git (stable)
-sudo add-apt-repository -y ppa:git-core/ppa
-
-# Google drive client
-sudo add-apt-repository -y ppa:alessandro-strada/ppa
-
-# Latest Libreoffice
-sudo add-apt-repository -y ppa:libreoffice/ppa
-
-# Papirus icon theme
-sudo add-apt-repository -y ppa:papirus/papirus
-
-# Qbittorrent
-sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable
-
-# Kubuntu backport
-sudo add-apt-repository -y ppa:kubuntu-ppa/backports
-
+sudo add-apt-repository -y ppa:git-core/ppa # Latest Git (stable)
+sudo add-apt-repository -y ppa:alessandro-strada/ppa # Google drive client
+sudo add-apt-repository -y ppa:libreoffice/ppa # Latest Libreoffice
+sudo add-apt-repository -y ppa:papirus/papirus # Papirus icon theme
+sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-stable # Qbittorrent
+sudo add-apt-repository -y ppa:kubuntu-ppa/backports # Kubuntu backport
 
 # apt-fast
 sudo add-apt-repository -y ppa:apt-fast/stable
