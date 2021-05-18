@@ -17,7 +17,7 @@ jobs:
           chmod +x areyouok-linux-amd64
           ./areyouok-linux-amd64 -i=layouts,themes,.git,README.md -r=github
       - name: Create Issue
-        uses: peter-evans/create-issue-from-file@v2
+        uses: peter-evans/create-issue-from-file@v3
         with:
           title: AreYouOk URL Health Report
           content-filepath: ./report.github
