@@ -1,16 +1,26 @@
-name: Check Markdown links on modified files
+name: Check markdown links
 
-on: pull_request
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"  # Every Monday
 
 jobs:
-  markdown-link-check:
+  linkChecker:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        use-quiet-mode: 'yes'
-        use-verbose-mode: 'no'
-        config-file: '.github/workflows/mlc_config.json'
-        base-branch: main
-        check-modified-files-only: 'yes'
+      - uses: actions/checkout@v2
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@master
+        with:
+          args: '--accept 200,204,429 --verbose --no-progress **/*.md'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v3
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
