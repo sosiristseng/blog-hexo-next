@@ -33,8 +33,8 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] 
 curl -fsSL https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
 
 # Typora
-curl -fsSL https://typora.io/linux/public-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/typora-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/typora-keyring.gpg] https://typora.io/linux ./" | sudo tee /etc/apt/sources.list.d/typora.list > /dev/null
+curl -fsSL https://typora.io//public-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/typora-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/typora-keyring.gpg] https://typora.io/ ./" | sudo tee /etc/apt/sources.list.d/typora.list > /dev/null
 
 # Xanmod linux kernel
 curl -fsSL https://dl.xanmod.org/gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/xanmod-keyring.gpg
