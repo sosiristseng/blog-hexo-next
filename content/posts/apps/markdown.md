@@ -58,9 +58,9 @@ Marktext[^1], a full-featured open-source what-you-see-is-what-you-get Markdown 
 
 - Add deb repository
   ```bash
-  curl -fsSL https://typora.io/linux/public-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/typora-keyring.gpg
+  curl -fsSL https://typora.io//public-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/typora-keyring.gpg
 
-  echo "deb [signed-by=/usr/share/keyrings/typora-keyring.gpg] https://typora.io/linux ./" | sudo tee /etc/apt/sources.list.d/typora.list > /dev/nul
+  echo "deb [signed-by=/usr/share/keyrings/typora-keyring.gpg] https://typora.io/ ./" | sudo tee /etc/apt/sources.list.d/typora.list > /dev/nul
   sudo apt update && sudo apt install typora
   ```
 - Via [AUR](https://aur.archlinux.org/packages/typora/))
