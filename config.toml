@@ -1,4 +1,4 @@
-baseURL = "https://sosiristseng.github.io/"
+baseURL = "https://sosiristseng.github.io/reading/"
 canonifyURLs = false
 relativeURLs = false
 
@@ -66,14 +66,6 @@ ignoreErrors = ["error-remote-getjson"]
         title = "Categories"
         weight = 4
       [[languages.en.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About Me"
-        url = "about/"
-        title = "About Me"
-        weight = 5
-      [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github-alt fa-fw'></i>"
         post = ""
@@ -83,7 +75,7 @@ ignoreErrors = ["error-remote-getjson"]
         weight = 6
     [languages.en.params]
       # site description
-      description = "Tech blog of Wen-Wei Tseng"
+      description = "Reading Notes of Wen-Wei Tseng"
       # site keywords
       keywords = ["Julia", "Hugo"]
       # App icon config
@@ -223,7 +215,7 @@ ignoreErrors = ["error-remote-getjson"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/sosiristseng/sosiristseng.github.io"
+  gitRepo = "https://github.com/sosiristseng/reading"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
