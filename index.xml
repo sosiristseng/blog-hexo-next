@@ -1,41 +1,27 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Los los los</title><link>https://sosiristseng.github.io/</link><description>Tech blog of Wen-Wei Tseng</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sosiristseng@gmail.com (Wen-Wei Tseng)</managingEditor><webMaster>sosiristseng@gmail.com (Wen-Wei Tseng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 May 2021 21:51:04 +0800</lastBuildDate><atom:link href="https://sosiristseng.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>🔖 Bookmarks</title><link>https://sosiristseng.github.io/posts/bookmark/</link><pubDate>Sun, 25 Apr 2021 16:31:41 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/bookmark/</guid><description>&lt;p>Browser bookmarks in Markdown.&lt;/p></description></item><item><title>Hosting your (static) websites</title><link>https://sosiristseng.github.io/posts/webdev/hosting/</link><pubDate>Tue, 11 May 2021 21:51:04 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/webdev/hosting/</guid><description><![CDATA[<p>Hosting static websites by:</p>
-<ul>
-<li>GitHub pages</li>
-<li>GitLab pages</li>
-<li>Netlify</li>
-<li>Cloudflare pages</li>
-</ul>]]></description></item><item><title>Tilix shel emulator</title><link>https://sosiristseng.github.io/posts/apps/tilix/</link><pubDate>Tue, 11 May 2021 12:18:10 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/tilix/</guid><description>&lt;p>&lt;a href="https://gnunn1.github.io/tilix-web/" target="_blank" rel="noopener noreffer">Tilix&lt;/a> is an advanced GTK3 tiling terminal emulator.&lt;/p></description></item><item><title>Sharing the Legend Box in Twin Axes in matplotlib</title><link>https://sosiristseng.github.io/posts/julia/pyplot-share-legend-box-in-twin-axes/</link><pubDate>Thu, 06 May 2021 23:46:03 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/julia/pyplot-share-legend-box-in-twin-axes/</guid><description><![CDATA[<ul>
-<li>Capture line plot objects from both axes.</li>
-<li>Call <code>legend()</code> for both(all) line plot objects.</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-julia" data-lang="julia"><span class="n">x1</span> <span class="o">=</span> <span class="mi">1</span><span class="o">:</span><span class="mi">10</span>
-
-<span class="k">import</span> <span class="n">PyPlot</span> <span class="n">as</span> <span class="n">plt</span>
-
-<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
-
-<span class="n">l1</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x1</span><span class="p">)</span>
-
-<span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
-<span class="n">l2</span><span class="o">=</span> <span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">exp</span><span class="o">.</span><span class="p">(</span><span class="n">x1</span><span class="p">))</span>
-
-<span class="n">ax1</span><span class="o">.</span><span class="n">legend</span><span class="p">([</span><span class="n">first</span><span class="p">(</span><span class="n">l1</span><span class="p">),</span> <span class="n">first</span><span class="p">(</span><span class="n">l2</span><span class="p">)],</span> <span class="p">[</span><span class="s">&#34;x&#34;</span><span class="p">,</span> <span class="s">&#34;exp(x)&#34;</span><span class="p">])</span>
-</code></pre></td></tr></table>
-</div>
-</div>]]></description></item><item><title>Collect GitHub Issues to a Markdown file</title><link>https://sosiristseng.github.io/posts/devops/gh-issue-to-md/</link><pubDate>Thu, 06 May 2021 23:33:15 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/devops/gh-issue-to-md/</guid><description>&lt;p>&lt;a href="https://github.com/mattduck/gh2md" target="_blank" rel="noopener noreffer">gh2md&lt;/a>: Export Github repository issues and pull requests to a single, readable markdown file.&lt;/p></description></item><item><title>Kubuntu 21.04 Postinstall</title><link>https://sosiristseng.github.io/posts/linux/postinstall-kubuntu/</link><pubDate>Mon, 03 May 2021 23:43:29 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/linux/postinstall-kubuntu/</guid><description>&lt;p>Thing to do after installing Kubuntu 21.04.&lt;/p></description></item><item><title>Input methods</title><link>https://sosiristseng.github.io/posts/apps/ime/</link><pubDate>Mon, 03 May 2021 16:26:59 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/ime/</guid><description>&lt;p>Typing Chinese in Linux.&lt;/p></description></item><item><title>Office suite</title><link>https://sosiristseng.github.io/posts/apps/office/</link><pubDate>Mon, 03 May 2021 16:26:04 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/office/</guid><description>&lt;p>Alternatives to MS office.&lt;/p></description></item><item><title>Themes</title><link>https://sosiristseng.github.io/posts/apps/themes/</link><pubDate>Mon, 03 May 2021 16:24:37 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/themes/</guid><description>&lt;p>Theming in Linux.&lt;/p></description></item><item><title>Markdown editors</title><link>https://sosiristseng.github.io/posts/apps/markdown/</link><pubDate>Mon, 03 May 2021 16:15:27 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/apps/markdown/</guid><description>&lt;p>The email-style writing for the web by John Gruber and Aaron Swartz. Also see &lt;a href="https://github.com/mundimark/awesome-markdown#markdown" target="_blank" rel="noopener noreffer">awesome Markdown&lt;/a>.&lt;/p></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Los los los</title><link>https://sosiristseng.github.io/</link><description>Tech blog of Wen-Wei Tseng</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sosiristseng@gmail.com (Wen-Wei Tseng)</managingEditor><webMaster>sosiristseng@gmail.com (Wen-Wei Tseng)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 08 Apr 2021 17:18:43 +0800</lastBuildDate><atom:link href="https://sosiristseng.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>📒 Zamponi 2018</title><link>https://sosiristseng.github.io/posts/zamponi-2018/</link><pubDate>Thu, 08 Apr 2021 17:18:43 +0800</pubDate><author>Zamponi et al</author><guid>https://sosiristseng.github.io/posts/zamponi-2018/</guid><description><![CDATA[<blockquote>
+<p>Mitochondrial network complexity emerges from fission/fusion dynamics<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p>Mitochondrial networks exhibit a variety of complex behaviors, including coordinated cell-wide oscillations of energy states as well as a phase transition (depolarization) in response to oxidative stress.</p>]]></description></item><item><title>📒 Goldberg 2017</title><link>https://sosiristseng.github.io/posts/goldberg-2017/</link><pubDate>Thu, 08 Apr 2021 16:53:04 +0800</pubDate><author>Goldberg et al.</author><guid>https://sosiristseng.github.io/posts/goldberg-2017/</guid><description><![CDATA[<blockquote>
+<p>Emerging whole-cell modeling principles and methods <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p>Whole-cell (WC) computational models aim to predict cellular phenotypes from genotype and the environment by representing the function of each gene, gene product, and metabolite.</p>]]></description></item><item><title>Quotes</title><link>https://sosiristseng.github.io/posts/quotes/</link><pubDate>Thu, 14 Jan 2021 17:23:40 +0800</pubDate><author>Author</author><guid>https://sosiristseng.github.io/posts/quotes/</guid><description>Quotes from Games Nothing is true, everything is permitted. - Assassin&amp;rsquo;s creed
+Quotes about Hope Hope in reality is the worst of all evils because it prolongs the torments of man. ― Friedrich Nietzsche
+Quotes from Movies People are selfish; they always want others to do the things they failed to do themselves. - Parasite (2019) Movie
+Never hate your enemies. It affects your judgment.</description></item><item><title>📒 Gregg 2016</title><link>https://sosiristseng.github.io/posts/gregg-2016/</link><pubDate>Mon, 04 Jan 2021 18:11:20 +0000</pubDate><author>Gregg et al.</author><guid>https://sosiristseng.github.io/posts/gregg-2016/</guid><description><![CDATA[<p>Pancreatic β-Cells From Mice Offset Age-Associated Mitochondrial Deficiency With Reduced KATP Channel Activity <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="https://sciwheel.com/work/#/items/6706100/" target="_blank" rel="noopener noreffer">Sciwheel</a></p>]]></description></item><item><title>📒 Nicholls 2016</title><link>https://sosiristseng.github.io/posts/nicholls-2016/</link><pubDate>Fri, 30 Oct 2020 15:00:04 +0800</pubDate><author>Nicholls DG</author><guid>https://sosiristseng.github.io/posts/nicholls-2016/</guid><description><![CDATA[<blockquote>
+<p>The Pancreatic β-Cell: A Bioenergetic Perspective<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p><a href="https://sciwheel.com/work/#/items/2340630/" target="_blank" rel="noopener noreffer">Sciwheel</a></p>]]></description></item><item><title>📒 Stiles 2012</title><link>https://sosiristseng.github.io/posts/stiles-2012/</link><pubDate>Fri, 30 Oct 2020 10:54:09 +0800</pubDate><author>Stiles et al.</author><guid>https://sosiristseng.github.io/posts/stiles-2012/</guid><description><![CDATA[<blockquote>
+<p>Mitochondrial dynamics and morphology in beta-cells<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p><a href="https://sciwheel.com/work/#/items/6050486" target="_blank" rel="noopener noreffer">Sciwheel</a></p>]]></description></item><item><title>📒 Benard 2007</title><link>https://sosiristseng.github.io/posts/benard-2007/</link><pubDate>Thu, 29 Oct 2020 16:25:30 +0800</pubDate><author>Benard et al.</author><guid>https://sosiristseng.github.io/posts/benard-2007/</guid><description><![CDATA[<p>Mitochondrial bioenergetics and structural network organization<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="https://sciwheel.com/work/#/items/1545618" target="_blank" rel="noopener noreffer">Sciwheel</a></p>]]></description></item><item><title>📒 Saa 2013</title><link>https://sosiristseng.github.io/posts/saa-2013/</link><pubDate>Fri, 23 Oct 2020 17:04:28 +0800</pubDate><author>Saa et al.</author><guid>https://sosiristseng.github.io/posts/saa-2013/</guid><description><![CDATA[<blockquote>
+<p>Modeling the ATP Production in Mitochondria<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p><a href="https://sciwheel.com/work/#/items/4596770" target="_blank" rel="noopener noreffer">Sciwheel</a></p>]]></description></item><item><title>📒 Zorov 2014</title><link>https://sosiristseng.github.io/posts/zorov-2014/</link><pubDate>Fri, 23 Oct 2020 01:05:49 +0800</pubDate><author>Zorov et al.</author><guid>https://sosiristseng.github.io/posts/zorov-2014/</guid><description><![CDATA[<blockquote>
+<p>Mitochondrial Reactive Oxygen Species (ROS) and ROS-Induced ROS Release<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p><a href="https://sciwheel.com/work/#/items/1276288" target="_blank" rel="noopener noreffer">Sciwheel</a></p>]]></description></item><item><title>📒 Yang 2018</title><link>https://sosiristseng.github.io/posts/yang-2018/</link><pubDate>Fri, 23 Oct 2020 01:03:50 +0800</pubDate><author>Yang et al.</author><guid>https://sosiristseng.github.io/posts/yang-2018/</guid><description><![CDATA[<blockquote>
+<p>Mitochondrial‐Mediated Oxidative Ca2+/Calmodulin‐Dependent Kinase II Activation Induces Early Afterdepolarizations in Guinea Pig Cardiomyocytes: An In Silico Study<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</blockquote>
+<p><a href="https://sciwheel.com/work/#/items/6062079" target="_blank" rel="noopener noreffer">Sciwheel</a></p>]]></description></item></channel></rss>
