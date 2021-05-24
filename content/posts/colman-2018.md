@@ -2,7 +2,7 @@
 title: "📒 Colman 2018"
 date: 2020-10-22T18:28:40+08:00
 tags: ["ODE", "cardiomyocyte", "electrophysiology"]
-categories: ["Reading"]
+categories: []
 author: "Colman et al."
 ---
 

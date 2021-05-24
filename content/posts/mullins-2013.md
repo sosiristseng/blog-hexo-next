@@ -2,7 +2,7 @@
 title: "📒 Mullins 2013"
 date: 2020-10-23T00:26:01+08:00
 tags: ["ODE", "cardiomyocyte"]
-categories: ["Reading"]
+categories: []
 author: "Mullins et al."
 ---
 

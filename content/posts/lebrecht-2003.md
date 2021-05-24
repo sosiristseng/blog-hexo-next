@@ -2,7 +2,7 @@
 title: "📒 Lebrecht 2003"
 date: 2020-10-23T00:17:49+08:00
 tags: ["doxorubicin", "cardiomyocyte", "mitochondria"]
-categories: ["Reading"]
+categories: []
 author: "Lebrecht et al."
 ---
 

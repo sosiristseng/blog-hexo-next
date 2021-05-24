@@ -2,7 +2,7 @@
 title: "📒 Demin 2001"
 date: 2020-10-22T23:50:50+08:00
 tags: ["ODE", "complex 3", "complex 4", "enzyme kinetics", "ROS", "mitochondria"]
-categories: ["Reading"]
+categories: []
 author: "Demin et al."
 ---
 

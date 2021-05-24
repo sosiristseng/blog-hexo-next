@@ -5,7 +5,7 @@ date: 2021-04-08T16:53:04+08:00
 author: "Goldberg et al."
 
 tags: []
-categories: ["Reading", "Review Article"]
+categories: ["Review Article"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

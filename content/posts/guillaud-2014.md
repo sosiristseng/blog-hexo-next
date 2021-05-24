@@ -2,7 +2,7 @@
 title: "📒 Guillaud 2014"
 date: 2020-10-23T00:03:37+08:00
 tags: ["ODE", "complex 3", "ROS", "mitochondria"]
-categories: [ "Reading"]
+categories: []
 author: "Guillaud et al."
 ---
 

@@ -2,7 +2,7 @@
 title: "📒 Stiles 2012"
 date: 2020-10-30T10:54:09+08:00
 tags: ["mitochondrial dynamics", "beta-cell", "mitochondria"]
-categories: ["Reading", "Review Article"]
+categories: ["Review Article"]
 author: "Stiles et al."
 ---
 

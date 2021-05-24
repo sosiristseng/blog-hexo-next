@@ -2,7 +2,7 @@
 title: "📒 Jones 2015"
 date: 2020-10-23T00:10:47+08:00
 tags: ["ODE", "mitochondria"]
-categories: ["Reading"]
+categories: []
 author: "Jones et al."
 ---
 

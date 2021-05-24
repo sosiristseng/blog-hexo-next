@@ -2,7 +2,7 @@
 title: "📒 Nicholls 2016"
 date: 2020-10-30T15:00:04+08:00
 tags: ["ATP", "beta-cell", "Mitochondria"]
-categories: ["Reading", "Review Article"]
+categories: ["Review Article"]
 math:
   enable: true
 author: "Nicholls DG"

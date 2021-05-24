@@ -2,7 +2,7 @@
 title: "📒 Greenstein 2014"
 date: 2020-10-23T00:02:56+08:00
 tags: ["CaMKII", "cardiomyocyte"]
-categories: [ "Reading"]
+categories: []
 author: "Greenstein et al."
 ---
 

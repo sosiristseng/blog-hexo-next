@@ -2,7 +2,7 @@
 title: "📒 Kembro 2014"
 date: 2020-10-23T00:12:23+08:00
 tags: ["ODE", "mitochondria"]
-categories: ["Reading"]
+categories: []
 author: "Kembro et al."
 ---
 

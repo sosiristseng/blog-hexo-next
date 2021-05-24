@@ -2,7 +2,7 @@
 title: "📒 Imperial 2014"
 date: 2020-10-23T00:08:47+08:00
 tags: ["enzyme kinetics"]
-categories: [ "Reading"]
+categories: []
 author: "Imperial S, Centelles JJ"
 ---
 

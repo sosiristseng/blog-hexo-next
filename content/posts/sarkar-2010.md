@@ -2,7 +2,7 @@
 title: "📒 Sarkar 2010"
 date: 2020-10-23T00:39:53+08:00
 tags: ["ODE", "electrophysiology", "cardiomyocyte"]
-categories: ["Reading"]
+categories: []
 author: "Sarkar et al."
 ---
 

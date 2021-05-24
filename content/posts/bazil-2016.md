@@ -2,7 +2,7 @@
 title: "📒 Bazil 2016"
 date: 2020-10-22T17:43:36+08:00
 tags: ["ODE", "mitochondria", "ROS", "complex 1", "complex 3", "complex 4"]
-categories: ["Reading"]
+categories: []
 author: "Bazil et al."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "📒 Roberts 2012"
 date: 2020-10-23T00:36:48+08:00
-categories: ["Review Article", "Reading"]
+categories: ["Review Article"]
 tags: ["cardiomyocyte", "ODE", "PDE", "electrophysiology"]
 author: "Roberts et al."
 ---

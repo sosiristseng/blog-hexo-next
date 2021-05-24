@@ -2,7 +2,7 @@
 title: "📒 Bazil 2013"
 date: 2020-10-22T17:36:38+08:00
 tags: ["ODE", "ROS", "complex 3", "ATP", "mitochondria", "enzyme kinetics"]
-categories: [ "Reading"]
+categories: []
 author: "Bazil et al."
 math:
   enable: true

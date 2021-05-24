@@ -2,7 +2,7 @@
 title: "📒 Wilson 2014"
 date: 2020-10-23T00:57:26+08:00
 tags: ["complex 4", "mitochondria"]
-categories: ["Reading"]
+categories: []
 math:
   enable: true
 author: "Wilson et al."

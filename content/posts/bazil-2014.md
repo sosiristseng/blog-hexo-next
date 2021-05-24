@@ -2,7 +2,7 @@
 title: "📒 Bazil 2014"
 date: 2020-10-22T17:42:35+08:00
 tags: ["ODE", "ROS", "enzyme kinetics", "complex 1", "mitochondria"]
-categories: ["Reading"]
+categories: []
 author: "Bazil et al."
 math:
   enable: true

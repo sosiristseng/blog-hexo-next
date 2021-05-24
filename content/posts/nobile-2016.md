@@ -2,7 +2,7 @@
 title: "📒 Nobile 2016"
 date: 2020-10-23T00:28:01+08:00
 tags: ["GPU"]
-categories: ["Reading", "Review Article"]
+categories: ["Review Article"]
 author: "Nobile et al."
 ---
 

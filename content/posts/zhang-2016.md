@@ -2,7 +2,7 @@
 title: "📒 Zhang 2016"
 date: 2020-10-23T01:00:24+08:00
 tags: ["cardiomyocyte"]
-categories: ["Reading", "Review Article"]
+categories: ["Review Article"]
 author: "Zhang et al."
 ---
 

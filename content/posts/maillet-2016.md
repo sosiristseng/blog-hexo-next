@@ -2,7 +2,7 @@
 title: "📒 Maillet 2016"
 date: 2020-10-23T00:21:14+08:00
 tags: ["doxorubicin", "mitochondria", "cardiomyocyte"]
-categories: ["Reading"]
+categories: []
 author: "Maillet et al."
 ---
 

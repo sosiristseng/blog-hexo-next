@@ -2,7 +2,7 @@
 title: "📒 Benard 2007"
 date: 2020-10-29T16:25:30+08:00
 tags: ["mitochondrial dynamics", "mitochondria", "ATP"]
-categories: ["Reading"]
+categories: []
 author: "Benard et al."
 ---
 

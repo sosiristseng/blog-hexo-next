@@ -2,7 +2,7 @@
 title: "📒 Grandi 2016"
 date: 2020-10-23T00:02:00+08:00
 tags: ["cardiomyocyte", "electrophysiology"]
-categories: ["Reading"]
+categories: []
 author: "Grandi et al."
 ---
 

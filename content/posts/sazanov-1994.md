@@ -2,7 +2,7 @@
 title: "📒 Sazanov 1994"
 date: 2020-10-23T00:40:33+08:00
 tags: ["mitochondria", "citric acid cycle"]
-categories: ["Reading"]
+categories: []
 author: "Sazanov et al."
 ---
 

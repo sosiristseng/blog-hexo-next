@@ -2,7 +2,7 @@
 title: "📒 Sachetto 2018"
 date: 2020-10-23T00:39:21+08:00
 tags: ["GPU", "electrophysiology", "cardiomyocyte"]
-categories: ["Reading", "Review Article"]
+categories: ["Review Article"]
 math:
   enable: true
 author: "Sachetto et al."

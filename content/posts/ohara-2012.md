@@ -2,7 +2,7 @@
 title: "📒 Ohara 2012"
 date: 2020-10-23T00:31:44+08:00
 tags: ["ODE", "cardiomyocyte", "electrophysiology"]
-categories: ["Reading"]
+categories: []
 author: "OHara et al."
 ---
 

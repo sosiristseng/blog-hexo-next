@@ -3,7 +3,7 @@ title: "📒 Barros 2012"
 description: ""
 date: 2020-10-22T17:30:10+08:00
 tags: ["GPU", "electrophysiology", "cardiomyocyte"]
-categories: ["Reading"]
+categories: []
 math:
   enable: true
 author: "Barros et al."

@@ -2,7 +2,7 @@
 title: "📒 Mirams 2018"
 date: 2020-10-23T00:25:24+08:00
 tags: ["cardiomyocyte"]
-categories: ["Reading"]
+categories: []
 author: "Mirams et al."
 ---
 

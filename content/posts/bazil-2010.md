@@ -2,7 +2,7 @@
 title: "📒 Bazil 2010"
 date: 2020-10-22T17:35:32+08:00
 tags: ["ODE", "mitochondria", "citric acid cycle"]
-categories: ["Reading"]
+categories: []
 author: "Bazil et al."
 math:
   enable: true

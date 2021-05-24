@@ -2,7 +2,7 @@
 title: "📒 Chinopoulos 2010"
 date: 2020-10-22T18:26:01+08:00
 tags: ["adenine nucleotide translocase", "ATP synthase", "ATP"]
-categories: ["Reading"]
+categories: []
 math:
   enable: true
 

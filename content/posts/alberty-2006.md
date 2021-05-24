@@ -2,7 +2,7 @@
 title: "📒 Alberty 2006"
 date: 2020-10-22T17:13:03+08:00
 tags: ["enzyme kinetics"]
-categories: ["Reading"]
+categories: []
 math:
   enable: true
 author: "Alberty RA."
