@@ -90,7 +90,6 @@ author: "Mirams et al."
 * How should uncertainties in Cardiac Physiome models be visualised and communicated to users such as clinicians?
 ## Resources
 * Managing Uncertainty in Complex Models: http://www.mucm.ac.uk/
-* MUCM Toolkit (Gaussian process): http://mucm.aston.ac.uk/
 * Gaussian process in python https://github.com/SheffieldML/GPy
 
 ## Reference

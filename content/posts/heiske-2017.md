@@ -10,7 +10,6 @@ author: "Heiske et al."
 
 [Sciwheel](https://sciwheel.com/work/#/items/5897992)
 
-
 <!--more-->
 
 ## Introduction
@@ -202,4 +201,4 @@ f_prot = 7.3E-6
 ![](https://wol-prod-cdn.literatumonline.com/cms/attachment/1f0481e0-8433-4892-ab36-66b4b5adce4f/febs14151-math-0242.png)
 
 ## Reference
-[^Heiske2017]: Heiske M, Letellier T, Klipp E. Comprehensive mathematical model of oxidative phosphorylation valid for physiological and pathological conditions. FEBS J. 2017;284(17):2802-2828. doi:10.1111/febs.14151. [FEBS](https://f1000.com/fulltext/doi/10.1111/febs.14151).
+[^Heiske2017]: Heiske M, Letellier T, Klipp E. Comprehensive mathematical model of oxidative phosphorylation valid for physiological and pathological conditions. FEBS J. 2017;284(17):2802-2828. [doi:10.1111/febs.14151](https://febs.onlinelibrary.wiley.com/doi/full/10.1111/febs.14151).
