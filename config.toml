@@ -77,7 +77,7 @@ ignoreErrors = ["error-remote-getjson"]
       # site description
       description = "Reading Notes of Wen-Wei Tseng"
       # site keywords
-      keywords = ["Julia", "Hugo"]
+      keywords = ["Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -113,7 +113,7 @@ ignoreErrors = ["error-remote-getjson"]
           index = ""
           appID = ""
           searchKey = ""
-        [params.search.fuse]
+        [languages.en.params.search.fuse]
           # DoIt NEW | 0.2.12 https://fusejs.io/api/options.html
           isCaseSensitive = false
           minMatchCharLength = 2
