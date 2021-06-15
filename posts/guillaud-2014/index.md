@@ -67,5 +67,5 @@
 The model reinforces the hypothesis that superoxide formation by complex III involves ubiquinone as a redox mediator between cytochrome bL and oxygen. No semiquinone intermediate of the protonmotive Q-cycle at the Qo site is required to reproduce the experimental data.
 
 ## Refrence
-[^Guillaud2014]: Guillaud F, Dröse S, Kowald A, Brandt U, Klipp E. Superoxide production by cytochrome bc1 complex: a mathematical model. Biochim. Biophys. Acta 2014;1837(10):1643-1652. doi:10.1016/j.bbabio.2014.05.358. [DOI](https://f1000.com/fulltext/doi/10.1016/j.bbabio.2014.05.358).
+[^Guillaud2014]: Guillaud F, Dröse S, Kowald A, Brandt U, Klipp E. Superoxide production by cytochrome bc1 complex: a mathematical model. Biochim. Biophys. Acta 2014;1837(10):1643-1652. [doi:10.1016/j.bbabio.2014.05.358](https://www.sciencedirect.com/science/article/pii/S0005272814005076?via%3Dihubdoi:10.1016/j.bbabio.2014.05.358).
 

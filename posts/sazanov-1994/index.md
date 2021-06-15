@@ -22,5 +22,5 @@
 ![fig2](https://user-images.githubusercontent.com/40054455/86718527-c0588000-c055-11ea-9454-c364db06add3.png)
 
 ## Reference
-[^Sazanov1994]: Sazanov LA, Jackson JB. Proton-translocating transhydrogenase and NAD- and NADP-linked isocitrate dehydrogenases operate in a substrate cycle which contributes to fine regulation of the tricarboxylic acid cycle activity in mitochondria. FEBS Lett. 1994;344(2-3):109-116. doi:10.1016/0014-5793(94)00370-X. [DOI](https://f1000.com/fulltext/doi/10.1016/0014-5793(94)00370-X).
+[^Sazanov1994]: Sazanov LA, Jackson JB. Proton-translocating transhydrogenase and NAD- and NADP-linked isocitrate dehydrogenases operate in a substrate cycle which contributes to fine regulation of the tricarboxylic acid cycle activity in mitochondria. FEBS Lett. 1994;344(2-3):109-116. doi:10.1016/0014-5793(94)00370-X.
 
