@@ -1,4 +1,4 @@
-baseURL = "https://sosiristseng.github.io/reading/"
+baseURL = "https://sosiristseng.github.io/"
 canonifyURLs = false
 relativeURLs = false
 
@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 theme = "DoIt"
 
 # website title
-title = "Los los los"
+title = "Something to Live"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -75,7 +75,7 @@ ignoreErrors = ["error-remote-getjson"]
         weight = 6
     [languages.en.params]
       # site description
-      description = "Reading Notes of Wen-Wei Tseng"
+      description = "Tech Notes of Wen-Wei Tseng"
       # site keywords
       keywords = ["Hugo"]
       # App icon config
@@ -213,6 +213,7 @@ ignoreErrors = ["error-remote-getjson"]
         XMPP = ""
         Matrix = ""
         Bilibili = ""
+        ORCID = "0000-0003-3858-4622"
         Email = "sosiristeng@gmail.com"
         RSS = true
         # [languages.en.params.social.Mastodon]
@@ -226,7 +227,7 @@ ignoreErrors = ["error-remote-getjson"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/sosiristseng/reading"
+  gitRepo = "https://github.com/sosiristseng/sosiristseng.github.io"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
@@ -250,7 +251,7 @@ ignoreErrors = ["error-remote-getjson"]
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Los los los"
+      name = "Something to Live"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = "<i class='fas fa-kiwi-bird fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -560,7 +561,7 @@ ignoreErrors = ["error-remote-getjson"]
   # Table Of Contents settings
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 6
+    endLevel = 5
 
 # Author config
 [author]
