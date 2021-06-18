@@ -66,6 +66,14 @@ ignoreErrors = ["error-remote-getjson"]
         title = "Categories"
         weight = 4
       [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "about/"
+        title = "About Me"
+        weight = 5
+      [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github-alt fa-fw'></i>"
         post = ""
