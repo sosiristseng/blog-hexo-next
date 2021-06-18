@@ -2,7 +2,7 @@
 title: "📒 Chinopoulos 2011"
 date: 2020-10-22T18:26:51+08:00
 tags: ["adenine nucleotide translocase", "ATP synthase", "ATP"]
-categories: ["Reading", Review Article"]
+categories: ["Reading", "Review Article"]
 author: "Chinopoulos C."
 ---
 
