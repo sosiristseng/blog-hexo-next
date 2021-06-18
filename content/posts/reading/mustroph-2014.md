@@ -2,7 +2,7 @@
 title: "📒 Mustroph 2014"
 date: 2020-10-23T00:26:39+08:00
 tags: ["CaMKII", "cardiomyocyte"]
-categories: ["Review Article"]
+categories: ["Reading", "Review Article"]
 author: "Mustroph et al."
 ---
 

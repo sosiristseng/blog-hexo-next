@@ -2,7 +2,7 @@
 title: "📒 Schlattner 2006"
 date: 2020-10-23T00:41:20+08:00
 tags: ["creatine kinase", "mitochondria"]
-categories: []
+categories: ["Reading"]
 author: "Schlattner et al."
 ---
 

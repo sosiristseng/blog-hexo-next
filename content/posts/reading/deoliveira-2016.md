@@ -2,7 +2,7 @@
 title: "📒 Deoliveira 2016"
 date: 2020-10-22T23:51:33+08:00
 tags: ["ODE", "mitochondria", "cardiomyocyte", "doxorubicin", "ROS"]
-categories: []
+categories: ["Reading"]
 author: "Deoliveira et al."
 ---
 

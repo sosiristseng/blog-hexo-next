@@ -2,7 +2,7 @@
 title: "📒 Gauthier 2013"
 date: 2020-10-23T00:01:05+08:00
 tags: ["ODE", "mitochondria", "ROS"]
-categories: []
+categories: ["Reading"]
 author: "Gauthier et al."
 ---
 

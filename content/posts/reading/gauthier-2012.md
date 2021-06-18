@@ -2,7 +2,7 @@
 title: "📒 Gauthier 2012"
 date: 2020-10-23T00:00:27+08:00
 tags: ["ODE", "cardiomyocyte", "mitochondria"]
-categories: []
+categories: ["Reading"]
 author: "Gauthier et al."
 ---
 

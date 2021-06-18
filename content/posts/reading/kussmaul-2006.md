@@ -2,7 +2,7 @@
 title: "📒 Kussmaul 2006"
 date: 2020-10-23T00:16:29+08:00
 tags: ["complex 1", "ROS", "Mitochondria"]
-categories: []
+categories: ["Reading"]
 author: "Kussmaul et al."
 ---
 

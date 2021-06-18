@@ -1,7 +1,7 @@
 ---
 title: 📒 Gregg 2016
 tags: ["beta-cell", "mitochondria", "ATP"]
-categories: []
+categories: ["Reading"]
 date: 2021-01-04 18:11:20
 author: "Gregg et al."
 ---

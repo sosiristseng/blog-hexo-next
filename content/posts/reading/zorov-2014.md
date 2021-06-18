@@ -2,7 +2,7 @@
 title: "📒 Zorov 2014"
 date: 2020-10-23T01:05:49+08:00
 tags: ["ROS", "mitochondria"]
-categories: ["Review Article"]
+categories: ["Reading", "Review Article"]
 author: "Zorov et al."
 ---
 

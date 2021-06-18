@@ -2,7 +2,7 @@
 title: "📒 Ellinwood 2017"
 date: 2020-10-22T23:52:20+08:00
 tags: ["ODE", "cardiomyocyte", "electrophysiology"]
-categories: []
+categories: ["Reading"]
 author: "Ellinwood et al."
 ---
 

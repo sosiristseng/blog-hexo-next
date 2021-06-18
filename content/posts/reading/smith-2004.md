@@ -2,7 +2,7 @@
 title: "📒 Smith 2004"
 date: 2020-10-23T00:44:58+08:00
 tags: ["cardiomyocyte", "enzyme kinetics"]
-categories: []
+categories: ["Reading"]
 author: "Smith et al."
 ---
 

@@ -2,7 +2,7 @@
 title: "📒 Rocha 2011"
 date: 2020-10-23T00:37:43+08:00
 tags: ["GPU", "PDE", "cardiomyocyte"]
-categories: []
+categories: ["Reading"]
 math:
   enable: true
 author: "Rocha et al."

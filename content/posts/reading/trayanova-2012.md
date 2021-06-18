@@ -2,7 +2,7 @@
 title: "📒 Trayanova 2012"
 date: 2020-10-23T00:53:57+08:00
 tags: ["ODE", "cardiomyocyte"]
-categories: ["Review Article"]
+categories: ["Reading", "Review Article"]
 author: "Trayanova et al."
 ---
 

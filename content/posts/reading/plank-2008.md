@@ -2,7 +2,7 @@
 title: "📒 Plank 2008"
 date: 2020-10-23T00:34:09+08:00
 tags: ["PDE", "mitochondria", "cardiomyocyte"]
-categories: ["Review Article"]
+categories: ["Reading","Review Article"]
 math:
   enable: true
 

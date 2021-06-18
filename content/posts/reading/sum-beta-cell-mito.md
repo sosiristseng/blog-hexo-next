@@ -2,7 +2,7 @@
 title: "📒 Mitochondrial dynamics, cellular energetics, and insulin secretion: a summary"
 date: 2020-10-23T00:46:38+08:00
 tags: ["mitochondrial dynamics", "ATP", "mitochondria"]
-categories: ["Reading Summary"]
+categories: ["Reading", "Reading Summary"]
 ---
 
 Mitochondrial dynamics, cellular energetics, and insulin secretion.

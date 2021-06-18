@@ -7,7 +7,7 @@ authorLink: ""
 description: ""
 
 tags: ["mitochondrial dynamics", "mitochondria"]
-categories: []
+categories: ["Reading"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

@@ -2,7 +2,7 @@
 title: "📒 Mathematical modeling of mitochondrial respiratory chain: a summary"
 date: 2020-10-23T00:48:40+08:00
 tags: ["mitochodrial", "complex 1", "complex 2", "complex 3", "complex 4", "ATP synthase"]
-categories: ["Reading Summary"]
+categories: ["Reading", "Reading Summary"]
 math:
   enable: true
 ---

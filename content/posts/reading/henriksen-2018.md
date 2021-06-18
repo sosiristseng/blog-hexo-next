@@ -2,7 +2,7 @@
 title: "📒 Henriksen 2018"
 date: 2020-10-23T00:06:36+08:00
 tags: ["doxorubicin", "cardiomyocyte"]
-categories: ["Review Article"]
+categories: ["Reading","Review Article"]
 author: "Henriksen PA"
 ---
 

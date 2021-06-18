@@ -2,7 +2,7 @@
 title: "📒 Nivala 2010"
 date: 2020-10-23T00:27:15+08:00
 tags: ["ODE", "ROS", "mitochondria"]
-categories: []
+categories: ["Reading"]
 math:
   enable: true
 author: "Nivala et al."

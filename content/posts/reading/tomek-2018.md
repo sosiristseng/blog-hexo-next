@@ -2,7 +2,7 @@
 title: "📒 Tomek 2018"
 date: 2020-10-23T00:51:45+08:00
 tags: ["ODE", "cardiomyocyte", "calcium"]
-categories: []
+categories: ["Reading"]
 author: "Tomek et al."
 ---
 

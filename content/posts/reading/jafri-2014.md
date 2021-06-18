@@ -2,7 +2,7 @@
 title: "📒 Jafri 2014"
 date: 2020-10-23T00:09:22+08:00
 tags: ["ODE", "mitochondria"]
-categories: []
+categories: ["Reading"]
 author: "Jafri et al."
 ---
 

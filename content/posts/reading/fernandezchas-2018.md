@@ -2,7 +2,7 @@
 title: "📒  Fernandezchas 2018"
 date: 2020-10-22T23:57:39+08:00
 tags: ["ODE", "doxorubicin", "cardiomyocyte"]
-categories: []
+categories: ["Reading"]
 author: "Fernandezchas"
 ---
 

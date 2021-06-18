@@ -2,7 +2,7 @@
 title: "📒 Michailova 2005"
 date: 2020-10-23T00:24:39+08:00
 tags: ["ODE", "cardiomyocyte", "calcium", "electrophysiology"]
-categories: []
+categories: ["Reading"]
 math:
   enable: true
 author: "Michailova et al."

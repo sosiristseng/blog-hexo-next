@@ -2,7 +2,7 @@
 title: "📒 Foteinou 2015"
 date: 2020-10-22T23:58:20+08:00
 tags: ["ODE", "CaMKII", "electrophysiology", "cardiomyocyte"]
-categories: []
+categories: ["Reading"]
 author: "Foteinou et al."
 ---
 

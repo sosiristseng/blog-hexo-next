@@ -2,7 +2,7 @@
 title: "📒 Pathmanathan 2018"
 date: 2020-10-23T00:32:53+08:00
 tags: ["electrophysiology", "cardiomyocyte"]
-categories: []
+categories: ["Reading"]
 author: "Pathmanathan et al."
 ---
 

@@ -2,7 +2,7 @@
 title: "📒 Hettling 2011"
 date: 2020-10-23T00:07:29+08:00
 tags: ["ODE", "creatine kinase", "mitochondria"]
-categories: []
+categories: ["Reading"]
 author: "Hettling et al."
 ---
 

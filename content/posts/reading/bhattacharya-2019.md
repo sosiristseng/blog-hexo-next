@@ -2,7 +2,7 @@
 title: "📒 Bhattacharya 2019"
 date: 2020-10-22T18:22:33+08:00
 tags: ["complex 4", "mitochondria"]
-categories: []
+categories: ["Reading"]
 author: "Bhattacharya et al."
 ---
 

@@ -2,7 +2,7 @@
 title: "📒 Garcia 2016"
 date: 2020-10-22T23:59:40+08:00
 tags: ["ATP synthase", "ATP", "mitochondria"]
-categories: ["Review Article"]
+categories: ["Reading", "Review Article"]
 author: "Garcia et al."
 ---
 

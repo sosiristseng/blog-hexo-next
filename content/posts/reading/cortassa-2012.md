@@ -2,7 +2,7 @@
 title: "📒 Cortassa 2012"
 date: 2020-10-22T18:29:19+08:00
 tags: ["mitochondria", "citric acid cycle"]
-categories: ["Review Article"]
+categories: ["Reading", "Review Article"]
 author: "Cortassa S, Aon MA"
 ---
 

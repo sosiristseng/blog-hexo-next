@@ -2,7 +2,7 @@
 title: "📒 Heijman 2016"
 date: 2020-10-23T00:05:07+08:00
 tags: ["ODE", "cardiomyocyte", "electrophysiology"]
-categories: []
+categories: ["Reading"]
 author: "Heijman et al."
 ---
 

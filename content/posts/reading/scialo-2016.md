@@ -2,7 +2,7 @@
 title: "📒 Scialo 2016"
 date: 2020-10-23T00:42:17+08:00
 tags: ["ROS", "complex 1", "mitochondria"]
-categories: []
+categories: ["Reading"]
 author: "Scialo et al."
 ---
 

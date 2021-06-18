@@ -2,7 +2,7 @@
 title: "📒 Igamberdiev 2015"
 date: 2020-10-23T00:08:08+08:00
 tags: ["mitochondria", "ATP synthase"]
-categories: []
+categories: ["Reading"]
 author: "Igamberdiev et al."
 ---
 

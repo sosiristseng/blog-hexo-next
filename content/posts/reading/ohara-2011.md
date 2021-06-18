@@ -2,7 +2,7 @@
 title: "📒 Ohara 2011"
 date: 2020-10-23T00:30:54+08:00
 tags: ["ODE", "cardiomyocyte"]
-categories: []
+categories: ["Reading"]
 author: "OHara et al."
 ---
 

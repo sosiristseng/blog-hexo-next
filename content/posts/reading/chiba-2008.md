@@ -2,7 +2,7 @@
 title: "📒 Chiba 2008"
 date: 2020-10-22T18:23:58+08:00
 tags: ["CaMKII", "cardiomyocyte", "enzyme kinetics"]
-categories: []
+categories: ["Reading"]
 math:
   enable: true
 author: "Chiba et al."

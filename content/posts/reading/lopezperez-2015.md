@@ -1,7 +1,7 @@
 ---
 title: "📒 Lopezperez 2015"
 date: 2020-10-23T00:20:30+08:00
-categories: ["Review Article"]
+categories: ["Reading", "Review Article"]
 tags: ["cardiomyocyte"]
 author: "Lopezperez et al."
 ---

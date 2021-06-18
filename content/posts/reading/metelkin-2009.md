@@ -2,7 +2,7 @@
 title: "📒 Metelkin 2009"
 date: 2020-10-23T00:22:22+08:00
 tags: ["ODE", "adenine nucleotide translocase", "mitochondria", "ATP"]
-categories: []
+categories: ["Reading"]
 math:
   enable: true
 author: "Metelkin et al."
