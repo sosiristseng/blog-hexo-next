@@ -31,7 +31,7 @@ lightgallery: false
 
 ## Reference managers
 
-- [SciWheel](https://sciwheel.com/work/), [docs](https://sciwheel.com/work/#/faq/all-topics), browser extension with Google Doc and MS Word plugin
+- [SciWheel](https://sciwheel.com/work/), browser extension with Google Doc and MS Word plugin, [docs](https://sciwheel.com/work/#/faq/all-topics).
 - [Zotero](https://www.zotero.org/), an open-source reference manager.
 
 ## Find Publications
@@ -66,7 +66,6 @@ lightgallery: false
 - [Biomedical statistics](https://wangcc.me/LSHTMlearningnote/)
 - [Introduction to Bioimage Analysis](https://www.ibiology.org/techniques/introduction-to-bioimage-analysis/)
 
-
 ### Systems biology models
 
 - [BioModels](https://www.ebi.ac.uk/biomodels/), SMBL format and generated code avaiable
@@ -87,73 +86,3 @@ lightgallery: false
 - [PharmGKB](https://www.pharmgkb.org/)
 - [PubChem](https://pubchem.ncbi.nlm.nih.gov/) by NCBI
 - [OSDD - open source drug discovery](http://www.osdd.net/).
-
-## Document
-
-> Documents, slides, and  diagrams
-
-- [draw.io](https://www.draw.io/): Flow chart and diagram maker
-- [PDF24](https://tools.pdf24.org/en/): 24 free PDF tools
-- [My Graph Paper](https://www.mygraphpaper.com/)
-- [SlidesGo](https://slidesgo.com/): Free Google Slides and PowerPoint templates
-- [Word templates](https://www.vertex42.com/WordTemplates/): Microsoft Word templates
-
-## Markdown
-
-Also see [😎 awesome Markdown](https://github.com/mundimark/awesome-markdown).
-
-Markdown is a lightweight markup language with plain-text-formatting syntax, with a variety of extensions.
-
-But there are many flavors of Markdown. One may not fully compatible to one another.
-
-- [Commonmark](https://commonmark.org/help/)
-- [Markdown-it](https://markdown-it.github.io/)
-- [GitHub markdown](https://guides.github.com/features/mastering-markdown/)
-- [GitLab markdown](https://docs.gitlab.com/ee/user/markdown.html)
-- [Pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
-- [HackMD markdown](https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA?type=book)
-- [MyST (Markedly Structured Text)](https://jupyterbook.org/content/myst.html) :: extended markdown syntax for [jupyter book](https://jupyterbook.org/)
-
-
-### Markdown Editors and formatters
-
-- [Markdown preview enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/) with VS Code.
-- [Typora](https://typora.io/) :: A markdown editor, markdown reader.
-- [MarkText](https://marktext.app/) :: Simple and Elegant Markdown Editor.
-- [☁️ HackMD](https://hackmd.io/) :: Collaborative Markdown Knowledge Base.
-- [☁️ Upmath](https://upmath.me/) :: Create web articles and blog posts with equations and diagrams.
-- [☁️ StackEdit](https://stackedit.io/) :: In-browser Markdown editor.
-- [☁️ Tables Generator](https://www.tablesgenerator.com/) :: LaTeX and MD Tables.
-- [markdownlint](https://github.com/DavidAnson/markdownlint) :: A Node.js style checker and lint tool for Markdown/CommonMark files.
-- [mdformat](https://mdformat.rtfd.io/) :: CommonMark compliant Markdown formatter
-
-## LaTeX
-
-LaTeX is a high-quality typesetting system for technical and scientific documentation. By [The LaTeX project](https://www.latex-project.org/)
-
-- [😎 Awesome LaTeX](https://github.com/egeerardyn/awesome-LaTeX) : a curated list about shiny LaTeX stuff.
-- [LaTeX tutorials](https://www.latex-tutorial.com/)
-- [LaTeX templates](http://www.latextemplates.com/)
-
-### LaTeX Distributions
-
-- [TexLive](https://tug.org/texlive/) : de-facto standard TeX distribution.
-- [MiKTeX](https://miktex.org/) : A just enough TeX distribution.
-- [TinyTeX](https://yihui.org/tinytex/) : for R markdown publication.
-- [Tectonic](https://tectonic-typesetting.github.io/) : A modernized, complete, self-contained TeX/LaTeX engine.
-
-### LaTeX Editors
-
-- [☁️ Overleaf v2](https://v2.overleaf.com)
-- [LaTeX workshop for VS code](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-- [TexLab for VS Code](https://marketplace.visualstudio.com/items?itemName=efoerster.texlab) : rich editing support for the LaTeX typesetting system powered by the TexLab language server
-- [Lyx](https://www.lyx.org/) : A What You See Is What You Mean (WYSIWYM) document processor.
-- [TEXMAKER](https://www.xm1math.net/texmaker/) : A free cross-platform LaTeX editor.
-- [TexWorks](https://www.tug.org/texworks/) : Lowering the entry barrier to the TeX world.
-
-### Online Tools for LaTeX
-
-- [☁️ iTex2Img](http://www.sciweavers.org/free-online-latex-equation-editor) :: converting LaTeX formulae to images.
-- [☁️ Detexify](http://detexify.kirelabs.org/classify.html) :: recognition of handwriting to Latex symbols.
-- [☁️ Tables Generator](https://www.tablesgenerator.com/) :: LATEX and MD Tables.
-- [☁️ LaTeX live (在线LaTeX公式编辑器)](https://www.latexlive.com/) :: LaTeX equations to SVG using MathJax.
