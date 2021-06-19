@@ -64,11 +64,4 @@ My portable bookmarks.
 
 ## Julia
 
-Julia category.
-
-- [Julia.jl][] : Curated decibans of Julia programming language.
-- [GensJulia](https://sosiristseng.github.io/GensJulia/) : my personal Julia list largely based on [Julia.jl][].
-- [JuliaNotes.jl](https://github.com/m3g/JuliaNotes.jl) : a collection of examples and explanations about Julia.
-- [Pluto notebooks](https://github.com/sosiristseng/pluto-notebooks) for systems biology class.
-
-[Julia.jl]: https://github.com/svaksha/Julia.jl
+[Julia bookmarks]({{< ref "julia/bookmarks.md" >}})
