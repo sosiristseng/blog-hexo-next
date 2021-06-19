@@ -65,3 +65,7 @@ My portable bookmarks.
 ## Julia
 
 [Julia bookmarks]({{< ref "julia/bookmarks.md" >}})
+
+## Research Tools
+
+[Research Tools bookmarks]({{< ref "research/bookmarks.md" >}})
