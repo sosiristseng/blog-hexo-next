@@ -69,3 +69,11 @@ My portable bookmarks.
 ## Research Tools
 
 [Research Tools bookmarks]({{< ref "research/bookmarks.md" >}})
+
+## Fonts
+
+[Fonts bookmarks]({{< ref "fonts.md" >}})
+
+## Web Develpment
+
+[Web Develpment  bookmarks]({{< ref "webdev/bookmarks.md" >}})
