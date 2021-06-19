@@ -37,6 +37,8 @@ My portable bookmarks.
 - [Desmos graphing calculator](https://www.desmos.com/calculator)
 - [Geogebra](https://www.geogebra.org/)
 - [Awesome](https://github.com/sindresorhus/awesome) lists of everything.
+- [Regex 101](https://regex101.com/)
+- [Regexr](https://regexr.com/)
 
 ## DevOps
 
