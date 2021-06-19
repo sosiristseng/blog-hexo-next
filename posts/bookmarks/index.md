@@ -31,6 +31,16 @@ My portable bookmarks.
 - [EU4 console command](https://eu4.paradoxwikis.com/Console_commands)
 - [Stellaris console commands](https://stellaris.paradoxwikis.com/Console_commands)
 
+## Document
+
+> Documents, slides, and  diagrams
+
+- [draw.io](https://www.draw.io/): Flow chart and diagram maker
+- [PDF24](https://tools.pdf24.org/en/): 24 free PDF tools
+- [My Graph Paper](https://www.mygraphpaper.com/)
+- [SlidesGo](https://slidesgo.com/): Free Google Slides and PowerPoint templates
+- [Word templates](https://www.vertex42.com/WordTemplates/): Microsoft Word templates
+
 ## Linux
 
 [Linux bookmarks]({{< ref "linux/bookmarks.md" >}})
@@ -54,4 +64,5 @@ My portable bookmarks.
 ## Web Develpment
 
 [Web Develpment  bookmarks]({{< ref "webdev/bookmarks.md" >}})
+
 
