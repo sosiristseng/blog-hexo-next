@@ -37,7 +37,22 @@ The setting file `renovate.json` in this project to check GH action updates
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "automerge": true,
+            "automergeType": "branch"
+        }
+  ],
+  "git-submodules": {
+      "enabled": true
+  }
 }
 ```
 
