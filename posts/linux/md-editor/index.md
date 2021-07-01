@@ -1,9 +1,11 @@
 # Markdown editors
 
 
-Markdown is the email-style writing for the web by John Gruber and Aaron Swartz. See also [awesome Markdown](https://github.com/mundimark/awesome-markdown#markdown).
+Markdown is the email-style writing for the web by John Gruber and Aaron Swartz. This post introduces what-you-see-is-what-you-get Markdown editors.
 
-This post introduces what-you-see-is-what-you-get Markdown editors.
+See also
+- [awesome Markdown](https://github.com/mundimark/awesome-markdown#markdown).
+- [Markdown bookmarks]({{< ref "posts/research/markdown.md" >}})
 
 <!--more-->
 
