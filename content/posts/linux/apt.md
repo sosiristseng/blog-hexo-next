@@ -23,6 +23,7 @@ math:
 lightgallery: false
 ---
 
+**Source**
 - [itsfoss | apt](https://itsfoss.com/apt-vs-apt-get-difference/)
 - [itsfoss | apt commands](https://itsfoss.com/apt-command-guide/)
 
@@ -89,5 +90,6 @@ wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key 
 Do this
 
 ```bash
-wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo tee /etc/apt/trusted.gpg.d/vivaldi.asc
+curl -fsSL https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/vivaldi-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/vivaldi-keyring.gpg] https://repo.vivaldi.com/archive/deb/ stable main" | sudo tee /etc/apt/sources.list.d/vivaldi.list > /dev/null
 ```
