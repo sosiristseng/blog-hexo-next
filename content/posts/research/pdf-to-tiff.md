@@ -35,7 +35,11 @@ sudo apt install ghostscript imagemagick
 
 ## Enable pdf permission
 
-PDF read / write are disable by default. Change the config file to enable it. (From this [SO thread](https://stackoverflow.com/questions/52998331/imagemagick-security-policy-pdf-blocking-conversion))
+PDF read / write are disable by default. Change the config file to enable it.[^1]
+
+[^1]: From this [SO thread](https://stackoverflow.com/questions/52998331/imagemagick-security-policy-pdf-blocking-conversion)
+
+`/etc/ImageMagick-7/policy.xml`
 
 ```xml /etc/ImageMagick-7/policy.xml
 <policy domain="coder" rights="read | write" pattern="PDF" />
