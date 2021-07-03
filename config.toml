@@ -50,6 +50,14 @@ ignoreErrors = ["error-remote-getjson"]
         title = "Posts"
         weight = 1
       [[languages.en.menu.main]]
+        identifier = "bookmarks"
+        pre = ""
+        post = ""
+        name = "Bookmarks"
+        url = "posts/bookmarks/"
+        title = "Bookmarks"
+        weight = 2
+      [[languages.en.menu.main]]
         identifier = "tags"
         pre = ""
         post = ""
