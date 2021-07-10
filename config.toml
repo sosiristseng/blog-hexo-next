@@ -50,12 +50,12 @@ ignoreErrors = ["error-remote-getjson"]
         title = "Posts"
         weight = 1
       [[languages.en.menu.main]]
-        identifier = "bookmarks"
+        identifier = "reading"
         pre = ""
         post = ""
-        name = "Bookmarks"
-        url = "posts/bookmarks/"
-        title = "Bookmarks"
+        name = "Reading"
+        url = "reading/"
+        title = "Reading"
         weight = 2
       [[languages.en.menu.main]]
         identifier = "tags"
@@ -160,7 +160,7 @@ ignoreErrors = ["error-remote-getjson"]
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = ""
+          disclaimer = "A random birb"
         # Home page posts
         [languages.en.params.home.posts]
           enable = true
